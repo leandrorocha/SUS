@@ -1,0 +1,43 @@
+.timeline {
+    position: relative;
+    padding-left: 4rem;
+    margin: 0 0 0 14px;
+}
+.timeline:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #85a550;
+}
+.timeline:after {
+    content: "";
+    position: absolute;
+    left: -13px;
+    bottom: 0;
+    width: 26px;
+    height: 2px;
+    background: #85a550;
+}
+.timeline .timeline-container {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.timeline .timeline-container .timeline-icon {
+    position: absolute;
+    left: -78px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    background: #85A550;
+}
+.timeline .timeline-container .timeline-body .timeline-title .badgeYear {
+    font-size: 20px;
+    font-weight: bold;
+    color: #85A550;
+}

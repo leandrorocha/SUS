@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body,
+header,
+footer {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.navbar {
+    background-color: white;
+}
+
+/*Page Home*/
+.fundoCapa {
+    background-color: #173e82;
+}
+
+.capa {
+    width: 100%;
+    min-height: 300px;
+    max-height: 668px;
+
+    background-image: url(../images/home/capa.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.capa .logoSus {
+    width: 200px;
+    margin-bottom: 32px;
+}
+
+.capa h1 {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0 20%;
+    font-size: 42px;
+    font-size: 2vw;
+}
+#fundoTexto {
+    background-color: #173e82;
+}
+#textoCapa {
+    margin: 60px 28% 0px 24%;
+}
+
+/*Menu Superior*/
+.logo {
+    margin: 1% 0% 1% 5%;
+}
+.navbar-nav {
+    margin-right: 5%;
+}
+.navbar-nav li {
+    margin-right: 40px;
+    margin-left: 20px;
+    background-color: white;
+}
+.navbar-nav li a {
+    color: #3d3d3d;
+}
+.navbar-nav > li.active > a {
+    text-decoration: none;
+    border-bottom: 3px solid #3d3d3d;
+}
+
+/*Botão*/
+.containerBotao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 64px auto;
+}
+
+#botaoComecar {
+    width: 174px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    opacity: 1;
+}
+
+#botaoComecar:hover {
+    opacity: 0.6;
+}
+
+/*Icone*/
+li {
+    list-style: none;
+}
+.icon {
+    display: flex;
+    vertical-align: text-top;
+}
+.icon.checkmark::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    margin-right: 15px;
+}
+
+/*Rodapé*/
+footer {
+    margin: 50px 0;
+    padding: 0 5%;
+}
+
+#rodape1,
+#rodape2 {
+    max-width: 60%;
+}
+
+.separador-logo {
+    border-left: 2px solid silver;
+}
+
+@media (max-width: 767px) {
+    .separador-logo {
+        border-left: none;
+    }
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    #textoCapa {
+        margin: 40px 30px 0px 40px;
+    }
+}
+
+@media (max-width: 980px) {
+    .capa h1 {
+        font-size: 1rem;
+    }
+    .logo {
+        max-width: 35%;
+    }
+}
