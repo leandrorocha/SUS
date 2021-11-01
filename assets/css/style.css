@@ -426,7 +426,7 @@ hr {
 /* Formatação de Fontes*/
 h1 {
     font-family: "Circular Std Black", sans-serif;
-    font-size: 42px;
+    font-size: 2.8rem;
     margin-bottom: 30px;
     margin-top: 50px;
     max-width: 58ch;
@@ -434,14 +434,14 @@ h1 {
 }
 h2 {
     font-family: "Circular Std Black", sans-serif;
-    font-size: 24px;
+    font-size: 1.6rem;
     font-weight: bold;
     margin-bottom: 30px;
     margin-top: 50px;
     color: #173e82;
 }
 h3 {
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 30px;
     margin-top: 50px;
@@ -458,6 +458,24 @@ h5 {
     color: #173e82;
 }
 
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+}
+
 p {
     margin-bottom: 30px;
     /*max-width: 90ch;*/
@@ -465,7 +483,7 @@ p {
 
 .topico-titulo {
     font-family: "Circular Std Black", sans-serif;
-    font-weight: 1.75rem;
+    font-size: 1.75rem;
     color: #173e82;
 }
 
@@ -1188,6 +1206,10 @@ footer img {
     flex-direction: column;
     margin-left: 2rem !important;
 }
+.container-citacao p {
+    font-style: italic;
+}
+
 @media (min-width: 768px) {
     .container-citacao {
         margin-left: 7rem !important;
