@@ -257,21 +257,21 @@ footer {
 /** Corpo texto **/
 
 /*Conteúdo*/
-.tarja {
-    margin-top: -1.4px;
-    display: none;
+.menuAulas .btn-primary {
+    max-width: 238px;
+    color: #FFFFFF;
+    background-color: #102956;
+    border-color: #102956;
+    margin: 1px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.tarjaDiv {
-    width: 200px;
-    height: 30px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: #173e82;
-    color: #fff;
+.menuAulas .btn-secondary {
+    color: #102956;
+    background-color: #dddfe2;
+    border-color: #dddfe2;
+    margin: 1px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -560,6 +560,18 @@ p.textoVerde {
 .links {
     text-decoration: underline;
     color: #3d3d3d;
+    word-break: break-word;
+}
+
+.links-white {
+    text-decoration: underline;
+    color: #FFFFFF;
+    word-break: break-word;
+}
+
+.links-white {
+    text-decoration: underline;
+    color: #FFFFFF;
     word-break: break-word;
 }
 
@@ -858,7 +870,7 @@ footer img {
 }
 
 .botaoPadrao {
-    background-color: #1c489b;
+    background-color: #102956;
     border-radius: 4px;
     color: white;
     width: 300px;
@@ -1228,5 +1240,25 @@ footer img {
 .container-citacao::after {
     margin-top: 32px;
 }
+
+.container-multi-collapse .btn-primary.collapsed {
+    background-color: #102956;
+    border-color: #102956;
+    color: #FFFFFF;
+    padding: 8px 64px;
+}
+.container-multi-collapse .btn-primary {
+    background-color: #FFFFFF;
+    border-color: #102956;
+    color: #102956;
+    padding: 8px 64px;
+}
+
+.multi-collapse .card {
+    background-color: #FFFFFF;
+    border: 1px solid #102956;
+    border-radius: 0.25rem;
+}
+
 
 /* COMPONENTES */
