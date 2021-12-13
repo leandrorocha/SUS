@@ -472,7 +472,7 @@ h5 {
         font-size: 1.2rem;
     }
     h5 {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -489,7 +489,7 @@ p {
 
 .accordion-titulo {
     font-family: "Circular Std Black", sans-serif;
-    font-weight: 1.375rem;
+    font-size: 1.13rem;
     color: #3d3d3d;
     margin: 0;
     margin-bottom: 1.5rem !important;
@@ -842,7 +842,7 @@ footer img {
         padding: 30px 30px 10px 30px !important;
     }
     .informativo {
-        padding: 10px 0px 10px 0px;
+        padding: 20px 10px;
     }
     .blocoPersonagem {
         flex-wrap: wrap;
@@ -1245,7 +1245,6 @@ footer img {
     background-color: #102956;
     border-color: #102956;
     color: #FFFFFF;
-    padding: 8px 64px;
 }
 .container-multi-collapse .btn-primary {
     background-color: #FFFFFF;
