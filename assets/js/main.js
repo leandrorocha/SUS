@@ -16,9 +16,14 @@ $(window).scroll(function () {
   }
 });
 
+/*
 $(function () {
   $('a[href*="#"]:not([href="#"])').click(function () {
     var target = $(this.hash);
+    
+    
+    console.log(target);
+
 
     if ($('.botaoComecar').attr("aria-expanded") === 'false') {
       $('.mostraAula.collapse').addClass("show");
@@ -29,6 +34,7 @@ $(function () {
     }, 'linear');
   })
 });
+*/
 
 /*Controla funções no Menu Lateral*/
 $(function () {
@@ -94,6 +100,7 @@ if (!$('#modulo3').find(".step:last-child .contentMenu").hasClass("open")) {
 }
 
 /* Adiciona suavidade na rolagem da ancoragem */
+/*
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -103,6 +110,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+*/
 
 /* Adiciona tooltip (Abas) */
 $(function () {

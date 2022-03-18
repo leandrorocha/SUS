@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -19,40 +19,40 @@
 </head>
 
 <body>
+    <noscript>Seu navegador não suporta javascript!</noscript>
 
     <!-- Menu Superior -->
-    <header>
-
-        <nav class="navbar navbar-expand-lg navbar-light">
-
-            <img src="assets/images/home/logoHome.png" class="img-fluid logo" alt="" />
+    <header role="header">
+        <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
+            <img src="assets/images/home/logoHome.png" class="img-fluid logo"
+                alt="Logomarca Fiocruz - Campus Virtual" />
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><span class="sr-only">Alternar navegação</span></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li class="active"><a href="/">HOME</a></li>
                     <li><a href="materialcomplementar.html" target="_self">Material Complementar</a></li>
                     <li><a href="bibliografia.html" target="_self">Bibliografia</a></li>
                     <li><a href="creditos.html" target="_self">Créditos</a></li>
                 </ul>
             </div>
-
         </nav>
-
     </header>
     <!-- Fim Menu Superior -->
 
     <!-- Capa do Curso -->
-    <div class="container-fluid">
+    <section class="container-fluid" role="content">
 
         <!-- Imagem de Capa -->
         <div class="row fundoCapa">
             <div class="capa">
-                <img src="assets/images/home/sus.png" alt="" class="logoSus">
+                <img src="assets/images/home/sus.png" alt="Logamarca do SUS" class="logoSus">
                 <h1>Introdução ao Sistema Único de Saúde</h1>
+                <h2 class="sr-only"><a href="#comecar" class="text-white">Começar curso</a></h2>
             </div>
         </div>
         <!-- Fim Imagem de Capa-->
@@ -75,28 +75,31 @@
             </div>
 
             <div class="containerBotao">
-                <a href="modulo1/introAula1.html" class="btn btn-sm" id="botaoComecar" role="button"
-                    aria-pressed="true"><strong>COMEÇAR</strong></a>
+                <a href="modulo1/introAula1.html" name="comecar" class="btn btn-sm" id="botaoComecar" role="button"
+                    accesskey="c" aria-pressed="true"><strong>COMEÇAR</strong></a>
             </div>
 
         </div>
         <!-- Fim Introdução -->
-    </div>
+    </section>
     <!-- Fim da Capa do Curso -->
 
     <!-- Inicio Rodapé -->
     <footer id="footer">
         <div class="row-main">
-            <div class="col-md-12 text-center d-none d-sm-block" style="margin: auto;">
-                <img class="img-fluid" src="assets/images/rodape/rodape_full.png" alt="">
+            <div class="col-md-12 text-center d-none d-sm-block m-auto">
+                <img class="img-fluid" src="assets/images/rodape/rodape_full.png"
+                    alt="Logos com Realizador: Fiocruz, Apoio: ICICT, OPAS, OMS, SUS e Governo Federal.">
             </div>
 
-            <div class="col-md-6 centro d-sm-none" style="margin: auto;">
-                <img class="img-fluid" src="assets/images/rodape/rodape_logos_mobile1.png" alt="">
+            <div class="col-md-6 centro d-sm-none m-auto">
+                <img class="img-fluid" src="assets/images/rodape/rodape_logos_mobile1.png"
+                    alt="Logos com Realizador: Fiocruz e Apoio: ICICT.">
             </div>
 
-            <div class="col-md-6 centro d-sm-none" style="margin: auto;">
-                <img class="img-fluid" src="assets/images/rodape/rodape_logos_mobile2.png" alt="">
+            <div class="col-md-6 centro d-sm-none m-auto">
+                <img class="img-fluid" src="assets/images/rodape/rodape_logos_mobile2.png"
+                    alt="Logos de OPAS, OMS, SUS e Governo Federal.">
             </div>
         </div>
     </footer>
