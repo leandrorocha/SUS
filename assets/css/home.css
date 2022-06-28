@@ -79,6 +79,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 64px auto;
+    font-weight: 700;
 }
 
 #botaoComecar {
