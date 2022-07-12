@@ -476,11 +476,6 @@ h5 {
     }
 }
 
-p {
-    margin-bottom: 30px;
-    /*max-width: 90ch;*/
-}
-
 .topico-titulo {
     font-family: "Circular Std Black", sans-serif;
     font-size: 1.75rem;
@@ -1202,9 +1197,9 @@ footer img {
 .container-box .titulo-box {
     flex: 1;
     border-bottom: 1px solid #ffffff;
-
+    text-transform: uppercase;
     font-family: "Circular Std Bold", sans-serif;
-    font-size: 1.375rem;
+    font-size: 1.25rem;
     color: #ffffff;
 }
 .container-box p {
@@ -1256,6 +1251,12 @@ footer img {
     background-color: #FFFFFF;
     border: 1px solid #102956;
     border-radius: 0.25rem;
+}
+
+.texto-numero-grande {
+    font-family: "Circular Std Bold", sans-serif;
+    font-size: 2.875rem;
+    color: #173E82;
 }
 
 
