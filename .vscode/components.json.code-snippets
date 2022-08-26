@@ -1,0 +1,616 @@
+{
+	//Snippets para construção de JSON de projetos que utilizam componentMaker.js
+	//Versão: 1.16.0
+	"audio": {
+		"prefix": "componentMaker audio",
+		"body": [
+			"\"audio01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão retire esse parâmetro\",",
+			"    \"qtdPorLinha\": Coloque o número de audios por linha, senão existir retire o parâmetro que será assumido 1 por linha,",
+			"    \"item01\": {",
+			"        \"imagem\": {",
+			"            \"alt\": \"Texto alternativo para acessibilidade em imagem\",",
+			"            \"endereco\": \"assets/images/semConteudo.jpg\"",
+			"        },",
+			"        \"titulo\": \"Coloque um título para esse áudio\",",
+			"        \"audio\": \"assets/audio/nome.mp3\",",
+			"        \"download\": true (senão precisar de download retire esse parâmetro)",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Áudio - parâmetros obrigatórios 'item', 'titulo' e 'audio'. Podem ser colocar quantos itens forem necessários para agrupa-los em um único componente. Se a 'imagem' e ou 'download' não existirem podem ser retirados os seus parâmetros"
+    },
+	"html": {
+		"prefix": "componentMaker html",
+		"body": [
+			"\"html01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão retire esse parâmetro\",",
+			"    \"conteudoHTML\": \"Código HTML para montagem personalizada\"",
+			"},"
+		],
+		"description": "Componente de HTML - parâmetro obrigatório 'conteudoHTML'"
+	},
+	"arquivo": {
+		"prefix": "componentMaker arquivo",
+		"body": [
+			"\"arquivo01\": {",
+			"    \"title\": \"Clique para fazer download do arquivo nome do arquivo\",",
+			"    \"texto\": \"Texto para apresentação do link\",",
+			"    \"endereco\": \"assets/docs/nome.pdf\",",
+			"    \"tamanho\": \"9999 KB ou MB\"",
+			"},"
+		],
+		"description": "Componente de Arquivo - Todos os parâmetros são obrigatórios"
+	},
+	"link": {
+		"prefix": "componentMaker link",
+		"body": [
+			"\"link01\": {",
+			"    \"tipo\": \"C\",",
+			"    \"title\": \"Clique para visitar a leitura complementar\",",
+			"    \"texto\": \"\"",
+			"},"
+		],
+		"description": "Componente de Link - Todos os parâmetros são obrigatórios"
+	},
+	"titulo": {
+		"prefix": "componentMaker titulo",
+		"body": [
+			"\"titulo01\": {",
+			"    \"nivel\": 1,",
+			"    \"texto\": \"Texto do título\"",
+			"},"
+		],
+		"description": "Componente de Título  - Todos os parâmetros são obrigatórios, indicar o nível do título o 'h' dele"
+	},
+	"subtitulo": {
+		"prefix": "componentMaker subtitulo",
+		"body": [
+			"\"subtitulo01\": \"Texto do subtitulo\","
+		],
+		"description": "Componente de Subtitulo  - Todos os parâmetros são obrigatórios"
+	},
+	"texto": {
+		"prefix": "componentMaker texto",
+		"body": [
+			"\"texto01\": \"Preencher Texto\","
+		],
+		"description": "Componente de Texto  - Todos os parâmetros são obrigatórios"
+	},
+	"imagem": {
+		"prefix": "componentMaker imagem",
+		"body": [
+			"\"imagem01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão retire esse parâmetro\",",
+			"    \"figura01\": {",
+			"        \"alinhamentoTexto\": \"center (Coloque somente se for diferente do padrão ABNT que é a esquerda, senão retire esse parâmetro)\",",
+			"        \"tamanho\": Coloque o número do tamanho da imagem na tela vai de 2 a 12, senão existir retire o parâmetro que será assumido um tamanho padrão de 10,",
+			"        \"titulo\": \"Texto para um título da imagem, senão existir retire o parâmetro\",",
+			"        \"alt\": \"Texto alternativo para acessibilidade em imagem\",",
+			"        \"endereco\": \"assets/images/semConteudo.jpg\",",
+			"        \"legendaEmCimaImagem\": \"Texto explicativo em cima da imagem, senão existir retire o parâmetro\",",
+			"        \"legenda\": \"Texto explicativo abaixo da imagem, senão existir retire o parâmetro\",",
+			"        \"link\": {",
+			"            \"tipo\": \"'downloadArquivo' ou 'linkExterno'(senão existir 'link' retire todo o parâmetro e subparâmetros)\",",
+			"            \"title\": \"Texto alternativo para acessibilidade em links\",",
+			"            \"endereco\": \"assets/docs/nomeArquivo.pdf ou link Web de acordo com o tipo\"",
+			"        }",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Imagem - parâmetros obrigatórios 'figura(n) > endereco e figura(n) > alt colocar quantas figuras estão em linha em uma mesma imagem, se for preciso um link nessa imagem (Obrigatórios link > tipo e link > endereco) se não retire o parâmetro inteiro"
+	},
+	"imagem01": {
+		"prefix": "componentMaker imagem",
+		"body": [
+			"\"imagem01\": {",
+			"    \"figura01\": {",
+			"        \"alinhamentoTexto\": \"center\",",
+			"        \"tamanho\": 12,",
+			"        \"titulo\": \"\",",
+			"        \"alt\": \"\",",
+			"        \"endereco\": \"assets/images/ilustracoes/modsemConteudo.png\",",
+			"        \"legenda\": \"\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Imagem - parâmetros obrigatórios 'figura(n) > endereco e figura(n) > alt colocar quantas figuras estão em linha em uma mesma imagem, se for preciso um link nessa imagem (Obrigatórios link > tipo e link > endereco) se não retire o parâmetro inteiro"
+	},
+	"imagemTexto": {
+		"prefix": "componentMaker imagemTexto",
+		"body": [
+			"\"imagemTexto01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão retire esse parâmetro\",",
+			"    \"mudarPosicao\": true (true para inverter a imagem para direita, senão retire o parâmetro),",
+			"    \"imagemLado\": {",
+			"        \"alt\": \"Texto alternativo para acessibilidade em imagem, se não houver imagem na lateral retire todo o parâmetro imagemLado\",",
+			"        \"endereco\": \"assets/images/semConteudo.jpg\",",
+			"        \"legenda\": \"Texto explicativo abaixo da imagem, senão existir retire o parâmetro\"",
+			"    },",
+			"    \"componentes\": \"Aceita todos os componentes que podem ser adicionados dentro de outro\"",
+			"},"
+		],
+		"description": "Componente de Imagem com Texto lado a lado - parâmetros obrigatórios 'imagemLado > endereco, imagemLado > alt e algum 'componente'"
+	},
+	"personagemBloco": {
+		"prefix": "componentMaker personagemBloco",
+		"body": [
+			"\"personagemBloco01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"personagem\": {",
+			"        \"titulo\": \"Aceita título, senão existir retire o parâmetro\",",
+			"        \"imagem\": {",
+			"            \"alt\": \"Texto alternativo para acessibilidade em imagem\",",
+			"            \"endereco\": \"assets/images/semConteudo.jpg\",",
+			"            \"legenda\": \"Texto explicativo abaixo da imagem, senão existir retire o parâmetro\"",
+			"        }",
+			"    },",
+			"    \"destaqueTexto01\": {",
+			"        \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"        \"componentes\": \"Aceita todos os componentes que podem ser adicionados dentro de outro. Se não existir destaque, retire o parâmetro inteiro\"",
+			"    },",
+			"    \"componentes\": \"Aceita todos os componentes que podem ser adicionados dentro de outro\"",
+			"},"
+		],
+		"description": "Componente de PersonagemBloco - parâmetros obrigatórios 'personagem > imagem > alt e personagem > imagem > endereço' colocar quantos componentes forem necessários."
+	},
+
+	"accordion": {
+		"prefix": "componentMaker accordion",
+		"body": [
+			"\"accordion01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"num01\": {",
+			"        \"tituloAccordion\": \"Texto para título clicável do accordion\",",
+			"        \"componentes\": \"Aceita todos os componentes que podem ser adicionados dentro de outro\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Accordion - parâmetro obrigatório 'tituloAccordion' para mais estruturas dentro desse componente referenciar no componentMaker.js"
+	},
+	"blocoConteudo": {
+		"prefix": "componentMaker blocoConteudo",
+		"body": [
+			"\"blocoConteudo01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"corBloco\": \"'roxo', 'verde', 'vermelho' ou 'azul', senão existir retire o parâmetro e o padrão será branco\",",
+			"    \"comentario\": \"Coloque um texto para virar um bloco de comentário, senão existir retire o parâmetro\",",
+			"    \"icone\": true (true para ícone padrão, ou nome de outro ícone da biblioteca Unicons, senão existir ícone retire o parâmetro),",
+			"    \"imagemLado\": {",
+			"        \"alt\": \"Texto alternativo para acessibilidade em imagem, se não houver imagem na lateral retire todo o parâmetro imagemLado\",",
+			"        \"endereco\": \"assets/images/semConteudo.jpg\",",
+			"        \"legenda\": \"Texto explicativo abaixo da imagem, senão existir retire o parâmetro\"",
+			"    },",
+			"    \"componentes\": \"Aceita todos os componentes que podem ser adicionados dentro de outro\"",
+			"},"
+		],
+		"description": "Componente de Bloco de Conteúdo - sem parâmetro obrigatório, se for preciso uma imagem lateral ao bloco utilize o imagemLado (Obrigatórios imagem > alt e imagem > endereco) se não retire o parâmetro inteiro"
+	},
+	"blocoConteudo01": {
+		"prefix": "componentMaker blocoConteudo",
+		"body": [
+			"\"blocoConteudo01\": {",
+			"    \"icone\": false,",
+			"    \"corBloco\": \"verde\",",
+			"    \"texto01\": \"\"",
+			"},"
+		],
+		"description": "Componente de Bloco de Conteúdo - sem parâmetro obrigatório, se for preciso uma imagem lateral ao bloco utilize o imagemLado (Obrigatórios imagem > alt e imagem > endereco) se não retire o parâmetro inteiro"
+	},
+	"radio": {
+		"prefix": "componentMaker radio",
+		"body": [
+			"\"radio01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"questionario\": \"Identifique o questionário\",",
+			"    \"questao\": \"1\",",
+			"    \"imagemLado\": {",
+			"        \"alt\": \"Texto alternativo para acessibilidade em imagem, se não houver imagem na lateral retire todo o parâmetro imagemLado\",",
+			"        \"endereco\": \"assets/images/semConteudo.jpg\",",
+			"        \"legenda\": \"Texto explicativo abaixo da imagem, senão existir retire o parâmetro\"",
+			"    },",
+			"    \"enunciado\": {",
+			"       \"componentes\": \"Aceita os componentes texto, listaOrdenada, listaDesordenada e imagem\"",
+			"    },",
+			"    \"opcao01\": {",
+			"        \"id\": \"1\",",
+			"        \"texto\": \"Texto apresentado para clicar\",",
+			"        \"feedback\": {",
+			"            \"texto\": \"Coloque o texto do feedback para essa opção\",",
+			"            \"referencia\": \"Coloque a referência desse feedback, senão existir retire este parâmetro\"",
+			"        }",
+			"    },",
+			"    \"correta\": \"opcao01(Colocar a opção correta)\"",
+			"},"
+		],
+		"description": "Componente de Radio - parâmetros obrigatórios 'questionario, questao, enunciado, opcao > id, opcao > texto, feedback > texto e correta' colocar quantas opções forem necessárias, se for preciso uma imagem lateral ao questionário preencha o imagemLado (Obrigatórios imagem > alt e imagem > endereco) se não retire o parâmetro inteiro"
+	},
+	"checkbox": {
+		"prefix": "componentMaker checkbox",
+		"body": [
+			"\"checkbox01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"questionario\": \"Identifique o questionário\",",
+			"    \"questao\": \"1\",",
+			"    \"imagemLado\": {",
+			"        \"alt\": \"Texto alternativo para acessibilidade em imagem, se não houver imagem na lateral retire todo o parâmetro imagemLado\",",
+			"        \"endereco\": \"assets/images/semConteudo.jpg\",",
+			"        \"legenda\": \"Texto explicativo abaixo da imagem, senão existir retire o parâmetro\"",
+			"    },",
+			"    \"enunciado\": {",
+			"       \"componentes\": \"Aceita os componentes texto, listaOrdenada, listaDesordenada e imagem\"",
+			"    },",
+			"    \"opcao01\": {",
+			"        \"id\": \"1\",",
+			"        \"texto\": \"Texto apresentado para clicar\",",
+			"        \"feedback\": {",
+			"            \"texto\": \"Coloque o texto do feedback para essa opção\",",
+			"            \"referencia\": \"Coloque a referência desse feedback, senão existir retire este parâmetro\"",
+			"        }",
+			"    },",
+			"    \"correta\": [\"opcao01\",\"Coloque as opções corretas nesse array. Para respostas sem certo e errado deixe vazio\"]",
+			"},"
+		],
+		"description": "Componente de Checkbox - parâmetros obrigatórios 'questionario, questao, enunciado, opcao > id, opcao > texto, feedback > texto e correta' colocar quantas opções forem necessárias, para mais estruturas dentro desse componente referenciar no componentMaker.js"
+	},
+	"video": {
+		"prefix": "componentMaker video",
+		"body": [
+			"\"video01\": {",
+			"    \"capa\": \"assets/images/semConteudo.jpg\",",
+			"    \"video\": \"nomeVideo\"",
+			"},"
+		],
+		"description": "Componente de Vídeo - parâmetros obrigatórios 'capa e video' colocar somente o nome do vídeo sem extensão e sem tipo ex: '_360p', pois o script interno trata tudo isso. Mas a pasta de origem deve ter o arquivo disponibilizado com os dois tipos '360p' e '_720p'"
+	},
+	"tabela": {
+		"prefix": "componentMaker tabela",
+		"body": [
+			"\"tabela01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"titulo\": \"Coloque um título para a tabela se precisar, senão existir retire o parâmetro\",",
+			"    \"corTema\": true (Coloque para as cores da tabela usarem o tema, senão existir retire o parâmetro e será assumida a cor branca como padrão),",
+			"    \"cabecalho\": {",
+			"        \"coluna01\": {",
+			"            \"nome\": \"Texto para cabeçalho da coluna\",",
+			"            \"width\": \"50%(Colocar porcentagem se não quiser automática), senão existir retire o parâmetro\",",
+			"            \"colspan\": 2 (Colocar a quantidade de colspan para essa célula, senão existir retire o parâmetro)",
+			"        },",
+			"        \"coluna02\": {",
+			"            \"nome\": \"Texto para cabeçalho da coluna\",",
+			"            \"width\": \"50%(Colocar porcentagem se não quiser automática), senão existir retire o parâmetro\"",
+			"        }",
+			"    },",
+			"    \"linha01\": {",
+			"        \"coluna01\": {",
+			"            \"texto\": \"Texto para célula da coluna desta linha\",",
+			"            \"width\": \"50%(Colocar porcentagem se não quiser automática), senão existir retire o parâmetro\",",
+			"            \"colspan\": 2 (Colocar a quantidade de colspan para essa célula, senão existir retire o parâmetro),",
+			"            \"rowspan\": 2 (Colocar a quantidade de colspan para essa célula, senão existir retire o parâmetro)",
+			"        },",
+			"        \"coluna02\": {",
+			"            \"texto\": \"Texto para célula da coluna desta linha\"",
+			"        }",
+			"    },",
+			"    \"ultimaLinha\": {",
+			"        \"coluna01\": {",
+			"            \"texto\": \"Texto para footer da coluna desta linha\",",
+			"            \"colspan\": 2 (Colocar a quantidade de colspan para essa célula, senão existir retire o parâmetro)",
+			"        },",
+			"        \"coluna02\": {",
+			"            \"texto\": \"Texto para footer da coluna desta linha\"",
+			"        }",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Tabela - parâmetros obrigatórios 'linha(n) > coluna(n)' colocar quantas colunas forem necessárias, se não for necessário um cabeçalho e/ou rodapé retire esses parâmetros inteiros. Os parâmetros 'width' precisam ser utilizados somente nas colunas do 'cabeçalho' (se existir) ou nas colunas da primeira 'linha'. Uso de colspan e rowspan de acordo com o exemplo."
+	},
+	"listaDesordenada": {
+		"prefix": "componentMaker listaDesordenada",
+		"body": [
+			"\"listaDesordenada01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"marcador\": \"'false' para tirar o marcador dos itens abaixo, 'check' para marcador com ícone, ou tipo de lista do CSS(Ex: roman), para deixar a marcação automática retire o parâmetro\",",
+			"    \"item01\": \"Texto do item\",",
+			"    \"sublista01\": {",
+			"        \"marcador\": \"'false' para tirar o marcador dos itens abaixo, ou tipo de lista do CSS(Ex: roman), para deixar a marcação automática retire o parâmetro\",",
+			"        \"item01\": \"Texto do subitem\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Lista sem ordenação - parâmetro obrigatório 'item' pode colocar quantos itens forem necessários"
+	},
+	"listaDesordenada01": {
+		"prefix": "componentMaker listaDesordenada",
+		"body": [
+			"\"listaDesordenada01\": {",
+			"    \"marcador\": \"check\",",
+			"    \"item01\": \"Texto do item\",",
+			"},"
+		],
+		"description": "Componente de Lista sem ordenação - parâmetro obrigatório 'item' pode colocar quantos itens forem necessários"
+	},
+	"listaOrdenada": {
+		"prefix": "componentMaker listaOrdenada",
+		"body": [
+			"\"listaOrdenada01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"marcador\": \"'false' para tirar o marcador dos itens abaixo, 'check' para marcador com ícone, ou tipo de lista do CSS(Ex: roman), para deixar a marcação automática retire o parâmetro\",",
+			"    \"item01\": \"Texto do item\",",
+			"    \"sublista01\": {",
+			"        \"marcador\": \"'false' para tirar o marcador dos itens abaixo, ou tipo de lista do CSS(Ex: roman), para deixar a marcação automática retire o parâmetro\",",
+			"        \"item01\": \"Texto do subitem\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Lista com ordenação - parâmetro obrigatório 'item' pode colocar quantos itens forem necessários"
+	},
+	"atividadeCombo": {
+		"prefix": "componentMaker atividadeCombo",
+		"body": [
+			"\"atividadeCombo01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"questionario\": \"Identifique o questionário\",",
+			"    \"questao\": \"1\",",
+			"    \"enunciado\": {",
+			"       \"componentes\": \"Aceita os componentes texto, listaOrdenada, listaDesordenada e imagem\"",
+			"    },",
+			"    \"opcao01\": {",
+			"        \"id\": \"1\",",
+			"        \"texto\": \"Texto apresentado para a opção\",",
+			"        \"feedback\": {",
+			"            \"texto\": \"Coloque o texto do feedback para essa opção\",",
+			"            \"referencia\": \"Coloque a referência desse feedback, senão existir retire este parâmetro\"",
+			"        },",
+			"        \"combo\": [\"Escolha\",\"itemDaCombo\",\"itemDaCombo\"],",
+			"        \"correta\": \"Colocar a opção correta de um itemDaCombo\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Atividade com Combos - parâmetros obrigatórios 'questionario, questao, enunciado, opcao > id, opcao > texto, feedback > texto, combo e correta' colocar quantas opções forem necessárias, para mais estruturas dentro desse componente referenciar no componentMaker.js"
+	},
+	"atividadeTexto": {
+		"prefix": "componentMaker atividadeTexto",
+		"body": [
+			"\"atividadeTexto01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"questionario\": \"Identifique o questionário\",",
+			"    \"questao\": \"1\",",
+			"    \"enunciado\": {",
+			"       \"componentes\": \"Aceita os componentes texto, listaOrdenada, listaDesordenada e imagem\"",
+			"    },",
+			"    \"feedback\": {",
+			"        \"titulo\": \"Coloque o título para o feedback dessa questão\",",
+			"        \"texto\": \"Coloque o texto do feedback para essa questão\",",
+			"        \"referencia\": \"Coloque a referência desse feedback, senão existir retire este parâmetro\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Atividade com texto - parâmetros obrigatórios 'questionario, questao, enunciado, feedback > titulo, feedback > texto', para mais estruturas dentro desse componente referenciar no componentMaker.js"
+	},
+	"atividadeImagemArea": {
+		"prefix": "componentMaker atividadeImagemArea",
+		"body": [
+			"\"atividadeImagemArea01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"questionario\": \"Identifique o questionário\",",
+			"    \"tituloPadrao\": true (se precisar colocar seu próprio título retire esse parâmetro),",
+			"    \"area01\": {",
+			"        \"questao\": \"1 (identifique o número da questão para o PPU)\",",
+			"        \"imagem\": {",
+			"            \"alt\": \"Texto alternativo para acessibilidade em imagem, se não houver imagem retire todo o parâmetro imagem\",",
+			"            \"endereco\": \"assets/images/semConteudo.jpg\",",
+			"            \"link\": {",
+			"                \"id\": \"ID da modal no conteudoExtra\"",
+			"            }",
+			"        },",
+			"        \"idArea\": \"Número ou letra que identifica a área\",",
+			"        \"titulo\": \"Resposta da área 1 (título para identificar o lado da pergunta)\",",
+			"        \"texto\": \"Texto para o enunciado\",",
+			"        \"feedback\": {",
+			"            \"texto\": \"Coloque o texto do feedback para essa opção\",",
+			"            \"referencia\": \"Coloque a referência desse feedback, senão existir retire este parâmetro\"",
+			"        },",
+			"        \"combo\": [\"Escolha\",\"itemDaCombo\",\"itemDaCombo\"],",
+			"        \"correta\": \"Colocar a opção correta de um itemDaCombo\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Atividade de Imagens por Área - parâmetros obrigatórios 'questionario, area(n) > questao, area(n) > imagem, area(n) > titulo, area(n) > texto, area(n) > feedback > texto, area(n) > combo, area(n) > correta' colocar quantas áreas forem necessárias"
+	},
+	"escala": {
+		"prefix": "componentMaker escala",
+		"body": [
+			"\"escala01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"tamanho\": Coloque o número do tamanho da escala na tela vai de 2 a 12, senão existir retire o parâmetro que será assumido um tamanho padrão de 12,",
+			"    \"esquerda\": {",
+			"        \"titulo\": \"Titulo para o lado superior esquerdo da escala\",",
+			"        \"resposta\": \"Texto para resposta, ao movimentar para a esquerda\"",
+			"    },",
+			"    \"direita\": {",
+			"        \"titulo\": \"Titulo para o lado superior direito da escala\",",
+			"        \"resposta\": \"Texto para resposta, ao movimentar para a direita\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de Apresentação de Escala em range - parâmetros obrigatórios 'esquerda > titulo, esquerda > resposta, direita > titulo, direita > resposta'"
+	},
+	"navegacao": {
+		"prefix": "componentMaker navegacao",
+		"body": [
+			"\"navegacao\": {",
+			"    \"paginaAnterior\": \"Endereço de Navegação. Ex:'menu01&pagina01' ou vazio\",",
+			"    \"proximaPagina\": \"Endereço de Navegação. Ex:'menu01&pagina01' ou vazio\"",
+			"}"
+		],
+		"description": "Componente de navegação - sem parâmetro obrigatório"
+	},
+	"dragndrop": {
+		"prefix": "componentMaker dragndrop",
+		"body": [
+			"\"dragnDrop\": {",
+			"    \"questionario\": \"Identifique o questionário\",",
+			"    \"questao\": \"1\",",
+			"    \"tipo\": \"tipo de Drag desenvolvido no principal.js\",",
+			"    \"enunciado\": \"Texto para o enunciado da questão, senão existir retire o parâmetro\",",
+			"    \"drop01\": {",
+			"        \"id\": \"dragContainer\",",
+			"        \"titulo\": \"Titulo para área do Drop, senão existir retire o parâmetro\",",
+			"        \"areaDrop\": \"Identificador do Drop\",",
+			"        \"texto\": \"Texto para área do Drop, senão existir retire o parâmetro\",",
+			"        \"drag01\": {",
+			"            \"classe\": \"Mesmo identificador do drop que será correto (areaDrop)\",",
+			"            \"texto\": \"Texto para item de Drag\",",
+			"            \"feedback\": \"Texto para feedback de acerto\"",
+			"        }",
+			"    }",
+			"},"
+		],
+		"description": "Componente de drag'nDrop - parâmetros obrigatórios 'questionario', 'questao', 'tipo', 'drop(01 quantos necessários)', 'drag(01 quantos necessários)'"
+	},
+	"destaque": {
+		"prefix": "componentMaker destaque",
+		"body": [
+			"\"destaque01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"item01\": {",
+			"        \"titulo\": \"Título para o destaque\",",
+			"        \"texto\": \"Texto para o destaque\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de destaque - parâmetros obrigatórios 'titulo', 'texto', 'item(01 quantos forem necessários)'"
+	},
+	"flip": {
+		"prefix": "componentMaker flipCard",
+		"body": [
+			"\"flip01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"qtdPorLinha\": Coloque o número de destaques por linha, senão existir retire o parâmetro que será assumido 2 por linha.,",
+			"    \"card01\": {",
+			"        \"frente\": {",
+			"            \"titulo\": \"Título para frente do card, senão existir retire o parâmetro\",",
+			"            \"imagem\": {",
+			"                \"alt\": \"Texto alternativo para acessibilidade em imagem, se não houver imagem retire todo o parâmetro imagem\",",
+			"                \"endereco\": \"assets/images/semConteudo.jpg\",",
+			"                \"legenda\": \"Texto explicativo da imagem, senão existir retire o parâmetro\"",
+			"            }",
+			"        },",
+			"        \"verso\": {",
+			"            \"titulo\": \"Título para o verso do card\",",
+			"            \"texto\": \"Texto para o verso do card\"",
+			"        }",
+			"    }",
+			"},"
+		],
+		"description": "Componente de flipCard - parâmetros obrigatórios 'verso > título', 'verso > texto', 'card(01 quantos forem necessários)', se for preciso uma imagem na frente do card preencha a imagem (Obrigatórios imagem > alt e imagem > endereco) se não retire o parâmetro inteiro"
+	},
+	"timeline": {
+		"prefix": "componentMaker timeline",
+		"body": [
+			"\"timeline01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"item01\": {",
+			"        \"tituloItem\": \"Título para o item da timeline(Obrigatório)\",",
+			"        \"conteudo\": {",
+			"            \"icone\": \"video ou outro conforme existir no JS, senão existir retire o parâmetro\",",
+			"            \"titulo\": \"Título para o conteúdo, senão existir retire o parâmetro\",",
+			"            \"texto\": \"Texto para o item(Obrigatório)\",",
+			"            \"modal\": \"Identificador da modal conforme 'conteudoExtra' da modal, senão existir retire o parâmetro(Dependente da existência de 'conteudo > titulo')\",",
+			"            \"tempo\": \"4 min (Colocar o tempo do vídeo caso exista), senão existir retire o parâmetro\"",
+			"        }",
+			"    }",
+			"},"
+		],
+		"description": "Componente de timeline - parâmetros obrigatórios 'tituloItem', 'conteudo > texto', 'tempo(se for um vídeo)', 'item(01 quantos forem necessários)'"
+	},
+	"tabs": {
+		"prefix": "componentMaker tabs",
+		"body": [
+			"\"tabs01\":{",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"titulo\": \"Título geral para todas as tabs\",",
+			"    \"tab01\": {",
+			"        \"nome\": \"Nome da Tab\",",
+			"        \"destaque\": {",
+			"            \"tituloDestaque\": \"Título para item em destaque na tab, senão existir 'destaque' retire todo o parâmetro\",",
+			"            \"componentes\": \"Aceita todos os componentes que podem ser adicionados dentro de outro\"",
+			"        },",
+			"        \"componentes\": \"Aceita todos os componentes que podem ser adicionados dentro de outro\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de tabs - parâmetros obrigatórios 'titulo', 'tabs > nome', 'destaque > tituloDestaque (se existir destaque)', 'tabs(01 quantos forem necessários)'"
+	},
+	"chat": {
+		"prefix": "componentMaker chat",
+		"body": [
+			"\"chat01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"conversa01\": {",
+			"        \"imagem\": {",
+			"            \"alt\": \"Texto alternativo para acessibilidade em imagem\",",
+			"            \"endereco\": \"assets/images/semConteudo.jpg\"",
+			"        },",
+			"        \"titulo\": \"Título para a conversa01\",",
+			"        \"fala01\": {",
+			"            \"componentes\": \"Aceita todos os componentes que podem ser adicionados dentro de outro\"",
+			"        }",
+			"    }",
+			"},"
+		],
+		"description": "Componente de chat - parâmetros obrigatórios 'imagem', 'imagem > alt', 'imagem > endereco', 'titulo', 'conversa(01 quantos forem necessários)', 'fala(01 quantos forem necessários)'"
+	},
+	"capa": {
+		"prefix": "componentMaker capa",
+		"body": [
+			"\"capa\": {",
+			"    \"imagem\": {",
+			"        \"alt\": \"Texto alternativo para acessibilidade em imagem, se não houver imagem retire todo o parâmetro imagem\",",
+			"        \"endereco\": \"assets/images/semConteudo.jpg\",",
+			"        \"legenda\": \"Texto explicativo da imagem, senão existir retire o parâmetro\"",
+			"    }",
+			"},"
+		],
+		"description": "Componente de capa - parâmetros obrigatórios caso tenha imagem 'imagem > alt' e 'imagem > endereco' se não retire o parâmetro inteiro e coloque true"
+	},
+	"pdf": {
+		"prefix": "componentMaker pdfView",
+		"body": [
+			"\"pdf01\": {",
+			"    \"classe\": \"Coloque uma ou mais classes se precisar, senão existir retire o parâmetro\",",
+			"    \"endereco\": \"assets/docs/teste1.pdf\"",
+			"},"
+		],
+		"description": "Componente de visualizador de PDF interno - parâmetro obrigatório pdf(n) > endereço."
+	},
+	"linkGlossario": {
+		"prefix": "atalhos linkGlossario",
+		"body": [
+			"<a data-toggle='modal' data-target='#modalDinamica' title='Clique para mostrar o glossário com esse item' data-conteudo='palavra' data-item='Colocar ID do item do glossário'><span style='background: #f00'>Nome do link para glossário<\/span><\/a>"
+		],
+		"description": "Criação de Link de conexão com glossário em texto - parâmetros obrigatórios 'data-item' e 'nome do link'"
+	},
+	"linkExterno": {
+		"prefix": "atalhos linkExterno",
+		"body": [
+			"<a class='links' title='Clique aqui para visitar na web' target='_blank' href='TEXTO'>TEXTO<\/a>"
+		],
+		"description": "Criação de Link Externo em texto - parâmetros obrigatórios 'title', 'href' e 'texto do link'"
+	},
+	"linkDownload": {
+		"prefix": "atalhos linkDownload",
+		"body": [
+			"<a class='downloadArquivo' title='Faça o download deste arquivo' href='Falta colocar endereço'><span style='background: #f00'>Falta colocar texto<\/span><\/a>"
+		],
+		"description": "Criação de Link Download de arquivo em texto - parâmetros obrigatórios 'href' e 'texto do link'"
+	},
+	"linkConteudoExtra": {
+		"prefix": "atalhos linkConteudoExtra",
+		"body": [
+			"<a data-toggle='modal' data-target='#modalDinamica' title='Clique para mostrar o Nome para acessibilidade' data-conteudo='conteudoExtra' data-item='Nome do item'><span style='background: #f00'>Falta colocar Texto para o Link</span></a>"
+		],
+		"description": "Criação de Link com conteúdo extra - parâmetros obrigatórios 'title', 'data-item (de acordo com o item do json conteudoExtra)' e 'Texto para o Link'"
+	}
+}

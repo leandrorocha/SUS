@@ -122,3 +122,15 @@ $(document).on('click', '.botaoComecar', function (e) {
   e.preventDefault();
   $('html,body').animate({ scrollTop: ($("#topico1").offset().top) }, 500);
 });
+
+/* Flip Cards */
+$(".flipper").click(function (e) {
+  var target = $(e.target);
+  if (target.is("a")) {
+    //follow that link
+    return true;
+  } else {
+    $(this).toggleClass("flip");
+  }
+  return false;
+});
