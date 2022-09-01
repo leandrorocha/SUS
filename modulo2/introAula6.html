@@ -55,45 +55,47 @@
         <div class="col-lg-10" id="content">
 
             <!-- Bloco 1 -->
-            <div class="px-2 px-sm-5 justify-content-center">
-                <div class="barraMenuHorizontal d-flex ms-sm-5">
-                    <div class="dropdown menuAulas">
-                        <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="mod1"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Módulo 1
-                        </a>
+            <div class="pt-5 px-2 px-sm-5 justify-content-center position-relative">
+                <div class="barraMenuHorizontal d-flex position-absolute">
+                    <div class="d-flex position-fixed">
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="mod1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 1
+                            </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="mod1">
-                            <li><a class="dropdown-item" href="../modulo1/introAula1.html">Aula 1</a></li>
-                            <li><a class="dropdown-item" href="../modulo1/introAula2.html">Aula 2</a></li>
-                        </ul>
-                    </div>
+                            <ul class="dropdown-menu" aria-labelledby="mod1">
+                                <li><a class="dropdown-item" href="../modulo1/introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="../modulo1/introAula2.html">Aula 2</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="dropdown menuAulas">
-                        <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="mod2"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Módulo 2 / Aula 6
-                        </a>
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="mod2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 2 / Aula 6
+                            </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="mod2">
-                            <li><a class="dropdown-item" href="#">Aula 1</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 2</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 3</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 4</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 5</a></li>
-                            <li><a class="dropdown-item" href="introAula6.html">Aula 6</a></li>
-                        </ul>
-                    </div>
+                            <ul class="dropdown-menu" aria-labelledby="mod2">
+                                <li><a class="dropdown-item" href="#">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 2</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 3</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 4</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 5</a></li>
+                                <li><a class="dropdown-item" href="introAula6.html">Aula 6</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="dropdown menuAulas">
-                        <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="mod3"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Módulo 3 / Aula 1
-                        </a>
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="mod3"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 3 / Aula 1
+                            </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="mod3">
-                            <li><a class="dropdown-item" href="../modulo3/introAula1.html">Aula 1</a></li>
-                        </ul>
+                            <ul class="dropdown-menu" aria-labelledby="mod3">
+                                <li><a class="dropdown-item" href="../modulo3/introAula1.html">Aula 1</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
@@ -162,15 +164,15 @@
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-center">
+                <div id="audio1" class="d-flex justify-content-center my-4">
                     <vm-player theme="dark">
                         <vm-audio>
-                            <source data-src="../assets/audios/teste.m4a" type="video/mp4" />
+                            <source data-src="../assets/audios/3_sociedade_politica_sociedade_civil.m4a"
+                                type="video/mp4" />
                         </vm-audio>
-
                         <vm-default-ui>
                             <div class="d-flex align-items-center justify-content-center">
-                                Representação movimentos sociais e participação social no SUS (<vm-end-time
+                                Sociedade Política e Sociedade Civil (<vm-end-time
                                     style="--vm-time-color: #000000; --vm-time-font-weight: 500"></vm-end-time>)
                             </div>
                         </vm-default-ui>
@@ -245,8 +247,8 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="../assets/js/main.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/dist/vime/vime.esm.js"></script>
     <script src="../assets/js/sidebar.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/dist/vime/vime.esm.js"></script>
 </body>
 
 </html>

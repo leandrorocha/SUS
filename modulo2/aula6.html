@@ -60,49 +60,51 @@
         <div class="col-lg-10" id="content">
 
             <!-- Bloco 1 -->
-            <div class="px-2 px-sm-5 justify-content-center">
-                <div class="barraMenuHorizontal d-flex">
-                    <div class="dropdown menuAulas">
-                        <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Módulo 1
-                        </a>
+            <div class="pt-5 px-2 px-sm-5 justify-content-center position-relative">
+                <div class="barraMenuHorizontal d-flex position-absolute">
+                    <div class="d-flex position-fixed">
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 1
+                            </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="../modulo1/introAula1.html">Aula 1</a></li>
-                            <li><a class="dropdown-item" href="../modulo1/introAula2.html">Aula 2</a></li>
-                        </ul>
-                    </div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="../modulo1/introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="../modulo1/introAula2.html">Aula 2</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="dropdown menuAulas">
-                        <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Módulo 2 / Aula 6
-                        </a>
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 2 / Aula 6
+                            </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="mod2">
-                            <li><a class="dropdown-item" href="#">Aula 1</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 2</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 3</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 4</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 5</a></li>
-                            <li><a class="dropdown-item" href="introAula6.html">Aula 6</a></li>
-                        </ul>
-                    </div>
+                            <ul class="dropdown-menu" aria-labelledby="mod2">
+                                <li><a class="dropdown-item" href="#">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 2</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 3</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 4</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 5</a></li>
+                                <li><a class="dropdown-item" href="introAula6.html">Aula 6</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="dropdown menuAulas">
-                        <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Módulo 3
-                        </a>
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 3
+                            </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="../modulo3/introAula1.html">Aula 1</a></li>
-                        </ul>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="../modulo3/introAula1.html">Aula 1</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <h1>Rumos da Sociedade: quem decide e como se decidem</h1>
+                <h1 class="mt-5">Rumos da Sociedade: quem decide e como se decidem</h1>
 
                 <p>Pensar em quem e como se decidem os rumos de uma sociedade é o ponto de partida dos debates e
                     reflexões desta aula. Isso permite compreender que as relações sociais que estruturam estes
@@ -115,7 +117,7 @@
                     socialismo, até a contemporaneidade globalizada pelo capital, todas as sociedades precisaram e
                     precisam lidar com este debate. É, portanto, uma divisão estrutural.</p>
 
-                <h2>• QUEM DECIDE</h2>
+                <h2 class="mt-5 mb-3">• QUEM DECIDE</h2>
 
                 <p>Quem decide corresponde ao tomador de decisões. Essa categoria, aliás, extrapolou o âmbito
                     acadêmico
@@ -151,15 +153,7 @@
                 <p>Vamos aprofundar o debate sobre sociedade política e sociedade civil e suas interações? Ouça o
                     áudio.</p>
 
-                <div style="display: flex;" class="justify-content-center my-4">
-                    <button class="btn-podcast-player" id="btnAudio1">
-                        <img src="../assets/images/icones/podcast.svg" alt="Imagem de ícone de podcast" height="40px"
-                            class="mb-0 me-4">
-                        Sociedade Política e Sociedade Civil (10'42")
-                    </button>
-                </div>
-
-                <div id="audio1" class="justify-content-center my-4">
+                <div id="audio1" class="d-flex justify-content-center my-4">
                     <vm-player theme="dark">
                         <vm-audio>
                             <source data-src="../assets/audios/3_sociedade_politica_sociedade_civil.m4a"
@@ -309,7 +303,7 @@
                     </div>
                 </div>
 
-                <h2>Relações entre Sociedade Política e Sociedade Civil</h2>
+                <h2 class="mt-5 mb-3">Relações entre Sociedade Política e Sociedade Civil</h2>
 
                 <p>Sociedade política e sociedade civil estão em permanente relação e não é possível separá-las.
                     Fizemos essa separação apenas para um exercício reflexivo e didático. Agora, vamos fazer uma
@@ -396,16 +390,10 @@
                         áudio</u>.
                 </p>
 
-                <div style="display: flex;" class="justify-content-center my-5">
-                    <button class="btn-podcast-player" id="btnAudio2">
-                        <img src="../assets/images/icones/podcast.svg" alt="Imagem de ícone de podcast" height="40px"
-                            class="mb-0 me-4">Democracia como solução (13'48")</button>
-                </div>
-
-                <div id="audio2" style="display: none;" class="justify-content-center my-4">
-                    <vm-player theme="dark" autoplay>
+                <div id="audio2" class="d-flex justify-content-center my-4">
+                    <vm-player theme="dark">
                         <vm-audio>
-                            <source data-src="" type="video/mp4" />
+                            <source data-src="../assets/audios/teste.m4a" type="video/mp4" />
                         </vm-audio>
                         <vm-default-ui>
                             <div class="d-flex align-items-center justify-content-center">
@@ -572,7 +560,7 @@
                     </div>
                 </div>
 
-                <h2>Democracia Representativa</h2>
+                <h2 class="mt-5 mb-3">Democracia Representativa</h2>
 
                 <p>As respostas democráticas não podem propor que todos participem do processo de tomada de decisão.
                     É preciso que alguns escolhidos representem, nos debates, o conjunto dos cidadãos. Começam a se
@@ -616,7 +604,7 @@
                     precisa ser aperfeiçoado “não serve para nada”, a não ser que se defenda as respostas
                     autoritárias.</p>
 
-                <h2 class="text-uppercase">• A Crise da Democracia Representativa</h2>
+                <h2 class="mt-5 mb-3 text-uppercase">• A Crise da Democracia Representativa</h2>
 
                 <p>A partir dos anos 1960, a democracia representativa enfrentou uma crise poderosa: os cidadãos, a
                     sociedade civil, progressivamente, deixaram de se considerar representados pelos representantes
@@ -645,14 +633,8 @@
                         class="links">Ouça o áudio</a>.
                 </p>
 
-                <div style="display: flex;" class="justify-content-center my-4">
-                    <button class="btn-podcast-player" id="btnAudio3">
-                        <img src="../assets/images/icones/podcast.svg" alt="Imagem de ícone de podcast" height="40px"
-                            class="mb-0 me-4">A crise da Democracia Representativa (11'54")</button>
-                </div>
-
-                <div id="audio3" style="display: none;" class="justify-content-center my-4">
-                    <vm-player theme="dark" autoplay>
+                <div id="audio3" class="d-flex justify-content-center my-4">
+                    <vm-player theme="dark">
                         <vm-audio>
                             <source data-src="../assets/audios/8_a_crise_da_democracia_representativa.m4a"
                                 type="video/mp4" />
@@ -791,7 +773,8 @@
                     </div>
                 </div>
 
-                <h2>Democracia Participativa como Solução para a Crise da Democracia Representativa</h2>
+                <h2 class="mt-5 mb-3">Democracia Participativa como Solução para a Crise da Democracia Representativa
+                </h2>
 
                 <p>A <span class="fw-bold">democracia participativa</span> tem sido a resposta mais promissora que as
                     sociedades modernas têm
@@ -875,7 +858,7 @@
                     artifícios
                     que encubram seus objetivos, agindo pública e ostensivamente em prol da derrubada da democracia.</p>
 
-                <h2>Instrumentos de participação democrática</h2>
+                <h2 class="mt-5 mb-3">Instrumentos de participação democrática</h2>
 
                 <p>A redemocratização brasileira, iniciada nos anos 1980, superou a ditadura militar que se abateu sobre
                     o
@@ -992,7 +975,7 @@
                     sua vez, a sociedade civil deve se organizar para pressionar a sociedade política a incluir esses
                     instrumentos em seus processos decisórios.</p>
 
-                <h2>Caso SUS: exemplo de democracia participativa no Brasil</h2>
+                <h2 class="mt-5 mb-3">Caso SUS: exemplo de democracia participativa no Brasil</h2>
 
                 <p>Nesse binômio de instituições participativas, conselhos-conferências, o setor saúde foi o que mais
                     logrou sucesso e avanços, num processo político que foi pensado para estruturar o Sistema Único de
@@ -1000,14 +983,8 @@
                     esforço de articular teoria e prática, base de qualquer explicação científica. Vamos ampliar esse
                     debate? <a href="#" target="_blank" class="links">Ouça o áudio</a>:</p>
 
-                <div style="display: flex;" class="justify-content-center my-5">
-                    <button class="btn-podcast-player" id="btnAudio4">
-                        <img src="../assets/images/icones/podcast.svg" alt="Imagem de ícone de podcast" height="40px"
-                            class="mb-0 me-4">SUS: Exemplo emblemático da democracia participativa (18'21")</button>
-                </div>
-
-                <div id="audio4" style="display: none;" class="justify-content-center my-4">
-                    <vm-player theme="dark" autoplay>
+                <div id="audio4" class="d-flex justify-content-center my-4">
+                    <vm-player theme="dark">
                         <vm-audio>
                             <source
                                 data-src="../assets/audios/11_democracia_participativa_no_brasil_o_sus_seus_conselhos_conferencias.m4a"
@@ -1174,7 +1151,7 @@
                     </div>
                 </div>
 
-                <h2>Considerações Finais</h2>
+                <h2 class="mt-5 mb-3">Considerações Finais</h2>
 
                 <p>Entre 2006 e 2008, coordenei o ParticipaNetSUS, a primeira pesquisa que elaborou e analisou o perfil
                     de
@@ -1229,7 +1206,7 @@
                     ponto de
                     partida.</p>
 
-                <h2>Que tal colocar em prática seu aprendizado?</h2>
+                <h2 class="mt-5 mb-3">Que tal colocar em prática seu aprendizado?</h2>
 
                 <p>Propomos cinco atividades formativas. Elas não contam ponto para sua certificação nesse curso - mas
                     são
@@ -1242,14 +1219,8 @@
                     citados no
                     áudio estão em Referências comentadas.</p>
 
-                <div style="display: flex;" class="justify-content-center my-5">
-                    <button class="btn-podcast-player" id="btnAudio5">
-                        <img src="../assets/images/icones/podcast.svg" alt="Imagem de ícone de podcast" height="40px"
-                            class="mb-0 me-4">Instrução das atividades formativas (4'46")</button>
-                </div>
-
-                <div id="audio5" style="display: none;" class="justify-content-center my-4">
-                    <vm-player theme="dark" autoplay>
+                <div id="audio5" class="d-flex justify-content-center my-4">
+                    <vm-player theme="dark">
                         <vm-audio>
                             <source data-src="../assets/audios/vamos_avancar_nessa_discussao.m4a" type="video/mp4" />
                         </vm-audio>
@@ -1370,7 +1341,7 @@
                 <p>Incentivamos você a compartilhar o resultado dessas atividades com seus colegas e nas suas redes
                     sociais - e lembre-se de marcar o Campus Virtual Fiocruz.</p>
 
-                <h2>Você chegou ao final da aula</h2>
+                <h2 class="mt-5 mb-3">Você chegou ao final da aula</h2>
 
                 <p>Nessa aula, você conheceu os instrumentos de participação democrática, analisou a participação da
                     sociedade no SUS; refletiu sobre instituições e políticas participativas no Brasil e na saúde;
@@ -1379,7 +1350,7 @@
 
                 <p>Siga em frente!</p>
 
-                <div class="d-flex justify-content-center gap-2 my-2">
+                <div class="d-flex gap-2 my-5">
                     <a href="https://www.facebook.com/campusfiocruz" target="_blank">
                         <img src="../assets/images/icones/icon_facebook.svg" alt="Icone do Facebook" height="46px"
                             class="mb-0" />
@@ -1394,7 +1365,7 @@
                     </a>
                 </div>
 
-                <h2>Referências comentadas</h2>
+                <h2 class="mt-5 mb-3">Referências comentadas</h2>
 
                 <p>De diferentes maneiras, os temas e debates abordados nesta aula estão presentes em quase todos os
                     grandes autores dos séculos XIX e XX. Aqui, pretende-se ressaltar alguns que consideramos capazes de
@@ -1465,10 +1436,11 @@
 
                 <div class="d-flex justify-content-center my-5">
                     <div class="col col-12 col-md-8">
-                        <vm-player controls>
+                        <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
                             <vm-youtube video-id="GZq9Q9T1yNE"></vm-youtube>
-
+                            <vm-default-ui></vm-default-ui>
                         </vm-player>
+
                         <div class="mt-2">
                             <small>Fonte: YouTube - Canal <a href="https://www.youtube.com/watch?v=GZq9Q9T1yNE"
                                     target="_blank" class="links">Saúde em Cena</a></small>
@@ -1516,12 +1488,14 @@
                     </div>
                 </div>
 
-                <div class="container-texto-base my-5">
-                    <div><img src="../assets/images/icones/icon_referencia.svg" alt="REFERÊNCIAS"></div>
+                <div class="container-texto-base flex-column my-5">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_referencia.svg" alt="REFERÊNCIAS" class="mb-0"
+                            width="50px">
+                        <h5 class="text-uppercase mb-0">REFERÊNCIAS:</h5>
+                    </div>
 
-                    <div class="pt-4 px-5">
-                        <h5 class="text-uppercase mb-4">REFERÊNCIAS:</h5>
-
+                    <div class="container-content-base">
                         <p>WRIGHT, Erik Olin. Análise de classes. Rev. Bras. Ciênc. Polít. [online]. 2015, n.17 [citado
                             2021-08-09], pp.121-163. Disponível em: <a
                                 href="http://old.scielo.br/scielo.php?script=sci_arttext&pid=S0103-33522015000300121&lng=pt&nrm=iso"
@@ -1680,34 +1654,6 @@
         crossorigin="anonymous"></script>
     <script src="../assets/js/main.js"></script>
     <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/dist/vime/vime.esm.js"></script>
-
-    <script>
-        $("#btnAudio1").click(function () {
-            $("#audio1").css('display', 'flex').show();
-            $("#btnAudio1").hide();
-            $("#btnAudio1").parent().css('display', 'none');
-        });
-        $("#btnAudio2").click(function () {
-            $("#audio2").css('display', 'flex').show();
-            $("#btnAudio2").hide();
-            $("#btnAudio2").parent().css('display', 'none');
-        });
-        $("#btnAudio3").click(function () {
-            $("#audio3").css('display', 'flex').show();
-            $("#btnAudio3").hide();
-            $("#btnAudio3").parent().css('display', 'none');
-        });
-        $("#btnAudio4").click(function () {
-            $("#audio4").css('display', 'flex').show();
-            $("#btnAudio4").hide();
-            $("#btnAudio4").parent().css('display', 'none');
-        });
-        $("#btnAudio5").click(function () {
-            $("#audio5").css('display', 'flex').show();
-            $("#btnAudio5").hide();
-            $("#btnAudio5").parent().css('display', 'none');
-        });
-    </script>
 </body>
 
 </html>

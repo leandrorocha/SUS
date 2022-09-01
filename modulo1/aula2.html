@@ -55,49 +55,51 @@
         <div class="col-lg-10" id="content">
 
             <!-- Bloco 1 -->
-            <div class="px-3 px-sm-5 justify-content-center">
-                <div class="barraMenuHorizontal d-flex ms-sm-5">
-                    <div class="dropdown menuAulas">
-                        <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Módulo 1 / Aula 2
-                        </a>
+            <div class="pt-5 px-2 px-sm-5 justify-content-center position-relative">
+                <div class="barraMenuHorizontal d-flex position-absolute">
+                    <div class="d-flex position-fixed">
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 1 / Aula 2
+                            </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="introAula1.html">Aula 1</a></li>
-                            <li><a class="dropdown-item" href="introAula2.html">Aula 2</a></li>
-                        </ul>
-                    </div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="introAula2.html">Aula 2</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="dropdown menuAulas">
-                        <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Módulo 2
-                        </a>
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 2
+                            </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="mod2">
-                            <li><a class="dropdown-item" href="#">Aula 1</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 2</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 3</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 4</a></li>
-                            <li><a class="dropdown-item" href="#">Aula 5</a></li>
-                            <li><a class="dropdown-item" href="../modulo2/introAula6.html">Aula 6</a></li>
-                        </ul>
-                    </div>
+                            <ul class="dropdown-menu" aria-labelledby="mod2">
+                                <li><a class="dropdown-item" href="#">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 2</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 3</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 4</a></li>
+                                <li><a class="dropdown-item" href="#">Aula 5</a></li>
+                                <li><a class="dropdown-item" href="../modulo2/introAula6.html">Aula 6</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="dropdown menuAulas">
-                        <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Módulo 3
-                        </a>
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 3
+                            </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="../modulo3/introAula1.html">Aula 1</a></li>
-                        </ul>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="../modulo3/introAula1.html">Aula 1</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <h1>Princípios e diretrizes do SUS</h1>
+                <h1 class="mt-5">Princípios e diretrizes do SUS</h1>
 
                 <p>O Sistema Único de Saúde (SUS) conforma o modelo público de ações e serviços de saúde no Brasil.
                     Orientado por um conjunto de princípios e diretrizes válidos para todo o território nacional, nasce
@@ -140,7 +142,7 @@
                     </div>
                 </div>
 
-                <h3>• Um direito constitucional</h3>
+                <h3 class="mt-5 mb-3">• Um direito constitucional</h3>
 
                 <p>Mesmo com divergências em relação ao conteúdo de algumas das propostas (Baptista, 2014), durante o
                     processo constituinte foi possível instituir uma coalizão parlamentar capaz de introduzir no Título
@@ -176,13 +178,14 @@
                     reduzam o risco de doenças e outros agravos e ao acesso universal e igualitário às ações e serviços
                     para sua promoção, proteção e recuperação” (Brasil, Constituição Federal de 1988).</p>
 
-                <div class="container-glossario my-5 p-4">
-                    <div class="d-flex align-items-start align-items-sm-end">
-                        <img src="../assets/images/icones/icon_audio.svg" alt="Áudio" class="me-4">
-                        <h6 class="titulo-glossario text-uppercase mb-4">Íntegra do discurso do presidente da Assembleia
+                <div class="container-glossario flex-column my-5 p-4">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_audio.svg" alt="Áudio" class="mb-0" width="50px">
+                        <h6 class="titulo-glossario text-uppercase mb-0">Íntegra do discurso do presidente da Assembleia
                             Nacional Constituinte (1988):</h6>
                     </div>
-                    <div>
+
+                    <div class="container-content-base">
                         <p>No dia 5 de outubro de 1988, o presidente da Assembleia Nacional Constituinte, o deputado
                             Ulysses Guimarães, promulgou a atual Constituição Brasileira, conhecida como a 'Constituição
                             Cidadã'. Ouça a íntegra do discurso histórico.</p>
@@ -256,30 +259,29 @@
                     contribuição financeira prévia.</p>
 
                 <div class="container-parairmaislonge my-5 p-2 p-sm-5">
-                    <div class="d-flex align-items-start">
+                    <div class="d-flex align-items-center gap-4 mb-4">
                         <img src="../assets/images/icones/texto_maislonge.svg" alt="Para ir mais longe" class="mb-0"
                             width="50px">
-
-                        <div>
-                            <h6 class="titulo-parairmaislonge text-uppercase mb-4">PARA IR MAIS LONGE:</h6>
-                            <p>Em que pese o caráter público do SUS, assegurado por seus princípios e pela origem
-                                estatal dos recursos para seu financiamento, a saúde é livre à iniciativa privada no
-                                Brasil. Isso permite a coexistência de vários segmentos de serviços, que
-                                se distinguem por vias de acesso e fontes de financiamento (planos e seguros de saúde,
-                                sistemas de “clientela fechada” e provedores privados autônomos), auferindo um caráter
-                                plural ao nosso sistema de saúde. Tal característica também diferencia a experiência
-                                brasileira de outros países que adotam modelos similares para organização de seus
-                                sistemas públicos de saúde, onde a presença do segmento privado não é um aspecto tão
-                                marcante.</p>
-                            <p>Você vai aprofundar a discussão sobre as relações público- privadas no sistema de saúde
-                                brasileiro na aula O público e o privado no sistema de saúde brasileiro, do Módulo 2 do
-                                curso.</p>
-                        </div>
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
                     </div>
+                    <div class="container-content-base">
+                        <p>Em que pese o caráter público do SUS, assegurado por seus princípios e pela origem
+                            estatal dos recursos para seu financiamento, a saúde é livre à iniciativa privada no
+                            Brasil. Isso permite a coexistência de vários segmentos de serviços, que
+                            se distinguem por vias de acesso e fontes de financiamento (planos e seguros de saúde,
+                            sistemas de “clientela fechada” e provedores privados autônomos), auferindo um caráter
+                            plural ao nosso sistema de saúde. Tal característica também diferencia a experiência
+                            brasileira de outros países que adotam modelos similares para organização de seus
+                            sistemas públicos de saúde, onde a presença do segmento privado não é um aspecto tão
+                            marcante.</p>
+                        <p>Você vai aprofundar a discussão sobre as relações público- privadas no sistema de saúde
+                            brasileiro na aula O público e o privado no sistema de saúde brasileiro, do Módulo 2 do
+                            curso.</p>
+                    </div>
+
                 </div>
 
                 <div class="informativo">
-
                     <h3 class="accordion-titulo text-uppercase">Os principais princípios e diretrizes do SUS
                         estabelecidos na Lei Orgânica da Saúde (<a
                             href="http://www.planalto.gov.br/ccivil_03/leis/l8080.htm" target="_blank" class="links">Lei
@@ -472,29 +474,29 @@
                     </div>
 
                     <div class="container-parairmaislonge my-5 p-2 p-sm-5">
-                        <div class="d-flex align-items-start">
+                        <div class="d-flex align-items-center gap-4 mb-4">
                             <img src="../assets/images/icones/texto_maislonge.svg" alt="Para ir mais longe" class="mb-0"
                                 width="50px">
-
-                            <div>
-                                <h6 class="titulo-parairmaislonge text-uppercase mb-4">PARA IR MAIS LONGE:</h6>
-                                <p>O que é, de onde veio e para onde vai o SUS</p>
-                            </div>
+                            <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
                         </div>
 
-                        <div class="d-flex flex-column flex-md-row align-items-center">
-                            <div>
-                                <img src="../assets/images/modulo1/aula2/imagem3.png" alt="Nexo"
-                                    class="img-fluid mb-0 me-sm-3" />
-                                <p class="ms-2"><small class="text-muted">Fonte: Nexo</small></p>
+                        <div class="container-content-base">
+                            <p>O que é, de onde veio e para onde vai o SUS</p>
+
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <div>
+                                    <img src="../assets/images/modulo1/aula2/imagem3.png" alt="Nexo"
+                                        class="img-fluid mb-0 me-sm-3" />
+                                    <p class="ms-2"><small class="text-muted">Fonte: Nexo</small></p>
+                                </div>
+                                <p>
+                                    Em matéria especial, o jornal NEXO contou a história do SUS e construiu sua linha do
+                                    tempo,
+                                    até o início da pandemia de Covid-19. O conteúdo está em acesso aberto, no <a
+                                        href="https://www.nexojornal.com.br/especial/2020/04/28/O-passado-o-presente-e-o-futuro-do-SUS-para-ler-guardar-e-consultar"
+                                        target="_blank" class="links">site do jornal</a>.
+                                </p>
                             </div>
-                            <p>
-                                Em matéria especial, o jornal NEXO contou a história do SUS e construiu sua linha do
-                                tempo,
-                                até o início da pandemia de Covid-19. O conteúdo está em acesso aberto, no <a
-                                    href="https://www.nexojornal.com.br/especial/2020/04/28/O-passado-o-presente-e-o-futuro-do-SUS-para-ler-guardar-e-consultar"
-                                    target="_blank" class="links">site do jornal</a>.
-                            </p>
                         </div>
                     </div>
 
@@ -689,19 +691,20 @@
                     </div>
 
                     <div class="container-parairmaislonge my-5 p-2 p-sm-5">
-                        <div class="d-flex align-items-start">
+                        <div class="d-flex align-items-center gap-4 mb-4">
                             <img src="../assets/images/icones/icon_atividade.svg" alt="ATIVIDADE AUTODIRIGIDA"
-                                class="mb-0 me-4">
-
-                            <div>
-                                <h6 class="titulo-parairmaislonge text-uppercase mb-4">ATIVIDADE AUTODIRIGIDA:</h6>
-                                <p>Que outros princípios e diretrizes regem o SUS?</p>
-                                <p>Pesquise na Lei Orgânica da Saúde (Lei 8.080/1990) e na Lei n. 8.142/1990 outros
-                                    dispositivos legais não mencionados até aqui e que tenham implicações para
-                                    organização
-                                    do SUS e para atuação do Estado na saúde. Anote os resultados de sua pesquisa.</p>
-                            </div>
+                                class="mb-0" width="50px">
+                            <h6 class="titulo-parairmaislonge text-uppercase mb-0">ATIVIDADE AUTODIRIGIDA:</h6>
                         </div>
+
+                        <div class="container-content-base">
+                            <p>Que outros princípios e diretrizes regem o SUS?</p>
+                            <p>Pesquise na Lei Orgânica da Saúde (Lei 8.080/1990) e na Lei n. 8.142/1990 outros
+                                dispositivos legais não mencionados até aqui e que tenham implicações para
+                                organização
+                                do SUS e para atuação do Estado na saúde. Anote os resultados de sua pesquisa.</p>
+                        </div>
+
                     </div>
 
                     <p>Em celebração aos trinta anos da promulgação da Lei Orgânica da Saúde (<a
@@ -719,7 +722,8 @@
                         </figure>
                     </div>
 
-                    <h1>Configuração institucional do SUS: instâncias decisórias e estrutura de gestão</h1>
+                    <h2 class="mt-5 mb-3">Configuração institucional do SUS: instâncias decisórias e estrutura de gestão
+                    </h2 class="mt-5 mb-3">
 
                     <p>O modelo institucional proposto para o SUS é ousado no que concerne à tentativa de concretizar um
                         arranjo federativo na área da saúde e fortalecer a participação e o controle social sobre as
@@ -757,7 +761,7 @@
                         </ul>
                     </div>
 
-                    <h3>• Arcabouço institucional e decisório do SUS</h3>
+                    <h3 class="mt-5 mb-3">• Arcabouço institucional e decisório do SUS</h3>
 
                     <div class="centro my-3">
                         <figure class="figure">
@@ -787,16 +791,13 @@
                         sua implementação.</p>
 
                     <div class="container-parairmaislonge my-5 p-2 p-md-5">
-                        <div class="d-flex align-items-start">
+                        <div class="d-flex align-items-center gap-4 mb-4">
                             <img src="../assets/images/icones/texto_maislonge.svg" alt="Para ir mais longe" class="mb-0"
                                 width="50px">
-
-                            <div>
-                                <h6 class="titulo-parairmaislonge text-uppercase mb-4">PARA IR MAIS LONGE:</h6>
-                            </div>
+                            <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
                         </div>
 
-                        <div class="d-flex flex-column flex-md-row align-items-center mt-5 ms-5">
+                        <div class="d-flex flex-column flex-md-row align-items-center mt-5 container-content-base">
                             <div>
                                 <img src="../assets/images/modulo1/aula2/imagem6.png" alt="Portal Scielo"
                                     class="mb-0 me-3" />
@@ -816,7 +817,7 @@
                         </div>
                     </div>
 
-                    <h1>Avanços, dificuldades e desafios do SUS</h1>
+                    <h2 class="mt-5 mb-3">Avanços, dificuldades e desafios do SUS</h2>
 
                     <p>Implementar o SUS em sua concepção original significa romper com o modelo sobre o qual o sistema
                         de
@@ -921,20 +922,18 @@
                     </div>
 
                     <div class="container-parairmaislonge my-5 p-2 p-md-5">
-                        <div class="d-flex align-items-center mb-4">
+                        <div class="d-flex align-items-center gap-4 mb-4">
                             <img src="../assets/images/icones/texto_maislonge.svg" alt="Para ir mais longe" class="mb-0"
                                 width="50px">
-                            <div>
-                                <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
-                            </div>
+                            <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
                         </div>
 
-                        <div class="d-flex flex-column flex-md-row align-items-center">
+                        <div class="d-flex flex-column flex-md-row align-items-center container-content-base">
                             <img src="../assets/images/modulo1/aula2/imagem8.png"
                                 alt="A saúde-doença como processo social." class="mb-0 me-3">
-                            Leia mais sobre o assunto no e-book <a
-                                href="http://www.livrosinterativoseditora.fiocruz.br/desigualdades/" target="_blank"
-                                class="links ms-1">Como e por que as desigualdades fazem mal à saúde</a>.
+                            <p>Leia mais sobre o assunto no e-book <a
+                                    href="http://www.livrosinterativoseditora.fiocruz.br/desigualdades/" target="_blank"
+                                    class="links ms-1">Como e por que as desigualdades fazem mal à saúde</a>.</p>
                         </div>
                     </div>
 
@@ -1692,6 +1691,11 @@
                                 Figueira (IFF/Fiocruz)”. Veja o vídeo:</p>
                             <div class="d-flex justify-content-center mt-4">
                                 <div class="w-75">
+                                    <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                        <vm-youtube video-id="YIQvltcB51U"></vm-youtube>
+                                        <vm-default-ui></vm-default-ui>
+                                    </vm-player>
+
                                     <div class="ratio ratio-16x9">
                                         <iframe width="623" height="354"
                                             src="https://www.youtube.com/embed/YIQvltcB51U&t=3949s" frameborder="0"
@@ -1711,7 +1715,7 @@
                         </div>
                     </div>
 
-                    <h1>Você chegou ao final da aula</h1>
+                    <h2 class="mt-5 mb-3">Você chegou ao final da aula</h2>
 
                     <p class="px-2 px-md-0">Nesta aula você viu os seguintes tópicos:</p>
 
@@ -1725,15 +1729,15 @@
                     </ul>
 
                     <div class="d-flex flex-column my-5">
-
-                        <div class="d-flex align-items-center gap-5">
-                            <img src="../assets/images/icones/icon_video.svg" alt="Vídeos complementares">
-                            <h5 class="text-uppercase mb-4">Vídeos complementares:</h5>
+                        <div class="d-flex align-items-center gap-4 mb-4">
+                            <img src="../assets/images/icones/icon_video.svg" alt="Vídeos complementares" class="mb-0"
+                                width="50px">
+                            <h5 class="text-uppercase mb-0">Vídeos complementares:</h5>
                         </div>
 
                         <div class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5">
-                            <div class="w-50">
-                                <vm-player controls>
+                            <div class="w-100">
+                                <vm-player theme="dark" controls>
                                     <vm-youtube video-id="Cb-cslNmGnE"></vm-youtube>
                                 </vm-player>
 
@@ -1747,9 +1751,9 @@
                         </div>
 
                         <div class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5">
-                            <div class="w-50">
+                            <div class="w-100">
                                 <vm-player controls>
-                                    <vm-youtube video-id="YIQvltcB51U" poster="https://media.vimejs.com/poster.png">
+                                    <vm-youtube video-id="YIQvltcB51U">
                                     </vm-youtube>
                                 </vm-player>
 
@@ -1765,14 +1769,14 @@
 
                     </div>
 
-                    <div class="container-texto-base my-5 pe-2 pe-md-0">
-                        <div><img src="../assets/images/icones/icon_browser.svg"
-                                alt="ENDEREÇOS ELETRÔNICOS RECOMENDADOS">
+                    <div class="d-flex flex-column my-5 pe-2 pe-md-0">
+                        <div class="d-flex align-items-center gap-4 mb-4">
+                            <img src="../assets/images/icones/icon_browser.svg" alt="ENDEREÇOS ELETRÔNICOS RECOMENDADOS"
+                                class="mb-0" width="50px">
+                            <h5 class="text-uppercase mb-0">ENDEREÇOS ELETRÔNICOS RECOMENDADOS:</h5>
                         </div>
 
-                        <div class="pt-2 px-2 px-sm-5">
-                            <h5 class="text-uppercase mb-4">ENDEREÇOS ELETRÔNICOS RECOMENDADOS:</h5>
-
+                        <div class="container-content-base">
                             <p class="mb-2"><a href="http://www.saude.gov.br/" target="_blank" class="links">Ministério
                                     da
                                     Saúde</a></p>
@@ -1806,12 +1810,14 @@
                         </div>
                     </div>
 
-                    <div class="container-texto-base my-5 pe-2 pe-md-0">
-                        <div><img src="../assets/images/icones/icon_referencia.svg" alt="REFERÊNCIAS"></div>
+                    <div class="d-flex flex-column my-5 pe-2 pe-md-0">
+                        <div class="d-flex align-items-center gap-4 mb-4">
+                            <img src="../assets/images/icones/icon_referencia.svg" alt="REFERÊNCIAS" class="mb-0"
+                                width="50px">
+                            <h5 class="text-uppercase mb-0">REFERÊNCIAS:</h5>
+                        </div>
 
-                        <div class="pt-2 px-2 px-sm-5">
-                            <h5 class="text-uppercase mb-4">REFERÊNCIAS:</h5>
-
+                        <div class="container-content-base">
                             <p>BAPTISTA, Tatiana Wargas de Faria. Seguridade social no Brasil. Revista do Serviço
                                 Público,
                                 Brasília, v. 49, n. 3, p. 99-118, 2014.</p>
@@ -1863,8 +1869,7 @@
 
                     <div class="row flex-column-reverse flex-sm-row botao">
                         <a href="introAula2.html" class="btn botaoPadrao">VOLTAR</a>
-
-                        <a href="aula3.html" class="btn botaoPadrao">MÓDULO 2 AULA 1</a>
+                        <a href="../modulo2/introAula1.html" class="btn botaoPadrao">MÓDULO 2 AULA 1</a>
                     </div>
                 </div>
                 <!-- Fim do Bloco 1 -->

@@ -189,44 +189,8 @@ footer {
 }
 
 .barraMenuHorizontal {
-    position: fixed;
-    top: 100px;
-}
-
-@media (min-width: 370px) {
-    .barraMenuHorizontal {
-        top: 112px;
-    }
-}
-
-@media (min-width: 540px) {
-    .barraMenuHorizontal {
-        top: 116px;
-    }
-}
-
-@media (min-width: 768px) {
-    .barraMenuHorizontal {
-        top: 128px;
-    }
-}
-
-@media (min-width: 992px) {
-    .barraMenuHorizontal {
-        top: 132px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .barraMenuHorizontal {
-        top: 136px;
-    }
-}
-
-@media (min-width: 1400px) {
-    .barraMenuHorizontal {
-        top: 140px;
-    }
+    z-index: 2000;
+    top: 0;
 }
 
 /* Ajustar o height de acordo com o numero de itens */
