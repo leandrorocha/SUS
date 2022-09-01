@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css">
     <link href="http://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/default.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/light.css" />
 </head>
 
 <body>
@@ -206,9 +208,9 @@
                     excludente e antidemocrático.</p>
 
                 <div class="container-glossario my-5 p-4">
-                    <div class="d-flex align-items-center gap-4">
-                        <img src="../assets/images/icones/texto_glossario.svg" alt="Glossário" width="50px">
-                        <h6 class="titulo-glossario text-uppercase">GLOSSÁRIO:</h6>
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/texto_glossario.svg" alt="Glossário" class="mb-0" width="50px">
+                        <h6 class="titulo-glossario text-uppercase mb-0">GLOSSÁRIO:</h6>
                     </div>
 
                     <div class="container-content-base">
@@ -1160,8 +1162,9 @@
 
                         <div class="d-flex">
                             <div class="w-75">
-                                <vm-player controls>
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
                                     <vm-youtube video-id="-_HmqWCTEeQ"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
                                 </vm-player>
 
                                 <p><small class="text-muted">Fonte: <a class="links"
@@ -1616,62 +1619,63 @@
                     <div class="container-content-base">
                         <div
                             class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="flex-grow-1">
-                                <div class="ratio ratio-16x9">
-                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/7ouSg6oNMe8"
-                                        frameborder="0" allow="encrypted-media" allowfullscreen preload="none"></iframe>
-                                </div>
+                            <div class="w-100">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="7ouSg6oNMe8"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
 
                                 <small class="text-muted">Fonte: <a class="links"
                                         href="https://www.youtube.com/watch?v=7ouSg6oNMe8" target="_blank">Canal do
                                         Youtube - Fiocruz</a></small>
                             </div>
-                            <div class="my-4 mt-md-0 px-md-5">
+                            <div class="w-50 my-4 mt-md-0 px-md-5">
                                 A história da saúde pública no Brasil – 500 anos na busca de soluções
                             </div>
                         </div>
 
                         <div
                             class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="flex-grow-1">
-                                <div class="ratio ratio-16x9">
-                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/J_7FCwQls_Y"
-                                        frameborder="0" allow="encrypted-media" allowfullscreen preload="none"></iframe>
-                                </div>
+                            <div class="w-100">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="J_7FCwQls_Y"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
 
                                 <small class="text-muted">Fonte: <a class="links"
                                         href="https://www.youtube.com/watch?v=J_7FCwQls_Y" target="_blank">Canal do
                                         Youtube - Conselho Nacional de Saúde - CNS</a></small>
                             </div>
-                            <div class="my-4 mt-md-0 px-md-5">
+
+                            <div class="w-50 my-4 mt-md-0 px-md-5">
                                 I Conferência Nacional de Saúde e Direitos da Mulher (documentário – 31:13)
                             </div>
                         </div>
 
                         <div
                             class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="flex-grow-1">
-                                <div class="ratio ratio-16x9">
-                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/zZAHdF0fNps"
-                                        frameborder="0" allow="encrypted-media" allowfullscreen preload="none"></iframe>
-                                </div>
+                            <div class="w-100">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="zZAHdF0fNps"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
 
                                 <small class="text-muted">Fonte: <a class="links"
                                         href="https://www.youtube.com/watch?v=zZAHdF0fNps" target="_blank">Canal do
                                         YouTube – Ensp Fiocruz</a></small>
                             </div>
-                            <div class="flex-grow-3 my-4 mt-md-0 px-md-5">
+                            <div class="w-50 flex-grow-3 my-4 mt-md-0 px-md-5">
                                 Oitava: a conferência que auscultou o Brasil (documentário – 23-13)
                             </div>
                         </div>
 
                         <div
                             class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="flex-grow-1">
-                                <div class="ratio ratio-16x9">
-                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/JSXgY90OOIY"
-                                        frameborder="0" allow="encrypted-media" allowfullscreen preload="none"></iframe>
-                                </div>
+                            <div class="w-100">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="JSXgY90OOIY"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
 
                                 <small class="text-muted">Fonte: <a class="links"
                                         href="https://www.youtube.com/watch?v=JSXgY90OOIY" target="_blank">Canal do
@@ -1684,53 +1688,53 @@
                                 </p>
                             </div>
 
-                            <div class="my-4 mt-md-0 px-md-5">
+                            <div class="w-50 my-4 mt-md-0 px-md-5">
                                 Entrega da Carta das Mulheres à Assembleia Constituinte na sessão de 26 de março de 1987
                             </div>
                         </div>
 
                         <div
                             class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="flex-grow-1">
-                                <div class="ratio ratio-16x9">
-                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/kWMHiwdbM_Q"
-                                        frameborder="0" allow="encrypted-media" allowfullscreen preload="none"></iframe>
-                                </div>
+                            <div class="w-100">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="kWMHiwdbM_Q"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
 
                                 <small class="text-muted">Fonte: <a class="links"
                                         href="https://www.youtube.com/watch?v=kWMHiwdbM_Q" target="_blank">Canal do
                                         YouTube - Índio Cidadão? - O
                                         Filme</a></small>
                             </div>
-                            <div class="my-4 mt-md-0 px-md-5">
+                            <div class="w-50 my-4 mt-md-0 px-md-5">
                                 Discurso de Ailton Krenak, na Assembleia Nacional Constituinte (1987)
                             </div>
                         </div>
 
                         <div
                             class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="flex-grow-1">
-                                <div class="ratio ratio-16x9">
-                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/Mi-V4Dw-j9U"
-                                        frameborder="0" allow="encrypted-media" allowfullscreen preload="none"></iframe>
-                                </div>
+                            <div class="w-100">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="Mi-V4Dw-j9U"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
 
                                 <small class="text-muted">Fonte: <a class="links"
                                         href="https://www.youtube.com/watch?v=Mi-V4Dw-j9U" target="_blank">Canal do
                                         YouTube - majo rie</a></small>
                             </div>
-                            <div class="my-4 mt-md-0 px-md-5">
+                            <div class="w-50 my-4 mt-md-0 px-md-5">
                                 O Dilema Preventivista – com Anamaria Tambellini e Elisabeth Moreira
                             </div>
                         </div>
 
                         <div
                             class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="flex-grow-1">
-                                <div class="ratio ratio-16x9">
-                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/0w4vnghg1Fo"
-                                        frameborder="0" allow="encrypted-media" allowfullscreen preload="none"></iframe>
-                                </div>
+                            <div class="w-100">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="0w4vnghg1Fo"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
 
                                 <small class="text-muted">Fonte: <a class="links"
                                         href="https://www.youtube.com/watch?v=0w4vnghg1Fo" target="_blank">Canal do
@@ -1740,24 +1744,24 @@
                                             href="https://www.youtube.com/watch?v=NlmS-mCSmeo" target="_blank"
                                             class="links">aqui</a>.</small></p>
                             </div>
-                            <div class="my-4 mt-md-0 px-md-5">
+                            <div class="w-50 my-4 mt-md-0 px-md-5">
                                 Oitava Conferência Parte 1
                             </div>
                         </div>
 
                         <div
                             class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="flex-grow-1">
-                                <div class="ratio ratio-16x9">
-                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/8oeg59ZUfwU"
-                                        frameborder="0" allow="encrypted-media" allowfullscreen preload="none"></iframe>
-                                </div>
+                            <div class="w-100">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="8oeg59ZUfwU"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
 
                                 <small class="text-muted">Fonte: <a class="links"
                                         href="https://www.youtube.com/watch?v=8oeg59ZUfwU" target="_blank">Canal do
                                         Youtube - Cebes</a></small>
                             </div>
-                            <div class="my-4 mt-md-0 px-md-5">
+                            <div class="w-50 my-4 mt-md-0 px-md-5">
                                 O Cordel do SUS
                             </div>
                         </div>

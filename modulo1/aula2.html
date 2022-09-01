@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css">
     <link href="http://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/default.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/light.css" />
 </head>
 
 <body>
@@ -906,11 +908,10 @@
                                 incompatíveis com uma sociedade democrática. Entenda essas desigualdades:</p>
                             <div class="d-flex justify-content-center mt-4">
                                 <div class="w-75">
-                                    <div class="ratio ratio-16x9">
-                                        <iframe width="623" height="354" src="https://www.youtube.com/embed/Q6tN4s754XU"
-                                            frameborder="0" allow="encrypted-media" allowfullscreen
-                                            preload="none"></iframe>
-                                    </div>
+                                    <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                        <vm-youtube video-id="Q6tN4s754XU"></vm-youtube>
+                                        <vm-default-ui></vm-default-ui>
+                                    </vm-player>
 
                                     <p><small class="text-white">Fonte: <a class="links-white"
                                                 href="https://www.youtube.com/watch?v=Q6tN4s754XU" target="_blank">Canal
@@ -1696,12 +1697,6 @@
                                         <vm-default-ui></vm-default-ui>
                                     </vm-player>
 
-                                    <div class="ratio ratio-16x9">
-                                        <iframe width="623" height="354"
-                                            src="https://www.youtube.com/embed/YIQvltcB51U&t=3949s" frameborder="0"
-                                            allow="encrypted-media" allowfullscreen preload="none"></iframe>
-                                    </div>
-
                                     <p class="mt-2 mb-0"><small class="text-white">Aula ministrada na Semana de
                                             Integração
                                             Residências
@@ -1737,8 +1732,9 @@
 
                         <div class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5">
                             <div class="w-100">
-                                <vm-player theme="dark" controls>
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
                                     <vm-youtube video-id="Cb-cslNmGnE"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
                                 </vm-player>
 
                                 <small class="text-muted">Fonte: <a class="links"
@@ -1752,9 +1748,9 @@
 
                         <div class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5">
                             <div class="w-100">
-                                <vm-player controls>
-                                    <vm-youtube video-id="YIQvltcB51U">
-                                    </vm-youtube>
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="YIQvltcB51U"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
                                 </vm-player>
 
                                 <small class="text-muted">Fonte: <a class="links"
