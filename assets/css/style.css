@@ -188,6 +188,47 @@ footer {
     height: 150%;
 }
 
+.barraMenuHorizontal {
+    position: fixed;
+    top: 100px;
+}
+
+@media (min-width: 370px) {
+    .barraMenuHorizontal {
+        top: 112px;
+    }
+}
+
+@media (min-width: 540px) {
+    .barraMenuHorizontal {
+        top: 116px;
+    }
+}
+
+@media (min-width: 768px) {
+    .barraMenuHorizontal {
+        top: 128px;
+    }
+}
+
+@media (min-width: 992px) {
+    .barraMenuHorizontal {
+        top: 132px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .barraMenuHorizontal {
+        top: 136px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .barraMenuHorizontal {
+        top: 140px;
+    }
+}
+
 /* Ajustar o height de acordo com o numero de itens */
 #modulo1 .step:last-child .line {
     top: 25px;
@@ -425,9 +466,7 @@ hr {
 /* Formatação de Fontes*/
 h1 {
     font-family: "Circular Std Black", sans-serif;
-    font-size: 2.8rem;
-    margin-bottom: 30px;
-    margin-top: 50px;
+    font-size: 2.5rem;
     max-width: 58ch;
     color: #173e82;
 }
@@ -435,15 +474,11 @@ h2 {
     font-family: "Circular Std Black", sans-serif;
     font-size: 1.6rem;
     font-weight: bold;
-    margin-bottom: 30px;
-    margin-top: 50px;
     color: #173e82;
 }
 h3 {
     font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 30px;
-    margin-top: 50px;
     color: #173e82;
     text-transform: uppercase;
 }
@@ -1149,6 +1184,14 @@ footer img {
     display: flex;
 }
 
+.container-content-base {
+    margin-left: 74px;
+}
+
+.container-content-base-alt {
+    margin-left: 84px;
+}
+
 .container-autores {
     display: flex;
     flex-direction: column;
@@ -1303,7 +1346,7 @@ section.custom .card {
     text-align: center;
     color: #ffffff;
     width: 100%;
-    height: 300px;
+    height: 350px;
     transition: 0.6s;
     transform-style: preserve-3d;
     position: relative;
@@ -1360,13 +1403,11 @@ section.custom .goback {
 .texto-titulo {
     font-family: "Circular Std Black", sans-serif;
     font-size: 1.625rem;
-    color: #3D3D3D;
+    color: #3d3d3d;
 }
 .texto-modal-bold {
     font-family: "Circular Std Black", sans-serif;
     font-size: 1.375rem;
-    color: #3D3D3D;
+    color: #3d3d3d;
 }
 /* MODAL */
-
-
