@@ -34,10 +34,12 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li class="active"><a href="/">HOME</a></li>
-                    <li><a href="materialcomplementar.html" target="_self">Material Complementar</a></li>
-                    <li><a href="bibliografia.html" target="_self">Bibliografia</a></li>
-                    <li><a href="creditos.html" target="_self">Créditos</a></li>
+                    <li class="active"><a href="/" aria-label="visite o link home">HOME</a></li>
+                    <li><a href="materialcomplementar.html" aria-label="visite o link material complementar"
+                            target="_self">Material Complementar</a></li>
+                    <li><a href="bibliografia.html" aria-label="visite o link bibliografia"
+                            target="_self">Bibliografia</a></li>
+                    <li><a href="creditos.html" aria-label="visite o link créditos" target="_self">Créditos</a></li>
                 </ul>
             </div>
         </nav>
@@ -45,41 +47,50 @@
     <!-- Fim Menu Superior -->
 
     <!-- Capa do Curso -->
-    <main class="container-fluid">
+    <main>
+        <div class="container-fluid">
+            <!-- Imagem de Capa -->
+            <article>
+                <div class="row fundoCapa">
+                    <div class="capa">
+                        <img src="assets/images/home/sus.png" alt="Logamarca do SUS" class="logoSus">
+                        <h1>Introdução ao Sistema Único de Saúde</h1>
 
-        <!-- Imagem de Capa -->
-        <div class="row fundoCapa">
-            <div class="capa">
-                <img src="assets/images/home/sus.png" alt="Logamarca do SUS" class="logoSus">
-                <h1>Introdução ao Sistema Único de Saúde</h1>
-                <h2 class="sr-only"><a href="#botaoComecar" class="text-white">Começar curso</a></h2>
+                    </div>
+                </div>
+            </article>
+            <!-- Fim Imagem de Capa-->
+
+            <!-- Introdução -->
+            <div class="row" id="fundoTexto" tabindex="0">
+                <div id="textoCapa">
+                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim
+                        veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div class="containerBotao">
+                    <a href="modulo1/introAula1.html" class="btn btn-sm" id="botaoComecar" role="button" accesskey="c"
+                        aria-pressed="true">COMEÇAR</a>
+                </div>
+
             </div>
+            <!-- Fim Introdução -->
         </div>
-        <!-- Fim Imagem de Capa-->
-
-        <!-- Introdução -->
-        <div class="row" id="fundoTexto" role="main">
-            <div id="textoCapa">
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-
-            <div class="containerBotao">
-                <a href="modulo1/introAula1.html" class="btn btn-sm" id="botaoComecar" role="button" accesskey="c" aria-pressed="true">COMEÇAR</a>
-            </div>
-
-        </div>
-        <!-- Fim Introdução -->
     </main>
     <!-- Fim da Capa do Curso -->
 
