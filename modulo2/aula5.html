@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Introdução ao Sistema Único de Saúde - Módulo 2 - Aula 5</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Arquivos CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" />
+    <link href="https://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet" />
+
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/default.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/light.css" />
+
+</head>
+
+<body>
+    <!-- Inicio Menu Superior -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
+            <!-- Logos -->
+            <a class="logo" href="../index.html">
+                <img src="../assets/images/logoAula.png" class="img-fluid" alt="Logo" />
+            </a>
+
+            <!-- Botão Collapse -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../materialcomplementar.html" target="_blank">Material Complementar</a></li>
+                    <li><a href="../bibliografia.html" target="_blank">Bibliografia</a></li>
+                    <li><a href="../creditos.html" target="_blank">Créditos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fim do Menu Superior -->
+
+    <!-- Início da Row-main-->
+    <div class="row" id="row-main">
+
+        <div class="sidemenu col-lg-2" id="sidebar"></div>
+
+        <!-- Início Coluna de Conteúdo -->
+        <div class="col-lg-10" id="content">
+
+            <!-- Bloco 1 -->
+            <div class="pt-5 px-2 px-sm-5 justify-content-center position-relative">
+                <div class="barraMenuHorizontal d-flex position-absolute">
+                    <div class="d-flex position-fixed">
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 1
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="../modulo1/introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="../modulo1/introAula2.html">Aula 2</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 2 / Aula 5
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="mod2">
+                                <li><a class="dropdown-item" href="introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="introAula2.html">Aula 2</a></li>
+                                <li><a class="dropdown-item" href="introAula3.html">Aula 3</a></li>
+                                <li><a class="dropdown-item" href="introAula4.html">Aula 4</a></li>
+                                <li><a class="dropdown-item" href="introAula5.html">Aula 5</a></li>
+                                <li><a class="dropdown-item" href="introAula6.html">Aula 6</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 3
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="../modulo3/introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="../modulo3/introAula2.html">Aula 2</a></li>
+                                <li><a class="dropdown-item" href="../modulo3/introAula3.html">Aula 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="mt-5">Determinantes do trabalho no SUS</h1>
+
+                <p>Para o debate sobre o trabalho em saúde devemos nos aproximar dos principais determinantes políticos
+                    e socioeconômicos que afetam a dinâmica do emprego dos trabalhadores em saúde.</p>
+                <p>Nos últimos 30 anos, as relações de trabalho na saúde no Brasil e em boa parte dos países
+                    desenvolvidos foram marcadas por fenômenos fruto de um contexto nacional e internacional envolvendo
+                    três questões fundamentais:</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3">Reestruturação da produção</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Revisão do papel do Estado</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Alterações importantes nos processos de trabalho</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <h2 class="mt-5 mb-3">Reestruturação produtiva</h2>
+
+                <p>A maioria das economias capitalistas experimentou no pós-guerra um crescimento econômico sem
+                    precedentes, aliado à expansão de programas de bem-estar social. O crescimento da produção esteve
+                    acompanhado de elevação salarial, redução das taxas de desemprego, ampliação dos padrões de consumo
+                    de massas e ampliação do sistema de proteção ao bem-estar. Isso ocorreu especialmente nas décadas de
+                    1950 e 1960, seguindo o modelo Keynesiano de controle e regulação sobre a economia e a sociedade e
+                    com políticas de bem-estar social.</p>
+                <p>Em meados dos anos 1970, a crise dos países industrializados que implicou num desequilíbrio econômico
+                    em escala mundial, marcada pela crise do petróleo e alterações de preços das matérias primas, acabou
+                    por aumentar o processo inflacionário e recessão, colocando sob questionamento o regime de
+                    acumulação fordista e, por conseguinte, o próprio modelo de relação de trabalho.</p>
+                <p>Com a emergência da reestruturação mundial do capitalismo, além das mudanças do antigo paradigma
+                    industrial e tecnológico, ocorrem dois movimentos graves de rompimento: dos compromissos sociais e
+                    das relações trabalhistas com direitos anteriormente conquistados.</p>
+                <p>No período atual, o movimento de reorganização produtiva flexível, embora imponha consequências
+                    econômicas e sociais que se diferenciam entre os países, têm elevado o grau de terceirização das
+                    diferentes economias, dificultando de forma crescente as perspectivas de reposição do nível de
+                    emprego com uma progressiva heterogeneidade das situações de trabalho. Esta heterogeneidade
+                    materializa-se na perda de importância das políticas de pleno emprego, acompanhada pelo aumento
+                    exponencial da precarização dos empregos em todos os setores.</p>
+
+                <div class="container-box py-2 my-5" aria-label="Informação complementar">
+                    <h4 class="titulo-box px-5 py-2">O que é precarização do trabalho</h4>
+
+                    <div class="mt-4 px-5">
+                        <p>De acordo com o Dicionário da Educação Profissional em Saúde, o termo precarização do
+                            trabalho tem sido usado para apontar as perdas nos direitos trabalhistas ocorridas no
+                            contexto das transformações do mundo do trabalho.</p>
+                        <p>Graça Druck aponta alguns tipos de precarização do trabalho:</p>
+
+                        <ul class="ms-2 ms-md-5 ps-2 ps-md-3 mb-0 text-white">
+                            <li class="icon circle">
+                                <p class="mb-3">Vulnerabilidade das formas de inserção e desigualdades sociais</p>
+                            </li>
+                            <li class="icon circle">
+                                <p class="mb-3">Intensificação do trabalho e terceirização</p>
+                            </li>
+                            <li class="icon circle">
+                                <p class="mb-3">Insegurança e saúde no trabalho</p>
+                            </li>
+                            <li class="icon circle">
+                                <p class="mb-3">Perda das identidades individual e coletiva</p>
+                            </li>
+                            <li class="icon circle">
+                                <p class="mb-3">Fragilização da organização dos trabalhadores</p>
+                            </li>
+                            <li class="icon circle">
+                                <p class="mb-3">Condenação e o descarte do direito do trabalho</p>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex align-items-start gap-4 my-5">
+                            <img src="../assets/images/icones/icon_saibamais_branco.svg" alt="" class="mb-0"
+                                width="50px">
+                            <div class="d-flex flex-column">
+                                <h6 class="text-white text-uppercase mb-3">Para saber mais sobre o tema:</h6>
+                                <p>Acesse o <a
+                                        href="http://www.sites.epsjv.fiocruz.br/dicionario/verbetes/pretrasau.html"
+                                        class="links-white" target="_blank">Dicionário da Educação Profissional em
+                                        Saúde</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="mt-5 mb-3 text-uppercase">• Revisão do papel do Estado</h2>
+
+                <p>Esse é um determinante que afeta a dinâmica dos empregos no setor saúde e também a relação com a
+                    sociedade. Isso ocorre por meio de propostas de Reformas no qual o Estado transita de um modelo
+                    provedor para o de regulador.</p>
+                <p>A partir da década de 1970, o rompimento do padrão de estruturação do mercado de trabalho das
+                    economias desenvolvidas trouxe uma série de questionamentos sobre os Estados de Bem-Estar Social
+                    (Welfare States). Em diversos países, houve desregulamentação das regras trabalhistas,
+                    intensificação da terceirização, adoção de novas formas de contratação e de práticas gerenciais
+                    flexíveis que redefiniram as relações de trabalho e impuseram um novo padrão.</p>
+                <p>No Brasil, esse movimento pela terceirização se intensificou a partir da década de 1990. A reforma do
+                    Estado, conduzida pelo governo federal, contribuiu para ampliar a terceirização no setor público nas
+                    diferentes áreas e setores da esfera pública. Várias modalidades de terceirização foram adotadas na
+                    saúde, onde os vínculos de trabalho passam a ser cada vez mais vulneráveis.</p>
+
+                <div class="my-5 ms-2 ms-md-5">
+                    <div class="d-flex gap-4 align-items-center">
+                        <img src="../assets/images/modulo2/aula5/icon_empresas.svg" alt="" width="77px">
+                        <p class="texto-bold-medio">Empresas prestadoras de serviço, Organizações Sociais (OS),
+                            Organizações Não Governamentais
+                            (ONGs), cooperativas, Organizações da Sociedade Civil de Interesse Público (OSCIPs)</p>
+                    </div>
+                    <div class="d-flex gap-4 align-items-center">
+                        <img src="../assets/images/modulo2/aula5/icon_pjs.svg" alt="" width="77px">
+                        <p class="texto-bold-medio">Contratação de Pessoa Jurídica (PJs)</p>
+                    </div>
+                    <div class="d-flex gap-4 align-items-center">
+                        <img src="../assets/images/modulo2/aula5/icon_mobile.svg" alt="" width="77px">
+                        <p class="texto-bold-medio">Empresas de plataforma e aplicativos de telemedicina</p>
+                    </div>
+                </div>
+
+                <h2 class="mt-5 mb-3 text-uppercase">• Mudanças estruturais nos processos de trabalho</h2>
+
+                <p>As mudanças estruturais são aquelas que ocorrem no cotidiano dos trabalhadores. Elas são, ao mesmo
+                    tempo, fator de intervenção e resultado dos fenômenos que ocorrem no processo de trabalho diário. O
+                    inter-relacionamento desses eventos também afeta a vida dos trabalhadores, ou seja, eles passam a
+                    conviver em um mundo onde há perda dos direitos trabalhistas e das conquistas que os protegiam,
+                    social e psiquicamente. O ambiente se torna ainda mais competitivo e individualista, gerando grandes
+                    desafios na construção de espaços coletivos e organizativos de reconquista de seus direitos.</p>
+
+                <h2 class="mt-5 mb-3">Cenário internacional e nacional da Gestão do Trabalho</h2>
+
+                <p>O cenário internacional aponta para uma série de desafios no que se refere às questões da gestão do
+                    trabalho. Várias questões se acumulando ao longo dos anos, com destaque para a baixa remuneração e
+                    motivação das equipes, a iniquidade distributiva da força de trabalho. Somam-se a isso os desafios
+                    emergentes como a migração entre países, baixa capacidade de preparação e fixação de trabalhadores e
+                    o impacto das epidemias na força de trabalho da saúde, resultando em sobrecarga de trabalho. A
+                    situação é, ainda, agravada quando os programas de ajuda internacional, além de apontarem para a
+                    necessidade do estabelecimento de políticas macroeconômicas sólidas, referem-se ao quadro de
+                    recursos humanos em saúde apresentado como risco ou pressuposto condicionantes para a ajuda
+                    financeira e não como propósito e objetivos em nível de resultado.</p>
+                <p>Assim, na agenda internacional, atores diversificados unem esforços para a superação dos desafios
+                    relativos às questões de recursos humanos na área da Saúde. São quatro os grandes objetivos para
+                    superar esse desafio:</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3">Aumentar a cobertura e a fixação das equipes de profissionais para assegurar
+                                a prestação de serviços de saúde de forma adequada e equitativa.</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Garantir competências e habilidades-chave para a força de trabalho em saúde.
+                            </p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Aumentar o desempenho da equipe de profissionais frente aos objetivos
+                                definidos.</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Fortalecer a capacidade de planejamento e gerenciamento de recursos humanos
+                                no setor Saúde.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <p>Clique nos cards para conhecer algumas estratégias para a área de Recursos Humanos, apontadas pela
+                    Organização Mundial da Saúde (OMS):</p>
+
+                <section class="custom my-5">
+                    <div class="row d-flex justify-content-center gap-4">
+                        <div class="flipper col-md">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Curto Prazo</p>
+                                </div>
+                                <div class="back">
+                                    <ul>
+                                        <li class="icon circle text-start">
+                                            <p class="mb-0">Fortalecimento de práticas gerenciais;</p>
+                                        </li>
+                                        <li class="icon circle text-start">
+                                            <p class="mb-0">advocacy;</p>
+                                        </li>
+                                        <li class="icon circle text-start">
+                                            <p class="mb-0">desenvolvimento de políticas para incentivos e fixação de
+                                                recursos humanos;</p>
+                                        </li>
+                                        <li class="icon circle text-start">
+                                            <p class="mb-0">apoio ao treinamento em serviço;</p>
+                                        </li>
+                                        <li class="icon circle text-start">
+                                            <p class="mb-0">disseminação das novas práticas.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flipper col-md">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Médio Prazo</p>
+                                </div>
+                                <div class="back">
+                                    <ul>
+                                        <li class="icon circle text-start">
+                                            <p class="mb-0">
+                                                estudos da implementação e do impacto das políticas (custos da migração,
+                                                da formação e do treinamento, da motivação e dos incentivos, das
+                                                condições de trabalho);</p>
+                                        </li>
+                                        <li class="icon circle text-start">
+                                            <p class="mb-0">
+                                                desenvolvimento de sistemas de informação de recursos humanos.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flipper col-md">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Longo Prazo</p>
+                                </div>
+                                <div class="back">
+                                    <ul>
+                                        <li class="icon circle text-start">
+                                            <p class="mb-0">
+                                                fortalecimento da capacidade dos formuladores de política regional e
+                                                nacional;</p>
+                                        </li>
+                                        <li class="icon circle text-start">
+                                            <p class="mb-0">
+                                                construção de infraestrutura.</p>
+                                        </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <p>Em plena era tecnológica, que se caracteriza pela redução do uso de mão-de-obra intensiva, o setor
+                    saúde é de grande relevância social não só pelos serviços prestados à população como pela sua enorme
+                    capacidade geradora de empregos. Desta forma, o setor é importante tanto para a economia como para o
+                    bem-estar social, expressando uma articulação potencialmente virtuosa dessas duas dimensões na
+                    sociedade.</p>
+                <p>Segundo estimativas do Instituto Brasileiro de Geografia e Estatística, realizadas em 2017, a
+                    população brasileira em 2020 era de 211,7 milhões de habitantes. Para atender a essa população, o
+                    país possui um complexo e sólido Sistema Único de Saúde (SUS). De acordo com o Cadastro Nacional dos
+                    Estabelecimentos de Saúde, são 329.854 estabelecimentos de saúde, ambulatoriais e/ou hospitalares,
+                    447.510 leitos. O SUS emprega mais de 3,5 milhões de profissionais da saúde (médicos, enfermeiros,
+                    farmacêuticos, fisioterapeutas, odontólogos e demais profissionais bem como técnicos e auxiliares de
+                    saúde (enfermagem, de laboratório, de radiologia etc.), compondo uma Força de Trabalho (FT) bastante
+                    diversificada e qualificada. Essas informações estão no artigo <a
+                        href="https://radis.ensp.fiocruz.br/index.php/home/reportagem/com-a-palavra-os-profissionais"
+                        class="links" target="_blank">Com a palavra, os profissionais</a>, de 2020, dos autores Machado,
+                    Carvalho e Campos.</p>
+
+                <h2 class="mt-5 mb-3">Para melhor compreender a estrutura ocupacional em Saúde no Brasil</h2>
+
+                <h3 class="mt-5 mb-3 text-uppercase">• Formação de Profissionais de Saúde</h3>
+
+                <p>O trabalho em saúde é carregado de subjetividade, sendo, em sua essência, relacional, agregando
+                    tecnologias durante o processo saúde-doença-cuidado. Isso exige dos trabalhadores uma formação de
+                    qualidade, educação permanente e competências específicas para atender as demandas do mercado de
+                    trabalho sanitário.</p>
+                <p>O ordenamento para a formação de recursos humanos é uma das atribuições do SUS. Ele busca dar conta
+                    de problemas relacionados à educação na saúde e à formação de profissionais para a Atenção Primária
+                    à Saúde (APS), com um olhar sensível às necessidades de saúde das famílias e comunidades. Alguns dos
+                    problemas relacionados à formação em saúde ainda não foram superados. Ainda persiste uma formação
+                    inadequada dos profissionais que atuam ou irão atuar no sistema, além da defasagem entre ensino,
+                    realidade e aspectos pedagógicos, acrescendo-se a expansão do ensino privado.</p>
+                <p>Após mais de 30 anos de SUS, ainda perduram dificuldades para o desenvolvimento de práticas
+                    integrais, de prevenção de riscos, agravos e doenças e de promoção da saúde, seja no cuidado, na
+                    assistência e na atenção à saúde, às famílias e comunidades nos diferentes espaços do território
+                    brasileiro. A atuação nos níveis de atenção à saúde do SUS exige, em especial na APS, uma
+                    diversidade de saberes e práticas em áreas relacionadas à gestão sanitária, do cuidado de famílias e
+                    comunidades, ao manejo das determinações e consequências sociais, ao território sanitário de
+                    atuação, que impõe, diariamente, novas situações a serem enfrentadas. Por isso, uma educação em
+                    saúde de qualidade é a base para o desenvolvimento do trabalho do SUS.</p>
+                <p>Com a implementação de programas como Estratégia Saúde da Família (ESF), Núcleo de Apoio à Saúde da
+                    Família (NASF), Programa Brasil Sorridente e os Centro de Especialidades Odontológicas (CEO), vários
+                    postos de trabalho foram criados para as áreas de Medicina, Enfermagem, Odontologia, Fisioterapia,
+                    Assistência Social, Educação Física e outros.</p>
+                <p>A implantação de políticas e programas setoriais da saúde influenciou também a abertura de inúmeros
+                    cursos na área da saúde, em função de novos postos de trabalho demandado por:</p>
+                <p>O volume de cursos de graduação voltados à formação de 14 profissões da saúde, que entre 1995 e 2015
+                    aumentou de 1.032 para 5.222 (506% de crescimento), com destaque para: Fisioterapia (788,9%);
+                    Serviço Social (468%); Psicologia (387%). Observam-se ainda crescimentos exponenciais para os cursos
+                    de Medicina (348,7%); Enfermagem (899%) e Odontologia (351,7%). Importante registrar que tal aumento
+                    reflete a expansão e predomínio da participação da iniciativa privada no sistema educacional da
+                    saúde.</p>
+                <p>Outro ponto sobre o trabalho no SUS é a correlação entre formação e empregos, ou seja, a região
+                    Sudeste aglutina a maioria das organizações educacionais em saúde e o maior volume de empregos do
+                    país. Os estados que compõem a região Norte estão em posição oposta, ou seja, exibem baixas
+                    proporções de cursos e de empregos em saúde.</p>
+
+                <h2 class="mt-5 mb-3 text-uppercase">• Gestão do Trabalho na Saúde</h2>
+
+                <p>Para a melhor compreensão do mercado de trabalho em saúde, alguns conceitos são importantes, uma vez
+                    que se trata de mercado inserido em um sistema de saúde que tem abrangência e complexidade nacional,
+                    ou seja, um sistema integrado e unificado, cujo dever constitucional é o de atender a toda população
+                    brasileira.</p>
+                <p>Uma definição central para análise desse mercado de trabalho é a distinção entre profissional de
+                    saúde, trabalhador de saúde e trabalhador do SUS.</p>
+                <p>Apesar de serem categorias aparentemente semelhantes, guardem diferenças importantes quando se
+                    examina, por exemplo, a participação desses profissionais na equipe de saúde ou, até mesmo, quando
+                    se busca melhor entendimento sobre a inserção específica do médico, do enfermeiro, do farmacêutico,
+                    do psicólogo ou assistente social no mercado de trabalho. A [Nome da Autora], em seu [nome do livro,
+                    título do artigo], apresentou a seguinte distinção para essas categorias:</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <div class="mb-3">
+                                <p class="fw-bold mb-0">Profissionais de saúde</p>
+                                <p class="mb-0">São aqueles que, estando ou não ocupados no setor saúde, têm
+                                    formação/qualificação profissional específica para atuar na área.</p>
+                            </div>
+                        </li>
+                        <li class="icon circle">
+                            <div class="mb-3">
+                                <p class="fw-bold mb-0">Trabalhadores de saúde</p>
+                                <p class="mb-0">São todos os que se inserem direta ou indiretamente na atenção à saúde,
+                                    em estabelecimentos de saúde ou nas atividades de saúde, podendo ter ou não formação
+                                    específica na saúde.</p>
+                            </div>
+                        </li>
+                        <li class="icon circle">
+                            <div class="mb-3">
+                                <p class="fw-bold mb-0">Trabalhadores do SUS</p>
+                                <p class="mb-0">Todos que estão atuando no SUS, englobando as duas categorias acima
+                                    descritas.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <p>Ainda há dois conceitos descritos pela autora que, embora distintos, frequentemente são confundidos
+                    nas análises sobre o mercado de trabalho em saúde: <span class="fw-bold">profissional de
+                        saúde</span> e <span class="fw-bold">emprego em saúde</span>.</p>
+                <p>No contexto do mercado de trabalho em saúde, <span class="fw-bold">profissional de saúde</span> é o
+                    profissional que existe no
+                    mercado de trabalho, disponível para trabalhar, ou seja, a oferta de mão de obra disponível. Já
+                    <span class="fw-bold">emprego de saúde</span> diz respeito à quantidade de postos ocupados
+                    existentes. O primeiro conceito
+                    refere-se à oferta de mão de obra disponível, ou seja, à demanda do mercado, a quantos empregos
+                    existem no setor.
+                </p>
+                <p>Essas definições são importantes porque permitem medir, por exemplo, o equilíbrio ou desequilíbrio
+                    entre oferta e demanda, quantificar o desemprego, emprego pleno, subemprego ou até mesmo excesso de
+                    mão de obra disponível no mercado sem conseguir trabalho na área.</p>
+
+                <h2 class="mt-5 mb-3">A constituição e a consolidação do SUS</h2>
+
+                <p>As décadas de 1980 e 1990 foram repletas de inovações e transformações no sistema de saúde,
+                    configurando-se em 'anos paradigmáticos' para a saúde pública do Brasil. A constituição do Sistema
+                    Único de Saúde (SUS) e os seus valores - o princípio da universalidade de acesso, da integralidade
+                    da atenção à saúde, da equidade, da participação da comunidade, da autonomia das pessoas e da
+                    descentralização - representou para os gestores, trabalhadores e usuários do sistema uma nova forma
+                    de pensar, estruturar, desenvolver e produzir serviços e assistência em saúde.</p>
+                <p>O sistema de saúde passou a ser, de fato, um sistema nacional com foco municipal, o que se denomina
+                    'municipalização'. Ao longo de mais três décadas do SUS, ocorreu uma forte inversão do 'parque
+                    sanitário brasileiro', especialmente aquele sob o comando público: houve uma descentralização dos
+                    órgãos, hospitais, ambulatórios, leitos e empregos de saúde, que passaram a ter centralidade nos
+                    municípios.</p>
+
+                <!-- Accordion 1 -->
+                <section class="aria-accordion p-2 p-md-5 mt-5 mb-4" role="tablist" aria-live="polite"
+                    data-behavior="accordion">
+                    <h6 class="texto-modal-bold mb-4">São identificados três movimentos neste processo:</h6>
+
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab1" tabindex="1" class="accordion__title" aria-controls="panel1" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h5>Movimento 1</h5>
+                        </span>
+                        <div id="panel1" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab1" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <p>Expansão do setor Saúde tanto no âmbito público como no privado. Essa expansão vai se
+                                    dar nas décadas seguintes, de 18.489, em 1980, para 67.612, em 2002, gerando a
+                                    absorção de mais de dois milhões de empregos.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab2" tabindex="2" class="accordion__title" aria-controls="panel2" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h5>Movimento 2</h5>
+                        </span>
+                        <div id="panel2" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab2" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <p>Redução da rede hospitalar e 'desospitalização' do sistema, que começa a adotar a
+                                    nova orientação com prioridade à assistência ambulatorial. Nesse período, o que se
+                                    constatou, de fato, foi a insuficiência de política hospitalar que buscasse
+                                    equacionar a necessidade sanitária, os recursos disponíveis e a otimização e
+                                    racionalização das estruturas hospitalares existentes.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab3" tabindex="3" class="accordion__title" aria-controls="panel3" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h5>Movimento 3</h5>
+                        </span>
+                        <div id="panel3" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab3" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <p>Expansão dos empregos de saúde na esfera municipal, invertendo a estrutura até então
+                                    vigente no país. Em 1976, pré- SUS, o setor público federal era majoritário
+                                    concentrava 98.528 empregos, enquanto o estadual compreendia 60.094 e o municipal
+                                    apenas 25.854 empregos. A partir da década de 1990, o setor público municipal passa
+                                    a ter liderança na geração de empregos. De acordo com o Instituto Brasileiro de
+                                    Geografia e Estatística (IBGE), são quase 1,3 milhão de empregos em 2014. Já o
+                                    volume dos empregos federais, acompanhando as medidas de revisão do papel do Estado
+                                    perdeu capacidade de absorção de mão-de-obra no período.</p>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <p><a href="#" class="links" data-bs-toggle="modal" data-bs-target="#modalImagem">Clique aqui para abrir
+                        a tabela Comportamento dos Empregos em Saúde, por Esfera Administrativa, de
+                        1992 a 2014.</a></p>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modalImagem" tabindex="-1" aria-labelledby="modalImagem" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-bottom-0">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body p-5 text-center">
+                                <img src="../assets/images/modulo2/aula5/imagem1.png" class="img-fluid" />
+                            </div>
+
+                            <div class="modal-footer border-top-0 justify-content-center">
+                                <button type="button" class="btn btn-link texto-modal-bold" data-bs-dismiss="modal">
+                                    VOLTAR PRA AULA
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+
+                <p>Ao longo dos anos, o grau de escolaridade cresceu devido a:</p>
+
+                <div class="container-aprendizado my-5">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3">ampliação do quantitativo de profissionais de nível superior</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">novas profissões se inserindo na equipe</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">crescimento do pessoal técnico</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">qualificação da equipe de enfermagem.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Distribuição dos profissionais de saúde, de acordo com
+                        escolaridade</span>
+                    <figure class="figure">
+                        <img style="max-width: 100%;" src="../assets/images/modulo2/aula5/grafico.png"
+                            class="img-fluid">
+
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: ???</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>O trabalho em saúde tem sido desenvolvido e ampliado atualmente por meio de equipes
+                    multiprofissionais e multidisciplinares, requerendo cada vez mais a incorporação de novos
+                    profissionais.</p>
+
+                <h2 class="mt-5 mb-3">Política de Gestão do Trabalho e da Educação: Avanços, Retrocessos e Desafios</h2>
+
+                <p>De forma resumida, pode-se dizer que a política de Recursos Humanos em saúde no Brasil pré-SUS se
+                    divide em três períodos:</p>
+
+                <div class='wrapper-timeline my-5 ms-2 ms-md-5'
+                    aria-label="Linha do tempo da política de Recursos Humanos em saúde no Brasil pré-SUS">
+                    <div class='passos ps-2 ps-md-5'>
+                        <h6 class="my-5 texto-modal-bold">Linha do tempo da política de Recursos Humanos em saúde no
+                            Brasil pré-SUS</h6>
+
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">Período entre 1967 - 1974
+                                </p>
+                                <p>Marcado pelo incentivo à formação profissional de nível superior, expansão dos
+                                    empregos privados, incremento da contratação de médicos e atendentes de enfermagem,
+                                    reforçando a bipolaridade médico/atendentes; incentivo à
+                                    hospitalização/especialização.</p>
+                            </div>
+                        </div>
+
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">Período entre 1975 - 1986
+                                </p>
+                                <p>Representado pelo aumento da participação do setor público na oferta de serviços
+                                    ambulatoriais e hospitalares e a formação do pessoal técnico e sua incorporação nas
+                                    equipes de saúde.</p>
+                            </div>
+                        </div>
+
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">Período de 1987 – 1990</p>
+                                <p>Caracterizado pelas mudanças estruturais rumo à Reforma Sanitária, marcadas,
+                                    especialmente, pelo processo de descentralização da assistência e, consequentemente,
+                                    dos profissionais que integram os serviços.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>A partir da Reforma Sanitária e da criação do SUS, era necessária a construção de uma política de
+                    Gestão do Trabalho e da Educação na Saúde norteada pela participação do trabalhador como condição
+                    fundamental para a efetividade e a eficiência do SUS. O trabalhador de saúde deve ser reconhecido
+                    como sujeito e agente transformador de seu espaço de atuação e protagonista de práticas e saberes,
+                    durante o processo de trabalho individual e coletivo. Para que isso ocorra, pressupõe-se a garantia
+                    de alguns requisitos básicos para a valorização do trabalhador, entre eles:</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3">a existência de Plano de Cargos Carreiras e Salários (PCCS);</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">vínculos de trabalho com proteção social;</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">espaços de discussão e negociação do trabalho;</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">educação permanente;</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">humanização da qualidade do trabalho.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <p>O balanço após mais de 30 anos da criação do SUS permite identificar avanços e retrocessos no que se
+                    refere às políticas de Gestão do Trabalho e Educação na Saúde, configurando três grandes momentos.
+                </p>
+
+                <div class='wrapper-timeline my-5 ms-2 ms-md-5'
+                    aria-label="Linha do tempo da política de Recursos Humanos em saúde no Brasil pós-SUS">
+
+                    <div class='passos ps-2 ps-md-5'>
+                        <h6 class="my-5 texto-modal-bold">Linha do tempo da política de Recursos Humanos em saúde no
+                            Brasil pós-SUS</h6>
+
+                        <div class="my-5">
+                            <p class="titulo-timeline fw-bold text-uppercase mb-0">Período de 1990 a 2002</p>
+                            <p>a “década perdida” para os trabalhadores do SUS Caracterizado pelo abandono da proposta
+                                de
+                                construção de planos de carreiras para o SUS, precarização do trabalho, desmobilização
+                                do
+                                movimento sindical, pulverização das ações educativas e formativas no âmbito do SUS,
+                                proliferação de escolas privadas na área da saúde sob escassa regulação estatal. Esse
+                                período é marcado pela desvalorização dos trabalhadores da saúde</p>
+                        </div>
+
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">1993</p>
+                                <p>O Conselho Nacional de Saúde cria a Mesa Nacional de Negociação</p>
+                                <p>O governo federal desativa a Mesa Nacional pelo governo federal,</p>
+                            </div>
+                        </div>
+
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">1997</p>
+                                <p>Criação dos Pólos de Capacitação Formação e Educação Permanente de Pessoal para Saúde
+                                    da Família.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ps-2 ps-md-5 my-5">
+                        <p class="titulo-timeline fw-bold text-uppercase mb-0">Período de 2003 a 2015</p>
+                        <p>Construção de uma Política de Gestão do Trabalho e Educação Caracterizado pelo retorno aos
+                            princípios
+                            constitucionais de que saúde é um bem público e os trabalhadores da saúde também o são.
+                            Houve a
+                            construção e implementação de políticas</p>
+                    </div>
+
+                    <div class='passos ps-2 ps-md-5 my-5'>
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">2003</p>
+                                <p>Reativada a Mesa Nacional de Negociação Permanente do SUS; criada a Secretaria de
+                                    Gestão do Trabalho e da Educação na Saúde (SGTES), no âmbito do Ministério da Saúde;
+                                    Projeto Vivências e Estágios na Realidade do SUS (VER-SUS); Programa de
+                                    Desprecarização do Trabalho no SUS.</p>
+                            </div>
+                        </div>
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">2004</p>
+                                <p>Política Nacional de Educação Permanente em Saúde; AprenderSUS; Câmara de Regulação
+                                    do Trabalho</p>
+                            </div>
+                        </div>
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">2005</p>
+                                <p>Pró-Saúde</p>
+                            </div>
+                        </div>
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">2006</p>
+                                <p>Política Nacional de Promoção da Saúde do Trabalhador do SUS; Programa de
+                                    Qualificação e Estruturação da Gestão do Trabalho e da Educação no SUS (ProgeSUS);
+                                    Fórum Permanente Mercosul para o Trabalho em Saúde</p>
+                            </div>
+                        </div>
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">2007</p>
+                                <p>Telessaúde</p>
+                            </div>
+                        </div>
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">2008</p>
+                                <p>PET Saúde</p>
+                            </div>
+                        </div>
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">2010</p>
+                                <p>UNA-SUS</p>
+                            </div>
+                        </div>
+                        <div class='timeline'>
+                            <div class='ponto'></div>
+                            <div class='info ms-4'>
+                                <p class="titulo-timeline fw-bold text-uppercase mb-0">2013</p>
+                                <p>2013 Instituído o Programa Mais Médicos (PMM), visando à lotação de médicos para
+                                    viabilizar a assistência da população em locais longínquos e de difícil acesso do
+                                    país, historicamente marcados pela escassez de profissionais da saúde.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ps-2 ps-md-5 my-5">
+                        <p class="titulo-timeline fw-bold text-uppercase mb-0">Período que inicia em meados de 2016 e se
+                            estende até hoje</p>
+                        <p>É marcado por reformas liberais, com ameaças de perda de direitos essenciais.</p>
+                    </div>
+                </div>
+
+                <p>As ameaças contra a premissa constitucional da saúde, como direito de todos e dever do Estado,
+                    colocam imensos desafios ao campo da Gestão do Trabalho e da Educação em Saúde, que implicam na
+                    reorganização dos trabalhadores de saúde, da sociedade e do controle social na busca da preservação
+                    das conquistas e avanços produzidos nas últimas três décadas de implementação do SUS.</p>
+                <p>Chegamos ao final da aula. Agora você já entende a problemática do trabalho em saúde como parte do
+                    processo produtivo desse setor e consegue apontar os os principais determinantes socioeconômicos e
+                    políticos que afetam a dinâmica do emprego dos trabalhadores em saúde e alguns elementos das
+                    políticas de gestão do trabalho e da educação em Saúde no SUS e seus desafios.</p>
+
+                <div class="container-texto-base flex-column my-5">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_referencia.svg" alt="REFERÊNCIAS" class="mb-0"
+                            width="50px">
+                        <h5 class="text-uppercase mb-0">REFERÊNCIAS:</h5>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>BRASIL. Ministério da Saúde. Cadastro Nacional dos Estabelecimentos de Saúde, 2021a. Página
+                            inicial.Disponível em: <a href="http://cnes.datasus.gov.br/" class="links"
+                                target="_blank">http://cnes.datasus.gov.br/</a>. Acesso em: 19 abr. 2021.</p>
+                        <p>DRUCK, G.; Trabalho, Precarização e Resistências: novos e velhos desafios; Caderno CRH,
+                            Salvador, v.24, n.spe 01, p.35-55, 2011. Disponível em: <a
+                                href="https://mail.google.com/mail/u/0/#search/GRA%C3%87A+DRUCK?projector=1"
+                                class="links"
+                                target="_blank">https://mail.google.com/mail/u/0/#search/GRA%C3%87A+DRUCK?projector=1</a>,
+                            Acesso em: 21 de abril de 2021.</p>
+                        <p>INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). IBGE Cidades, 2017.
+                            Panorama.Disponível em: <a href="https://cidades.ibge.gov.br/brasil/panorama" class="links"
+                                target="_blank">https://cidades.ibge.gov.br/brasil/panorama</a>. Acesso em: 17 abr.
+                            2021.</p>
+                        <p>MACHADO, M.H., Trabalhadores da Saúde e sua Trajetória na Reforma Sanitária IN: lima, Nísia
+                            trindade (org.) Saúde e Democracia: história e perspectivas do SUS., RJ,: Editora Fiocruz,
+                            2005.</p>
+                        <p>MACHADO, M.H.; VIEIRA, A. L. S.; OLIVEIRA, E. – Gestão do Trabalho e Educação em Saúde:
+                            perspectivas teórico metodológicas – Baptista, T.W (org) – Políticas e Planejamento e Gestão
+                            em Saúde: abordagens e métodos de pesquisa, RJ: Editora Fiocruz, 2015.</p>
+                        <p>MACHADO, M. H.; CARVALHO, A. I. & CAMPOS, F. E. Com a palavra, os profissionais. Radis, 24
+                            ago. 2020. Disponível em: <a
+                                href="https://radis.ensp.fiocruz.br/index.php/home/reportagem/com-a-palavraos-profissionais"
+                                class="links"
+                                target="_blank">https://radis.ensp.fiocruz.br/index.php/home/reportagem/com-a-palavraos-profissionais</a>.
+                            Acesso em: 22 abr. 2021</p>
+                        <p>MACHADO, M. H. & XIMENES NETO, F. R. G. Gestão da educação e do trabalho em saúde no SUS:
+                            trinta anos de avanços e desafios. Ciência & Saúde Coletiva, 23(6): 1.971-1.980, 2018.</p>
+                        <p>TEIXEIRA, M. CARSALADE, M.I.M; LAMARCA, I. C.S.A; OLIVEIRA, S., Abordagens do Trabalho no
+                            Setor Público de Saúde: uma revisão narrativa da literatura. Trabalho, Educação e Saúde,
+                            18(suppl1), 2020, disponível em: <a href="https://doi.org/10.1590/1981-7746-sol00256"
+                                class="links" target="_blank">https://doi.org/10.1590/1981-7746-sol00256</a>, Acesso em:
+                            20 de abril de 2021.</p>
+                    </div>
+                </div>
+
+                <div class="row flex-column-reverse flex-sm-row botao">
+                    <a href="introAula5.html" class="btn botaoPadrao">VOLTAR</a>
+                    <a href="introAula6.html" class="btn botaoPadrao">MÓDULO 2 AULA 6</a>
+                </div>
+            </div>
+            <!-- Fim do Bloco 1 -->
+
+            <!-- Inicio Rodapé -->
+            <footer id="footer">
+                <div class="row-main">
+                    <div class="col-md-12 text-center" style="margin: auto;">
+                        <img class="img-fluid" src="../assets/images/rodape/rodape1.png" alt="">
+                    </div>
+                </div>
+            </footer>
+            <!-- Fim Rodapé -->
+        </div>
+        <!-- Fim Div mostra conteúdo 2 -->
+    </div>
+    <!-- Fim da Row-main -->
+
+    <!-- Arquivos JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="../assets/js/main.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/dist/vime/vime.esm.js"></script>
+</body>
+
+</html>
