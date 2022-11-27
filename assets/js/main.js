@@ -16,26 +16,6 @@ $(window).scroll(function () {
   }
 });
 
-/*
-$(function () {
-  $('a[href*="#"]:not([href="#"])').click(function () {
-    var target = $(this.hash);
-    
-    
-    console.log(target);
-
-
-    if ($('.botaoComecar').attr("aria-expanded") === 'false') {
-      $('.mostraAula.collapse').addClass("show");
-    }
-
-    $('html,body').stop().animate({
-      scrollTop: target.offset().top - 130
-    }, 'linear');
-  })
-});
-*/
-
 /*Controla funções no Menu Lateral*/
 $(function () {
   class Accordion {
@@ -135,10 +115,7 @@ $(".flipper").click(function (e) {
   return false;
 });
 
-
-
-
-
+/* COMPONENTE ACCORDION */
 var accordion = $('body').find('[data-behavior="accordion"]');
 var expandedClass = 'is-expanded';
 
@@ -196,3 +173,5 @@ $.each(accordion, function () {
 
 });
 
+const players = Plyr.setup('.js-player');
+window.player = players;

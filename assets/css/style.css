@@ -34,7 +34,7 @@ footer {
     border-color: #dddddd;
     margin-right: 8px;
 }
-.navbar-light .navbar-toggler-icon {
+173e82 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 /** Menu Lateral **/
@@ -444,7 +444,6 @@ h3 {
     font-size: 1.5rem;
     font-weight: bold;
     color: #173e82;
-    text-transform: uppercase;
 }
 h4 {
     font-size: 1.2rem;
@@ -454,6 +453,10 @@ h5 {
     font-family: "Circular Std Black", sans-serif;
     font-size: 1.375rem;
     color: #173e82;
+}
+
+.texto-cor-1 {
+    color: #173e82 !important;
 }
 
 @media (max-width: 767px) {
@@ -547,7 +550,7 @@ p.textoVerde {
 .textoIntroItalic {
     font-family: "Circular Std Black Italic", sans-serif;
     font-size: 1.375rem;
-    color: #102956;
+    color: #173e82 !important;
 }
 
 .texto-bold {
@@ -609,6 +612,14 @@ ul li {
     margin-top: 8px;
     font-size: 5px;
 }
+.icon.circle-alt::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    font-weight: 900;
+    margin-right: 15px;
+    margin-top: 12px;
+    font-size: 5px;
+}
 .caretDown {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -624,12 +635,38 @@ ul li {
     flex-direction: column;
 }
 
+/* Bloco - icon - texto */
+.container-900px {
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-icon-texto {
+    background-color: #173e82;
+    border-radius: 5px;
+    color: #fff;
+}
+.container-icon-img {
+    border-right: 1px solid #FFF;
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 767px) {
+    .container-icon-img {
+        border-right: none;
+    }
+}
+/* Bloco - icon - texto */
+
 /* timeline-componente */
 .wrapper {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.passos {
+    margin: 60px 0;
+    overflow-y: hidden;
 }
 .timeline {
     display: flex;
@@ -645,6 +682,9 @@ ul li {
     background-color: #707070;
 }
 .timeline:not(:last-child):after {
+    height: 100%;
+}
+.timeline:last-child:after {
     height: 100%;
 }
 .ponto {
@@ -1187,12 +1227,18 @@ footer img {
     display: flex;
 }
 
-.container-content-base {
-    margin-left: 74px;
+@media (min-width: 768px) {
+    .container-content-base {
+        margin-left: 74px;
+    }
 }
 
 .container-content-base-alt {
     margin-left: 84px;
+}
+
+.container-video {
+    width: 673px;
 }
 
 .container-autores {
@@ -1261,16 +1307,9 @@ footer img {
 .container-citacao {
     display: flex;
     flex-direction: column;
-    margin-left: 2rem !important;
 }
 .container-citacao p {
     font-style: italic;
-}
-
-@media (min-width: 768px) {
-    .container-citacao {
-        margin-left: 7rem !important;
-    }
 }
 .container-citacao::before,
 .container-citacao::after {
@@ -1341,7 +1380,41 @@ footer img {
     color: #173e82;
 }
 
+/* PLAYER AUDIO - VIDEO */
+.plyr {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+.container-player {
+    margin: 1rem auto;
+    max-width: 700px;
+}
+.container-player-audio {
+    margin: 1rem auto;
+    max-width: 700px;
+}
+/* PLAYER AUDIO - VIDEO */
+.grid-box-mapas {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.grid-box {
+    cursor: pointer;
+}
+
 /* FLIP CARDS */
+
+.grid-flip-cards {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-auto-rows: 350px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
 section.custom .up {
     color: #55dd11;
 }
@@ -1358,7 +1431,6 @@ section.custom .card {
 section.custom .flipper {
     padding-left: 0px;
     padding-right: 0px;
-    margin-bottom: 10px;
     perspective: 1000px;
 }
 section.custom .flipper.flip .card {
@@ -1367,7 +1439,7 @@ section.custom .flipper.flip .card {
 section.custom .front,
 section.custom .back {
     width: 100%;
-    padding: 5px;
+    padding: 4px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     position: absolute;
@@ -1406,7 +1478,7 @@ section.custom .goback {
 .titulo-timeline {
     font-family: "Noto Sans", sans-serif;
     font-size: 1.375rem;
-    color: #173E82;
+    color: #173e82;
 }
 .texto-titulo {
     font-family: "Circular Std Black", sans-serif;
@@ -1441,7 +1513,7 @@ section.custom .goback {
     position: absolute;
     right: 15px;
     top: 12px;
-    color: #443F57;
+    color: #443f57;
 }
 .accordion__title h5 {
     color: #3d3d3d;

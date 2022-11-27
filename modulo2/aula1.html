@@ -1,43 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xml:lang="pt-br" xmlns="https://www.w3.org/1999/xhtml" class="hydrated">
 
 <head>
     <meta charset="utf-8">
-    <title>Introdução ao Sistema Único de Saúde - Aula 1</title>
+    <title>Introdução ao Sistema Único de Saúde - Módulo 2 - Aula 1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
 
     <!-- Arquivos CSS -->
-    <link rel="stylesheet" href="../assets/libs/bootstrap-4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/normalize.css">
-    <link href="../assets/css/style.css" rel="stylesheet">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" />
+    <link href="https://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet" />
+
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/default.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/light.css" />
 </head>
 
 <body>
-
     <!-- Inicio Menu Superior -->
     <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
             <!-- Logos -->
             <a class="logo" href="../index.html">
-                <img src="../assets/images/logoAula.png" class="img-fluid" alt="Logo" />
+                <img src="../assets/images/logoAula.png" class="img-fluid"
+                    alt="Representação visual da logomarca da Fiocruz - Campus Virtual" />
             </a>
-        
+
             <!-- Botão Collapse -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        
+
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li><a href="../index.html">HOME</a></li>
                     <li><a href="../materialcomplementar.html" target="_blank">Material Complementar</a></li>
                     <li><a href="../bibliografia.html" target="_blank">Bibliografia</a></li>
@@ -51,1251 +54,1308 @@
     <!-- Início da Row-main-->
     <div class="row" id="row-main">
 
-        <!-- Início da Coluna do Menu Lateral-->
-        <div class="sidemenu col-md-2" id="sidebar">
-
-            <!-- Step Menu -->
-            <div id="accordion" class="stepContainer">
-
-                <!-- Botão p/ Recolher Sidebar-->
-                <span class="toggle-sidebar" id="sidebarButton"><i class="fas fa-chevron-left"></i></span>
-
-                <!-- Botão Secundário p/ Recolher Sidebar -->
-                <span class="toggle-sidebar" id="sidebarButton2"><img style="max-width: 50%;"
-                        src="../assets/images/icones/icone.png" alt=""></span>
-
-                <!-- MODULO 1-->
-                <div id="modulo1" class="containerModulo">
-                    <div class="modulo title">
-                        <a class="modulo1" style="cursor: pointer;">Módulo 1</a>
-                        <i class="fas fa-caret-down"></i>
-                    </div>
-
-                    <div class="containerAulas">
-                        <!-- Step 1 -->
-                        <div class="step" id="mod1aula1">
-                            <div class="v-stepper">
-                                <div class="circle"></div>
-                                <div class="line"></div>
-                            </div>
-
-                            <div class="contentMenu">
-                                <div class="link title">
-                                    <a href="../modulo1/aula1.html" class="aula1" style="cursor: pointer;">Aula 1</a>
-                                    <i class="fas fa-caret-down"></i>
-                                </div>
-
-                                <div class="items collapse hide" id="collapseMod1Aula1">
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico1"></div>
-                                        </div>
-                                        <p><a href="../modulo1/aula1.html">Principais conceitos e definições</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico2"></div>
-                                        </div>
-                                        <p><a href="../modulo1/aula1.html">Principais órgãos e instituições </a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico3"></div>
-                                        </div>
-                                        <p><a href="../modulo1/aula1.html">Conclusão da aula</a></p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fim do Step 1 -->
-
-                        <!-- Step 2 -->
-                        <div class="step" id="mod1aula2">
-                            <div class="v-stepper">
-                                <div class="circle"></div>
-                                <div class="line"></div>
-                            </div>
-
-                            <div class="contentMenu">
-                                <div class="link title">
-                                    <a href="../modulo1/aula2.html" class="aula2" style="cursor: pointer;">Aula 2</a>
-                                    <i class="fas fa-caret-down"></i>
-                                </div>
-
-                                <div class="items collapse hide" id="collapseMod1Aula2">
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico1"></div>
-                                        </div>
-                                        <p><a href="../modulo1/aula2.html">Ações e políticas de saúde direcionadas aos
-                                                povos indígenas</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico2"></div>
-                                        </div>
-                                        <p><a href="../modulo1/aula2.html">A formulação da atual política de saúde
-                                                indígena</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico3"></div>
-                                        </div>
-                                        <p><a href="../modulo1/aula2.html">O Subsistema de Atenção à Saúde Indígena
-                                                hoje</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico4"></div>
-                                        </div>
-                                        <p><a href="../modulo1/aula2.html">Atenção Diferenciada</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico5"></div>
-                                        </div>
-                                        <p><a href="../modulo1/aula2.html">Desafios para o Subsistema de Atenção à Saúde
-                                                Indígena no contexto da pandemia</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico6"></div>
-                                        </div>
-                                        <p><a href="../modulo1/aula2.html">Conclusão da aula</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fim Step 2 -->
-
-                        <!-- Step 3 -->
-                        <div class="step" id="mod1aula3">
-                            <div class="v-stepper">
-                                <div class="circle"></div>
-                                <div class="line"></div>
-                            </div>
-
-                            <div class="contentMenu">
-                                <div class="link title">
-                                    <a href="../modulo1/aula3.html" class="aula3" style="cursor: pointer;">Aula 3</a>
-                                    <i class="fas fa-caret-down"></i>
-                                </div>
-
-                                <div class="items collapse hide" id="collapseMod1Aula3">
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula3topico1"></div>
-                                        </div>
-                                        <p><a href="aula3.html">Desigualdades em saúde</a>
-                                        </p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula3topico2"></div>
-                                        </div>
-                                        <p><a href="aula3.html">Política Nacional de Saúde Integral das Populações do
-                                                Campo e Floresta</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula3topico3"></div>
-                                        </div>
-                                        <p><a href="aula3.html">Atenção à saúde da população ribeirinha</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula3topico4"></div>
-                                        </div>
-                                        <p><a href="aula3.html">Conclusão da aula</a></p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fim Step 3 -->
-                    </div>
-                </div>
-
-                <!-- MODULO 2-->
-                <div id="modulo2" class="containerModulo">
-                    <div class="modulo title">
-                        <a class="modulo1" style="cursor: pointer;">Módulo 2</a>
-                        <i class="fas fa-caret-down"></i>
-                    </div>
-
-                    <div class="containerAulas">
-                        <!-- Step 1 -->
-                        <div class="step" id="mod2aula1">
-                            <div class="v-stepper">
-                                <div class="circle visited"></div>
-                                <div class="line"></div>
-                            </div>
-
-                            <div class="contentMenu open">
-                                <div class="link title">
-                                    <a href="../modulo2/aula1.html" class="aula1" style="cursor: pointer;">Aula 1</a>
-                                    <i class="fas fa-caret-down"></i>
-                                </div>
-
-                                <div class="items collapse show" id="collapseMod2Aula1">
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico1"></div>
-                                        </div>
-                                        <p><a href="#topico1">Particularidades na epidemiologia dos indígenas no
-                                                contexto da Covid-19</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico2"></div>
-                                        </div>
-                                        <p><a href="#topico2">O contexto em que estão inseridas as mulheres
-                                                indígenas</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico3"></div>
-                                        </div>
-                                        <p><a href="#topico3">O processo individual e coletivo de autocuidado em
-                                                saúde</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico3"></div>
-                                        </div>
-                                        <p><a href="#topico4">Princípios para elaboração de políticas de saúde voltadas
-                                                à mulher indígena</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico3"></div>
-                                        </div>
-                                        <p><a href="#topico5">A Saúde da mulher indígena antes da pandemia Covid-19</a>
-                                        </p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico3"></div>
-                                        </div>
-                                        <p><a href="#topico6">Peculiaridades da Covid-19 nas mulheres</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico4"></div>
-                                        </div>
-                                        <p><a href="#topico7">Conclusão da aula</a></p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fim do Step 1 -->
-
-                        <!-- Step 2 -->
-                        <div class="step" id="mod2aula2">
-                            <div class="v-stepper">
-                                <div class="circle"></div>
-                                <div class="line"></div>
-                            </div>
-
-                            <div class="contentMenu">
-                                <div class="link title">
-                                    <a href="../modulo2/aula2.html" class="aula2" style="cursor: pointer;">Aula 2</a>
-                                    <i class="fas fa-caret-down"></i>
-                                </div>
-
-                                <div class="items collapse hide" id="collapseMod2Aula2">
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico1"></div>
-                                        </div>
-                                        <p><a href="../modulo2/aula2.html">As vulnerabilidades de saúde dos povos e
-                                                comunidades
-                                                tradicionais (não-indígenas) e, em especial, à pandemia da Covid-19</a>
-                                        </p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico2"></div>
-                                        </div>
-                                        <p><a href="../modulo2/aula2.html">Epidemiologia sobre Covid-19 e perfis de
-                                                maior
-                                                vulnerabilidade nos povos e comunidades tradicionais (não-indígenas)</a>
-                                        </p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico3"></div>
-                                        </div>
-                                        <p><a href="../modulo2/aula2.html">Plano de Enfrentamento da Pandemia Covid-19
-                                                para Povos e
-                                                Comunidades Tradicionais</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico4"></div>
-                                        </div>
-                                        <p><a href="../modulo2/aula2.html">Vacinação no contexto dos povos e comunidades
-                                                tradicionais</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico5"></div>
-                                        </div>
-                                        <p><a href="../modulo2/aula2.html">Conclusão da aula</a></p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fim Step 2 -->
-                    </div>
-                </div>
-
-                <!-- MODULO 3-->
-                <div id="modulo3" class="containerModulo">
-                    <div class="modulo title">
-                        <a class="modulo1" style="cursor: pointer;">Módulo 3</a>
-                        <i class="fas fa-caret-down"></i>
-                    </div>
-
-                    <div class="containerAulas">
-                        <!-- Step 1 -->
-                        <div class="step" id="mod3aula1">
-                            <div class="v-stepper">
-                                <div class="circle"></div>
-                                <div class="line"></div>
-                            </div>
-
-                            <div class="contentMenu">
-                                <div class="link title">
-                                    <a href="../modulo3/aula1.html" class="aula1" style="cursor: pointer;">Aula 1</a>
-                                    <i class="fas fa-caret-down"></i>
-                                </div>
-
-                                <div class="items collapse hide" id="collapseMod3Aula1">
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico1"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula1.html">Gravidade da Covid-19 em Mulheres Grávidas e
-                                                Não Grávidas</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico2"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula1.html">Prevenção e cuidados</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico3"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula1.html">Diagnóstico e manifestações clínicas</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico4"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula1.html">Planejamento do nascimento do bebê</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico5"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula1.html">Atendimento obstétrico</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico6"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula1.html">Cuidado Pós Natal e Amamentação</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula1topico7"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula1.html">Conclusão da aula</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fim do Step 1 -->
-
-                        <!-- Step 2 -->
-                        <div class="step" id="mod3aula2">
-                            <div class="v-stepper">
-                                <div class="circle"></div>
-                                <div class="line"></div>
-                            </div>
-
-                            <div class="contentMenu">
-                                <div class="link title">
-                                    <a href="../modulo3/aula2.html" class="aula2" style="cursor: pointer;">Aula 2</a>
-                                    <i class="fas fa-caret-down"></i>
-                                </div>
-
-                                <div class="items collapse hide" id="collapseMod3Aula2">
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico1"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula2.html">Um olhar sobre o contexto</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico2"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula2.html">Cuidado das gestantes e puérperas</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico3"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula2.html">Triagem de gestantes e puérperas de áreas
-                                                remotas</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico4"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula2.html">A vacinação de gestantes em áreas remotas</a>
-                                        </p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico5"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula2.html">Recomendações para condução do cuidado pré
-                                                natal incorporando as teleconsultas</a></p>
-                                    </div>
-
-                                    <div class="subItem">
-                                        <div class="containerItem">
-                                            <div class="item" id="aula2topico6"></div>
-                                        </div>
-                                        <p><a href="../modulo3/aula2.html">Conclusão da aula</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fim Step 2 -->
-                    </div>
-                </div>
-            </div>
-            <!-- Fim do Step Menu -->
-
-        </div> <!-- Fim da Coluna Menu Lateral -->
-
+        <div class="sidemenu col-lg-2" id="sidebar"></div>
 
         <!-- Início Coluna de Conteúdo -->
-        <div class="col-md-10" id="content">
+        <div class="col-lg-10" id="content">
 
             <!-- Bloco 1 -->
-            <div class="conteudo justify-content-center">
+            <div class="pt-5 px-2 px-sm-5 justify-content-center position-relative">
+                <div class="barraMenuHorizontal d-flex position-absolute">
+                    <div class="d-flex position-fixed">
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="mod1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 1
+                            </a>
 
-                <div class="tarjaDiv">
-                    Módulo 2 / Aula 1
+                            <ul class="dropdown-menu" aria-labelledby="mod1">
+                                <li><a class="dropdown-item" href="../modulo1/introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="../modulo1/introAula2.html">Aula 2</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="mod2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 2 / Aula 1
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="mod2">
+                                <li><a class="dropdown-item" href="introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="introAula2.html">Aula 2</a></li>
+                                <li><a class="dropdown-item" href="introAula3.html">Aula 3</a></li>
+                                <li><a class="dropdown-item" href="introAula4.html">Aula 4</a></li>
+                                <li><a class="dropdown-item" href="introAula5.html">Aula 5</a></li>
+                                <li><a class="dropdown-item" href="introAula6.html">Aula 6</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="mod3"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 3
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="mod3">
+                                <li><a class="dropdown-item" href="../modulo3/introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="../modulo3/introAula2.html">Aula 2</a></li>
+                                <li><a class="dropdown-item" href="../modulo3/introAula3.html">Aula 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="row">
-                    <figure class="figure mt-5">
-                        <div class="cardImg centro">
-                            <img style="max-width: 100%;" src="../assets/images/modulo2/banner4.png"
-                                class="img-fluid rounded mb-0">
+                <h1 class="mt-5">Desenvolvimento é Saúde: A perspectiva do Complexo Econômico-Industrial da Saúde</h1>
+
+                <p>Uma sociedade equânime e com qualidade de vida, comprometida com os direitos sociais e o meio
+                    ambiente, não pode prescindir de uma base produtiva, tecnológica e de inovação em saúde que lhe dê
+                    sustentação em função da relação intrínseca que existe entre a dimensão social e econômica do
+                    desenvolvimento.</p>
+                <p>Há 20 anos, foi desenvolvido na Fundação Oswaldo Cruz (Fiocruz) o conceito e o programa de pesquisa
+                    do Complexo Econômico-Industrial da Saúde (CEIS) que une o campo da saúde coletiva com a economia
+                    política. Ao longo desse tempo, o programa tornou-se translacional, com a aplicação prática da
+                    investigação científica por meio da implementação de políticas públicas que objetivam a garantia do
+                    acesso universal à saúde com a promoção da produção de bens, insumos e serviços de saúde no Brasil.
+                </p>
+
+                <h2 class="mt-5 mb-3">Desenvolvimento é Saúde</h2>
+
+                <p>Para o economista político Joseph Alois Schumpeter, desenvolvimento não é fazer mais do mesmo e sim
+                    um processo qualitativo relacionado à transformação. No Brasil, temos como exemplo de
+                    desenvolvimento na saúde a criação do Sistema Único de Saúde (SUS), uma inovação que transformou
+                    radicalmente a organização do sistema de saúde no Brasil e ampliou o acesso à saúde no país.</p>
+                <p>Marx observou as consequências do processo de desenvolvimento sobre a dimensão social. Segundo Marx,
+                    o desenvolvimento das relações capitalistas gerou um aumento extraordinário da riqueza material da
+                    sociedade, através da revolução incessante dos meios de produção, das comunicações e dos
+                    transportes. Entretanto, esse mesmo desenvolvimento gerou, simultaneamente, enormes assimetrias
+                    entre classes, regiões e nações.</p>
+                <p>A razão fundamental é que o desenvolvimento das forças produtivas tem como objetivo principal a
+                    reprodução e ampliação do capital, e não, necessariamente, a satisfação das necessidades da
+                    população. Denominamos esse processo inerentemente contraditório do desenvolvimento no capitalismo
+                    como a <span class="fw-bold">dialética do desenvolvimento capitalista</span>.</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3">Reestruturação da produção</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Revisão do papel do Estado</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Alterações importantes nos processos de trabalho</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="container-box py-2 my-5" aria-label="Informação complementar">
+                    <h4 class="titulo-box px-2 px-md-5 py-2">Exemplo da dialética do desenvolvimento na saúde</h4>
+
+                    <div class="mt-4 px-2 px-md-5">
+                        <p>A atuação da indústria farmacêutica pode ser usada como um exemplo da dialética do
+                            desenvolvimento na área da saúde. A indústria farmacêutica tem papel importante no
+                            desenvolvimento de produtos para garantir a saúde humana, mas nem sempre seus interesses
+                            estão alinhados com o da sociedade em geral. Nesse sentido, o Estado sempre terá um papel
+                            primordial para estimular os esforços privados a convergirem com o interesse público.</p>
+                        <p>O desenvolvimento das vacinas para COVID-19 em tempo recorde é um exemplo claro dessa
+                            dialética do desenvolvimento na saúde. Sem o acúmulo de conhecimento gerado na academia,
+                            financiado principalmente com recursos públicos, e sem subsídios públicos que assumiram o
+                            risco financeiro dos projetos, não seria possível acelerar em tempo recorde o
+                            desenvolvimento das vacinas. A expertise da iniciativa privada para o escalonamento,
+                            aprovação e distribuição também foram fundamentais para que as vacinas chegassem ao mercado.
+                            Nesse sentido, foi a parceria virtuosa entre Estado e iniciativa privada que permitiu o
+                            desenvolvimento das vacinas para o novo coronavírus.</p>
+                        <p>Contudo, a distribuição das vacinas não seguiu uma lógica de saúde pública global. Os países
+                            de maior renda ou com capacidade de produção e inovação de vacinas, adquiriram
+                            antecipadamente a maior parte da produção global. Adicionalmente, apesar dos subsídios
+                            públicos que receberam, diversas empresas anunciaram aumento nos preços das doses em meio à
+                            pandemia, mesmo registrando aumento de lucros no período.</p>
+
+                        <div class="d-flex flex-column flex-md-row gap-4">
+                            <div class="d-flex justify-content-center">
+                                <figure class="figure">
+                                    <img src="../assets/images/modulo2/aula1/imagem1.png" alt="" class="img-fluid">
+
+                                    <figcaption class="figure-caption">
+                                        <p><small class="text-white">Fonte: <a
+                                                    href="https://g1.globo.com/bemestar/vacina/noticia/2021/08/01/pfizer-e-moderna-aumentam-precos-de-vacinas-em-contrato-com-uniao-europeia.ghtml"
+                                                    class="links-white" target="_blank">G1 Notícias</a></small></p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="d-flex justify-content-center">
+                                <figure class="figure">
+                                    <img src="../assets/images/modulo2/aula1/imagem2.png" alt="" class="img-fluid">
+
+                                    <figcaption class="figure-caption">
+                                        <p><small class="text-white">Fonte: <a
+                                                    href="https://www.rfi.fr/pt/mundo/20210729-lucros-por-detr%C3%A1s-das-vacinas-anti-covid-com-pfizer-a-frente"
+                                                    class="links-white" target="_blank">RFI </a></small></p>
+                                    </figcaption>
+                                </figure>
+                            </div>
                         </div>
+                    </div>
+                </div>
+
+                <p>A dinâmica captada por Marx e Schumpeter para caracterizar o capitalismo como um sistema em
+                    permanente transformação é apreendida no âmbito da saúde na perspectiva do CEIS. A adoção dessa
+                    perspectiva dialética permite demonstrar como o desenvolvimento produtivo e tecnológico pode gerar a
+                    expansão do investimento, da renda e do emprego, ao mesmo tempo em que gera exclusão, desigualdade e
+                    instabilidade.</p>
+                <p>O sistema se desenvolve na medida em que se transforma, destruindo incessantemente velhas estruturas
+                    para a criação de novas. Esse processo constante de transformação da base produtiva e social,
+                    observado tanto na percepção marxista da “dialética do desenvolvimento” quanto no processo
+                    schumpeteriano de “destruição criadora”, pode ser captado pelo conceito de inovação. O conceito de
+                    inovação é adotado na abordagem do CEIS, incorporando a transformação social, política, econômica e
+                    institucional associada à mudança da base produtiva e tecnológica.</p>
+                <p>A análise histórica permite evidenciar como as forças sociais e políticas lidaram com a dinâmica
+                    contraditória entre expansão e acumulação de capital e a tendência imanente ao sistema capitalista
+                    de gerar assimetrias, exclusão, desigualdade, perda de legitimidade social e insustentabilidade.
+                    Através da análise histórica, torna-se evidente que não existem modelos gerais e abstratos de
+                    organização da sociedade e do mercado que levem à expansão da economia e à convergência dos
+                    interesses de todas as pessoas.</p>
+                <p>Keynes, por sua vez, demonstrou teoricamente as contradições entre as decisões individuais de
+                    investimento e o benefício obtido pela sociedade. Sob a influência do espírito de sua época,
+                    forneceu a base conceitual para a formação de um pacto entre mercado e sociedade, revelando que a
+                    ação da sociedade e do Estado são decisivos para promover a transformação das condições prévias e
+                    impedir que o sistema produtivo e social fique trancado no passado (lock in effect).</p>
+                <p>Celso Furtado também associou o desenvolvimento a um processo de transformação tecnológica, de
+                    diferenciação do sistema produtivo. Entretanto, Furtado nos lembra que o desenvolvimento é um
+                    processo de mudança social com o objetivo de atender às necessidades humanas. Furtado, em seu livro
+                    Dialética do desenvolvimento, de 1964, afirma que o desenvolvimento econômico pode ser definido como
+                    <span class="fst-italic">”um processo de mudança social pelo qual o crescente número de necessidades
+                        humanas, preexistentes ou criadas pela própria mudança, são satisfeitas através da diferenciação
+                        no sistema produtivo, decorrente da introdução de inovações tecnológicas”</span>.
+                </p>
+                <p>Ao realizar essa distinção, Furtado conseguiu recolocar a discussão do desenvolvimento em um campo
+                    que permite articular endogenamente a dimensão econômica e a social. Portanto, podemos depreender
+                    que desenvolver é transformar, mas transformar para atender às necessidades humanas mediante um
+                    processo de transformação social.</p>
+                <p>Ao longo das últimas décadas, foi se tornando cada vez mais evidente que o processo de
+                    desenvolvimento, além de atender às necessidades humanas atuais, também deve ser sustentável. A
+                    noção de desenvolvimento adotada pelo CEIS considera o ambiente como parte indissociável das
+                    dimensões econômica e social, e, portanto, deve ser articulada com a visão de desenvolvimento
+                    sustentável.</p>
+                <p>Um dos marcos da discussão mundial sobre sustentabilidade foi apresentado no relatório da Comissão
+                    Mundial sobre Meio Ambiente e Desenvolvimento, denominado “Relatório Brundtland - Nosso futuro
+                    comum”, de 1987. </p>
+                <p>Esse relatório consolidou o uso do termo “desenvolvimento sustentável”. Dentre os principais trechos
+                    do texto está o que define o termo:</p>
+
+                <div class="p-2 p-md-5 text-center mx-auto w-80">
+                    <p class="textoIntroItalic texto-cor-1">O desenvolvimento sustentável é um desenvolvimento que
+                        atende às
+                        necessidades do presente sem comprometer a capacidade das gerações futuras de satisfazer as
+                        próprias necessidades. Acesse a publicação A <a
+                            href="https://brasil.un.org/index.php/pt-br/91223-onu-e-o-meio-ambiente"
+                            class="texto-cor-1 links" target="_blank">ONU e o meio ambiente</a>, se quiser saber mais
+                        sobre o
+                        tema.</p>
+                </div>
+
+                <p>As contribuições de Marx, Schumpeter, Keynes, Celso Furtado e do relatório Brundtland para pensar o
+                    desenvolvimento nos permite entender de forma mais precisa a relação entre saúde e desenvolvimento.
+                    A partir da visão apresentada, podemos afirmar que saúde é desenvolvimento por aliar as seguintes
+                    dimensões:</p>
+
+                <section class="custom my-5">
+                    <div class="row d-flex justify-content-center gap-4">
+                        <div class="flipper col-md">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Perspectiva Social</p>
+                                </div>
+                                <div class="back">
+                                    <p>A saúde como expressão concreta das necessidades sociais que são objetivos do
+                                        processo de desenvolvimento (direitos sociais, cidadania). O SUS é o promotor do
+                                        acesso universal à assistência, à tecnologia, à vigilância sanitária e às
+                                        políticas sociais que garantem a saúde da maior parte da população brasileira.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flipper col-md">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Perspectiva Econômica</p>
+                                </div>
+                                <div class="back">
+                                    <p>A saúde como conhecimento, inovação e soberania produtiva para geração de renda,
+                                        emprego e inovação. a capacitação tecnológica para produzir e fornecer os bens e
+                                        serviços essenciais para que a atenção à saúde seja realizada. Exemplos:
+                                        tecnologias para monitorar necessidades de saúde emergentes nos territórios,
+                                        equipamentos de diagnóstico e tratamento, instrumentos e materiais hospitalares,
+                                        medicamentos, dentre outros, é fundamental para garantir acesso universal,
+                                        equânime e integral à saúde.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flipper col-md">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Perspectiva Ambiental</p>
+                                </div>
+                                <div class="back">
+                                    <p>A saúde como desenvolvimento sustentável. Não existe desenvolvimento sustentável
+                                        sem bem-estar (qualidade de vida), assim como não existe saúde se o ambiente não
+                                        for sustentável. Um sistema produtivo e tecnológico soberano, que gere empregos
+                                        qualificados e utilize o potencial de nossos biomas e ecossistemas para a
+                                        geração de novas tecnologias que atendam às necessidades de nossa sociedade.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="container-parairmaislonge my-5 p-2 p-md-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: <a
+                                href="https://www.youtube.com/watch?v=fYk7Qyh77uc&feature=youtu.be" class="links"
+                                target="_blank">Desenvolvimento, saúde e inovação</a></h6>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>Para entender melhor a relação entre desenvolvimento, saúde e inovação, assista a vídeoaula
+                            do professor Carlos Gadelha: <a href="https://www.youtube.com/watch?v=fYk7Qyh77uc"
+                                class="links" target="_blank">Saúde e ciência em tempos de pandemia</a></p>
+
+                        <div class="d-flex justify-content-center">
+                            <div class="container-video">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="fYk7Qyh77uc"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
+
+                                <p><small class="text-muted">Fonte: <a class="links"
+                                            href="https://www.youtube.com/watch?v=fYk7Qyh77uc" target="_blank">Canal do
+                                            YouTube Fórum de Ciência e Cultura da UFRJ</a></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="mt-5 mb-3">Complexo Econômico-Industrial da Saúde (CEIS)</h2>
+
+                <p>Foi a partir da característica indissociável entre as dimensões econômicas, sociais e ambientais da
+                    saúde que se conformou o conceito do Complexo Econômico-Industrial da Saúde (CEIS), uma concepção
+                    inovadora que associa o campo econômico, tecnológico e da inovação para ser pensado junto com o
+                    direito à saúde. A tese central é que não é possível garantir o direito ao acesso universal à saúde
+                    sem uma base produtiva, tecnológica e econômica robusta e soberana.</p>
+                <p>O desafio da dinâmica econômica, produtiva e da ciência, tecnologia e inovação (CTI) se reproduz por
+                    dentro dos sistemas de bem-estar social: gerar transformações políticas, sociais e ambientais e,
+                    simultaneamente, investigar como as transformações políticas sociais e ambientais condicionam a
+                    dinâmica econômica, produtiva e de ciência, tecnologia e inovação.</p>
+
+                <div class="centro my-4">
+                    <span class="text-center fw-bold mb-4">O processo de desenvolvimento: dimensões endógenas</span>
+                    <figure class="figure">
+                        <img style="max-width: 100%;" src="../assets/images/modulo2/aula1/imagem3.png" class="img-fluid"
+                            alt="Representação visual do desafio da dinâmica   econômica, produtiva e da ciência, tecnologia e inovação">
+
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: <a
+                                        href="http://www.cadernosdodesenvolvimento.org.br/ojs-2.4.8/index.php/cdes/article/view/550/pdf"
+                                        class="links" target="_blank">GADELHA,2021 - p. 36</a></small></p>
+                        </figcaption>
                     </figure>
                 </div>
 
-                <h1 class="mt-sm-3 mt-1">Pandemia Covid-19 no contexto das mulheres indígenas</h1>
+                <p>Em outras palavras, a perspectiva do Complexo Econômico-Industrial da Saúde aponta que o Estado de
+                    Bem-Estar possui uma base material concreta que está intrinsecamente vinculada à dinâmica do capital
+                    e a todas suas contradições.</p>
 
-                <p>Olá! Essa é a primeira aula do Módulo 2 do curso Covid-19 e a atenção à gestante em comunidades
-                    indígenas e tradicionais. Ao final da aula, você vai ser capaz de:</p>
+                <h3 class="mt-5 mb-3 text-uppercase">• O que é o Complexo Econômico-Industrial da Saúde</h3>
 
-                <ul class="mb-0">
-                    <li class="icon checkmark">
-                        <p>Compreender as particularidades na epidemiologia dos indígenas no contexto da Covid-19.</p>
-                    </li>
+                <p>O Complexo Econômico-Industrial da Saúde representa o espaço sistêmico no qual a produção e inovação
+                    em bens e serviços de saúde se realiza. Podemos observar claramente que existe um conjunto de
+                    atividades e setores econômicos diversos que estão inseridos em um contexto produtivo e de serviços
+                    característico da área da saúde. Essas atividades podem ser realizadas por organizações e
+                    instituições públicas ou privadas, com ou sem fins lucrativos. Exemplos: Hospitais públicos e
+                    privados, Instituições de Ciência e Tecnologia, Indústria Farmacêutica, Indústria de equipamentos
+                    médicos, laboratórios de diagnóstico, etc.</p>
+                <p>Por adotar a dinâmica captada por Marx e Schumpeter, que caracterizam o capitalismo como um sistema
+                    em permanente transformação, a abordagem do Complexo Econômico-Industrial da Saúde está centrada no
+                    processo de inovação, produção e realização da base material da saúde. Essa perspectiva envolve,
+                    necessária e simultaneamente, uma forte articulação entre a geração e difusão de tecnologias, a
+                    dinâmica institucional e social, a estruturação do Estado e as relações público-privadas na saúde.
+                </p>
+                <p>Assim, podemos concluir que a decisão econômica e dos investimentos em saúde embute um modelo de
+                    sociedade, ao mesmo tempo em que um modelo de sociedade inclusivo e equânime exige determinada
+                    estrutura produtiva e de ciência, tecnologia e inovação em saúde.</p>
 
-                    <li class="icon checkmark">
-                        <p>Conhecer sobre a saúde da mulher indígena antes da Covid-19.</p>
-                    </li>
+                <div class="centro my-4">
+                    <span class="text-center fw-bold mb-4">O Complexo Econômico-Industrial da Saúde (CEIS)</span>
+                    <figure class="figure">
+                        <img style="max-width: 100%;" src="../assets/images/modulo2/aula1/imagem4.png" class="img-fluid"
+                            alt="Apresenta a conformação do Complexo Econômico-Industrial da Saúde">
 
-                    <li class="icon checkmark">
-                        <p class="mb-0">Analisar as peculiaridades da Covid-19 nas mulheres indígenas.</p>
-                    </li>
-                </ul>
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: <a
+                                        href="http://www.cadernosdodesenvolvimento.org.br/ojs-2.4.8/index.php/cdes/article/view/550/pdf"
+                                        class="links" target="_blank">GADELHA,2021 - p. 42</a></small></p>
+                        </figcaption>
+                    </figure>
+                </div>
 
-                <div class="blocoPersonagem my-5 pt-2 pb-1 px-4 align-items-center justify-content-center">
-                    <div class="imgPersonagem">
-                        <img src="../assets/images/india_rosto1.png" alt="">
+                <p>Na conformação do Complexo Econômico-Industrial da Saúde, os subsistemas interagem sistemicamente em
+                    um espaço de desenvolvimento produtivo e tecnológico para garantir o acesso universal.</p>
+                <p>São subsistemas do Complexo Econômico-Industrial da Saúde:</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3"><span class="fw-bold">Subsistema da indústria - de base química e
+                                    biotecnológica:</span> atividades e setores econômicos envolvidos no desenvolvimento
+                                e produção de medicamentos de síntese química e biológica, insumos farmacêuticos ativos,
+                                vacinas, hemoderivados e reagentes para diagnóstico.</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3"><span class="fw-bold">Subsistema da indústria - de base mecânica, eletrônica
+                                    e de materiais:</span> atividades e setores envolvidos no desenvolvimento e produção
+                                de equipamentos médico-hospitalares, insumos, próteses e órteses, dispositivos de
+                                diagnóstico, equipamentos de proteção individual.</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3"><span class="fw-bold">Subsistema de informação e conectividade:</span>
+                                atividades e setores envolvidos no desenvolvimento e produção de serviços para gerar,
+                                processar e transformar em conhecimento dados na área da saúde; e permitir a conexão
+                                entre produtos dos diferentes subsistemas.</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3"><span class="fw-bold">Subsistema de serviços:</span> atividades e setores
+                                envolvidos na produção de serviços de atendimento à saúde, abrangendo a produção
+                                hospitalar, ambulatorial, os serviços de diagnóstico e tratamento e os serviços de
+                                varejo e distribuição de bens em saúde.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <p>Apesar da variedade de instituições, organizações e agentes vinculados à saúde, de bases tecnológicas
+                    distintas, a produção de bens e serviços de informação e conectividade em saúde conflui para
+                    mercados fortemente articulados que caracterizam a prestação de serviços de assistência à saúde.</p>
+                <p>A articulação entre os distintos subsistemas do Complexo Econômico-Industrial da Saúde, entretanto,
+                    vai muito além dos fluxos comerciais e de utilização de serviços durante a realização do atendimento
+                    à saúde. O desenvolvimento de inovações e da própria produção de bens e serviços em saúde é marcado
+                    por uma forte interação entre os subsistemas do complexo.</p>
+
+                <div class="container-parairmaislonge my-5 p-2 p-md-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: A crise da COVID-19 e a
+                            necessidade de um enfoque sistêmico para a inovação</h6>
                     </div>
 
-                    <div class="textoPersonagem">
-                        <p>Para uma experiência de aprendizagem mais ampla, assista aos vídeos e visite os materiais e
-                            links externos que estão disponíveis ao longo do texto. Eu vou sempre te indicar materiais
-                            que podem contribuir para o seu aprendizado.</p>
+                    <div class="container-content-base">
+                        <p>Para entender melhor o conceito de inovação, assista a vídeoaula do professor Felipe Kamia:
+                            <a href="https://www.youtube.com/watch?v=oMjbKfdAvNg" class="links" target="_blank">A crise
+                                da COVID-19 e a necessidade de um enfoque sistêmico para a inovação</a>.
+                        </p>
+
+                        <div class="d-flex justify-content-center">
+                            <div class="container-video">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="oMjbKfdAvNg"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
+
+                                <p><small class="text-muted">Fonte: <a class="links"
+                                            href="https://www.youtube.com/watch?v=oMjbKfdAvNg" target="_blank">Canal do
+                                            YouTube Fórum de Ciência e Cultura da UFRJ</a></small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
+                <div class="container-box py-2 my-5" aria-label="Informação complementar">
+                    <h4 class="titulo-box px-2 px-md-5 py-2">Veja exemplos de interações entre os diferentes subsistemas
+                    </h4>
 
-                <!-- Botão p/ expandir aula -->
-                <div class="row botao" id="topico1">
-                    <button class="btn botaoComecar" type="button" data-toggle="collapse" data-target=".mostraAula"
-                        aria-expanded="false" aria-controls="collapseExample">
-                        Começar a aula
-                    </button>
+                    <div class="mt-4 px-2 px-md-5">
+                        <h5 class="text-white">• Exemplo 1</h5>
+                        <p>A atenção básica apresenta um elevado grau de conexão entre os diferentes subsistemas do
+                            CEIS. É preciso capacidade de conhecimento, tecnologia e inovação para baratear as ações de
+                            saúde, introduzir inovações e gerar conhecimentos que sejam mais acessíveis e muitas vezes
+                            até mais simples. É necessário conectar os agentes de saúde que atendem a população com
+                            sistemas de saúde via aplicativos destinados à área da saúde. Por outro lado, o uso de Big
+                            Data e Inteligência Artificial pode permitir, por exemplo, que decisões importantes sejam
+                            tomadas com base em dados coletados e que a ação pública do SUS ocorra antes de emergências
+                            sanitárias.</p>
+                        <h5 class="text-white">• Exemplo 2</h5>
+                        <p>As novas tecnologias digitais de informação e comunicação (conhecida como revolução 4.0), em
+                            convergência com as ciências da vida, atingem de forma transversal a saúde. As tecnologias
+                            de comunicação e conectividade passam a fazer parte do processo de desenvolvimento de
+                            vacinas e medicamentos, dos equipamentos e da atenção básica, da vigilância assentada em
+                            inteligência artificial e grandes bases de dados. O SUS não terá sustentabilidade se não
+                            lidar com o contexto nacional e global de transformações científicas e tecnológicas.</p>
+                        <h5 class="text-white">• Exemplo 2</h5>
+                        <p>Os hospitais são agentes fundamentais para o desenvolvimento de inovações em saúde. Grande
+                            parte dos ensaios clínicos realizados no desenvolvimento de novos medicamentos e
+                            intervenções em saúde são realizados em hospitais. Adicionalmente, a prática clínica é
+                            fundamental tanto para evidenciar efeitos colaterais não observados nos testes clínicos como
+                            para encontrar novos usos para soluções desenvolvidas.</p>
+                        <h5 class="text-white">• Exemplo 3</h5>
+                        <p>O plano de expansão da radioterapia no SUS, por meio da centralização das compras dos
+                            equipamentos pelo governo federal, permitiu a instalação de uma fábrica de aceleradores
+                            lineares no território nacional e qualificação de recursos humanos no setor, gerando emprego
+                            de qualidade, renda e desenvolvimento, ao mesmo tempo em que ampliou o acesso.</p>
+                    </div>
                 </div>
 
-                <div class="collapse mostraAula">
+                <p>Do ponto de vista institucional, as múltiplas atividades produtivas do Complexo Econômico-Industrial
+                    da Saúde se organizam por meio de diversas políticas, programas, protocolos e ações cujas decisões,
+                    implícita ou explicitamente, condicionam práticas, serviços e produtos.</p>
 
-                    <h2>Particularidades na epidemiologia dos indígenas no contexto da Covid-19</h2>
+                <h3 class="mt-5 mb-3 text-uppercase">• Perspectiva Sistêmica</h3>
 
-                    <p>A Covid-19 tem gerado uma emergência sanitária em todas as regiões do Brasil e do Mundo. Pela
-                        primeira vez, uma pandemia desta magnitude atinge o mundo conectado digitalmente e por meios de
-                        transporte aéreo, terrestre e marítimo. A despeito de ter assolado todas as partes do mundo, a
-                        pandemia Covid-19 mostra particularidades importantes às comunidades tradicionais, como as
-                        indígenas, já que estas costumam apresentar uma dinâmica epidemiológica muito própria.</p>
+                <p>O conceito de sistema pode ser definido como um “conjunto ou arranjo de componentes relacionados ou
+                    conectados de forma produzir um conjunto orgânico ou uma unidade” (Carlson et al.,2003). As palavras
+                    totalidade e estrutura também são utilizadas para se referir a sistemas. Uma característica
+                    essencial do sistema é que não pode ser reduzido à soma total de seus componentes, dado que é
+                    constituído também pela forma como os componentes são arranjados ou estão relacionados.</p>
+                <p>A perspectiva do Complexo Econômico-Industrial da Saúde é sistêmica porque considera que
+                    transformações na dinâmica de uma atividade ou subsistema provocam alterações na dinâmica de outras
+                    atividades ou subsistemas do complexo.</p>
+                <p>A perspectiva sistêmica da saúde deveria ser uma decorrência natural da visão da saúde coletiva, já
+                    que o sistema de saúde não pode ser pensado simplesmente como uma soma dos níveis de atenção à
+                    saúde.</p>
+                <p>Se o SUS é pensado como sistema, sua base material, de produção de bens, serviços e conhecimentos,
+                    também deve ser analisada de modo sistêmico para captar as interdependências e interações com o
+                    sistema de saúde. Restringir o tema da base produtiva aos “insumos em saúde” significa,
+                    inadvertidamente, assumir uma inaceitável relação em que o “produto” industrial é o “insumo” e a
+                    saúde – ou mesmo os serviços – o seu resultado natural.</p>
+                <p>Dessa forma, também é necessário um enfoque sistêmico para tratar a base material de produção e
+                    inovação em saúde, levando em conta o papel da política, das instituições, da sociedade e o papel do
+                    Estado para organizar os sistemas de saúde. Restringir o tema da base produtiva apenas à geração de
+                    novos produtos e serviços oriundos do processo de geração de conhecimento em instituições
+                    científicas e tecnológicas significa, implicitamente, entender que a translação do conhecimento
+                    científico e tecnológico para novos produtos e serviços em saúde é neutro e isento de interesses.
+                </p>
+                <p>A lógica do Complexo Econômico-Industrial da Saúde permite captar a interface entre os sistemas
+                    nacionais de saúde e os sistemas nacionais de inovação. Assim, o Complexo Econômico-Industrial da
+                    Saúde constitui a arena central na qual a tensão entre os interesses do capital e os sociais se
+                    concretizam na saúde.</p>
+                <p>Ao integrar a base produtiva e de inovação em saúde com a organização dos sistemas de saúde de forma
+                    sistêmica, o Complexo Econômico-Industrial da Saúde torna-se o espaço translacional concreto onde a
+                    geração de conhecimento, o desenvolvimento de inovações em saúde e o processo de incorporação
+                    tecnológica se conectam aos sistemas de saúde, podendo gerar, uma maior concentração e segmentação
+                    do acesso, ou mais desenvolvimento e universalização do acesso.</p>
 
-                    <!-- Box Verde 1 -->
-                    <div class="row estilo">
-                        <div class="col-md-10 blocoTexto">
-                            <p class="pinfo" style="text-transform: uppercase;">Quer saber mais sobre o assunto?</p>
+                <div class="centro my-4">
+                    <span class="text-center fw-bold mb-4">Espaço translacional do Complexo Econômico-Industrial da
+                        Saúde</span>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula1/imagem5.png" class="img-fluid" alt="">
 
-                            <div class="row justify-content-between">
-                                <div class="col-sm-4 centro">
-                                    <div class="cardImg">
-                                        <img src="../assets/images/modulo2/imagem1.png" class="img-fluid" alt="">
-                                    </div>
-                                    <figcaption class="figure-caption">
-                                        <small class="text-muted"></small>
-                                    </figcaption>
-                                </div>
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: Elaboração dos autores, com base em Gadelha
+                                    (2020)</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
 
-                                <div class="col-sm-8 centro">
-                                    <ul>
-                                        <li>
-                                            <p>Confira o papel dos meios de transporte aéreo e terrestre na disseminação
-                                                da
-                                                Covid-19 no estado de Pernambuco (em inglês) no
-                                                <a style="color: white;"
-                                                    href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7337758/"
-                                                    target="_blank">
-                                                    Journal of Travel Medicine
-                                                </a>
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
+                <p>Evidências apontam que um Complexo Econômico-Industrial da Saúde fortalecido e soberano é condição
+                    essencial para garantir a sustentabilidade do SUS. A análise da balança comercial do Complexo
+                    Econômico-Industrial da Saúde é uma destas evidências que demonstra que uma base produtiva
+                    enfraquecida cria obstáculos para a sustentabilidade do SUS.</p>
+                <p>A Balança Comercial do Complexo Econômico-Industrial da Saúde, em 2020, mostra que de 2000 a 2020, o
+                    déficit na balança comercial do Complexo Econômico-Industrial da Saúde triplicou, saltando de US$
+                    4,46 bilhões para US$ 13,46 bilhões. No mesmo período, o déficit do subsistema de base química e
+                    biotecnológica, da qual fazem parte o setor de fármacos, medicamentos, vacinas e outros, saltou de
+                    US$ 3,7 bilhões para US$ 11,1 bilhões, representando 83% do déficit de 2020.</p>
+
+                <div class="centro my-4">
+                    <span class="text-center fw-bold mb-4">Balança Comercial do Complexo Econômico-Industrial da
+                        Saúde</span>
+                    <figure class="figure">
+                        <img style="max-width: 100%;" src="../assets/images/modulo2/aula1/imagem6.png" class="img-fluid"
+                            alt="">
+
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: Gadelha (2022).</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>A análise desses dados mostra que a ampliação do acesso à saúde no país ao longo das últimas décadas
+                    se deu de forma crescentemente dependente das importações, sem gerar uma ampliação da capacidade
+                    produtiva e de inovação dentro do país. Em outras palavras, nos tornamos vulneráveis do ponto de
+                    vista da tecnologia em saúde, que é fortemente baseada em conhecimento científico e tecnológico.</p>
+                <p>Outra evidência da dependência tecnológica pode ser visualizada por meio da análise dos depósitos de
+                    patente no mundo. Os indicadores de patentes refletem o perfil produtivo tecnológico do futuro. Se
+                    as patentes estão concentradas no atual contexto, significa que a concentração e as assimetrias
+                    produtivas e tecnológicas para enfrentar desafios futuros aumentarão, restringindo nossa capacidade
+                    de enfrentar os desafios da saúde no futuro (novos tratamentos para doenças crônicas, novas vacinas
+                    para doenças infecciosas emergentes, novas tecnologias de vigilância sanitária, etc.).</p>
+                <p>Dados de patentes na área da saúde mostram que apenas dez países concentram 88% das patentes em
+                    saúde, evidenciando a tendência de aumento das assimetrias no âmbito do Complexo
+                    Econômico-Industrial da Saúde e uma fragilidade ainda maior para o futuro.</p>
+
+                <div class="container-parairmaislonge my-5 p-2 p-md-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS: Assimetrias tecnológicas
+                            globais</h6>
+                    </div>
+
+                    <div class="container-content-base">
+                        <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+                            <div>
+                                <img src="../assets/images/modulo2/aula1/thumb1.png" alt="" class="img-fluid mb-0">
+                                <p>Fonte: <a
+                                        href="https://www.scielo.br/j/csc/a/SShfsTqfkpzpJHjLQzmryHj/abstract/?lang=pt"
+                                        target="_blank" class="links">Scielo</a>.</p>
                             </div>
-
-                            <div class="row justify-content-between">
-                                <div class="col-sm-4 centro">
-                                    <div class="cardImg">
-                                        <img src="../assets/images/modulo2/imagem2.png" class="img-fluid" alt="">
-                                    </div>
-                                    <figcaption class="figure-caption">
-                                        <small class="text-muted"></small>
-                                    </figcaption>
-                                </div>
-
-                                <div class="col-sm-8 centro">
-                                    <ul>
-                                        <li>
-                                            <p>Leia artigo opinativo com considerações sobre as estratégias de
-                                                gerenciamento de crise na pandemia Covid-19, na
-                                                <a style="color: white;"
-                                                    href="https://e0d7bd2c-8e8c-49d8-b8d1-a3128f6947c7.filesusr.com/ugd/08765e_a760bf7a8601456daa33a67f7c3b67fc.pdf"
-                                                    target="_blank">
-                                                    Revista Científica do
-                                                    Corpo de Bombeiros Militar de Pernambuco
-                                                </a>
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="row justify-content-between">
-                                <div class="col-sm-4 centro">
-                                    <div class="cardImg">
-                                        <img src="../assets/images/modulo2/imagem3.png" class="img-fluid" alt="">
-                                    </div>
-                                    <figcaption class="figure-caption">
-                                        <small class="text-muted"></small>
-                                    </figcaption>
-                                </div>
-
-                                <div class="col-sm-8 centro">
-                                    <ul>
-                                        <li>
-                                            <p>Veja o livro que aborda diversos aspectos sobre a pandemia Covid-19,
-                                                inclusive no capítulo 3 há uma perspectiva de quem de
-                                                fato atua como profissional de saúde contra a pandemia, publicado pela
-                                                <a style="color: white;"
-                                                    href="https://portais.univasf.edu.br/covid-19/covid-19/producao-cientifica/livro-ecologia-humana-pandemias-web.pdf"
-                                                    target="_blank">
-                                                    Sociedade Brasileria de Ecologia Humana – SABEH
-                                                </a>
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
+                            <p>Para saber mais sobre as assimetrias tecnológicas globais, leia o artigo
+                                <span class="text-decoration-underline">Transformações e
+                                    assimetrias tecnológicas globais: estratégia de desenvolvimento e desafios
+                                    estruturais
+                                    para o Sistema Único de Saúde</span>.
+                            </p>
                         </div>
                     </div>
-                    <!-- Fim do Box Verde 1 -->
+                </div>
 
-                    <p>As doenças e suas epidemiologias dependem de uma tríade formada pelo indivíduo humano
-                        (hospedeiro), o vetor da doença e o ambiente. Considerando esses três fatores, é fácil entender
-                        que os grupos indígenas brasileiros possuem parâmetros epidemiológicos muito distintos entre si.
-                        Ocorre uma heterogeneidade grande entre os grupos que se relaciona com características culturais
-                        próprias às diferentes etnias, com o grau de urbanização em que vivem, com o grau de contato com
-                        não indígenas, com tamanho populacional, com a região em que vivem e o ambiente de cada aldeia.
+                <h2 class="mt-5 mb-3">Pandemia COVID-19: os efeitos da dependência nacional de insumos e serviços em
+                    saúde</h2>
+
+                <p>A pandemia de COVID-19 configura-se, até o momento, como o maior desafio enfrentado pela humanidade
+                    no século XXI. A frase do secretário-geral das Nações Unidas, António Guterres, é emblemática para
+                    entendermos como a COVID-19 mostrou vulnerabilidades estruturais que dificultaram o combate à
+                    pandemia no Brasil e no mundo.</p>
+
+                <p class="mt-5">O enfrentamento da COVID-19 demonstra como a realização da atenção em saúde depende de
+                    uma base
+                    material que envolve um conjunto de setores:</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3"><span class="fw-bold">Vigilância em saúde:</span> Os dados coletados nos
+                                diferentes estabelecimentos de
+                                atenção à saúde (incluindo o trabalho dos agentes comunitários de saúde na atenção
+                                básica) são fontes de dados primordiais para que os serviços de vigilância
+                                epidemiológica possam identificar novos focos de emergenciais da doença, envolvendo uma
+                                articulação entre atividades do subsistema de serviços de atenção à saúde e serviços de
+                                informação e conectividade.</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3"><span class="fw-bold">Equipamentos de saúde:</span> Para conter a
+                                transmissão do vírus, foi necessário
+                                ampliar de forma considerável a oferta de equipamentos de proteção individual (EPIs) e
+                                material de higiene e limpeza.</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3"><span class="fw-bold">Produtos em saúde:</span> A confirmação de casos de
+                                COVID-19, por sua vez, depende
+                                da execução de testes por profissionais de saúde (subsistema de serviços), com uso de
+                                testes de diagnóstico (subsistema de base química e tecnológica), processados em
+                                equipamentos laboratoriais (subsistema de base mecânica, eletrônica e de materiais).</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3"><span class="fw-bold">Assistência em saúde:</span> Em casos de agravamento
+                                do quadro clínico, os
+                                pacientes infectados com COVID-19 precisaram ser internados em Unidades de Tratamento
+                                Intensivo (subsistema de serviços de atenção à saúde). O tratamento envolve a utilização
+                                de equipamentos de ventilação, medicamentos, insumos hospitalares e muitos outros
+                                produtos desenvolvidos nos demais subsistemas.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <p>Todo esse conjunto de medidas demandam uma elevada capacidade de coordenação do setor público para
+                    articular as diversas necessidades do sistema de saúde, especialmente com o bloqueio das exportações
+                    de bens e produtos essenciais por diversos países, inclusive os mais desenvolvidos, para o combate à
+                    pandemia.</p>
+
+                <div class="container-reflexao flex-column px-2 px-md-5 my-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4">
+                        <img src="../assets/images/icones/icon_gear.svg" alt="" height="50px" class="mb-0">
+                        <h5 class="texto-bold-medio text-uppercase">Para PENSAR</h5>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>A ausência de equipamentos de proteção individual, testes de diagnóstico, ventiladores,
+                            leitos,
+                            kits de intubação, vacinas e outros itens necessários durante a pandemia é um problema
+                            econômico
+                            ou social? Ou os dois?</p>
+                        <div class="ms-2 ms-md-5">
+                            <div>
+                                <img class="img-fluid" src="../assets/images/modulo2/aula1/banner1.png"
+                                    alt="Imagem da notícia Farmácias de São Paulo registram falta de máscaras respiratórias e álcool em gel" />
+                                <p>Fonte: <a
+                                        href="https://epocanegocios.globo.com/Empresa/noticia/2020/02/farmacias-de-sp-registram-falta-de-mascaras-respiratorias-e-alcool-em-gel.html"
+                                        target="_blank" class="links">Época Negócios</a>.</p>
+                            </div>
+                            <div>
+                                <img src="../assets/images/modulo2/aula1/banner2.png"
+                                    alt="Imagem da notícia Mandetta alerta para escassez de respiradores e equipamentos de proteção nos hospitais"
+                                    class="img-fluid">
+                                <p>Fonte: <a
+                                        href="https://g1.globo.com/jornal-nacional/noticia/2020/04/01/mandetta-alerta-para-escassez-de-respiradores-e-equipamentos-de-protecao-nos-hospitais.ghtml"
+                                        target="_blank" class="links">G1 Notícias</a>.</p>
+                            </div>
+                            <div>
+                                <img src="../assets/images/modulo2/aula1/banner3.png"
+                                    alt="Imagem da notícia Associação relata falta de equipamento de proteção em 520 municípios"
+                                    class="img-fluid">
+                                <p>Fonte: <a
+                                        href="https://agenciabrasil.ebc.com.br/saude/noticia/2020-03/associacao-relata-falta-de-equipamento-de-protecao-em-520-municipios#:~:text=At%C3%A9%20as%2023h%20deste%20domingo,balan%C3%A7o%20divulgado%20hoje%20(30)"
+                                        target="_blank" class="links">Agência Brasil</a>.</p>
+                            </div>
+                            <div>
+                                <img src="../assets/images/modulo2/aula1/banner4.png"
+                                    alt="Imagem da notícia Falta de testes é desafio para ministro da Saúde"
+                                    class="img-fluid">
+                                <p>Fonte: <a
+                                        href="https://saude.estadao.com.br/noticias/geral,falta-de-testes-e-desafio-para-ministro-da-saude,70003275520"
+                                        target="_blank" class="links">O Estado de S. Paulo</a>.</p>
+                            </div>
+                            <div>
+                                <img src="../assets/images/modulo2/aula1/banner5.png"
+                                    alt="Imagem da notícia Covid-19. Há doentes amarrados às camas por falta de sedativos no Brasil"
+                                    class="img-fluid">
+                                <p>Fonte: <a
+                                        href="https://sicnoticias.pt/especiais/coronavirus/2021-04-15-Covid-19.-Ha-doentes-amarrados-as-camas-por-falta-de-sedativos-no-Brasil-f5cf1350"
+                                        target="_blank" class="links">SIC Notícias</a>.</p>
+                            </div>
+                            <div>
+                                <img src="../assets/images/modulo2/aula1/banner6.png"
+                                    alt="Imagem da notícia Falta de oxigênio vista em Manaus pode se alastrar pelo país, dizem especialistas"
+                                    class="img-fluid">
+                                <p>Fonte: <a
+                                        href="https://oglobo.globo.com/brasil/falta-de-oxigenio-vista-em-manaus-pode-se-alastrar-pelo-pais-dizem-especialistas-24841549"
+                                        target="_blank" class="links">O Globo</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="centro my-4">
+                    <h6 class="text-center fw-bold mb-4">Mapa do bloqueio das exportações de bens e produtos essenciais
+                        para o combate à pandemia</h6>
+                    <p>Este é um exemplo do prejuízo causado pela dependência externa de produtos e serviços em saúde.
                     </p>
-                    <p>Chama logo nossa atenção a dimensão continental do Brasil, com ambientes que variam de áreas
-                        semidesérticas no Sertão Nordestino a ambientes temperados com neve ocasional no Sul e
-                        florestas úmidas no Norte. Naturalmente, cada ambiente vai ter um papel forte na epidemiologia
-                        das diferentes doenças. Notadamente, vetores de doenças como malária, filariose, esquistossomose
-                        e doença de Chagas terão presença característica em algumas regiões. Enquanto o clima mais frio,
-                        e consequentemente mais propenso a aglomerações em ambientes fechados, podem ter aspecto
-                        relevante na disseminação de doenças virais respiratórias.</p>
-                    <p>O grau de urbanização do grupo também influencia na epidemiologia de diversas doenças. Como
-                        exemplo, demonstramos em estudo prévio que o grau de urbanização tem papel relevante na
-                        epidemiologia das doenças cardiovasculares nas populações indígenas do Nordeste brasileiro. A
-                        despeito de investigarmos grupos indígenas de tradições próximas, que habitam o ambiente do Vale
-                        do Rio São Francisco, observamos que grupos mais urbanizados apresentaram proporcionalmente
-                        maior mortalidade cardiovascular. De forma interessante, superando a mortalidade dos centros
-                        urbanos próximos. Acredita-se que o fato de os indígenas estarem assumindo a forma de vida mais
-                        sedentária e de alimentação industrializada aumenta o risco de desenvolvimento de doenças
-                        crônicas não transmissíveis, o que parece ser ampliado pela menor oferta de serviços de saúde a
-                        essas populações e menor grau de educação em saúde.</p>
+                    <figure class="figure">
+                        <img style="max-width: 100%;" src="../assets/images/modulo2/aula1/imagem7.png" class="img-fluid"
+                            alt="Mapa mundi mostrando os países que praticaram medidas protecionais ou que estavam com medidas protecionistas em vigor, até outubro de 2020.">
 
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: Fonte: Gadelha et al. (2021). Adaptação de Global Trade
+                                    Alert (2020).</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
 
-                    <div class="blocoPersonagem pt-2 pb-1 px-4 align-items-start justify-content-center">
-                        <div class="imgPersonagem">
-                            <img src="../assets/images/india_rosto1.png" alt="">
-                        </div>
+                <p>A pandemia mostrou que a sustentabilidade e resiliência dos sistemas de saúde estavam intrinsecamente
+                    relacionadas à capacidade de coordenar e mobilizar esforços, especialmente da base produtiva,
+                    tecnológica e de inovação em saúde, demonstrando que:</p>
 
-                        <div class="textoPersonagem">
-                            <p class="titulo2">Esse assunto vale uma reflexão</p>
-                            <p>Leia o artigo sobre urbanização e aumento da mortalidade cardiovascular em populações
-                                indígenas, no
-                                <a class="links" href="https://www.scielo.br/j/abc/a/zSrDSY8mPM9nVLfwM6X6vwP/?lang=pt"
-                                    target="_blank">
-                                    Portal Scielo
-                                </a>
-                            </p>
-                            <img src="../assets/images/modulo2/imagem4a.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <p>De fato, esse aspecto está intimamente ligado à proximidade de populações indígenas e não
-                        indígenas.
-                        Em regiões em que a população indígena tem um relacionamento mais próximo com a população
-                        regional,
-                        tem se notado o aparecimento de novos problemas de saúde relacionados às mudanças introduzidas
-                        no
-                        seu modo de vida e na alimentação. Assim, hipertensão arterial, diabetes, câncer, alcoolismo,
-                        depressão e suicídio são problemas cada vez mais frequentes em diversas comunidades.
-                    </p>
-
-                    <p>O médico cardiologista e epidemiologista, Anderson da Costa Armstrong apresenta características
-                        da
-                        população indígena e seu impacto na dinâmica da Covid-19.</p>
-
-                    <!-- Video Embed 4 -->
-                    <div class="row justify-content-center">
-                        <div class="col-md-8">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <video width="560" height="315" controls="true" class="embed-responsive-item"
-                                    poster="../assets/videos/meBOBsMO_capa.png">
-                                    <source src="../assets/videos/meBOBsMO.mp4" type="video/mp4" frameborder="0"
-                                        allow="encrypted-media" allowfullscreen="allowfullscreen" />
-                                </video>
-                            </div>
-                            <small>Fonte: <a class="links" href="https://educare.fiocruz.br/resource/show?id=tc1PMzKX"
-                                    target="_blank">
-                                    Portal Educare - Fiocruz
-                                </a></small>
-                        </div>
-                    </div>
-                    <!-- Fim do Vídeo Embed 4-->
-
-                    <h2 id="topico2">O contexto em que estão inseridas as mulheres indígenas</h2>
-
-                    <p>Já é conhecido o contexto de conflitos étnicos, raciais e territoriais em que costumam estar
-                        inseridos os povos indígenas brasileiros. Nesse meio, as mulheres indígenas possuem papel
-                        singular, não apenas por terem um papel fundamental na formação das novas gerações em seu papel
-                        maternal repleto de coletividade, tal qual núcleos da formação e replicação da cultura indígena.
-                        De fato, as mulheres indígenas também costumam assumir papéis de destaque em suas comunidades,
-                        como líderes espirituais. No entanto, estão frequentemente sujeitas a situações de violência, o
-                        que as atinge no âmbito físico, cultural e espiritual.</p>
-                    <p>Nos atendimentos de saúde a comunidades indígenas do Nordeste do Brasil, não é incomum
-                        ouvir relatos das mulheres indígenas sobre violência doméstica, abusos sexuais e discriminação
-                        racial, por exemplo. Tais relatos invariavelmente se associam com graves repercussões físicas e
-                        mentais sobre suas vítimas, permeando seus modos de vida e suas relações sociais.</p>
-                    <p>Tais circunstâncias possuem potencial deletério ampliado no contexto da pandemia Covid-19,
-                        considerando o impacto psicossocial evidente que esta crise sanitária vem apresentando
-                        globalmente. Os impactos particulares da pandemia do novo coronavírus nas comunidades indígenas
-                        brasileiras ainda não é totalmente conhecido, mas espera-se que – ao se colocar já em um
-                        contexto socialmente desfavorável – desempenhe papel potencializado contra as mulheres
-                        indígenas.</p>
-                    <p>Portanto, para que se possa avançar nos aspectos relativos à saúde da mulher indígena no contexto
-                        da pandemia Covid-19, é importante contextualizar o cenário em que essas mulheres se inserem.
-                        Nesse aspecto, a compreensão sobre as formas de violência particulares a esse grupo populacional
-                        e a regulamentação internacional contra este aspecto são pontos de grande importância.</p>
-                    <p>A Organização dos Estados Americanos, em 1994, emitiu documento resultante da CONVENÇÃO
-                        INTERAMERICANA PARA PREVENIR, PUNIR E ERRADICAR A VIOLÊNCIA CONTRA A MULHER, conhecida como
-                        “<a class="links" href="http://www.cidh.org/basicos/portugues/m.belem.do.para.htm"
-                            target="_blank">
-                            CONVENÇÃO DE BELÉM DO PARÁ
-                        </a>”. Tal documento, em seu Capítulo I, traz dois artigos que definem a
-                        violência contra a mulher indígena dos seus aspectos domésticos às ações ou omissões do Estado:
-                    </p>
-
-                    <div class="container my-5">
-                        <div class="row justify-content-end">
-                            <div class="containerArtigo col-10">
-                                <p>Artigo 1- Para os efeitos desta Convenção, entender-se-á por violência contra a
-                                    mulher
-                                    qualquer ato ou conduta baseada no gênero, que cause morte, dano ou sofrimento
-                                    físico,
-                                    sexual ou psicológico à mulher, tanto na esfera pública como na esfera privada.</p>
-                                <p>Artigo 2- Entende-se que a violência contra a mulher abrange a violência física,
-                                    sexual e
-                                    psicológica:</p>
-                                <div class="ml-4">
-                                    <p class="mb-1">a. ocorrida no âmbito da família ou unidade doméstica ou em qualquer
-                                        relação
-                                        interpessoal, quer o agressor compartilhe, tenha compartilhado ou não a sua
-                                        residência,
-                                        incluindo-se, entre outras formas, o estupro, maus-tratos e abuso sexual;</p>
-                                    <p class="mb-1">b. ocorrida na comunidade e cometida por qualquer pessoa, incluindo,
-                                        entre outras
-                                        formas,
-                                        o estupro, abuso sexual, tortura, tráfico de mulheres, prostituição forçada,
-                                        seqüestro e
-                                        assédio sexual no local de trabalho, bem como em instituições educacionais,
-                                        serviços de
-                                        saúde ou qualquer outro local; e</p>
-                                    <p class="mb-1">c. perpetrada ou tolerada pelo Estado ou seus agentes, onde quer que
-                                        ocorra.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <p>Mais recentemente, em 2017, a Comissão Interamericana dos Direitos Humanos, em seu Relatório “<a
-                            class="links" href="https://www.oas.org/en/iachr/reports/pdfs/IndigenousWomen.pdf"
-                            target="_blank">
-                            As Mulheres Indígenas e seus Direitos Humanos nas Américas
-                        </a>”, descreveu as condições de maior vulnerabilidade para violência contra as mulheres
-                        indígenas em situações específicas relacionadas a contexto de conflitos armados; execução de
-                        projetos de desenvolvimento, investimento e extração; militarização de seus territórios;
-                        privação de liberdade; violência doméstica; ataques contra defensoras de direitos humanos;
-                        meio urbano e no contexto de migração e deslocamento; violência obstétrica; e violência
-                        espiritual.</p>
-                    <p>Enfim, a violência contra a mulher indígena é motivo de preocupação por estender-se a múltiplos
-                        pontos de sua vida cotidiana domiciliar até suas relações com o Estado. A sombra das diversas
-                        formas de violência contra a mulher gera um estado de vigilância constante, que afeta aspectos
-                        psíquicos, físicos e sociais do indivíduo e da coletividade indígena.</p>
-                    <p>Veja o documentário <a class="links"
-                            href="https://www.oas.org/en/iachr/reports/pdfs/IndigenousWomen.pdf" target="_blank">
-                            Mulheres Indígenas: Vozes por Direitos e Justiça
-                        </a>. Lançado pela ONU Brasil em março de 2018, em Brasília (DF). O vídeo recupera alguns
-                        momentos do diálogo entre as mulheres indígenas e as Nações Unidas em torno de sua articulação
-                        pelos direitos humanos e em defesa de seus povos e territórios, no Brasil e no exterior.</p>
-
-                    <!-- Video Embed 1 -->
-                    <div class="row justify-content-center">
-                        <div class="col-md-8">
-
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/JzCGYrzdX3g"
-                                    frameborder="0" allow="encrypted-media" allowfullscreen="allowfullscreen"
-                                    preload="none"></iframe>
-                            </div>
-                            <small class="text-muted">Fonte: <a class="links"
-                                    href="https://www.youtube.com/watch?v=JzCGYrzdX3g" target="_blank">YouTube ONU
-                                    Brasil</a></small>
-                        </div>
-                    </div>
-                    <!-- Fim do Vídeo Embed 1-->
-
-                    <h2 id="topico3">O processo individual e coletivo de autocuidado em saúde</h2>
-
-                    <p>Existem particularidades importantes na lida com aspectos de saúde em mulheres indígenas. O
-                        processo da autoatenção à saúde vai impactar na forma da mulher tentar compreender os processos
-                        fisiológicos e patológicos pelos quais passa desde sua alimentação regular, passando por
-                        fenômenos fisiológicos próprios como menstruação e gravidez, até o enfrentamento de doenças
-                        pelas quais venha a passar. As práticas relativas ao processo de saúde-doença e sua prevenção,
-                        no contexto do autocuidado, será próprio a cada povo e sua cultura, sendo uma construção social
-                        e ontológica. Os cuidados em saúde nas comunidades indígenas estão, quase sempre, inseridos em
-                        uma visão polimórfica que envolve saberes tradicionais, a ótica biomédica e aspectos religiosos.
-                        Portanto, deve o profissional de saúde estar atento às particularidades do grupo social em que
-                        se insere para prestar cuidados adequados às mulheres, estando apto a reconhecer o autocuidado
-                        em saúde próprio a cada grupo.</p>
-                    <p>Os cuidados de saúde costumam estar inseridos em um contexto de coletividade e tradição. O povo
-                        Munduruku, por exemplo, habita estados do Mato Grosso, Pará e Amazonas, atingindo cerca de 10
-                        mil pessoas. A investigação antropológica do processo de autoatenção às mulheres Munduruku do
-                        Amazonas mostrou que se dá de forma coletiva, de cuidado mútuo, com implicações no
-                        desenvolvimento da mulher e de como ela se insere no cosmos. Alguns rituais observados por
-                        ocasião da menarca incluíram isolamento, “defumações” e “banhos com plantas cheirosas”. Nessa
-                        cultura, a pessoa e seu corpo são vistos como produto de ação coletiva, com intervenção
-                        contínua de pessoas mais velhas na manutenção da saúde. No período de gestação, pais e mães
-                        cumprem conjuntamente restrições alimentares que evitem problemas ao desenvolvimento do feto.
-                    </p>
-
-                    <!-- Box Verde 2 -->
-                    <div class="row estilo2">
-                        <div class="col-md-10 blocoTexto">
-                            <p class="pinfo" style="text-transform: uppercase;">Quer saber mais sobre o assunto?</p>
-
-                            <div class="row justify-content-between">
-                                <div class="col-md-8 centro">
-                                    <div class="cardImg">
-                                        <img src="../assets/images/modulo2/imagem4b.png" class="img-fluid" alt="">
-                                    </div>
-                                    <figcaption class="figure-caption">
-                                        <small class="text-muted"></small>
-                                    </figcaption>
-                                </div>
-
-                                <div class="col-md-4 centro">
-                                    <p>Leia o artigo sobre promoção da saúde da mulher indígena, no
-                                        <a style="color: white;"
-                                            href="https://www.scielo.br/j/csp/a/PMxt6Z5DdYQdLFRMhpKdK6v/?lang=pt"
-                                            target="_blank">
-                                            Portal Scielo
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fim do Box Verde 2 -->
-
-                    <p>Dessa forma, as recomendações de autocuidado contra a pandemia Covid-19 devem ser
-                        contextualizadas em consonância com a perspectiva de autoatenção que as mulheres indígenas já
-                        disponham em cada grupo social distinto. Tentar conciliar as recomendações de higiene do modelo
-                        biomédico aos conceitos já praticados na comunidade podem melhorar a adesão a medidas de
-                        reconhecido impacto, mantendo a harmonia com o grupo em que se atua.</p>
-
-                    <div class="blocoPersonagem pt-2 pb-1 px-4 align-items-start justify-content-center">
-                        <div class="imgPersonagem">
-                            <img src="../assets/images/india_rosto1.png" alt="">
-                        </div>
-
-                        <div class="textoPersonagem">
-                            <p class="titulo2">Esse assunto vale uma reflexão</p>
-                            <p>Leia o texto Saúde e relações de gênero: uma reflexão sobre os desafios para a
-                                implantação de políticas públicas de atenção à saúde da mulher indígena, no
-                                <a class="links"
-                                    href="https://www.scielo.br/j/csc/a/8QB7YJFvTJSqgL3n8jPqYPF/abstract/?lang=pt"
-                                    target="_blank">
-                                    Portal Scielo
-                                </a>.
-                            </p>
-                            <img src="../assets/images/modulo2/imagem12.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <h2 id="topico4">Princípios para elaboração de políticas de saúde voltadas à mulher indígena</h2>
-
-                    <p>Há contrastes entre os discursos das políticas públicas de atenção à saúde da mulher indígena e o
-                        discurso etnológico que enfatiza a especificidade das relações de gênero em sociedades
-                        indígenas. Historicamente, políticas públicas de saúde voltadas à mulher indígena não dialogam
-                        propriamente com as especificidades próprias a esse grupo.</p>
-                    <p>A despeito dos contrastes, esses aspectos estão intrinsecamente ligados já que o desenvolvimento
-                        dessas políticas públicas e a consequente organização dos serviços de atenção à saúde têm um
-                        efeito transformador sobre as relações de gênero vigentes nas sociedades ameríndias. Portanto,
-                        fazem-se necessários princípios claros que estabeleçam uma relação positiva e balanceada entre
-                        as políticas de saúde e as tradições indígenas.</p>
-                    <p>A Comissão Interamericana dos Direitos Humanos em seu Relatório “As Mulheres Indígenas e seus
-                        Direitos Humanos nas Américas” (2017), descreve os princípios a serem adotados nas ações dos
-                        Estados latino-americanos, a fim de garantir o acesso das mulheres indígenas aos seus direitos
-                        humanos.</p>
-                    <p>Esse conjunto de conceitos parece adequado como princípios fundamentais a serem considerados na
-                        elaboração de políticas de saúde voltadas às mulheres indígenas:</p>
-
-                    <ul>
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
                         <li class="icon circle">
-                            <p><span class="destaqueTexto">Enfoque holístico -</span> as leis e políticas que afetam
-                                as mulheres indígenas devem abordar
-                                as múltiplas e interconectadas formas de discriminação que elas enfrentam;</p>
+                            <p class="mb-3">A fragilidade e a dependência externa do Complexo Econômico-Industrial da
+                                Saúde (CEIS) se impôs como um grande problema de saúde pública para o Brasil, deixando
+                                clara a interdependência entre as dimensões econômica e social do desenvolvimento.</p>
                         </li>
                         <li class="icon circle">
-                            <p>
-                                <span class="destaqueTexto">Agentes empoderadas –</span> as mulheres indígenas devem
-                                ser
-                                tratadas como sujeitos de direito e não simplesmente vítimas;
-                            </p>
-                        </li>
-                        <li class="icon circle">
-                            <p><span class="destaqueTexto">Interseccionalidade –</span> a superposição de várias
-                                camadas
-                                de discriminação — exemplo: sexo, gênero, raça, origem étnica, religiosidade,
-                                saúde,
-                                idade, classe — resulta em uma forma de discriminação potencializada;
-                            </p>
-                        </li>
-                        <li class="icon circle">
-                            <p><span class="destaqueTexto">Autodeterminação -</span> respeitar o direito dos povos
-                                indígenas aos seus territórios e recursos naturais, e à vida livre de racismo;
-                            </p>
-                        </li>
-                        <li class="icon circle">
-                            <p><span class="destaqueTexto">Incorporação de suas perspectivas -</span> incorporar a
-                                cosmovisão e as ideias das mulheres indígenas em todas as políticas que as afetam;
-                            </p>
-                        </li>
-                        <li class="icon circle">
-                            <p><span class="destaqueTexto">Participação Ativa -</span> proporcionar espaço às
-                                mulheres
-                                indígenas de participar em todos os projetos que as afetem;
-                            </p>
-                        </li>
-                        <li class="icon circle">
-                            <p><span class="destaqueTexto">Indivisibilidade –</span> manter a conexão entre a
-                                proteção
-                                dos direitos civis e políticos das mulheres indígenas e seus direitos econômicos,
-                                sociais
-                                e culturais;
-                            </p>
-                        </li>
-                        <li class="icon circle">
-                            <p><span class="destaqueTexto">Dimensão coletiva -</span> os direitos das mulheres
-                                indígenas
-                                devem ser contextualizados em suas dimensões inseparáveis individual e coletiva.
-                            </p>
+                            <p class="mb-3">A capacidade de mobilizar a base material da saúde, que possui alta
+                                complexidade e envolve de forma sistêmica diversas indústrias e serviços, é fundamental
+                                para a garantia do direito à vida no país.</p>
                         </li>
                     </ul>
 
-                    <p>Portanto, a mulher indígena deve ser vista pelo gestor de saúde na sua integralidade individual,
-                        porém respeitando o caráter coletivo intrinsecamente relacionado ao seu modo de vida. O estilo
-                        de vida indígena coletivo, com vários momentos de aglomeração social ao longo da rotina e com o
-                        compartilhamento regular de utensílios entre as pessoas pode favorecer a disseminação viral, em
-                        especial no contexto pandêmico da Covid-19. Para que tais condições possam ser mitigadas, faz-se
-                        necessário o envolvimento coletivo da comunidade em que as mulheres indígenas se encontram
-                        inseridas, garantindo o respeito ao papel social que cada uma desempenha na sua coletividade.
-                    </p>
-                    <p>O papel de destaque social da mulher indígena deve garantir seu protagonismo na elaboração e
-                        implementação de políticas públicas epidemiológicas que visem a conter o avanço da pandemia
-                        Covid-19, bem como as ações de atenção à saúde das pessoas que porventura contraiam o vírus.</p>
-                    <p>De fato, o destaque das mulheres indígenas em seu convívio social tem resultado em várias
-                        entidades voltadas à luta dessas mulheres. O protagonismo que a elas se atribui impulsionou que
-                        mulheres indígenas em todo o país criassem suas próprias estruturas organizacionais no movimento
-                        indígena. Em fevereiro de 2020, o Instituto Socioambiental mapeou 85 organizações de mulheres
-                        indígenas e sete organizações indígenas que possuem departamentos de mulheres, totalizando 92
-                        organizações, presentes em 21 estados do país (mapa)</p>
-
-                    <div class="row">
-                        <figure class="figure">
-                            <div class="cardImg centro">
-                                <img style="max-width: 80%;" src="../assets/images/modulo2/imagem9.png"
-                                    class="img-fluid rounded" alt="">
-                            </div>
-                            <figcaption class="figure-caption centro">
-                                <small class="text-muted">Fonte: <a
-                                        href="https://acervo.socioambiental.org/acervo/mapas-e-cartas-topograficas/brasil/mapa-das-organizacoes-de-mulheres-indigenas-no-brasil"
-                                        target="_blank">Instituto Socioambiental</a></small>
-                            </figcaption>
-                        </figure>
+                    <div class="d-flex justify-content-md-center my-5">
+                        <p class="italic destaqueTexto text-center">É preciso que as políticas de saúde articulem a
+                            capacidade tecnológica, de inovação e produção com o compromisso com o acesso universal,
+                            sem deixar ninguém para trás.</p>
                     </div>
-
-                    <h2 id="topico5">A Saúde da mulher indígena antes da pandemia Covid-19</h2>
-
-                    <p>Há poucos estudos voltados à identificação epidemiológica das diversas doenças que acometem as
-                        mulheres indígenas no Brasil. De fato, existem no Brasil cerca de 408.056 mulheres indígenas,
-                        sendo essa população aparenta ser mais vulnerável que a população geral aos agravos como o
-                        câncer do colo do útero.</p>
-                    <p>As mulheres indígenas, de maneira geral, constituem um grupo bastante suscetível ao
-                        desenvolvimento de doenças e carências nutricionais, em função de alterações fisiológicas e
-                        hormonais ocorridas ao longo da vida.</p>
-
-                    <!-- Box Verde 3 -->
-                    <div class="row estilo2">
-                        <div class="col-md-10 blocoTexto">
-                            <p class="pinfo" style="text-transform: uppercase;">Quer ir mais longe?</p>
-
-                            <div class="row justify-content-between">
-                                <div class="col-md-8 centro">
-                                    <div class="cardImg">
-                                        <img src="../assets/images/modulo2/imagem10.png" class="img-fluid" alt="">
-                                    </div>
-                                    <figcaption class="figure-caption">
-                                        <small class="text-muted"></small>
-                                    </figcaption>
-                                </div>
-
-                                <div class="col-md-4 centro">
-                                    <p>Leia o artigo sobre a saúde reprodutivas e as mulheres indígenas do Alto Rio
-                                        Negro, no
-                                        <a style="color: white;"
-                                            href="https://www.scielo.br/j/ccrh/a/DpnFhQPH8Fb5vKhwKbwGhJH/abstract/?lang=pt"
-                                            target="_blank">
-                                            Portal Scielo
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fim do Box Verde 3 -->
-
-                    <p>Nesse sentido, <a class="links"
-                            href="https://www.scielo.br/j/rbsmi/a/pY7WwnzXxWcpZRRjDqP6TNt/abstract/?lang=pt"
-                            target="_blank">
-                            Orellana e colaboradores (2011)
-                        </a> realizaram um estudo transversal com o objetivo de
-                        investigar a prevalência e os fatores associados à ocorrência de anemia em mulheres indígenas
-                        Suruí. A população investigada compreendeu 182 mulheres não-gestantes e 14 gestantes (196/225),
-                        representando 87,1% do total de mulheres Suruí, com idade entre 15 e 49 anos, das nove aldeias.
-                        Os resultados apontaram que a prevalência global de anemia nas não-gestantes foi de 67,3% e nas
-                        gestantes de 81,8%. A análise multivariada demonstrou que as mulheres com um ou dois filhos
-                        anêmicos com idade entre 6 e 35 meses tiveram três vezes mais chances de serem anêmicas. De modo
-                        importante, mulheres do estrato socioeconômico mais baixo apresentaram 3,5 vezes mais chance de
-                        serem anêmicas. Assim, ficam claros que fatores internos às comunidades também determinam uma
-                        maior vulnerabilidade de estratos socioeconômicos menos favorecidos, dentro de um mesmo grupo
-                        indígena. O estudo está disponível no Portal Scielo - <a class="links"
-                            href="https://www.scielo.br/j/rbsmi/a/pY7WwnzXxWcpZRRjDqP6TNt/abstract/?lang=pt"
-                            target="_blank">
-                            acesse aqui
-                        </a>.</p>
-
-                    <!-- Box Verde 4 -->
-                    <div class="row estilo2">
-                        <div class="col-md-10 blocoTexto">
-                            <p class="pinfo" style="text-transform: uppercase;">Quer ir mais longe?</p>
-
-                            <div class="row justify-content-between">
-                                <div class="col-md-8 centro">
-                                    <div class="cardImg">
-                                        <img src="../assets/images/modulo2/imagem11.png" class="img-fluid" alt="">
-                                    </div>
-                                    <figcaption class="figure-caption">
-                                        <small class="text-muted"></small>
-                                    </figcaption>
-                                </div>
-
-                                <div class="col-md-4 centro">
-                                    <p>Leia o artigo o perfil dos exames citopatológicos realizados na população
-                                        indígena brasileira em comparação a não indígenas na
-                                        <a style="color: white;"
-                                            href="https://rbc.inca.gov.br/revista/index.php/revista/article/view/603"
-                                            target="_blank">
-                                            Revista Brasileira de Cancerologia
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fim do Box Verde 4 -->
-
-                    <p>Os dados epidemiológicos disponíveis para avaliação dos problemas de saúde de mulheres ainda são
-                        incipientes. Entretanto, há certa clareza de que a atenção à saúde da mulher dos povos indígenas
-                        ainda é precária, não se conseguindo garantir ações como a assistência pré-natal, de prevenção
-                        do câncer de colo de útero, de prevenção de IST/HIV/AIDS, prevenção da desnutrição em crianças,
-                        doenças respiratórias, dentre outras.</p>
-                    <p>Desse modo, parece claro que as mulheres indígenas já se apresentavam com perfil epidemiológico
-                        desfavorável antes mesmo da chegada da pandemia Covid-19. A associação deletéria entre
-                        urbanização, estilo de vida em transformação, pouco desenvolvimento de educação em saúde, baixo
-                        acesso às políticas de saúde e constante estado de vigilância contra potenciais violências geram
-                        um potencial agravamento da prevalência de comorbidades já rotineiramente associadas à maior
-                        gravidade na fase inflamatória da Covid-19, em particular aos quadros de SRAG.</p>
-
-                    <h2 id="topico6">Peculiaridades da Covid-19 nas mulheres</h2>
-
-                    <p>A pandemia Covid-19 tem sido extremamente impactante em vários aspectos da sociedade mundial.
-                        Naturalmente, há a ação direta da doença gerando elevada morbimortaildade nos pacientes
-                        acometidos. Sobrepondo-se a isso, surgem inúmeros elementos sociais e econômicos relevantes,
-                        alguns que atingem especificamente a população feminina e mais severamente os grupos de maior
-                        vulnerabilidade, como as mulheres indígenas.</p>
-
-                    <h3>Ação direta da COVID na população feminina</h3>
-
-                    <p>Os primeiros relatos de parâmetros de maior gravidade da Covid-19 já demonstraram que os homens
-                        internados por SRAG possuíam maior risco de morte quando comparados às mulheres na mesma
-                        condição. De fato, após mais de um ano de experiência com a Covid-19, ainda hoje observamos
-                        maior risco de morte para homens internados por SRAG em relação às mulheres. Porém há situações
-                        próprias à população feminina de grande relevância.</p>
-                    <p>A gravidez é uma situação própria à mulher de reconhecida vulnerabilidade. Ademais, o racional
-                        passa a ser focado no binômio materno-fetal, em que o bem estar da mulher e da criança devem ser
-                        assegurados. A apresentação da Covid-19 durante a gravidez ainda está em processo de compreensão
-                        por parte da comunidade médica, mas já é consenso que implica em cuidados redobrados, uma vez
-                        que o binômio materno-fetal precisa ser considerado.</p>
-
-                    <div class="blocoPersonagem align-items-center justify-content-center">
-                        <div class="imgPersonagem">
-                            <img src="../assets/images/india_falando.png" alt="">
-                        </div>
-
-                        <div class="textoPersonagem">
-                            <div class="titulo3">E na prática?</div>
-                            <div class="titulo3">O dr. Anderson conta sua experiência</div>
-
-                            <p class="italic mt-4">"Muitas mulheres grávidas terão quadros gripais leves relacionados à
-                                Covid-19, sem
-                                interferência no curso da gestação e sem evidências relacionadas a complicações
-                                detectáveis à criança, pelo menos nos seus primeiros meses de vida.</p>
-                            <p class="italic">Em minha experiência, mulheres grávidas que apresentam quadros graves de
-                                SRAG na Covid-19
-                                possuem elevada morbidade, porque costumam afetar significativamente o curso natural da
-                                gestação.</p>
-                            <p class="italic">Em alguns casos, tem sido necessário interromper precocemente a gestação,
-                                levando a
-                                significativas consequências deletérias às crianças, próprias à prematuridade extrema.
-                                Em geral, é necessário monitorar as mulheres grávidas antes e depois do parto, bem como
-                                seus bebês, durante esta pandemia."</p>
-                        </div>
-                    </div>
-
-                    <p>Revisão de dados da literatura científica mostra que as mulheres grávidas ao contraírem Covid-19
-                        geralmente apresentam-se assintomáticas ou desenvolvem sintomas leves a moderados, o que se
-                        mostra semelhante ao quadro descrito para mulheres não grávidas. A pneumonia é um dos desfechos
-                        mais comuns em mulheres grávidas com Covid-19. No entanto, não é ainda possível afirmar de forma
-                        conclusiva que a infecção por SARS-CoV-2 aumenta o risco de complicações maternas, fetais e
-                        neonatais. Similar ao que se sabe para a população geral, mulheres grávidas com Covid-19 que
-                        tenham comorbidades têm risco aumentado de complicações graves. De forma importante, o terceiro
-                        trimestre de gestação parece ser o período em que a mulher é mais vulnerável. Embora incomum,
-                        tudo indica que a transmissão vertical é possível. Assim, a mãe infectada pode transmitir a
-                        Covid-19 ao recém nascido, embora estes não costumem apresentar complicações graves.</p>
-
-                    <h3>Consequências indiretas da COVID na população feminina</h3>
-
-                    <p>No período da pandemia Covid-19, houve consequências sociais importantes para a população geral
-                        e, em particular, as mulheres. De modo geral, o isolamento social foi disruptivo para os laços
-                        que unem as sociedades humanas. Em especial nas comunidades indígenas, em que a coletividade
-                        assume um papel ainda mais preponderante e que conta com as mulheres com papel de protagonismo.
-                    </p>
-
-                    <p>Os relatos no Brasil dão conta de um aumento grande de tensão e agressão no núcleo familiar,
-                        compreendendo
-                        aumento nas taxas de divórcio e aumento significativo nos casos de violência doméstica. As
-                        mulheres têm sido uma vítima contumaz nesses casos de violência domiciliar, o que também
-                        inclui as mulheres indígenas. O papel potencializador de aspectos étnicos,
-                        culturais e tensões sociais de preconceito já foram abordados previamente nesse curso.</p>
-
-                    <p>Portanto, não causa surpresa que haja um aumento de problemas relacionados à saúde mental durante
-                        a pandemia Covid-19 e que as mulheres sejam um grupo especialmente vulnerável nessa seara.
-                        Investigações mostram que mulheres grávidas, no pós-parto, com aborto espontâneo ou sofrendo de
-                        violência pelo parceiro íntimo correm um risco especialmente alto de desenvolver problemas de
-                        saúde mental durante a pandemia. O alcance proativo a esses grupos de mulheres e o aprimoramento
-                        dos apoios sociais podem levar à prevenção, detecção precoce e tratamento imediato.</p>
-
-                    <p>Importante ressaltar o papel da maternidade durante a pandemia Covid-19, o qual tem se mostrado
-                        com aspectos adicionais que geram estresse e ansiedade. As crianças afastadas de suas atividades
-                        escolares regulares e do convívio social com familiares e amigos trazem desafios adicionais às
-                        mães nesse período. Considerando o aspecto coletivo que a criação dos filhos costuma ter nas
-                        comunidades indígenas, a redução no apoio social, um fator de proteção fundamental, potencializa
-                        os efeitos deletérios relacionados ao papel da mãe nos cuidados infantis.</p>
                 </div>
-                <!-- Fim Div mostra conteudo 1 -->
+
+                <div class="container-box py-2 my-5" aria-label="Informação complementar">
+                    <h4 class="titulo-box px-2 px-md-5 py-2">A Fiocruz e o Complexo Econômico-Industrial da Saúde na
+                        pandemia
+                    </h4>
+
+                    <div class="mt-4 px-2 px-md-5">
+                        <h5 class="text-white">• Exemplo 1</h5>
+                        <p>A Fiocruz esteve na liderança da formulação do sistema único de saúde, é líder nacional na
+                            produção de vacinas, produtos biofármacos, teste para diagnóstico, conformando uma
+                            organização tanto de desenvolvimento econômico quanto de desenvolvimento social,
+                            comprometida, em todos os níveis, com a saúde da população.</p>
+                    </div>
+                </div>
+
+                <p>A pandemia também evidenciou o acerto de uma trajetória de políticas públicas inovadoras, amparadas
+                    por um marco regulatório que permitiu o fortalecimento do Complexo Econômico-Industrial da Saúde no
+                    passado recente.</p>
+                <p>O Brasil só foi capaz de produzir as vacinas para COVID-19, em território nacional, porque promoveu
+                    políticas públicas no passado que articularam a capacitação de produção de vacinas em instituições
+                    de ICTs públicas como a Fiocruz e o Butantã, com a gestão ao acesso às vacinas no maior programa de
+                    vacinação pública do mundo, o Programa Nacional de Imunização (PNI) do SUS. Ao mesmo tempo, promoveu
+                    avanços no marco legal da ciência, tecnologia e inovação que sustentavam a realização de políticas
+                    desse tipo.</p>
+
+                <h2 class="mt-5 mb-3">O Complexo Econômico-Industrial da Saúde e as políticas para o fortalecimento do
+                    SUS</h2>
+
+                <p>O conceito do Complexo Econômico-Industrial da Saúde possibilita perceber a existência de um ambiente
+                    econômico, político e institucional em saúde que permite caracterizar mercados fortemente
+                    interligados e interdependentes. Portanto, os mercados e atividades que fazem parte do Complexo
+                    Econômico-Industrial da Saúde podem ser coordenados para induzir a geração de inovações em saúde que
+                    satisfaçam as necessidades humanas e gerem desenvolvimento social, econômico e ambiental.</p>
+                <p>Com base no desenvolvimento desse marco teórico, foi possível desenvolver, ao longo dos anos 2000, um
+                    conjunto de ações que possibilitaram a construção de uma política industrial e de inovação para o
+                    Complexo Econômico-Industrial da Saúde verdadeiramente sistêmica, orientada a atender os interesses
+                    da sociedade. </p>
+                <p>Entre 2003 e 2015, foi possível construir uma institucionalidade importante para conceber e
+                    implementar políticas de apoio aos setores do Complexo Econômico-Industrial da Saúde. </p>
+
+                <div class="container-parairmaislonge my-5 p-2 p-md-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: Gestão da inovação em saúde no
+                            contexto do novo marco regulatório de CT&I</h6>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>Para compreender os avanços no marco regulatório de ciência, tecnologia e inovação que deram
+                            suporte às políticas públicas discutidas, assista à videoaula da professora Karla
+                            Montenegro.</p>
+
+                        <div class="d-flex justify-content-center">
+                            <div class="container-video">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="KWAxu2hq3m4"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
+
+                                <p><small class="text-muted">Fonte: <a class="links"
+                                            href="https://www.youtube.com/watch?v=KWAxu2hq3m4" target="_blank">Canal do
+                                            YouTube Fórum de Ciência e Cultura da UFRJ</a></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Um dos elementos mais inovadores dessas políticas industriais foi a subordinação da política
+                    industrial e de inovação pelo Ministério da Saúde, permitindo que a política de desenvolvimento
+                    econômico fosse direcionada às necessidades do SUS.</p>
+
+                <div class="centro my-4">
+                    <h6 class="text-center fw-bold mb-4">Abordagem Sistêmica para a Política Industrial e de Inovação do
+                        Complexo Econômico-Industrial da Saúde</h6>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula1/imagem8.png" class="img-fluid"
+                            alt="Esquema visual representativo da abordagem sistêmica">
+
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: Gadelha et al (2021, no prelo). Autorizado para
+                                    uso educacional pela FIOCRUZ no curso “Introdução ao Sistema Único de Saúde”.
+                                    Reprodução não autorizada.</small></p>
+                        </figcaption>
+
+
+                        Um grande círculo central, representando a Inovação para acesso universal sustentável. Em torno
+                        dele, oito outros círculos. Cada um, representando os seguintes temas:
+                        Política industrial e tecnológica; regulação sanitária, compras públicas; propriedade
+                        intelectual, financiamento, política comercial, suporte tecnológico, e cooperação internacional.
+                    </figure>
+                </div>
+
+                <p>Através desse desenho inovador, foi possível articular as políticas comerciais de compras públicas,
+                    de financiamento, propriedade intelectual, suporte tecnológico, regulação sanitária e outras para
+                    induzir inovações orientadas ao Acesso Universal no âmbito do SUS.</p>
+                <p>Um dos exemplos de política pública inovadora no período citado é o das Parcerias para o
+                    Desenvolvimento Produtivo (PDP). As PDPs são parcerias entre instituições públicas e empresas
+                    privadas destinadas a atender a demanda por produtos considerados estratégicos para o SUS. A
+                    centralização de compra pelo poder federal para viabilizar estas parcerias confere ao Estado
+                    brasileiro grande poder de barganha para mitigar a dependência tecnológica de produtos estrangeiros.
+                </p>
+                <p>A imensa demanda do SUS se converte em um incentivo para a cooperação tecnológica entre a instituição
+                    pública e a empresa privada e adicionalmente, permite uma redução nos preços praticados no mercado.
+                    Entre 2011 e 2016, as PDPs permitiram uma economia de R$ 4,5 bilhões para o Ministério da Saúde.</p>
+                <p>De acordo com a PDP, o Ministério da Saúde garante uma demanda estável de fornecimento do produto
+                    estratégico aos parceiros da PDP, que pode variar de 25% a 100%. Em contrapartida, o parceiro deve
+                    transferir integralmente a tecnologia para a instituição pública durante o período da PDP.</p>
+                <p>A transferência de tecnologias para produtores nacionais, por sua vez, permite internalizar
+                    plataformas tecnológicas estratégicas e aumenta as capacitações locais, permitindo a redução da
+                    dependência externa do SUS. Segundo a definição de inovação adotada nos principais manuais
+                    internacionais (Manual de OSLO, Manual de Bogotá), as PDPs podem ser caracterizadas como encomendas
+                    tecnológicas e geram inovações para o contexto nacional.</p>
+
+
+                <div class="centro my-4">
+                    <h6 class="text-center fw-bold mb-4">Modelo de articulação produtiva e tecnológica pautado pelas
+                        necessidades sociais: PDP e Etec</h6>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula1/imagem9.png" class="img-fluid"
+                            alt="Imagem em formato de triângulo que apresenta o arranjo institucional inovador das PDPs (parcerias para o desenvolvimento produtivo) e Etecs (Encomendas Tecnológicas) que permitiu combinar a ampliação do acesso no SUS com o fortalecimento do CEIS.<br />O lado direito apresenta o novo arranjo, onde o Ministério da Saúde utiliza o poder de compra do SUS para garantir uma demanda estável para o produto estratégico, condicionando a compra à transferência da tecnologia produtiva pelas empresas privadas para instituições públicas, como a Fiocruz e o Instituto Butantã, e de CT&I.<br />O novo arranjo substituiu a prática de realizar aquisições de produtos estratégicos para o SUS através de processos rotineiros de compra, mais adequados a adquirir produtos pouco complexos, como caneta esferográfica, por exemplo, que eram importados e não geravam emprego e renda no Brasil, apresentado do lado esquerdo da figura." />
+
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: <a
+                                        href="http://www.cadernosdodesenvolvimento.org.br/ojs-2.4.8/index.php/cdes/article/view/561"
+                                        class="links" target="_blank">GADELHA et al. (2021), p. 294</a>.</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="container-box py-2 my-5" aria-label="Informação complementar">
+                    <h4 class="titulo-box px-2 px-md-5 py-2">Veja exemplos de Parcerias para o Desenvolvimento Produtivo
+                    </h4>
+
+                    <div class="mt-4 px-2 px-md-5">
+                        <h5 class="text-white">• Exemplo 1 - Medicamento Tacrolimo</h5>
+
+                        <div class="row">
+                            <div class="col-12 col-sm-4 p-0">
+                                <figure class="figure">
+                                    <img src="../assets/images/modulo2/aula1/thumb2.png" class="img-fluid"
+                                        alt="Caixa do remédio Tacrolimo e embalagem dos comprimidos" />
+                                    <figcaption class="figure-caption">
+                                        <p><small class="text-white">Fonte: <a
+                                                    href="https://agencia.fiocruz.br/fiocruz-distribui-medicamento-para-transplantados-no-sus"
+                                                    class="links-white" target="_blank">Agência Fiocruz de
+                                                    Notícias</a></small></p>
+                                    </figcaption>
+
+                                </figure>
+                            </div>
+                            <div class="col-12 col-sm-8 px-0 px-sm-4">
+                                <p>O Tracolimo é um medicamento imunossupressor de uso contínuo que evita a rejeição
+                                    de
+                                    órgãos transplantados (fígado ou rim). No Brasil, mais de 30 mil pacientes fazem
+                                    uso
+                                    do
+                                    medicamento. A PDP realizada com o laboratório LIBBS permitiu que o Instituto de
+                                    Tecnologia em Fármacos da Fiocruz (Farmanguinhos/Fiocruz) internalizasse a
+                                    produção
+                                    do
+                                    produto. Em 2019, Farmanguinhos garantiu a produção de 90 milhões de doses para
+                                    suprir a
+                                    falta momentânea do produto no Sistema Único de Saúde (SUS). Adicionalmente, a
+                                    PDP
+                                    permitiu uma economia de quase R$ 1 bilhão em cinco anos para o setor público.
+                                </p>
+                            </div>
+                        </div>
+
+                        <h5 class="text-white">• Exemplo 2 - Vacina COVISHIELD</h5>
+
+                        <div class="row">
+                            <div class="col-12 col-sm-4 p-0">
+                                <figure class="figure">
+                                    <img src="../assets/images/modulo2/aula1/thumb3.png" class="img-fluid"
+                                        alt="Dois frascos da vacina COVISHILD em primeiro plano. Ao fundo, a caixa com cinco doses da vacina" />
+
+                                    <figcaption class="figure-caption">
+                                        <p><small class="text-white">Fonte: <a
+                                                    href="https://www.saude.pr.gov.br/Noticia/Vacinas-da-Pfizer-e-da-AstraZenecaFiocruz-chegam-ao-Estado-nesta-segunda"
+                                                    class="links-white" target="_blank">Secretaria de Saúde do
+                                                    Paraná</a></small></p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-12 col-sm-8 px-0 px-sm-4">
+                                <p>O Brasil foi capaz de produzir vacinas para a Covid-19 porque a Fiocruz e o Butantã
+                                    desenvolveram ao longo de sua história a capacidade tecnológica para absorver
+                                    tecnologia
+                                    e para construir processos de gestão que possibilitaram parcerias com o setor
+                                    privado.
+                                    Destaca-se também o ambiente de segurança jurídica conquistada a partir da
+                                    promulgação
+                                    do marco legal da Ciência, Tecnologia e Inovação, que viabilizou a aplicação de
+                                    instrumentos capazes de garantir a compra pública de risco tecnológico como o
+                                    realizado
+                                    na encomenda tecnológica (ETEC) da vacina Oxford - Astrazeneca, posteriormente
+                                    registrada como produto nacional pela Fiocruz, como consequência do processo de
+                                    transferência de tecnologia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="mt-5 mb-3">O Complexo Econômico-Industrial da Saúde e a sustentabilidade do SUS diante da 4ª
+                    Revolução Tecnológica</h2>
+
+                <p>O Brasil está inserido em um contexto nacional e global de profundas transformações sociais,
+                    tecnológicas e econômicas que terão impacto decisivo para os sistemas de bem-estar social e, em
+                    particular, para a área da saúde e para o SUS.</p>
+                <p>O Brasil deve vivenciar nos próximos anos profundas mudanças demográficas e epidemiológicas. O
+                    predomínio de doenças crônicas deve se manter, mas as doenças transmissíveis devem continuar a ter
+                    uma presença central nas condições de saúde, especialmente frente ao quadro das transformações
+                    ambientais. Adicionalmente, mantidas as tendências atuais, a violência e outras causas externas
+                    continuarão relevantes, pressionando nosso sistema de saúde. Portanto, o cenário da saúde no século
+                    XXI deve se caracterizar por uma crescente complexidade epidemiológica.</p>
+                <p>Ao mesmo tempo, podemos observar uma escalada vertiginosa da interconectividade com a quarta
+                    revolução tecnológica. O avanço da 4ª revolução tecnológica e de suas tecnologias pervasivas tem na
+                    saúde um espaço privilegiado de desenvolvimento e de interação, trazendo enormes ameaças e
+                    potencialidades para o cuidado e o acesso universal.</p>
+                <p>Mantendo a perspectiva do Complexo Econômico-Industrial da Saúde, de visualizar a inovação como um
+                    processo de transformação política, econômica e social, será essencial compreender como as
+                    transformações tecnológicas em curso impactam a produção, inovação e o consumo em saúde,
+                    condicionando o cuidado e o acesso universal.</p>
+                <p>O progresso tecnológico tem potencial para aprimorar de forma expressiva a qualidade de vida. É
+                    possível construirmos uma vigilância epidemiológica mais inteligente, desenvolver tecnologias
+                    digitais para ampliar as ferramentas dos profissionais de saúde da atenção primária, aprimorar a
+                    atenção de alta complexidade com uso da genômica, entre outras possibilidades. Entretanto, a 4ª
+                    revolução tecnológica carrega o risco da hipertecnificação e de ampliar a segmentação do cuidado à
+                    saúde, reduzindo o espaço para uma visão coletiva da saúde baseada na solidariedade.</p>
+                <p>A ciência, a tecnologia e a inovação não são neutras. Segundo a perspectiva do Complexo
+                    Econômico-Industrial da Saúde, a direção da inovação é dada pelo padrão de desenvolvimento adotado
+                    pela sociedade. Portanto, o progresso tecnológico pode gerar benefícios, mas também aumentar a
+                    fragmentação, a exclusão e a desigualdade, dependendo da forma como as tecnologias forem
+                    incorporadas.</p>
+
+                <div class="centro my-4">
+                    <h6 class="text-center fw-bold mb-4">Figura representa o impacto da 4ª revolução tecnológica sobre o
+                        CEIS. A figura apresenta um círculo que circunscreve a representação do CEIS como espaço
+                        translacional. As tecnologias da 4ª revolução tecnológica afetam todos os pontos de passagem do
+                        conhecimento científico até a chegada das inovações aos sistemas de saúde. A depender da forma
+                        como as tecnologias serão incorporadas, podemos gerar uma maior concentração e segmentação do
+                        acesso, ou mais desenvolvimento e universalização do acesso.</h6>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula1/imagem10.png" class="img-fluid"
+                            alt="Imagem em formato de triângulo que apresenta o arranjo institucional inovador das PDPs (parcerias para o desenvolvimento produtivo) e Etecs (Encomendas Tecnológicas) que permitiu combinar a ampliação do acesso no SUS com o fortalecimento do CEIS.<br />O lado direito apresenta o novo arranjo, onde o Ministério da Saúde utiliza o poder de compra do SUS para garantir uma demanda estável para o produto estratégico, condicionando a compra à transferência da tecnologia produtiva pelas empresas privadas para instituições públicas, como a Fiocruz e o Instituto Butantã, e de CT&I.<br />O novo arranjo substituiu a prática de realizar aquisições de produtos estratégicos para o SUS através de processos rotineiros de compra, mais adequados a adquirir produtos pouco complexos, como caneta esferográfica, por exemplo, que eram importados e não geravam emprego e renda no Brasil, apresentado do lado esquerdo da figura." />
+
+                        <figcaption class="figure-caption text-center">
+                            <p><small class="text-muted">Fonte: GADELHA (2020).</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>Outros exemplos da quarta revolução tecnológica em saúde são:</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3">Inteligência Artificial (IA) - para auxiliar o diagnóstico precoce de
+                                doenças</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Robotização - para maior precisão em cirurgias mediadas por robô</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Telecirurgia (Robotização + Telemedicina) - para procedimentos realizados
+                                por meio de robôs e com participação de profissionais fisicamente distantes</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Adesivos e aplicativos aderentes ou acoplados ao corpo (“tecnologia
+                                vestível”) - para várias medições e monitoramentos em saúde</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="container-parairmaislonge my-5 p-2 p-md-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS: Veja um exemplo de
+                            tecnologia vestível</h6>
+                    </div>
+
+                    <div class="container-content-base">
+                        <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+                            <div class="col-5">
+                                <img src="../assets/images/modulo2/aula1/thumb4.png" alt="" class="img-fluid">
+                                <p>Fonte: <a href="https://www.freestyle.abbott/br-pt/home.html" target="_blank"
+                                        class="links">Imagens de divulgação do Laboratório Abbott</a>.</p>
+                            </div>
+                            <div class="col-7">
+                                <p>Os aparelhos de medição de glicose, geralmente, são desenvolvidos por empresas
+                                    farmacêuticas, combinando conhecimentos de base química e biotecnológica com os de
+                                    base
+                                    mecânica, eletrônica e de materiais.</p>
+                                <p>As últimas versões têm incorporado sensores para leitura não invasiva, monitoramento
+                                    constante e transmissão dos dados remotamente para equipes de saúde.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>A 4ª revolução tecnológica torna as fronteiras entre os campos do conhecimento, entre o mundo
+                    biológico e o material, e entre os setores relacionados à produção de bens e serviços para a saúde
+                    cada vez menos visíveis, provocando uma radicalização do caráter sistêmico da saúde. Adicionalmente,
+                    o desenvolvimento de inovações se torna cada vez mais complexo e acelerado, levando ao aumento da
+                    distância tecnológica e da base de conhecimento entre os países.</p>
+                <p>As transformações em andamento possuem o potencial de transformar radicalmente a saúde, tanto em sua
+                    base social como produtiva, revelando novos desafios para a discussão da relação entre
+                    desenvolvimento e saúde no contexto capitalista. A compreensão desses fenômenos é vital para
+                    pensarmos uma nova geração de políticas públicas que sejam sistêmicas, estruturantes, eficazes e
+                    eficientes que aproveitem as possibilidades dos novos paradigmas para promover a sustentabilidade do
+                    SUS. Nesse esforço, é vital a aproximação dos distintos campos dos saberes.</p>
+
+                <div class="ms-2 ms-md-5 ps-2 ps-md-5">
+                    <p class="fst-italic">“Relegar a direção das transformações [da 4ª Revolução Tecnológica] apenas a
+                        uma lógica mercantil
+                        fragmentada, significa, de um lado, perder efetividade nas políticas de desenvolvimento
+                        econômico e
+                        tecnológico em saúde e, de outro lado, perpetuar apenas um padrão compensatório - quando
+                        possível -
+                        de políticas públicas em saúde, que reforça a segmentação da sociedade”</p>
+
+                    (extrato do artigo <a
+                        href="http://www.cadernosdodesenvolvimento.org.br/ojs-2.4.8/index.php/cdes/article/view/550/pdf"
+                        class="links" target="_blank">O Complexo Econômico-Industrial da Saúde 4.0: por uma visão
+                        integrada
+                        do desenvolvimento econômico, social e ambiental, página 30</a>).
+                </div>
+
+                <div class="container-parairmaislonge my-5 p-2 p-md-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-start align-items-md-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS: Sistemas de
+                            reconhecimento de imagens e a reprodução de assimetrias entre países</h6>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>Estudo do laboratório de inovação do Facebook revelou que os algoritmos de reconhecimento de
+                            imagens têm mais dificuldade em interpretar itens de consumo comuns dos países de baixa
+                            renda. O percentual de erro aumenta conforme a renda das famílias diminui. O estudo aponta
+                            que a maioria dos desenvolvedores desses algoritmos são brancos, com elevado nível
+                            educacional e oriundos de países de renda alta e que, portanto, os algoritmos apresentam
+                            restrições geográficas e dificuldade para reconhecer diferenças culturais.</p>
+                        <p>O resultado para o reconhecimento de imagens para sabão em barra, mais comuns nos países em
+                            desenvolvimento, e de sabão líquido, comum em países de renda alta é um exemplo. Enquanto a
+                            maior parte dos algoritmos foi capaz de reconhecer com sucesso o sabão líquido, nenhum foi
+                            capaz de reconhecer o sabão em barra.</p>
+                        <p>O exemplo simples mostra o risco da adoção indiscriminada de tecnologias desenvolvidas fora
+                            do contexto de sua aplicação e aponta para necessidade de construção de base sólida de
+                            conhecimento em tecnologias 4.0 no país para utilização de tecnologias voltadas para
+                            realidade e necessidade da população.</p>
+
+                        <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start gap-4 my-4">
+                            <div class="col-4">
+                                <img src="../assets/images/modulo2/aula1/thumb5.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-8">
+                                <h6 class="fw-bold">O que é de fato: sabão / Nepal, 288$/mês</h6>
+                                <p class="fst-italic mb-1">Sistemas de reconhecimento de imagem e o que eles
+                                    identificaram</p>
+
+                                <p class="mb-1"><span class="fw-bold">Azure:</span> comida, queijo, pão, bolo, sanduíche
+                                </p>
+                                <p class="mb-1"><span class="fw-bold">Clarifai:</span> comida, madeira, culinária,
+                                    deliciosa, saudável</p>
+                                <p class="mb-1"><span class="fw-bold">Google:</span> comida, prato, culinária, comfort
+                                    food, spam</p>
+                                <p class="mb-1"><span class="fw-bold">Amazon:</span> comida, confeitaria, doces,
+                                    hambúrguer</p>
+                                <p class="mb-1"><span class="fw-bold">Watson:</span> alimentos, produtos alimentícios,
+                                    açafrão, tempero</p>
+                                <p class="mb-1"><span class="fw-bold">Tencent:</span> comida, prato, matéria, fast food,
+                                    nutrição</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start gap-4 my-4">
+                            <div class="col-4">
+                                <img src="../assets/images/modulo2/aula1/thumb6.png" alt="" class="img-fluid">
+                                <p>Fonte: Facebook AI Development Lab, apud Gadelha et al (2022, no prelo).</p>
+                            </div>
+                            <div class="col-8">
+                                <h6 class="fw-bold">O que é de fato: sabão / Nepal, 288$/mês</h6>
+                                <p class="fst-italic mb-1">Sistemas de reconhecimento de imagem e o que eles
+                                    identificaram</p>
+                                <p class="mb-1"><span class="fw-bold">Azure:</span> comida, queijo, pão, bolo, sanduíche
+                                </p>
+                                <p class="mb-1"><span class="fw-bold">Clarifai:</span> comida, madeira, culinária,
+                                    deliciosa, saudável</p>
+                                <p class="mb-1"><span class="fw-bold">Google:</span> comida, prato, culinária, comfort
+                                    food, spam</p>
+                                <p class="mb-1"><span class="fw-bold">Amazon:</span> comida, confeitaria, doces,
+                                    hambúrguer</p>
+                                <p class="mb-1"><span class="fw-bold">Watson:</span> alimentos, produtos alimentícios,
+                                    açafrão, tempero</p>
+                                <p class="mb-1"><span class="fw-bold">Tencent:</span> comida, prato, matéria, fast food,
+                                    nutrição</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="mt-5 mb-3">Fortalecer o SUS e o Complexo Econômico-Industrial da Saúde como saída para a
+                    crise sanitária, social, econômica e ambiental</h2>
+
+                <div class="d-flex flex-column align-items-center my-5">
+                    <p class="italic destaqueTexto text-center mb-1">“O Futuro não nos faz. Nós é que nos refazemos na
+                        luta
+                        para fazê-lo”</p>
+                    <p class="texto-cor-1">Paulo Freire</p>
+                </div>
+
+                <div class="container-parairmaislonge my-5 p-2 p-md-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: Saúde como vetor para sair da
+                            crise</h6>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>Para compreender o complexo Econômico-Industrial da Saúde como ser um vetor importante para
+                            enfrentamento da crise social, econômica e ambiental, veja vídeoaula Saúde como vetor para
+                            sair da crise.</p>
+
+                        <div class="d-flex justify-content-center">
+                            <div class="container-video">
+                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
+                                    <vm-youtube video-id="XAlJ1QIBP74"></vm-youtube>
+                                    <vm-default-ui></vm-default-ui>
+                                </vm-player>
+
+                                <p><small class="text-muted">Fonte: <a class="links"
+                                            href="https://www.youtube.com/watch?v=XAlJ1QIBP74" target="_blank">Canal do
+                                            YouTube Fórum de Ciência e Cultura da UFRJ</a></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Compreender a saúde como desenvolvimento nos permite visualizar que o Complexo Econômico-Industrial
+                    da Saúde é um sistema econômico, produtivo e tecnológico, com elevado dinamismo e alto impacto
+                    social. A saúde representa 9% do produto interno bruto (PIB); 9% dos empregos formais; 1/3 do
+                    esforço de pesquisa do País; e é uma das principais áreas de inovação tecnológica.</p>
+                <p>Através do estudo do Complexo Econômico-Industrial da Saúde foi possível compreender que uma base de
+                    ciência, tecnologia, inovação e produção em saúde sólida, capaz de identificar e responder às
+                    demandas da sociedade brasileira é fundamental para garantir a sustentabilidade do direito ao acesso
+                    universal, equânime e integral à saúde pelo SUS.</p>
+                <p>De forma inversa, podemos pensar um padrão de desenvolvimento com objetivo de garantir a
+                    concretização do acesso universal, equânime e integral à saúde pelo SUS, por meio de políticas que
+                    promovam o fortalecimento do Complexo Econômico-Industrial da Saúde.</p>
+                <p>Adotar um projeto de desenvolvimento que vincule as políticas públicas na área da saúde com o
+                    fortalecimento da base de geração de conhecimento, produção e inovação em saúde, base do Complexo
+                    Econômico-Industrial da Saúde, se mostra uma saída concreta para gerarmos renda e empregos de boa
+                    qualidade com a promoção de mais saúde e qualidade de vida para a população.</p>
+                <p>A construção de um Estado de Bem-estar no Brasil pode se constituir em uma alavanca para promovermos
+                    um modelo de desenvolvimento que gere saúde, emprego e proteja o meio ambiente. É necessário
+                    desenvolver políticas que relacionem de forma estratégica as questões estruturais do crescimento
+                    econômico para enfrentar as enormes desigualdades e carências do País. “Os direitos sociais não
+                    apenas “cabem no PIB”, mas, ao convertê-los em grandes desafios nacionais, são fontes estruturais de
+                    demanda para o setor produtivo e polo de modernização tecnológica do País”.</p>
+
+                <h2 class="mt-5 mb-3">Você chegou ao final da aula</h2>
+
+                <p class="px-2 px-md-0">Nesta aula você viu os seguintes tópicos:</p>
+
+                <ul class="ms-5 pe-2 pe-md-0">
+                    <li class="mb-2">
+                        <div class="d-flex gap-2 align-items-center">
+                            <img src="../assets/images/icones/icon_check_circle.svg" alt="Check" class="mb-1 me-2">
+                            <p class="mb-0">Desenvolvimento é saúde</p>
+                        </div>
+                    </li>
+                    <li class="mb-2">
+                        <div class="d-flex gap-2 align-items-center">
+                            <img src="../assets/images/icones/icon_check_circle.svg" alt="Check" class="mb-1 me-2">
+                            <p class="mb-0">Complexo Econômico-Industrial da Saúde</p>
+                        </div>
+                    </li>
+                    <li class="mb-2">
+                        <div class="d-flex gap-2 align-items-center">
+                            <img src="../assets/images/icones/icon_check_circle.svg" alt="Check" class="mb-1 me-2">
+                            <p class="mb-0">Pandemia COVID-19: os efeitos da dependência nacional de insumos e serviços
+                                em saúde</p>
+                        </div>
+                    </li>
+                    <li class="mb-2">
+                        <div class="d-flex gap-2 align-items-center">
+                            <img src="../assets/images/icones/icon_check_circle.svg" alt="Check" class="mb-1 me-2">
+                            <p class="mb-0">O Complexo Econômico-Industrial da Saúde e as políticas para o
+                                fortalecimento do SUS</p>
+                        </div>
+                    </li>
+                    <li class="mb-2">
+                        <div class="d-flex gap-2 align-items-center">
+                            <img src="../assets/images/icones/icon_check_circle.svg" alt="Check" class="mb-1 me-2">
+                            <p class="mb-0">
+                                Fortalecer o SUS e o Complexo Econômico-Industrial da Saúde como saída para a crise
+                                sanitária,
+                                social, econômica e ambiental</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="container-texto-base flex-column my-5">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_referencia.svg" alt="REFERÊNCIAS" class="mb-0"
+                            width="50px">
+                        <h5 class="text-uppercase mb-0">REFERÊNCIAS:</h5>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>CARLSSON, Bo et al. Innovation systems: analytical and methodological issues. Research
+                            policy, v. 31, n. 2, p. 233-245, 2002.</p>
+                        <p>COMISSÃO MUNDIAL SOBRE MEIO AMBIENTE E DESENVOLVIMENTO (CMMAD). <span class="fw-bold">Nosso
+                                futuro comum</span>. Rio de Janeiro: Fundação Getulio Vargas, 1988.</p>
+                        <p>Furtado C. <span class="fw-bold">Desenvolvimento e Subdesenvolvimento</span>. Rio de Janeiro:
+                            Contraponto; 2009.</p>
+                        <p>Furtado C. <span class="fw-bold">Dialética do desenvolvimento</span>. Vol. 2. Editora Fundo
+                            de Cultura; 1964.</p>
+                        <p>GADELHA, Carlos A. Grabois. O Complexo Econômico-Industrial da Saúde 4.0: por uma visão
+                            integrada do desenvolvimento econômico, social e ambiental. <span class="fw-bold">Cadernos
+                                do Desenvolvimento</span>, v. 16, n. 28, p. 25-50, 2021.</p>
+                        <p>Gadelha CAG, Kamia FD, Moreira JDD, Montenegro KBM, Safatle LP, Nascimento MA de C. Dinâmica
+                            global, impasses do SUS e o CEIS como saída estruturante da crise. <span
+                                class="fw-bold">Cadernos do Desenvolvimento</span>, v.16 n. 28, p. 281–302. 2021</p>
+                        <p>Gadelha CAG, Temporão JG. Desenvolvimento, Inovação e Saúde: a perspectiva teórica e política
+                            do Complexo Econômico-Industrial da Saúde. <span class="fw-bold">Ciência & Saúde
+                                Coletiva</span>. junho de 2018;23(6):1891–902</p>
+                        <p>GADELHA, Carlos Augusto Grabois. Complexo Econômico-Industrial da Saúde: a base econômica e
+                            material do Sistema Único de Saúde. <span class="fw-bold">Cadernos de Saúde Pública</span>,
+                            v. 38 sup. 2, 2022.</p>
+                        <p>GADELHA, C. A. G. CEIS: Uma oportunidade estratégica para o desenvolvimento econômico e
+                            social do BR. In: Greiner Costa e Marcio Pochmann. (Org.). O Estado como parte da solução:
+                            uma análise dos desafios do desenvolvimento brasileiro. 1ed. São Paulo - SP: Fundação Perseu
+                            Abramo, v. 1, p. 321-332, 2020.</p>
+                        <p>Keynes JM. <span class="fw-bold">The general theory of employment, interest, and
+                                money</span>. London: Macmillian; 1936.</p>
+                        <p>KEYNES, John Maynard. O fim do laissez-faire. <span class="fw-bold">John Maynard
+                                Keynes</span>, v. 2, p. 106-126, 1984.</p>
+                        <p>Marx K, Engels F. O Manifesto comunista. Em: In: Aarão Reis Filho, D (org); O manifesto
+                            comunista 150 anos depois. 1a Edição. São Paulo; Rio de Janeiro: Fundação Perseu Abramo;
+                            Contraponto; 1998. p. 7–41.</p>
+                        <p>Marx K. <span class="fw-bold">O capital: crítica da economia política</span>. São Paulo: Nova
+                            Cultural; 1996.</p>
+                        <p>Schumpeter JA. Capitalismo, socialismo e democracia. Vol. 2. Rio de Janeiro: Zahar; 1983.
+                            ONU, 1987</p>
+                    </div>
+                </div>
+
+                <div class="row flex-column-reverse flex-sm-row botao">
+                    <a href="introAula5.html" class="btn botaoPadrao"
+                        aria-label="Voltar para aula anterior, clique">VOLTAR</a>
+                    <a href="introAula6.html" class="btn botaoPadrao"
+                        aria-label="Avançar para a próxima aula, clique.">AVANÇAR</a>
+                </div>
             </div>
             <!-- Fim do Bloco 1 -->
 
-            <!-- Mostra conteudo 2 -->
-            <div class="collapse mostraAula">
-                <!-- Bloco 2 -->
-                <div class="conteudo">
-                    <h2 id="topico7">Chegamos ao fim da aula!</h2>
-
-                    <p>Nessa aula, você compreendeu a epidemiologia dos indígenas no contexto da Covid-19 e o contexto
-                        que nós, mulheres indígenas, estamos inseridas, como era a nossa saúde antes e depois da
-                        pandemia de Covid-19. Conheceu, também, os princípios para elaboração de políticas voltadas à
-                        mulher indígena. Ah! Antes de seguirmos para a próxima aula, eu quero agradecer ao professor
-                        Carlos Dornels Freire de Souza do Departamento de Medicina- Universidade Federal de Alagoas, que
-                        ajudou o doutor Anderson na coleta de dados epidemiológicos para essa aula!</p>
-                </div>
-                <!-- Fim do Bloco 6 -->
-
-                <!-- Barra de Navegação -->
-                <div class="row navegacao">
-                    <div class="col-md-6 border-right text-left" id="anterior">
-                        <a href="../modulo1/aula3.html">
-                            <i class="fas fa-chevron-left" style="margin-right: 15px; margin-top: 5px;"></i>Aula
-                            anterior
-                            <p>Saúde dos povos e comunidades tradicionais</p>
-                        </a>
-
-                    </div>
-                    <div class="col-md-6 border-left text-right" id="proxima">
-                        <a href="../modulo2/aula2.html">Próxima Aula<i class="fas fa-chevron-right"
-                                style="margin-left: 15px; margin-top: 5px;"></i>
-                            <p>Impactos da Covid-19 na saúde de outros povos e comunidades tradicionais</p>
-                        </a>
-
+            <!-- Inicio Rodapé -->
+            <footer id="footer">
+                <div class="row-main">
+                    <div class="col-md-12 text-center" style="margin: auto;">
+                        <img class="img-fluid" src="../assets/images/rodape/rodape1.png" alt="">
                     </div>
                 </div>
-                <!--Fim Barra de Navegação-->
-
-                <!-- Inicio Rodapé -->
-                <footer id="footer">
-                    <div class="row-main">
-                        <div class="col-md-12 text-center d-none d-sm-block" style="margin: auto;">
-                            <img class="img-fluid" src="../assets/images/rodape/rodape_logos.png" alt="">
-                        </div>
-                    
-                        <div class="col-md-6 centro d-sm-none" style="margin: auto;">
-                            <img class="img-fluid" src="../assets/images/rodape/rodape_logos_mobile1.png" alt="">
-                        </div>
-                    
-                        <div class="col-md-6 centro d-sm-none" style="margin: auto;">
-                            <img class="img-fluid" src="../assets/images/rodape/rodape_logos_mobile2.png" alt="">
-                        </div>
-                    </div>
-                </footer>
-                <!-- Fim Rodapé -->
-
-            </div>
-            <!--Fim Coluna Conteúdo-->
+            </footer>
+            <!-- Fim Rodapé -->
         </div>
         <!-- Fim Div mostra conteúdo 2 -->
-
     </div>
     <!-- Fim da Row-main -->
 
     <!-- Arquivos JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="../assets/libs/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/sidebar.js"></script>
-
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/dist/vime/vime.esm.js"></script>
 </body>
 
 </html>
