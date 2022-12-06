@@ -52,6 +52,9 @@ footer {
 #textoCapa {
     margin: 60px 28% 0px 24%;
 }
+#textoCapa p {
+    font-size: 18px;
+}
 
 /*Menu Superior*/
 .logo {
