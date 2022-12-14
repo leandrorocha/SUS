@@ -16,9 +16,10 @@
 
     <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css">
     <link href="http://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.css"
+        integrity="sha512-6Ri9OxVS85G/DRlnwVIggHm8n738xZ5DuosGQywWa838o8TCojyxGl16C+JmhiHcWl3YjPnN6d6GwY0a0/S5jA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="../assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/default.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/light.css" />
 </head>
 
 <body>
@@ -51,10 +52,10 @@
     <!-- Início da Row-main-->
     <main class="row" id="row-main">
 
-        <div class="sidemenu col-lg-2" id="sidebar"></div>
+        
 
         <!-- Início Coluna de Conteúdo -->
-        <div class="col-lg-10" id="content">
+        <div class="col-12 col-lg-8 offset-lg-2" id="content">
 
             <!-- Bloco 1 -->
             <div class="pt-5 px-2 px-sm-5 justify-content-center position-relative">
@@ -168,19 +169,14 @@
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-center my-4">
-                    <vm-player theme="dark">
-                        <vm-audio>
-                            <source data-src="../assets/audios/teste.m4a"
-                                type="video/mp4" />
-                        </vm-audio>
-                        <vm-default-ui>
-                            <div class="d-flex align-items-center justify-content-center">
-                                Representação movimentos sociais e participação social no SUS (<vm-end-time
-                                    style="--vm-time-color: #000000; --vm-time-font-weight: 500"></vm-end-time>)
-                            </div>
-                        </vm-default-ui>
-                    </vm-player>
+                <div class="d-flex flex-column justify-content-center my-4">
+                    <div class="container-player-audio">
+                        <audio class="js-player" crossorigin playsinline>
+                            <source src="../assets/audios/teste.m4a" type="audio/mp3">
+                        </audio>
+                    </div>
+                    <p class="text-center">Representação movimentos sociais e participação social no SUS (00:45)</p>
+
                 </div>
 
                 <div class="text-center my-5 mx-auto w-50">
@@ -188,30 +184,38 @@
                     reflexões e Democracia Participativa no Brasil
                 </div>
 
-                <div class="container-autores my-5 p-2 p-md-5">
-                    <h2 class="titulo-autor text-uppercase">Autores</h2>
+                <div class="container-autores my-5 py-3 px-3 ">
+                    <h2 class="titulo-autor text-uppercase mb-5">Autores</h2>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-center gap-4">
+                    <div class="d-flex flex-column flex-md-row gap-4">
                         <!-- BLOCO ATOR -->
                         <div class="d-flex flex-row align-items-start gap-4">
                             <img width="80px" src="../assets/images/autores/undraw_male_avatar.svg"
-                                class="rounded-circle" alt="Prof. Dr. Marcelo Rasga Moreira">
-                            <div class="d-flex flex-column">
+                                class="rounded-circle mb-0" alt="Prof. Dr. Marcelo Rasga Moreira" />
+                            <div>
                                 <div class="nome-autor">Prof. Dr. Marcelo Rasga Moreira</div>
-                                <div class="nome-autor">DCS/ENSP/FIOCRUZ</div>
+                                <div class="formacao">DCS/ENSP/FIOCRUZ</div>
                             </div>
                         </div>
 
                         <!-- BLOCO ATOR -->
                         <div class="d-flex flex-row align-items-start gap-4">
                             <img width="80px" src="../assets/images/autores/undraw_male_avatar.svg"
-                                class="rounded-circle" alt="Prof. Me. Caio Tavares Motta">
-                            <div class="d-flex flex-column">
+                                class="rounded-circle mb-0" alt="Prof. Me. Caio Tavares Motta" />
+                            <div>
                                 <div class="nome-autor">Prof. Me. Caio Tavares Motta</div>
-                                <div class="nome-autor">Mestre pelo PPGSP/ENSP</div>
+                                <div class="formacao">Mestre pelo PPGSP/ENSP</div>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="p-2 p-md-5 text-center mx-auto w-80">
+                    <p class="textoIntroItalic">Para melhorar a acessibilidade e o uso de leitores de tela, as
+                        referências bibliográficas desta aula estão ao final do texto. Consulte-as para ampliar seu
+                        conhecimento.</p>
+                    <p class="textoIntroItalic">Esta aula é parte do curso Introdução ao SUS, uma disciplina transversal
+                        ministrada para os cursos de mestrado e doutorado da Fiocruz.</p>
                 </div>
 
                 <div class="row flex-column-reverse flex-sm-row botao">
@@ -242,9 +246,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.js"
+        integrity="sha512-vfpVlxMY9ryJFidrwKK2Nus5vQ5vGilRCjImLBYj3uoAz75crnSKM7zC3jFcmtCI7u58d9Cp0mEZmWwidm9xsg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/sidebar.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/dist/vime/vime.esm.js"></script>
 </body>
 
 </html>

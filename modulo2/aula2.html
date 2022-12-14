@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html lang="pt-br" xml:lang="pt-br" xmlns="https://www.w3.org/1999/xhtml" class="hydrated">
+
+<head>
+    <meta charset="utf-8">
+    <title>Introdução ao Sistema Único de Saúde - Módulo 2 - Aula 2</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Arquivos CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" />
+    <link href="https://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.css"
+        integrity="sha512-6Ri9OxVS85G/DRlnwVIggHm8n738xZ5DuosGQywWa838o8TCojyxGl16C+JmhiHcWl3YjPnN6d6GwY0a0/S5jA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Inicio Menu Superior -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
+            <!-- Logos -->
+            <a class="logo" href="../index.html">
+                <img src="../assets/images/logoAula.png" class="img-fluid"
+                    alt="Representação visual da logomarca da Fiocruz - Campus Virtual" />
+            </a>
+
+            <!-- Botão Collapse -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../materialcomplementar.html" target="_blank">Material Complementar</a></li>
+                    <li><a href="../bibliografia.html" target="_blank">Bibliografia</a></li>
+                    <li><a href="../creditos.html" target="_blank">Créditos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fim do Menu Superior -->
+
+    <!-- Início da Row-main-->
+    <div class="row" id="row-main">
+
+        <!-- Início Coluna de Conteúdo -->
+        <div class="col-12 col-lg-8 offset-lg-2" id="content">
+
+            <!-- Bloco 1 -->
+            <div class="pt-5 px-2 px-sm-5 justify-content-center position-relative">
+                <div class="barraMenuHorizontal d-flex position-absolute">
+                    <div class="d-flex position-fixed">
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="mod1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 1
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="mod1">
+                                <li><a class="dropdown-item" href="../modulo1/introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="../modulo1/introAula2.html">Aula 2</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="mod2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 2 / Aula 2
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="mod2">
+                                <li><a class="dropdown-item" href="introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="introAula2.html">Aula 2</a></li>
+                                <li><a class="dropdown-item" href="introAula3.html">Aula 3</a></li>
+                                <li><a class="dropdown-item" href="introAula4.html">Aula 4</a></li>
+                                <li><a class="dropdown-item" href="introAula5.html">Aula 5</a></li>
+                                <li><a class="dropdown-item" href="introAula6.html">Aula 6</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown menuAulas">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="mod3"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Módulo 3
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="mod3">
+                                <li><a class="dropdown-item" href="../modulo3/introAula1.html">Aula 1</a></li>
+                                <li><a class="dropdown-item" href="../modulo3/introAula2.html">Aula 2</a></li>
+                                <li><a class="dropdown-item" href="../modulo3/introAula3.html">Aula 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="mt-5">O que é o setor privado de saúde no Brasil hoje?</h1>
+
+                <p>O Estado (por intermédio do SUS) é o comprador de importante parte do mercado privado de saúde. Para
+                    se ter uma ideia, em fevereiro de 2021 a Revista Forbes anunciou os novos bilionários no Brasil em
+                    comparação ao ano anterior. Depois de um ano de pandemia da Covid-19, e sob regime da mais profunda
+                    austeridade fiscal com os gastos sociais no mundo, os novos bilionários (e seus familiares) são os
+                    donos de hospitais privados, laboratórios privados e empresas de planos privados de saúde.</p>
+
+                <div class="centro my-5">
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/imagem1.png" class="img-fluid" alt="">
+
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: <a
+                                        href="https://forbes.com.br/forbes-money/2021/02/bilionarios-brasileiros-da-area-da-saude-sao-os-que-mais-ganharam-dinheiro-durante-a-pandemia/"
+                                        class="links" target="_blank">Forbes Online - 5/2/2021</a></small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>Você deve ter visto até aqui que a instituição do SUS, pela Constituição de 1988 e pelas Leis
+                    Orgânicas da Saúde (LOS) <a href="http://www.planalto.gov.br/ccivil_03/leis/l8080.htm" class="links"
+                        target="_blank">8.080/90</a> e <a href="http://www.planalto.gov.br/ccivil_03/leis/l8142.htm"
+                        class="links" target="_blank">8.142/90</a>, representou uma virada importante na trajetória da
+                    proteção social em saúde no país. A Constituição determinou que “[…] a saúde é direito de todos e
+                    dever do Estado, garantido mediante políticas sociais e econômicas que visem à redução do risco de
+                    doença e de outros agravos e ao acesso universal e igualitário às ações e serviços para sua
+                    promoção, proteção e recuperação”. Ao mesmo tempo, no seu artigo 199, inscreveu a liberdade do setor
+                    privado de saúde em atuar.</p>
+                <p>Na década de 1920, a assistência à saúde era organizada em cada empresa empregadora, para a oferta de
+                    serviços de saúde a seus funcionários e dependentes (Lei Eloi Chaves, 1923). Em 1933, foram criados
+                    os Institutos de Aposentadoria e Pensões, IAP, que estabeleceram um novo desenho para o sistema,
+                    onde a assistência à saúde deixou de ser organizada em cada empresa e passou a sê-lo por categoria
+                    profissional (é o que se denomina modelo de Seguro Social do sistema de saúde).</p>
+                <p>Posteriormente, a estrutura dos seguros passou por grandes mudanças, sobretudo quando da unificação
+                    dos IAP no Instituto Nacional de Previdência Social, INPS, em 1966, que uniformizou os benefícios e
+                    contribuições das categorias profissionais. Esse modelo é o embrião do segmento suplementar. A
+                    importância dos planos coletivos, até hoje, parece ter raízes nessa forma de organização da
+                    assistência à saúde ser organizada vinculada ao trabalho.</p>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Lei Eloy Chaves, sancionada em 1923 pelo presidente Arthur
+                        Bernardes</span>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/imagem2.png" class="img-fluid" alt="">
+
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: <a
+                                        href="https://www12.senado.leg.br/noticias/especiais/arquivo-s/primeira-lei-da-previdencia-de-1923-permitia-aposentadoria-aos-50-anos#gallery-2"
+                                        class="links" target="_blank">Agência Senado - imagem: Arquivo do
+                                        Senado</a></small>
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>Na prática, tinham acesso aos serviços de saúde apenas as pessoas que contribuíam financeiramente
+                    para sua respectiva caixa ou instituto de aposentadoria e pensão da categoria profissional e pessoas
+                    que realizavam pagamentos diretos aos prestadores ou por meio de ações filantrópicas. Isto é, modelo
+                    tinha uma estrutura de financiamento predominantemente vinculada ao emprego, por meio de
+                    contribuições do empregador e do empregado.</p>
+                <p>Desse modo, parcela significativa da população brasileira, que não estava inserida no mercado formal
+                    de trabalho, não tinha acesso aos cuidados de saúde, ficando sujeitas à caridade e filantropia. As
+                    ações de saúde pública, na época, ainda eram bastante limitas e restritas a poucos estados.</p>
+                <p>Com o processo de redemocratização do Estado brasileiro, a promulgação da Constituição de 1988 e a
+                    implementação do SUS por meio das LOS, a saúde se torna um direito de cidadania e passa se inserir
+                    no modelo conhecido como Sistema Público universal.</p>
+                <p>No Brasil, o SUS compõe o sistema da Seguridade Social. Ele é caracterizado por ser abrangente e
+                    universal, gratuito no ato do uso, majoritariamente financiado por tributos específicos, incluindo
+                    todos os cidadãos e definindo o Estado como responsável por garantir e prover os serviços à
+                    população.</p>
+                <p>A partir desses marcos legais o sistema público de saúde do país passa a atuar de forma
+                    descentralizada, operando sob responsabilidade das três esferas de governo (Federal, Estadual e
+                    Municipal), que compartilham também o financiamento de sua operação. Prevê-se que o SUS tenha
+                    coordenação nacional.</p>
+
+
+                <div class="container-box py-2 my-5" aria-label="Informação complementar">
+                    <h4 class="titulo-box px-2 px-md-5 py-2">Movimento da Reforma Sanitária Brasileira</h4>
+
+                    <div class="mt-4 px-2 px-md-5">
+                        <div class="d-flex flex-column flex-md-row gap-4">
+                            <p>Esta reforma do sistema de saúde configurou uma conquista política e social importante.
+                                Ela pode ser atribuída a diversos esforços e lutas sociais empreendidos pela população
+                                em defesa das liberdades democráticas. Foi também resultado do Movimento da Reforma
+                                Sanitária brasileira, organizado ao longo das décadas de 1960 e 1970, onde se agregaram
+                                os profissionais de saúde, trabalhadoras e trabalhadores do país, movimentos de base
+                                popular, lideranças políticas do campo democrático e profissionais do meio acadêmico.
+                                Veja mais sobre a Reforma Sanitária brasileira no <a href="../modulo1/introAula1.html"
+                                    class="links-white" aria-label="Ir para aulas do módulo 1, clique">Módulo 1
+                                    desse curso</a>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Entretanto, a implementação de um sistema de saúde de caráter universal e descentralizado no Brasil,
+                    nos moldes de um federalismo cooperativo, não foi isenta de conflitos e tensões e esbarrou em
+                    diversos desafios. Notadamente o subfinanciamento do SUS e a convivência não regulada do setor
+                    público com o privado.</p>
+                <p>As históricas e profundas desigualdades sociais e em saúde não permitiram que todas as cidades e
+                    estados do país alcançassem garantir uma saúde integral para sua população, dada as diferentes
+                    capacidades dos governos subnacionais. Afinal, como se sustentam as responsabilidades e capacidades
+                    políticas, administrativas e tributárias a serem exercidas pelos maioria dos municípios que possuem
+                    população de até 20 mil habitantes (cerca de 75% do dos municípios brasileiros)?</p>
+                <p>Os municípios pequenos não possuem as mesmas oportunidades do que os lugares de maior porte
+                    populacional e desenvolvimento econômico, mas, ao mesmo tempo, são tanto ou mais influenciados pelos
+                    poderes políticos locais - desde a formação das capitanias hereditárias e posteriormente das
+                    cidades.</p>
+                <p>Além disso, o predomínio de políticas econômicas pouco articuladas com as políticas sociais e a
+                    agenda de reforma do Estado a partir dos anos 90, de inspiração neoliberal, impôs limites à lógica
+                    da Seguridade Social e à expansão de políticas abrangentes e universais.</p>
+                <p>No mesmo texto constitucional que configura o SUS e contém seus princípios e diretrizes, foi
+                    assegurada a possibilidade de coexistência de atividades privadas na área. Embora autores como
+                    Saltman afirmem que é inevitável a presença do mix público-privado nos sistemas de saúde em todos os
+                    países, algumas questões precisam ser colocadas:</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3">Em que base deve se dar esse arranjo para que os objetivos das políticas de
+                                saúde sejam preservados?</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">Como os princípios do SUS podem ser garantidos quando o interesse público
+                                está permeado pelos interesses privados, em todas as dimensões da sociedade?</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <p>No Brasil, a participação do setor privado na saúde está prevista na Constituição e na Lei Orgânica
+                    da Saúde nº 8.080/90. Essa participação pode ser tanto em caráter complementar ao SUS, por meio de
+                    contratos e convênios com instituições e organizações privadas quando prestam serviços ao SUS, como
+                    em caráter suplementar, livre à iniciativa privada, como planos e seguros privados de saúde. E os
+                    interesses públicos nem sempre são preservados dos interesses dos atores que atuam no setor privado.
+                </p>
+
+                <h2 class="mt-5 mb-3">Caráter complementar no setor de saúde, estabelecido na Constituição</h2>
+
+                <p>Para responder a essa pergunta é preciso voltar ao tempo pré SUS, quando as políticas públicas
+                    influenciaram brutalmente o crescimento e o fortalecimento do setor privado brasileiro.</p>
+                <p>Os esquemas privados entre empresas empregadoras e prestadores começaram a ser desenvolvidos no tempo
+                    em que a Previdência, por meio do INPS se tornou o principal comprador de serviços
+                    médico-hospitalares privados para os trabalhadores. Eram os, então denominados, convênios. Eles
+                    combinavam pacotes de serviços e seus respectivos preços para determinada quantidade de
+                    trabalhadores e seus familiares, já sob a lógica de asseguramento privado.</p>
+                <p>Com o grande desenvolvimento econômico-industrial e a urbanização do país desde a década de 1950,
+                    empresas brasileiras de maior porte e empresas estrangeiras começaram a contratar diretamente
+                    médicos, hospitais e laboratórios privados para proverem a assistência à saúde de seus funcionários
+                    e familiares nas regiões em que se instalavam, incialmente na região do ABC paulista, mas também nas
+                    grandes cidades. Esse movimento foi fortemente reforçado com um dos mais fortes movimentos
+                    propiciados pelo Estado brasileiro durante a ditadura militar, de financiamento público a hospitais
+                    privados por intermédio do Fundo de Apoio ao Desenvolvimento Social (FAS) (<a
+                        href="http://www.planalto.gov.br/ccivil_03/leis/l6168.htm" class="links" target="_blank">Lei
+                        6.168/74</a>).</p>
+                <p>A partir da criação do Instituto Nacional de Assistência e Previdência Social, INAMPS, parte do
+                    Sistema Nacional de Previdência e Assistência Social (SINPAS), em 1977, dois movimentos
+                    influenciaram brutalmente o desenvolvimento do mercado privado de saúde no país. De um lado, para
+                    prover assistência aos trabalhadores formais, os convênios do INAMPS com os prestadores de serviços
+                    de saúde privados cresceram vigorosamente. Por outro lado, a Previdência deixou de recolher a
+                    parcela de contribuição referente aos benefícios e à assistência à saúde quando as empresas
+                    empregadoras já tivessem contratado esquemas próprios de asseguramento.</p>
+                <p>Com esses acontecimentos, ocorridos nas décadas de 1960 e 1970, houve uma expansão da assistência à
+                    saúde organizada por meio do Estado via INAMPS, ao mesmo tempo em que foi incentivada a expansão da
+                    assistência organizada pelas empresas empregadoras. Isso ocorria por meio do asseguramento privado
+                    destinado aos seus trabalhadores e seus familiares.</p>
+                <p>E, então, esses dois movimentos impulsionaram o crescimento do mercado privado de prestação de
+                    serviços, que se deu tanto pela compra dos serviços feita pelo Estado, como pela contratação dos
+                    serviços feita pelas empresas empregadoras.</p>
+                <p>Sobre esse incentivo ao não pagamento das contribuições previdenciárias em troca de tais contratos,
+                    Cordeiro assinalou:</p>
+                <div class="p-2 p-md-5 text-center mx-auto w-80">
+                    <p class="textoIntroItalic texto-cor-1">
+                        “se, no debate político, emergia entre 1974-1975 a questão da 'estatização', no plano dos
+                        efeitos concretos, a política médico-assistencial da Previdência Social assegurava o crescimento
+                        do setor médico-empresarial”</p>
+                </div>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Unidades de saúde com fins lucrativos</span>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/grafico1.png" class="img-fluid" alt="">
+
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: Braga e Paula, 1986</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="my-5 mx-0 mx-md-5">
+                    <h3 class="texto-modal-bold text-center">Atualmente são privados:</h3>
+                    <div class="my-2">
+                        <p><span class="texto-span-grande texto-cor-2 me-2">90%</span>unidades de Serviço ao Apoio de
+                            Diagnóstico e Terapias
+                            (SADT) com fins lucrativos</p>
+                        <p><span class="texto-span-grande texto-cor-2 me-2">80%</span>dos estabelecimentos de Clínicas,
+                            ambulatórios
+                            especializados e policlínicas com fins lucrativos</p>
+                        <p><span class="texto-span-grande texto-cor-2 me-2">70%</span>dos leitos</p>
+                    </div>
+
+                    <p class="fst-italic">A grande parte dessa capacidade instalada privada é contratada por
+                        secretarias de saúde estaduais e municipais para prestar serviços ao SUS, ou seja, é o Estado
+                        sustentando importante fatia dos serviços privados.</p>
+                </div>
+
+                <p>Esse histórico de estrutura da oferta de serviços de saúde levou à uma configuração em que hoje o
+                    Estado continua utilizando e financiando a iniciativa privada para poder garantir a integralidade da
+                    cobertura de serviços de saúde prevista no SUS. Isso ocorre seja por falta de profissionais, insumos
+                    básicos, equipamentos, medicamentos, leitos, ou pela própria falta de estrutura física do serviço.
+                    Essa relação pode se dar por contratos ou convênios. É o que se chama de “complementar”, na
+                    Constituição de 1988.</p>
+                <p>A contratação de serviços ao setor privado e o pagamento aos prestadores vinculados ao SUS é
+                    responsabilidade dos Estados e Municípios. A legislação que regulamenta o sistema estabelece que na
+                    contratação de prestadores privados pelo sistema público deve ser dada prioridade às instituições
+                    filantrópicas sem fins lucrativos.</p>
+                <p>O sistema público também pode estabelecer parcerias com Organizações da Sociedade Civil de Interesse
+                    Público (OSCIP) ou por meio de contratos de gestão com Organizações Sociais (OS). A gestão unidades
+                    de serviços públicos por OS não caracteriza como complementar porque os serviços permanecem com o
+                    caráter jurídico-administrativo público, com a diferença que agora não são os procedimentos ou
+                    recursos físicos privados contratados pelo SUS, mas também a gestão da unidade, as pessoas que nela
+                    trabalham, ou seja, o a inteligência do processo de trabalho. Essas são formas mais recentes das
+                    relações público-privadas, especificamente de gestão privada do serviço público, que podem executar
+                    tanto os serviços de saúde como a própria gestão da unidade de saúde.</p>
+
+                <div class="container-box py-2 my-5" aria-label="Informação complementar">
+                    <h4 class="titulo-box px-2 px-md-5 py-2">O que é uma OSCIP</h4>
+
+                    <div class="mt-4 px-2 px-md-5">
+                        <div class="d-flex flex-column flex-md-row gap-4">
+                            <p>Organizações da Sociedade Civil de Interesse Público (OSCIP) é uma figura
+                                jurídica-privada sem fins lucrativos criada pela <a
+                                    href="https://www.planalto.gov.br/ccivil_03/leis/l9790.htm" class="links-white"
+                                    target="_blank">Lei nº 9.790/1999</a>, para fomento e
+                                execução de atividades de interesse público, desde que seus objetivos sociais e normas
+                                estatutárias atendam aos requisitos instituídos pela referida lei.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p>As formas do sistema público estabelecer parcerias vêm gradativamente crescendo e são objeto de
+                    estudos de avaliação para verificação de possível menor qualidade da atenção à saúde, hipótese
+                    muitas vezes confirmada.</p>
+
+                <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS:</h6>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>Assista o programa Sala de Convidados, sobre Parcerias Público-Privadas. Esta edição do
+                            programa, debatem o assunto: a pesquisadora do Instituto de Estudos em Saúde Coletiva da
+                            Universidade Federal do Rio de Janeiro (IESC/UFRJ) e membro do conselho diretor da
+                            Associação Brasileira de Saúde Coletiva (Abrasco), Lígia Bahia; o pesquisador do Instituto
+                            de Pesquisa Econômica Aplicada (Ipea) e especialista em Economia da Saúde, Alexandre
+                            Marinho; e o doutor em Serviço Social pela UFRJ, que atua principalmente nos temas: Reforma
+                            Sanitária, Estado, Democracia e Pensamento Social, e coordenador de Ética em Pesquisa na
+                            Escola Politécnica de Saúde Joaquim Venâncio (EPSJV/Fiocruz), André Vianna Dantas.</p>
+
+                        <div class="container-player my-5">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="Rc_kHu3LDr8"></div>
+                            <div class="mt-2">
+                                <p><small class="text-muted">Fonte: <a class="links" href="https://youtu.be/Rc_kHu3LDr8"
+                                            target="_blank">Canal Saúde Oficial - YouTube</a></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="mt-4">Setor de saúde suplementar</h2>
+
+                <p>O setor de saúde suplementar, por sua vez, é todo o mercado em torno do que chamamos de <span
+                        class="fw-bold">planos e
+                        seguros privados de saúde</span>, de afiliação voluntária. Eles são ofertados por empresas que
+                    operam os
+                    planos privados de saúde, denominadas operadoras. Na maioria dos casos, os planos são esquemas de
+                    pré-pagamento, contratados e financiados parcial ou integralmente pelos empregadores. No geral, o
+                    valor dos planos é descontado dos empregados direto no contracheque, parcial ou integralmente. Os
+                    planos também podem ser inteiramente financiados pela renda das próprias famílias, que pagam
+                    diretamente as mensalidades.</p>
+
+                <!-- Accordion 1 -->
+                <section class="aria-accordion p-2 p-md-5 my-5" role="tablist" aria-live="polite"
+                    data-behavior="accordion">
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab1" tabindex="0" class="accordion__title" aria-controls="panel1" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h5>Seguro privado de saúde</h5>
+                        </span>
+
+                        <div id="panel1" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab1" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <p>O conceito de seguro é o contrato que reembolsa o usuário pelas despesas médicas
+                                    relativas a consultas, exames laboratoriais, tratamentos diversos, cirurgias etc. O
+                                    segurado fica livre para escolher o profissional ou a instituição médica que
+                                    desejar. No entanto, usa uma tabela de reembolso, em geral, aquém do que é
+                                    efetivamente gasto.</p>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab2" tabindex="0" class="accordion__title" aria-controls="panel2" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h5>Planos privados de saúde</h5>
+                        </span>
+
+                        <div id="panel2" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab2" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <p>É um conjunto de serviços contratados por intermédio da operadora, a qual credencia
+                                    os serviços de saúde e os apresenta à sua clientela como rede credenciada de
+                                    prestadores. Na prática, a rede credenciada de cada plano são profissionais e
+                                    estabelecimentos de saúde onde a clientela poderá realizar o atendimento. A maioria
+                                    dos contratos no Brasil funciona assim.</p>
+                                <p>Nesta aula, a nomenclatura dos planos como seguros contemplam todos os planos e
+                                    seguros privados de saúde. Esta é uma tentativa de aproximação da literatura
+                                    internacional, onde o termo <span class="fst-italic">private health insurance</span>
+                                    (PHI), abrange todo tipo de
+                                    plano ou seguro privado. Também pressupõe que a diferença entre o que é chamado de
+                                    plano e de seguro, no Brasil, não justifica sua diferenciação para os objetivos
+                                    desta aula, pois seus efeitos são os mesmos para o sistema de saúde.</p>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <p>Cada operadora pode comercializar vários planos de saúde, que se diferenciam principalmente pelo
+                    prestígio de sua rede credenciada proporcional ao valor da mensalidade. Eles podem variar desde um
+                    plano mais simples com uma rede composta com poucos hospitais, clínicas e laboratórios, até uma rede
+                    ampla com muitos hospitais e os mais famosos. Também varia a cobertura geográfica, que pode ser
+                    desde os planos com rede em um só município até uma cobertura nacional, que pode ser acessada em
+                    todo o país.</p>
+                <p>O preço dos planos, usualmente pago em mensalidades, também variam de acordo com o prestígio e
+                    abrangência dessa rede, a faixa etária do cliente, bem como diferentes modalidades de contratação e
+                    segmentação da cobertura. O valor pago pela operadora à cada procedimento ou pacote da rede costuma
+                    ser medido em tabela (por exemplo 1 vez a tabela tal, 2x … até n vezes o valor de tabela) e também
+                    influencia o valor da mensalidade, uma vez que vai ser mais um diferencial no atendimento ao
+                    cliente/paciente quando usar o serviço de saúde.</p>
+
+                <section class="custom my-5">
+                    <h2 class="texto-bold-medio texto-cor-3 text-center my-5">Clique nos cartões para saber sobre as
+                        modalidades dos planos privados de saúde</h2>
+                    <div class="grid-flip-4-cards gap-4">
+                        <div class="flipper">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Individual</p>
+                                </div>
+                                <div class="back">
+                                    <p>Personalizado para um único indivíduo</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flipper">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Familiar</p>
+                                </div>
+                                <div class="back">
+                                    <p>Estende-se aos familiares diretos do contratante (p. ex. Pai, mãe, cônjuge e
+                                        filhos)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flipper">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Coletivo por adesão</p>
+                                </div>
+                                <div class="back">
+                                    <p>Contratado por um grupo de pessoas , normalmente em associações de classes,
+                                        sindicatos etc.;</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flipper">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Coletivo empresarial</p>
+                                </div>
+                                <div class="back">
+                                    <p>Direcionado para empresas públicas e privadas que desejam atender seus
+                                        colaboradores. Ele é debitado diretamente na folha de pagamento do funcionário
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <p>A cobertura assistencial do plano também varia de acordo com quais serviços o cliente poderá usar, é
+                    o que chamamos de segmentação assistencial e pode ser ambulatorial, hospitalar, com ou sem
+                    obstetrícia, odontológico. Existe um plano denominado Referência, que é a combinação das modalidades
+                    de cobertura ambulatorial + hospitalar com obstetrícia. O mais importante para entender sobre a
+                    segmentação dos planos privados é que aproximadamente 90% dos clientes de planos privados de saúde
+                    (excluídos os com plano exclusivamente odontológico) tem a cobertura mais ampla da assistência de
+                    saúde, ou seja, cobertura ambulatorial + hospitalar.</p>
+                <p>Isso reflete a herança do modelo do setor suplementar dos anos 1920, quando a assistência à saúde era
+                    organizada pelas empresas empregadora para a oferta de serviços de saúde a seus funcionários e
+                    dependentes. Essa estrutura se transformou, ao longo do século XX, mas permaneceu com as mesmas
+                    características principais.</p>
+
+                <h3 class="mt-5 mb-3 text-uppercase">• Segmentação da cobertura</h3>
+
+                <p>A regulamentação setorial define quais os tipos de serviço devem estar disponíveis para o usuário em
+                    cada plano. Cobertura de serviços de saúde no segmento de seguro privado de saúde do brasileiro
+                    segundo a regulamentação setorial (desde 1998).</p>
+
+                <section class="custom my-5">
+                    <h2 class="texto-bold-medio texto-cor-3 text-center my-5">Clique nos cartões para ver os serviços
+                        cobertos por cada pacote de serviço</h2>
+                    <div class="grid-cards gap-4">
+                        <div class="flipper">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Ambulatorial</p>
+                                </div>
+                                <div class="back">
+                                    <p>Consultas, Exames, Tratamentos e outros procedimentos ambulatoriais</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flipper">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Hospitalar sem obstetrícia</p>
+                                </div>
+                                <div class="back">
+                                    <p>Internações</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flipper">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Hospitalar com obstetrícia</p>
+                                </div>
+                                <div class="back">
+                                    <p>Internações e partos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="custom my-5">
+                    <div class="grid-cards gap-4">
+                        <div class="flipper">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Odontológico</p>
+                                </div>
+                                <div class="back">
+                                    <p>Odontológicos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flipper">
+                            <div class="card">
+                                <div class="front">
+                                    <p>Referência</p>
+                                </div>
+                                <div class="back">
+                                    <p>Consultas, Exames, Tratamentos e outros procedimentos ambulatoriais. Internações
+                                        e partos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center mt-4">As informações dos cartões são de Santos (2009).</p>
+                </section>
+
+                <p>A forte expansão do segmento suplementar no decorrer das últimas décadas reforçou uma característica
+                    do sistema de saúde no Brasil: a duplicidade de cobertura de serviços de saúde. Isso beneficia
+                    especialmente os estratos populacionais de maior renda, que estão integralmente cobertos pelo SUS e
+                    em grande parte pelos planos ambulatoriais + hospitalares. Para essa parcela coberta pelo setor de
+                    saúde suplementar, muitas das ações de saúde são asseguradas pelo sistema público. Algumas inclusive
+                    de forma exclusiva, como as de vigilância sanitária, epidemiológica e o fornecimento de medicamentos
+                    para doenças raras; outras, de forma primordial, como as de vacinação, o atendimento a emergências e
+                    os transplantes; e outros muitos procedimentos de assistência médico-hospitalar.</p>
+
+                <h3 class="mt-5 mb-3 text-uppercase">• Cobertura populacional do setor privado</h3>
+
+                <p>Historicamente, o setor de saúde suplementar brasileiro tem a mais alta cobertura populacional quando
+                    comparado aos outros países com sistema de saúde público universal. As vantagens e facilitações
+                    recebidas por políticas públicas e o interesse das empresas empregadoras, profissionais e
+                    prestadores de serviços de saúde, de sindicatos e de indivíduos que querem plano privado de saúde,
+                    colaboram para manter a alta cobertura.</p>
+
+                <p>O mercado de planos privados de saúde no Brasil é o segundo maior do mundo, ficando atrás apenas dos
+                    Estados Unidos (EUA), que são o país que possui o gasto em saúde mais elevado do mundo. Atualmente,
+                    o gasto dos EUA com saúde representa 17% do PIB do país e é fortemente caracterizado por um modelo
+                    de proteção social em saúde residual/liberal, com forte participação do setor privado e péssimos
+                    resultados de saúde para a população.</p>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Distribuição dos planos de assistência à saúde</span>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/grafico2.png" class="img-fluid" alt="">
+
+                        <figcaption class="figure-caption text-center">
+                            <p><small class="text-muted">Fonte: Agência Nacional de Saúde Suplementar, 2020</small></p>
+                        </figcaption>
+                    </figure>
+
+                    <p class="fst-italic">Pesquisa Nacional por Amostragem Domiciliar (PNAD), do IBGE e outras pesquisas
+                        mostram que o percentual de pessoas com planos privados sempre está em torno dos 20 a 25% da
+                        população brasileira.</p>
+                </div>
+
+                <p>A quantidade de <span class="fw-bold">operadoras de planos de saúde</span> também é bastante
+                    expressiva no país e os clientes
+                    estão cada vez mais concentrados em poucas operadoras. Em 2005, as três maiores operadoras absorviam
+                    aproximadamente 12% dos clientes e 51 detinham, juntas, metade do mercado. Já em 2020, duas
+                    operadoras concentravam 14% da clientela e metade do mercado estava concentrado em apenas 21
+                    instituições. Com isso, percebe-se que, apesar de um dos argumentos para a criação da ANS ser a
+                    regulamentação do mercado para evitar concentração, esse objetivo não foi atingido e a concentração
+                    foi aprofundada.</p>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Evolução da distribuição dos clientes de planos privados de
+                        saúde por quantidade de operadoras</span>
+                    <img src="../assets/images/modulo2/aula2/grafs.png" class="img-fluid" alt="">
+                </div>
+
+                <p><span class="fw-bold">Operadora de plano de saúde</span> é a empresa que vende planos para sua
+                    clientela e compra os serviços dos prestadores de serviços de saúde. Para isso, a operadora realiza
+                    diferentes tipos de atendimento ao cliente. Em grande parte dos casos, quanto maior for a operadora,
+                    maiores serão as redes de atendimento dos planos.</p>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Distribuição dos planos de assistência à saúde</span>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/grafico3.png" class="img-fluid" alt="">
+                    </figure>
+                </div>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Maiores operadoras de planos privados de saúde (Brasil,
+                        2021)</span>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/tabela1.png" class="img-fluid" alt="">
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: ANS (2021)</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>Apesar dos números expressivos, a atuação do setor privado suplementar no Brasil é bastante
+                    concentrada em estados das regiões Sudeste, Sul e parte da Centro-Oeste, o que se expressa na
+                    distribuição espacial da taxa de pessoas com planos privados de saúde por Unidade da Federação (UF),
+                    a qual é proporcional ao desenvolvimento socioeconômico local.</p>
+                <p>Diferente do SUS, que está capilarizado em todo território nacional, principalmente por meio da
+                    Atenção Primária à Saúde (APS) e da Estratégia de Saúde da Família (ESF), o setor de saúde
+                    suplementar foca sua atuação nos lugares que lhes são mais rentáveis e lucrativos. É nesses lugares
+                    também onde está a maior concentração de renda, de escolaridade, de empregos e de oferta de serviços
+                    de saúde.</p>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Taxa de cobertura dos planos de assistência médica por UF
+                        (Brasil – dez/2020)</span>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/mapa.png" class="img-fluid" alt="">
+                        <figcaption class="figure-caption">
+                            <p><small class="text-muted">Fonte: ANS (2021)</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>Desse modo, o setor privado acompanha o dinamismo econômico local, assim como ressalta a dimensão
+                    social que marca a oferta e o acesso à rede de serviços de saúde no país.</p>
+
+                <h3 class="mt-5 mb-3 text-uppercase">• Financiamento do setor privado</h3>
+
+                <p>A fonte de financiamento do SUS é pública e se dá por meio de tributos. Já a do setor privado pode se
+                    dar pelo desembolso direto e/ou por meio de seguros privados e, ainda, por recursos públicos,
+                    conformando a <span class="fw-bold">primeira forma de imbricamento público-privado</span> na
+                    realidade brasileira que trazemos nesta aula.</p>
+                <p>O setor privado recebe recursos públicos por:</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3">desonerações fiscais a prestadores privados e consumidores dos seus
+                                serviços;</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">gasto de órgãos públicos com prestadores privados para a assistência à saúde
+                                de seus trabalhadores e familiares e;</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">uso de serviços do SUS por segurados com contrato para os serviços
+                                utilizados, quando não ocorre o ressarcimento pelas operadoras ao sistema público;</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">redução/abono/perdão de multas e refinanciamento de dívidas</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <p>O mercado de seguros privados representa grande parte do investimento de recursos financeiros no
+                    setor de saúde e o financiamento privado no Brasil representa maior parcela do PIB do que o público.
+                    Comparado à outros países que possuem sistema público de saúde, o Brasil é o único país com sistema
+                    público universal de saúde onde o gasto privado supera o gasto público.</p>
+
+                <div class="centro my-5">
+                    <img src="../assets/images/modulo2/aula2/grafico_despesas.png" class="img-fluid" alt="">
+                </div>
+
+                <p>Em 2018, o país gastava 9,5% do seu Produto Interno Bruto (PIB) com saúde, acompanhando a média dos
+                    países que compõem a Organização para a Cooperação e o Desenvolvimento Econômico (OCDE). De acordo
+                    com dados coletados em fevereiro de 2021, no <a href="http://apps.who.int/gho/data/" class="links"
+                        target="_blank">Repositório de dados do Observatório Global de Saúde da OMS</a>, menos da metade
+                    desse gasto (41,7%) era público no nosso país.</p>
+                <p>Ao mesmo tempo, no financiamento específico do SUS, o sistema enfrenta problemas de subfinanciamento
+                    desde o início de sua implantação e, mais recentemente, de desfinanciamento.</p>
+                <p>Além dos planos e seguros privados, há também os pagamentos de desembolso direto, no ato da prestação
+                    do serviço - em inglês, <span class="fst-italic">out-of-pocket</span>. Esses são os atendimentos
+                    pagos pelo paciente diretamente a
+                    clínicas, laboratórios, hospitais, profissionais liberais autônomos que prestam o serviço
+                    requisitado, além da compra de medicamentos, óculos etc. Observando o histórico dos gastos com
+                    saúde, esse tipo de gasto é o que mais tende a crescer em todo o mundo.</p>
+                <p>No Brasil, o desembolso direto a prestadores privados de serviços de saúde, constitui um grande
+                    segmento de consumo no mercado, constituindo a <span class="fw-bold">segunda forma de imbricamento
+                        público-privado</span> no
+                    campo da prestação dos serviços. Em 2006, segundo a Pesquisa de Orçamentos Familiares do IBGE, os
+                    gastos por desembolso direto representaram mais da metade do gasto privado em saúde no país e não
+                    mudou muito desde então.</p>
+                <p>Além disso, seja por meio dos seguros privados ou pelo pagamento privado direto, é possível comprar
+                    junto aos estabelecimentos públicos, serviços médico-hospitalares de média e alta complexidade. Isso
+                    geralmente ocorre nas instituições com quadro de profissionais referenciados, como os hospitais
+                    universitários e de ensino, que realizam serviços de saúde para o SUS.</p>
+                <p>Cada vez mais, há incentivo à participação do setor privado na saúde, seja pelo financiamento ou por
+                    meio de elevadas isenções fiscais e descontos em multas.</p>
+                <p>Acompanhe a proporção do gasto tributário/desonerações fiscais em saúde e a despesa do Ministério da
+                    Saúde, entre os anos de 2003 e 2015.</p>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Taxa de cobertura dos planos de assistência médica por UF
+                        (Brasil - dez/2020)</span>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/grafico_gastos.png" class="img-fluid" alt="">
+                        <figcaption class="figure-caption">
+                            <p class="mb-0"><small class="text-muted">Fonte: Ministério da Saúde (MS) e
+                                    RFB/Cetad</small></p>
+                            <p><small class="text-muted">Elaboração: Disoc/Ipea</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>Esse arranjo se dá porque, embora o SUS não permita o financiamento privado de seus serviços, existe
+                    um vácuo na legislação que faz com que, na prática, a venda dos serviços para o setor privado possa
+                    se dar por intermédio de fundações criadas ou contratadas para gerenciar serviços desses hospitais.
+                    Essas instituições não têm impedimento para vender serviços para o setor privado. Aqui reside a
+                    <span class="fw-bold">terceira forma de imbricamento público-privado</span> neste campo da
+                    prestação.
+                </p>
+
+                <h3 class="mt-5 mb-3 text-uppercase">• Força econômica do sistema privado</h3>
+
+                <p>O setor suplementar movimenta valores financeiros expressivos, o que lhe dá força política e
+                    econômica no cenário de disputa dentro do setor de saúde brasileiro. O quadro abaixo ilustra a
+                    magnitude desse fenômeno.</p>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Receita de contraprestações das operadoras (em Reais) (Brasil
+                        - 2011-2021)</span>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/tabela2.png" class="img-fluid" alt="">
+                        <figcaption class="figure-caption">
+                            <p class="mb-0"><small class="text-muted">Fontes: DIOPS/ANS/MS - 24/05/2021</small></p>
+                            <p><small class="text-muted">Notas: 1. Dados de 2021 referentes ao acumulado do 1o
+                                    trimestre. 2. Dados preliminares, sujeitos à revisão</small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>O orçamento federal para a Saúde em 2020, excluídas as despesas do “orçamento de guerra”, foi de
+                    aproximadamente 125 bilhões, cerca de 100 bilhões a menos que o setor suplementar movimentou nesse
+                    mesmo ano.</p>
+                <p>Importante destacar que <span class="fw-bold">todas e todos usamos o SUS</span>.</p>
+                <p>Isto é, mesmo quem tem planos e seguros privados de saúde também usa o SUS. Hoje, mais de 70% da
+                    população brasileira usa exclusivamente o SUS e 100% precisam dele. Em outras palavras, parte
+                    importante da população coberta por planos e seguros privados ou que realiza desembolso direto
+                    também utiliza a rede pública para ações de saúde pública, como vacinação, saneamento básico e
+                    vigilâncias, assim como para procedimentos mais complexos e de maior custo e em situações de
+                    urgência ou emergência. E muitas vezes essa população também usa o SUS para os mesmos serviços que
+                    estão cobertos pelo plano privado.</p>
+                <p>Este é um dos motivos pelo qual é importante defender a manutenção e o aprimoramento do nosso sistema
+                    público!</p>
+                <p>Além disso, existe um compartilhamento de recursos físicos e humanos (profissionais da saúde) entre o
+                    sistema público e o privado, uma vez que os prestadores privados podem, simultaneamente, atender
+                    pacientes oriundos dos diferentes segmentos, da mesma forma que os profissionais do setor público
+                    não têm vínculos empregatícios de dedicação exclusiva, podendo, desde que haja compatibilidade de
+                    horários, manter simultaneamente vínculo com o setor privado ou atuar de forma autônoma.</p>
+
+
+                <div class="container-reflexao flex-column my-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4">
+                        <img src="../assets/images/icones/icon_gear.svg" alt="" height="50px" class="mb-0">
+                        <h5 class="texto-bold-medio text-uppercase">Vamos refletir</h5>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>Com o conhecimento que você adquiriu até aqui, você já é capaz de refletir de forma crítica
+                            sobre algumas questões:</p>
+
+                        <ul class="ps-0 mb-0 ms-5">
+                            <li class="icon circle">
+                                <p class="mb-3">O que é arranjo público-privado no sistema de saúde?</p>
+                            </li>
+                            <li class="icon circle">
+                                <p class="mb-3">O segmento suplementar desonera financeiramente o sistema público, ou na
+                                    demanda por serviços?</p>
+                            </li>
+                            <li class="icon circle">
+                                <p class="mb-3">O Estado podem interferir sobre o arranjo público-privado? Como é essa
+                                    regulamentação?</p>
+                            </li>
+                        </ul>
+
+                        <p>Pense sobre essas questões e converse com seus colegas. Essa é uma forma de reforçar e
+                            compartilhar o seu aprendizado!</p>
+                    </div>
+                </div>
+
+                <p>Em 2016, o então Ministro da Saúde, Ricardo Barros, apresentou à ANS, em forma de consulta pública, a
+                    proposta para oferta de planos “populares”. Diante de grande resistência da sociedade civil a
+                    consulta pública não teve fôlego para virar norma e os planos acessíveis não foram implementados.
+                </p>
+                <p>É importante conhecer o modelo dessa proposta porque é o que há décadas vem persistentemente sendo
+                    sugerido pelos agentes do mercado privado como política pública e provavelmente essa pressão
+                    continuará acontecendo. Isso se observa tanto nos pleitos desses atores ao Estado, como em
+                    recomendações de agências internacionais como Banco Mundial, Organização Mundial de Saúde, entre
+                    outras.</p>
+                <p>Em maio de 2016, o Ministro da Saúde da época, Ricardo Barros, declarou à imprensa que seria preciso
+                    rever o tamanho do SUS e que não seria possível “sustentar o nível de direitos que a Constituição
+                    determina”. Seu discurso é coerente com a política pública que vem sendo implementada no país, de
+                    brutal redução do gasto público com as políticas sociais, entre elas o SUS. Essa política é
+                    denominada Austeridade Fiscal dos gastos sociais, fruto do paradigma conhecido como neoliberal. Ela
+                    é o cerne das propostas pelas agências internacionais e de fomento.</p>
+
+                <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS:</h6>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>Assista o programa Sala de Convidados, que debate a crise financeira que atingia o país, em
+                            2017, quando milhões de brasileiros deixaram de poder pagar por planos de saúde e passaram a
+                            usar o Sistema Único de Saúde (SUS). O programa discute se e como o Sistema Único de Saúde
+                            consegue atender a essa demanda com a diretora-executiva do Centro Brasileiro de Estudos de
+                            Saúde (Cebes), Isabela Santos; a pesquisadora em Saúde do Instituto de Defesa do Consumidor
+                            (Idec), Ana Carolina Navarrete; e o especialista em Saúde Coletiva do Instituto de Medicina
+                            Social da Universidade do Estado do Rio de Janeiro (IMS/UERJ) e professor da Universidade
+                            Estácio de Sá, Paulo Henrique de Almeida Rodrigues.</p>
+
+                        <div class="container-player my-5">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="DHwNaZvPpWs"></div>
+                            <div class="mt-2">
+                                <p><small class="text-muted">Fonte: <a class="links" href="https://youtu.be/DHwNaZvPpWs"
+                                            target="_blank">Canal Saúde Oficial - YouTube</a></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Ainda em dezembro do mesmo ano, o então Presidente da República, Michel Temer, aprovou a Emenda
+                    Constitucional (EC) nº 95/2016 (oriunda da PEC nº 55 do “teto dos gastos”), que congela os gastos
+                    públicos e sociais por 20 anos (saúde, educação, segurança pública).</p>
+
+                <p>Essa agenda doméstica foi incentivada por documentos produzidos por organismos internacionais
+                    multilaterais, como o Banco Mundial (Bird) e o Fundo Monetário Internacional (FMI), no setor. O
+                    relatório do Bird, “<a
+                        href="https://documents1.worldbank.org/curated/en/884871511196609355/pdf/121480-REVISED-PORTUGUESE-Brazil-Public-Expenditure-Review-Overview-Portuguese-Final-revised.pdf"
+                        class="links" target="_blank">Um ajuste justo: análise da Eficiência e Equidade do Gasto Público
+                        no Brasil</a>”,
+                    publicado em novembro de 2017, trouxe pressão para diminuir financiamento público e aumentar
+                    participação do financiamento privado nos direitos sociais de caráter universal (saúde, educação,
+                    etc.), além de pressão para mais facilitações do Estado ao setor privado. Uma fala do diretor do
+                    Bird publicada na grande imprensa ilustra parte dessa pressão, ele dizia que era preciso uma
+                    “<span class="fst-italic">Reforma profunda da previdência</span>” para o Bird apoiar o Brasil.</p>
+
+                <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS:</h6>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>Assista Apresentação e debate do Relatório do Banco Mundial sobre o gasto público em saúde no
+                            Brasil, ocorrido em 2017.</p>
+                        <p>Apresentação: Edson C. Araujo - Economista Sênior, Health, Nutrition & Population, Banco
+                            Mundial, Washington.</p>
+                        <p>Debatedores Convidados: Maria Estela de Castro Lobo (HUCFF-UFRJ), Ligia Giovanella
+                            (ENSP-FIOCRUZ), Félix Héctor Rigoli (ISAGS), Bruno Leonardo (UERJ), Eduardo Levcovitz, Paulo
+                            Henrique Almeida Rodrigues (IMS-UERJ).</p>
+                        <p>Coordenação: Prof Dr. Mario Dal Poz (IMS-UERJ)</p>
+
+                        <div class="container-player my-5">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="9Uesi0VQNRg"></div>
+                            <div class="mt-2">
+                                <p><small class="text-muted">Fonte: <a class="links" href="https://youtu.be/9Uesi0VQNRg"
+                                            target="_blank">Canal Centro Brasil de Saúde Global - YouTube</a></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Destacamos que, mesmo com todos os problemas políticos, de gestão e de financiamento, o SUS, e toda
+                    ordem social da Constituição de 88, é uma política pública que mudou diversos indicadores de
+                    condições de vida da população nos últimos 30 anos. E que o ataque às políticas sociais sob
+                    argumento da austeridade fiscal para enfrentar a crise se demonstrou um “austericídio fiscal”, que
+                    não resolveu em nada a crise econômica e atacou todo o sistema de proteção social - justamente
+                    quando a população mais precisa dele, como os momentos de crise econômica e aumento do desemprego.
+                    Note-se que toda desconstrução do SUS aumenta os problemas de saúde e a necessidade da população.
+                </p>
+
+                <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
+                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">Para saber mais sobre os efeitos dos
+                            direitos sociais e os da austeridade no Brasil e no mundo, <a
+                                href="http://cebes.org.br/site/wp-content/uploads/2017/11/Austeridade_Politica_Socais.pdf"
+                                class="links texto-cor-1" target="_blank">ver livro do Cebes</a></h6>
+                    </div>
+                </div>
+
+                <p>É importante compreender que a pressão internacional pela política de austeridade ganhou força como
+                    uma resposta à crise econômica mundial de 2008. Seus reflexos duram até os dias atuais, em especial
+                    nos arranjos público-privados - que é o foco dessa aula.</p>
+
+                <p>O governo de Jair Bolsonaro, iniciado em 2019, aprofundou a política de austeridade fiscal com os
+                    gastos sociais e vem operacionalizando uma reforma do SUS. Inclusive, durante a pandemia de Covid,
+                    foram observadas diferentes disputas entre o público e o privado.</p>
+
+                <h3 class="mt-5 mb-3 text-uppercase">• Cobertura Universal de Saúde</h3>
+
+                <p>Essa concepção de política socioeconômica coincide com o esforço da Organização Mundial de Saúde, que
+                    começou a tomar forma a partir de 2005, para emplacar a proposta de Universal Health Coverage, UHC
+                    (Cobertura Universal de Saúde, CUS) para todos os países do mundo. Essa política atualmente já tem
+                    consistência na Declaração de Astana (2018) e nos Objetivos de Desenvolvimento Sustentável da
+                    Organização das Nações Unidas (ONU). A Cobertura Universal de Saúde defende, à primeira vista, a
+                    expansão da taxa de cobertura da população com acesso à saúde.</p>
+                <p>É extremamente desejável que o acesso à Saúde seja baseado na premissa que todos tenham acesso
+                    integral à saúde como direito de cidadania, num modelo de proteção social universal. Entretanto,
+                    quando analisada a fundo, percebe-se que a CUS propõe a segmentação do acesso, da cobertura de
+                    serviços e do financiamento do serviço de saúde, para diferentes grupos populacionais desde que toda
+                    a população tenha algum tipo de cobertura com algum tipo de financiamento, o que é absolutamente
+                    diferente do direito à saúde como cidadania.</p>
+                <p>A CUS também prevê que a segmentação seja realizada por meio da expansão do mercado privado de saúde,
+                    tanto para o financiamento dos serviços de saúde, que poderiam vir a ser por meio de seguros
+                    privados de saúde, como para a provisão de parte dos serviços de saúde, uma vez que haveria uma
+                    cesta de serviços a serem cobertos previamente definida.</p>
+                <p>O modelo da Cobertura Universal de Saúde rompe, portanto, com a lógica dos sistemas públicos
+                    universais e integrais, a qual pressupõe o financiamento público do sistema de saúde
+                    independentemente do poder de pagamento das pessoas e a organização do cuidado para atender às
+                    necessidades de saúde, não se resumindo à oferta de determinados serviços.</p>
+                <p>Os mais importantes pressupostos da CUS estão no documento da Fundação Rockefeller, que traduzimos a
+                    seguir:</p>
+
+                <div class="container-aprendizado my-3">
+                    <ul class="ps-0 mb-0">
+                        <li class="icon circle">
+                            <p class="mb-3">grande proporção da população está disposta a pagar por serviços de saúde do
+                                setor privado; e</p>
+                        </li>
+                        <li class="icon circle">
+                            <p class="mb-3">fortes agentes do mercado estão dispostos a pressionar para que haja aumento
+                                de financiamento público e privado, especialmente como os países de média e baixa renda,
+                                que adotam políticas para financiar o seguro de saúde como um meio para a Cobertura
+                                Universal de Saúde.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <p>Essa linha de argumentação deixa claro que o efeito da crise econômica de 2008 atingiu também o
+                    mercado segurador internacional, e o levou à busca de novas clientelas. Isso porque a demanda por
+                    seguro privado suplementar de saúde na Europa já está saturada e o máximo de expansão da demanda que
+                    os Estados Unidos poderiam obter seria pela implementação do Obamacare.</p>
+
+                <p>Nesse sentido, a real possibilidade de expansão de clientes de seguro privado de saúde não estaria
+                    entre as maiores economias do hemisfério Norte, mas sim nos países com grandes populações e alguma
+                    possibilidade de compra - como Brasil, Índia e África do Sul - que passam a configurar o alvo mais
+                    adequado dessa política, bem como os demais países do hemisfério sul.</p>
+
+                <p>A proposta da Cobertura Universal de Saúde se fortalece paulatinamente, a cada Relatório Mundial de
+                    Saúde da OMS. Em 2008, a universalidade considerava a proporção de despesas cobertas por fundos
+                    públicos para financiar os sistemas de saúde e a orientação era ampliar os gastos públicos. Em 2010,
+                    ganham projeção os fundos compartilhados (financiamento público e privado) e a orientação passam a
+                    ser uma cobertura pública residual e seletiva de serviços primários de saúde que, conforme um
+                    pacote, uma cesta de serviços definidos. Esse formato é bastante diferente do modelo de atenção
+                    primária de saúde abrangente, previsto nos sistemas universais, em que ela é integral, atende às
+                    necessidades de saúde e atua em rede com os demais níveis de atenção do sistema. Essa proposta parte
+                    da premissa que seria interessante a parceria entre o público e o privado, mas desconsidera que o
+                    privado sempre busca lucro e, na prática das parcerias, o público tende a ficar com os maiores
+                    gastos.</p>
+
+                <p>A proposta da CUS é comumente justificada como meio de reduzir o gasto privado direto (também
+                    conhecido como gasto catastrófico devido ao seu forte componente endividador das famílias, sobretudo
+                    as mais pobres), só que o faz incluindo a compra de seguros privados de saúde ou de seguros
+                    subsidiados para pobres. Assim, significa o rompimento com a lógica dos sistemas públicos universais
+                    baseados na integralidade da atenção e na equidade.</p>
+
+                <p>Giovanella et ali afirmam que “a forma para avançar em direção à cobertura universal deixa de ser a
+                    ampliação do financiamento público correspondente ao universal health care, a sistemas nacionais de
+                    saúde de acesso universal e financiamento público (subsídio à oferta)” e passa-se a universal health
+                    coverage, que é a cobertura para seguros de saúde, sejam públicos ou privados, mas numa lógica
+                    baseada no subsídio à demanda.</p>
+
+                <p>A proposta da Cobertura Universal de Saúde ganha visibilidade entre os organismos internacionais, não
+                    só pela OMS, mas passa a ser incorporada entre os indicadores dos Objetivos de Desenvolvimento
+                    Sustentável da ONU (ODS) para 2030, com repercussões de médio prazo para todos os países que estão
+                    induzidos a acompanhar os indicadores.</p>
+
+                <p>Mais recentemente foi realizado amplo debate à versão preliminar da declaração da Segunda Conferência
+                    Internacional de Atenção Primaria de Saúde, que revia o conceito amplo de saúde de Alma Ata para uma
+                    proposta de parceria público-privada baseada na Cobertura Universal.</p>
+
+                <p>Note-se que, somente após intenso debate com diversos organismos internacionais e movimento sociais,
+                    o peso do setor privado inicialmente proposto na versão preliminar da declaração foi diminuído na
+                    sua versão final, mas esta não o retirou completamente, como mostrou o documento do People's Health
+                    Movement, The Contribution Of Civil Society Engagement To The Achievement Of Health, publicado em
+                    2018. O documento original, em inglês pode ser acessado na <a
+                        href="https://phmovement.org/wp-content/uploads/2018/07/CSE4HFA_FinalReport_Long_180909.pdf"
+                        class="links" target="_blank">página da internet do People's Health Movement</a>.</p>
+
+                <div class="centro my-5">
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/imagem3.png" class="img-fluid" alt="">
+                        <figcaption class="figure-caption">
+                            <p class="mb-0"><small class="text-muted">Página do People's Health Movement, na internet <a
+                                        href="https://phmovement.org/" class="links"
+                                        target="_blank">https://phmovement.org</a></small></p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>Um problema estrutural do modelo da Cobertura Universal de Saúde é que, embora a proposta utilize a
+                    ideia da universalidade, concretamente fortalece o papel do setor privado na oferta de seguros
+                    privados de saúde e de serviços de saúde. Assim, rompe com a lógica da universalidade e de sistema
+                    universal de saúde e, mais grave que isso, configura, na realidade concreta da proposta, uma disputa
+                    com o conceito de direito universal à saúde.</p>
+
+                <p>No caso brasileiro, é fundamental avaliar os possíveis efeitos da Cobertura Universal no sistema de
+                    saúde. Por um lado, o direito universal à saúde foi estabelecido constitucionalmente em 1988 e,
+                    desde então, vem sendo fortalecido com o SUS, cada vez mais importante para as condições de vida da
+                    população e para a economia do país.</p>
+
+                <p>Por outro lado, o SUS guarda a herança do sistema de saúde brasileiro em que, sobretudo desde a
+                    década de 1960, se estrutura num mercado prestador privado, do qual o SUS é o principal comprador.
+                    E, mais recentemente, vê-se a perda progressiva da capacidade de gestão do Estado devido aos
+                    contratos privados para gestão e prestação de serviços públicos em unidades públicas, com OS, OSCIP,
+                    FES e afins. Ademais, o Estado confere mais e mais incentivos ao setor privado por meio de deduções,
+                    isenções e subsídios fiscais dos mais variados tipos.</p>
+
+                <p>Ao mesmo tempo que o setor privado é privilegiado pelas políticas públicas, foi o sistema público
+                    constitucionalmente escolhido para a população que, por ser universal e integral que ampliou o
+                    acesso para toda a população às ações e serviços de saúde nas três últimas décadas. E é esse SUS que
+                    é financiado inadequadamente, sempre abaixo do previsto pela Constituição, com menos que 4% do PIB,
+                    claramente insuficientes para garantia do direito universal à atenção integral à saúde.</p>
+
+                <p>Desde a Constituição, tanto o SUS como o setor privado cresceram de modo importante. Atualmente,
+                    24,5% da população brasileira possui cobertura de seguro privado de saúde para serviços
+                    médico-hospitalares (majoritariamente trabalhadores do mercado formal), os quais podem usar tanto o
+                    SUS como seguro privado, confirmando um sistema extremante segmentado no país.</p>
+
+                <p>Apesar de todo esse contexto e das consequências que ele confere, o SUS rompeu com o modelo anterior
+                    ao estabelecer novas bases institucionais, gerenciais e assistenciais, como um sistema universal de
+                    saúde com desenho organizacional territorializado e previsão de rede hierarquizada em níveis de
+                    atenção integrados. Em consonância às diretrizes organizacionais da descentralização e da
+                    participação da sociedade, o SUS incorporou em sua estrutura institucional e decisória instrumentos
+                    para a democratização e compartilhamento da gestão do sistema de saúde entre os distintos entes
+                    governamentais e a sociedade civil. Tendo como uma de suas diretrizes a integralidade, o desenho do
+                    sistema considera a integração entre cuidados individuais e ações de saúde pública e a garantia de
+                    atenção em todos os níveis de complexidade, conforme a necessidade, sem definição de uma cesta
+                    restrita de serviços.</p>
+
+                <p>O SUS é um sistema universal e está previsto que seja organizado como tal, em rede, com ações,
+                    serviços, clínicas e postos de saúde, hospitais, centros de serviços de apoio à diagnose e terapia
+                    (SADT), profissionais que executam as ações e os serviços, recursos físicos, e políticas
+                    orientadoras articuladas. Sozinhos, esses pontos não formam uma rede, somente quando seus pontos são
+                    interligados (com sistema de informação, logística, comunicação etc.) é que constituem os fios da
+                    rede. Isso não ocorre no setor privado, pela sua natureza fragmentada.</p>
+
+                <p>Além disso, a lógica da atenção à saúde não se resolve se estiver centrada nos eventos hospitalares e
+                    agudos, como costuma ocorrer na assistência prestada pelo setor privado, que é orientado pela lógica
+                    de pagamento por serviço executado. É preciso orientar a atenção pela lógica da Atenção Primária de
+                    Saúde (APS) integral, o que só é possível de ser feito em um sistema universal.</p>
+
+                <p>Nos sistemas universais, a garantia de cuidado integral, individual e coletivo, exige a coordenação
+                    entre os serviços, organizados em rede, integrados e territorializados distribuídos com economia de
+                    escala, e orientados pela APS, resultando em melhor qualidade, menores custos e maior eficiência.
+                    Isso é possível com um sistema universal de saúde, mas não com a APS preconizada como estratégia
+                    para a Cobertura Universal de Saúde, baseada num pacote básico de serviços e medicamentos a serem
+                    definidos em cada país para serem cobertos - essa é a APS conhecida como seletiva, não é suficiente
+                    para um sistema universal e ainda significaria retrocesso em relação aos avanços já obtidos pelo SUS
+                    desde sua implantação.</p>
+
+                <p>A proposta dos planos “acessíveis”, por exemplo, congraça e corrobora a concepção de CUS, ampliando a
+                    oferta de cobertura por meio do seguro privado, pois atenderia a demanda das seguradoras de não só
+                    retomarem, mas ampliarem sua clientela. Mas a proposta da Cobertura Universal de Saúde não parece
+                    fazer sentido num país em que o sistema público já é universal, que é para ser usado por todos os
+                    brasileiros, onde qualquer pessoa que precise utilizar um serviço de saúde pode ser atendida pelo
+                    SUS e não precisa pagar por ele no momento do uso.</p>
+
+                <p>Certamente, a Cobertura Universal de Saúde atenderia às seguradoras brasileiras e, possivelmente, ao
+                    capital internacional, atendendo a demanda das seguradoras estrangeiras de ampliação de sua
+                    clientela, já saturada na Europa. Nesse sentido, é difícil imaginar que a Cobertura Universal de
+                    Saúde possa contribuir positivamente para os objetivos gerais dos sistemas universais de saúde: a
+                    contribuição positiva aos resultados de saúde, o desenvolvimento do próprio sistema de saúde e os
+                    objetivos com base nos direitos sociais.</p>
+
+                <p>O SUS é um direito de cidadania, o que não ocorre com o setor privado de saúde tal qual preconizado
+                    pela Cobertura Universal de Saúde, onde é necessário pagar para usar, seja por intermédio do seguro
+                    ou pagando diretamente do próprio. Já o direito de cidadania estende-se a todas as pessoas,
+                    principalmente nas sociedades preocupadas com o bem-estar geral da população, cuja organização é
+                    determinada com base em valores de solidariedade, os quais fundamentam sistemas que atendam ao que é
+                    de interesse público.</p>
+
+                <h2 class="mt-5 mb-3">As relações público-privadas na Covid-19 e a oferta de serviços de saúde hoje:
+                    acirramento das desigualdades durante a pandemia</h2>
+
+                <p>A pandemia da Covid-19, causada pelo novo coronavírus (SARS-CoV-2), tem resultado na mais devastadora
+                    crise sanitária global das últimas décadas. O enfrentamento da pandemia de Covid-19 é um desafio
+                    enorme num país como o Brasil, com históricas e profundas desigualdades de renda, escolaridade,
+                    habitação/condições de moradia e transporte, etnia/raça/cor, gênero, socioespaciais e de saúde.
+                    Soma-se a isso a complexa relação público-privada na prestação, oferta e acesso aos serviços que
+                    reforça as desigualdades em saúde no país. Diversas análises mostraram que os efeitos da Covid-19 no
+                    Brasil expuseram e reforçaram todas essas desigualdades, abrangendo todas as dimensões da sociedade.
+                </p>
+
+                <p>Aqui, a chegada da Covid-19 se deu por meio dos dois maiores centros urbanos: São Paulo (SP) e Rio de
+                    Janeiro (RJ). Embora as duas metrópoles tenham sido os epicentros da pandemia no Brasil, a Covid-19
+                    rapidamente se espalhou para regiões periféricas e outras capitais brasileiras, além das cidades
+                    interioranas, de menor número de habitantes. O processo de interiorização da pandemia gerou uma
+                    importante preocupação dada a concentração de recursos e serviços de saúde em capitais, regiões
+                    metropolitanas e alguns poucos polos do interior. A propagação do vírus para lugares com menor
+                    oferta de serviços de saúde representa limitações para o acesso a eles.</p>
+
+                <p>Desde a chegada da Covid-19 no Brasil, destacamos preocupação com a distribuição dos recursos
+                    hospitalares e de SADT, públicos e privados, devido ao rápido aumento da demanda sem que houvesse
+                    oferta suficiente de recursos. As consequências da pandemia apontavam para a necessidade de diminuir
+                    a velocidade da transmissão frente ao risco iminente de colapso do sistema de saúde, que afeta
+                    diferentemente o SUS e o setor privado. Até o momento, o país e seu sistema de saúde ainda enfrentam
+                    desafios e incertezas.</p>
+
+                <div class="centro my-5">
+                    <img src="../assets/images/modulo2/aula2/imagem4.png" class="img-fluid" alt="">
+                </div>
+
+                <p>Desde o princípio, o Brasil representa grande preocupação para o mundo tanto em função do acelerado
+                    crescimento dos casos e óbitos (sendo campeão mundial de mortalidade em decorrência de Covid em
+                    agosto de 2022), quanto dos resultados contraditórios das estratégias e respostas adotadas por parte
+                    do governo federal brasileiro - desde “Imunidade de rebanho” e outras estratégias até a persistente
+                    resistência a adotar estratégias coletivas de prevenção, como comunicação, realização de testes em
+                    massa, providenciar aquisição e aplicação de vacinas à totalidade dos habitantes elegíveis, realizar
+                    rastreamento de contactantes para isolamento e recomendações da epidemiologia social, distribuição
+                    gratuita de máscaras eficientes (N95/PFF2).</p>
+                <p>Em 2021, o país viveu uma situação de iminente colapso do seu sistema de saúde hospitalar e de
+                    diagnóstico como pode ser visto na imagem da Série histórica da taxa de ocupação de leitos de
+                    Unidade de Terapia Intensiva (UTI) Covid-19 no país de julho de 2020 à março de 2021. Em 2022, com o
+                    aumento da cobertura vacinal, as novas ondas com elevadas taxas de contaminação afetaram o setor
+                    hospitalar mas agora com menores taxas de mortalidade do que nas ondas anteriores. Afetaram,
+                    sobretudo, o setor de diagnósticos e terapias.</p>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Série histórica da taxa de ocupação de leitos de UTI Covid-19
+                        no país de julho de 2020 a março de 2021</span>
+                    <figure class="figure">
+                        <img src="../assets/images/modulo2/aula2/imagem5.png" class="img-fluid"
+                            alt="Série com 19 mapas do Brasil, cada um representando um mês, de julho de 2020 a março de 2021. O primeiro, referente a julho de 2020, mostra 5 estados com ocupação crítica dos leitos de UTI. O último mapa, referente a março de 2021, mostra todos os estados brasileiros, exceto o Amapá, com ocupação crítica. O Amapá está com ocupação de leitos alta">
+                        <figcaption class="figure-caption">
+                            <p class="mb-0"><small class="text-muted">Fonte: <a
+                                        href="https://portal.fiocruz.br/noticia/observatorio-covid-19-aponta-maior-colapso-sanitario-e-hospitalar-da-historia-do-brasil"
+                                        class="links" target="_blank">Observatório Covid-19 Fiocruz (2021)</a>.</small>
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>Ficou evidente a insuficiência da oferta e distribuição desigual de leitos de UTI, equipamentos,
+                    insumos essenciais e profissionais da saúde para garantir a assistência adequada a todos os
+                    pacientes em estado grave, acometidos pelo vírus, seja na rede pública ou na privada. Agrega-se a
+                    esse cenário a quase que orientação no início da pandemia, para que os pacientes procurassem
+                    assistência hospitalar ao invés da Atenção Primária de Saúde, a qual poderia ter tido importante
+                    contribuição, como se observou em 2022, quando a população retomou o uso intensivo da APS.</p>
+                <p>O Brasil possuíi uma proporção de leitos de UTI satisfatória de 2,2 leitos de UTI para cada 10 mil
+                    habitantes se observados os números gerais. As recomendações internacionais indicam de 1 a 3 leitos
+                    para cada 10 mil habitantes. Porém, a distribuição dos leitos é desigual em deferentes dimensões.
+                </p>
+                <p>Observa-se que o SUS possui uma média de 1,4 leitos, enquanto a rede privada suplementar possui 4,9,
+                    o que evidencia a suboferta pública e superoferta privada, principalmente se comparar os leitos
+                    privados disponíveis para o SUS e os para os pacientes para planos privados de saúde.
+                    Considerando-se que a população cliente de seguro privado de saúde é bastante inferior àquela
+                    exclusivamente dependente do SUS, a relação da oferta per capita revela-se ainda mais desigual entre
+                    o setor suplementar e o sistema público.</p>
+                <p>Estudo de Portela e colaboradores, publicado em 2020, mapeou a distribuição espacial da oferta de
+                    leitos de UTI públicos e privados no país, mostrando a desigualdade na oferta dos mesmo por região e
+                    porte do município.</p>
+
+                <div class="centro my-5">
+                    <span class="text-center fw-bold mb-4">Distribuição dos Leitos de UTI por 10.000 habitantes: taxas
+                        globais (equipamentos
+                        disponíveis no SUS
+                        e saúde suplementar em relação à população total), no SUS (em referência à população
+                        exclusivamente
+                        dependente do SUS) e na saúde suplementar (em referência à população de clientes de planos de
+                        saúde.
+                        Brasil, fevereiro/2020</span>
+                    <figure class="figure">
+                        <div class="d-flex flex-wrap justify-content-center gap-2">
+                            <img src="../assets/images/modulo2/aula2/mapa1.png" class="img-thumbnail" alt="">
+                            <img src="../assets/images/modulo2/aula2/mapa2.png" class="img-thumbnail" alt="">
+                            <img src="../assets/images/modulo2/aula2/mapa3.png" class="img-thumbnail" alt="">
+                        </div>
+
+                        <figcaption class="figure-caption">
+                            <p class="mb-0"><small class="text-muted">Fonte: Portela, et al. (2020).</small>
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p>Cabe ressaltar que, embora a oferta privada de leitos de UTI seja superior à pública, ela possui
+                    elevada concentração nas capitais estaduais e grandes metrópoles. Isso significa que os habitantes
+                    de cidades de pequeno e médio porte, assim como municípios periféricos das regiões metropolitanas,
+                    mesmo sendo clientes de planos e seguros, podem enfrentar barreiras de acesso ao cuidado intensivo.
+                </p>
+                <p>A adoção de fila única para os leitos, sem distinção de público ou privado para o uso pelos
+                    pacientes, foi uma proposta bastante debatida no período inicial da pandemia, como uma das
+                    estratégias de enfrentamento do colapso de leitos no primeiro semestre da pandemia. Em termos
+                    gerais, a “fila única” seria incentivar a regulação, realizada pelos gestores de cada esfera do SUS,
+                    dos leitos disponíveis para internações a fins de suprir a demanda por internações com todos os
+                    leitos disponíveis. Para isso os gestores teriam que requisitar leitos privados quando necessário e
+                    regular a fila única para garantir igualdade na internação na pandemia.</p>
+
+                <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">Para saber mais sobre a fila única nas
+                            UTIs</h3>
+                    </div>
+
+                    <div class="container-content-base">
+                        <div>
+                            <h3 class="texto-modal-bold">Coronavírus: Por que defender a fila única nas UTIs?</h3>
+                            <div class="container-player my-5">
+                                <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="Cuh1taE5ATU">
+                                </div>
+                                <div class="mt-2">
+                                    <p><small class="text-muted">Fonte: <a class="links"
+                                                href="https://youtu.be/Cuh1taE5ATU" target="_blank">Canal CUT Brasil -
+                                                YouTube</a></small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="texto-modal-bold">Uso público de leitos privados durante a pandemia da COVID-19</h3>
+                            <div class="container-player my-5">
+                                <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="extcSpszqQU">
+                                </div>
+                                <div class="mt-2">
+                                    <p><small class="text-muted">Fonte: <a class="links"
+                                                href="https://youtu.be/extcSpszqQU" target="_blank">Canal CUT Brasil -
+                                                YouTube</a></small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="texto-modal-bold">Ato Manifesto LEITO PARA TODOS</h3>
+                            <div class="container-player my-5">
+                                <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="uH26VFFUOQY">
+                                </div>
+                                <div class="mt-2">
+                                    <p><small class="text-muted">Fonte: <a class="links"
+                                                href="https://youtu.be/uH26VFFUOQY" target="_blank">Canal CUT Brasil -
+                                                YouTube</a></small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Em estudo sobre estratégias adotadas por países europeus com sistemas públicos de saúde que
+                    expandiram a oferta de leitos, por meio da utilização de hospitais privados na resposta à
+                    Covid-19, concluiu-se que, embora existam diferentes possibilidades de uso de estruturas
+                    hospitalares privadas pelos sistemas públicos de saúde, todas podem promover rápida ampliação da
+                    capacidade assistencial em situações de emergências sanitárias.</p>
+                <p>No Brasil, a captação de leitos de hospitais privados já equipados e prontos para receber
+                    pacientes à espera de atendimento foi residual e restrita a determinadas cidades. Conte e
+                    colaboradores, em artigo de 2020, destacaram que, enquanto unidades públicas de terapia
+                    intensiva chegaram a sua taxa de ocupação máxima, o setor privado contabilizou leitos ociosos,
+                    mesmo considerando os já ocupados por outras comorbidades. Isso expôs, por um lado, o
+                    comprometimento de caráter de atores do setor privado se observado a sua finalidade de atuação
+                    no setor de saúde e, por outro, a baixa capacidade de negociação do Estado brasileiro para
+                    defender o que é de interesse público.</p>
+                <p>Além disso, o aumento do número de leitos de UTI no país durante a pandemia, não foi suficiente
+                    para reduzir as desigualdades de oferta entre os setores. Inclusive as ampliaram. Junior e
+                    Cabral, em estudo de 2020, verificaram que, dos de 14.220 novos leitos UTI no país, apenas 3.104
+                    foram para o SUS. O setor privado instalou mais de 11 mil leitos, o que representou 78,18% dos
+                    novos leitos de UTI para uma parcela bem menor da população.</p>
+                <p>Observa-se que a pandemia não apenas ressaltou as desigualdades da oferta entre os setores
+                    público e privado, como as ampliou. Mesmo com a expansão de leitos hospitalares, a distribuição
+                    regional e setorial manteve-se significativamente desigual no país. Em 2022, quando a maior
+                    demanda se deu para consultas especializadas e serviços de apoio ao diagnóstico e a terapias,
+                    observamos o mesmo tipo de desigualdade entre os setores público e privado que observado na
+                    oferta hospitalar.</p>
+                <p>Se queremos um país forte e de forma duradoura, é preciso grandes investimentos na área social
+                    com efeitos no universo da população. Para isso é preciso a ação do Estado no sentido de tornar
+                    realidade os direitos sociais e não mais deixar que sejam prejudicados ou postergados em função
+                    dos interesses privados. Será preciso que o Estado faça uma regulação do setor privado para
+                    defender o interesse público dos efeitos nocivos que resultam das relações público-privadas. No
+                    caso do SUS, é tornar real o SUS constitucional. Certamente a grande maioria da população
+                    brasileira deseja saúde pública e de qualidade para todos os brasileiros e isso só é possível
+                    com um sistema público universal forte e de qualidade para todos!</p>
+
+                <div class="container-texto-base flex-column my-5">
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <img src="../assets/images/icones/icon_referencia.svg" alt="REFERÊNCIAS" class="mb-0"
+                            width="50px">
+                        <h2 class="text-uppercase mb-0">REFERÊNCIAS:</h2>
+                    </div>
+
+                    <div class="container-content-base">
+                        <p>Bahia L. Planos Privados de Saúde: luzes e sombras no debate setorial dos anos 90. Ciência e
+                            Saúde Coletiva 2001, 6(2): 329-339. <a
+                                href="http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-81232001000200005&lng=pt&nrm=iso&tlng=pt"
+                                class="links"
+                                target="_blank">http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-81232001000200005&lng=pt&nrm=iso&tlng=pt</a>
+                        </p>
+                        <p>Braga JCS; Paula SG. Saúde e Previdência: estudos de política social. São Paulo: Hucitec,
+                            1986.</p>
+                        <p>Carvalho EB, Cecílio LCO. A regulamentação do setor de saúde suplementar no Brasil: a
+                            reconstrução de uma história de disputas. Cadernos de Saúde Pública 2007, 23(9): 2167-2177.
+                        </p>
+                        <p>Centro Brasileiro de Estudos de Saúde (CEBES). Manifesto do Centro Brasileiro de Estudos de
+                            Saúde em defesa do direito universal à saúde – saúde é direito não é negócio. Rio de
+                            Janeiro: Cebes; 2014. <a
+                                href="http://cebes.org.br/site/wp-content/uploads/2014/09/Manifesto_Cebes_Sa%C3%BAde_%C3%A9_direito_e_n%C3%A3o_neg%C3%B3cio.pdf"
+                                class="links"
+                                target="_blank">http://cebes.org.br/site/wp-content/uploads/2014/09/Manifesto_Cebes_Sa%C3%BAde_%C3%A9_direito_e_n%C3%A3o_neg%C3%B3cio.pdf</a>
+                        </p>
+                        <p>Conselho Nacional de Saúde. Recomendação n.o 26, de 22 de abril de 2020. Disponível em: <a
+                                href="https://conselho.saude.gov.br/recomendacoes-cns/1131-recomendacao-n-026-de-22-de-abril-de-2020"
+                                class="links"
+                                target="_blank">https://conselho.saude.gov.br/recomendacoes-cns/1131-recomendacao-n-026-de-22-de-abril-de-2020</a>.
+                        </p>
+                        <p>Cordeiro H. A indústria da saúde no Brasil. Rio de Janeiro, Edições Graal: 1980.</p>
+                        <p>Conte, D; Bahia, L.; Carvalho, EL; et al. Oferta pública e privada de leitos e acesso aos
+                            cuidados à saúde na pandemia de Covid-19 no Brasil. Saúde em debate (preprint) DOI <a
+                                href="https://doi.org/10.1590/SciELOPreprints.1320" class="links"
+                                target="_blank">https://doi.org/10.1590/SciELOPreprints.1320</a>.</p>
+                        <p>Giovanella, L et al. Sistema universal de saúde e cobertura universal: desvendando
+                            pressupostos e estratégias. Ciênc. Saúde Coletiva, Rio de Janeiro, v. 23, n. 6, p.
+                            1763-1776, July 2018.</p>
+                        <p>Junior, DFC; Cabral, LM. S. Crescimento dos leitos de UTI no país durante a pandemia de
+                            Covid-19: desigualdades entre o público x privado e iniquidades regionais. Physis: Revista
+                            de Saúde Coletiva, v. 30, n. 3, 2020.</p>
+                        <p>Massuda, A; Tasca, R; Malik, AM. Uso de leitos hospitalares privados por sistemas públicos de
+                            saúde na resposta à Covid-19. Saúde em Debate (preprint) DOI <a
+                                href=https://doi.org/10.1590/SciELOPreprints.1320"" class="links"
+                                target="_blank">https://doi.org/10.1590/SciELOPreprints.1320</a>.</p>
+                        <p>Mossialos, E; Thompson, SMS. Voluntary Health Insurance in Europe Union. Copenhagen, World
+                            Health Organization, European Observatory on Health Systems and Policies: 2004.</p>
+                        <p>Nota Técnica Aprimoramento dos critérios de prioridade para a vacinação contra Covid-19
+                            assinado por entidades da Sociedade Civil. Agosto de 2020. Disponível em: <a
+                                href="http://cebes.org.br/site/wp-content/uploads/2021/08/Nota-Tecnica_Criterios-de-Prioridade-para-Vacinacao-nota-completa.pdf"
+                                class="links"
+                                target="_blank">http://cebes.org.br/site/wp-content/uploads/2021/08/Nota-Tecnica_Criterios-de-Prioridade-para-Vacinacao-nota-completa.pdf</a>
+                        </p>
+                        <p>Organização das Nações Unidas, ONU. Objetivos de Desenvolvimento Sustentável, ODS. Disponível
+                            em: <a
+                                href="https://www.paho.org/bra/index.php?option=com_content&view=article&id=5849:objetivos-de-desenvolvimento-sustentavel&Itemid=875"
+                                class="links"
+                                target="_blank">https://www.paho.org/bra/index.php?option=com_content&view=article&id=5849:objetivos-de-desenvolvimento-sustentavel&Itemid=875</a>
+                        </p>
+                        <p>Palamim, CVC; Marson, FAL. Covid-19 – The Availability of ICU Beds in Brazil during the Onset
+                            of Pandemic. Annals of Global Health, v. 86, n. 1, p. 1-15, 2020.</p>
+                        <p>People Health Movement, PHM. PHM's comments on the draft Declaration for the second
+                            International Conference on Primary Health Care. Julho de 2018. Disponível em: <a
+                                href="https://phmovement.org/peoples-health-movement-comments-on-the-draft-declaration-for-the-second-international-conference-on-primary-health-care-towards-universal-health-coverage-and-the-sustainable-development-goa/"
+                                class="links"
+                                target="_blank">https://phmovement.org/peoples-health-movement-comments-on-the-draft-declaration-for-the-second-international-conference-on-primary-health-care-towards-universal-health-coverage-and-the-sustainable-development-goa/</a>
+                        </p>
+                        <p>Portela, MC; Pereira, CCA; Lima, SML; et al. Limites e possibilidades dos municípios
+                            brasileiros para o enfrentamento dos casos graves de Covid-19. Nota Técnica n.1,
+                            DAPS/ENSP/Fiocruz: Rio de Janeiro, abr/2020.</p>
+                        <p>Rockefeller Foundation. Future Health Markets: a meeting statement from Bellagio. 2012.
+                            [citado 15 set. 2016] Disponível em: <a
+                                href="https://static.squarespace.com/static/5034f626e4b09af678ebcd47/52c594f5e4b01a09cde0f896/52c594f5e4b01a09cde0faf7/1355906022603/bellagio-future-health-markets-statement-final.pdf"
+                                class="links"
+                                target="_blank">https://static.squarespace.com/static/5034f626e4b09af678ebcd47/52c594f5e4b01a09cde0f896/52c594f5e4b01a09cde0faf7/1355906022603/bellagio-future-health-markets-statement-final.pdf</a>
+                        </p>
+                        <p>Santos, IS. O mix público-privado no sistema de saúde brasileiro: elementos para a regulação
+                            da cobertura duplicada. Tese de Doutorado. Rio de Janeiro, ENSP/FIOCUZ: 2009.</p>
+                        <p>Ventura DFL; Aith FMA; Reis, RR. et al. A linha do tempo da estratégia federal de
+                            disseminação da Covid-19. São Paulo: CEPEDISA, 28 de maio de 2021. Disponível em: <a
+                                href="https://cepedisa.org.br/wp-content/uploads/2021/06/CEPEDISA-USP-Linha-do-Tempo-Maio-2021_v3.pdf"
+                                class="links"
+                                target="_blank">https://cepedisa.org.br/wp-content/uploads/2021/06/CEPEDISA-USP-Linha-do-Tempo-Maio-2021_v3.pdf</a>
+                        </p>
+                        <p>WHO, World Health Organization. Declaration of Astana. Global Conference on Primary Health
+                            Care. Astana, Kazakhstan, October 2018. Disponível em: <a
+                                href="https://www.who.int/docs/default-source/primary-health/declaration/gcphc-declaration.pdf"
+                                class="links"
+                                target="_blank">https://www.who.int/docs/default-source/primary-health/declaration/gcphc-declaration.pdf</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row flex-column-reverse flex-sm-row botao">
+                    <a href="introAula5.html" class="btn botaoPadrao"
+                        aria-label="Voltar para aula anterior, clique">VOLTAR</a>
+                    <a href="introAula6.html" class="btn botaoPadrao"
+                        aria-label="Avançar para a próxima aula, clique.">AVANÇAR</a>
+                </div>
+            </div>
+            <!-- Fim do Bloco 1 -->
+
+            <!-- Inicio Rodapé -->
+            <footer id="footer">
+                <div class="row-main">
+                    <div class="col-md-12 text-center" style="margin: auto;">
+                        <img class="img-fluid" src="../assets/images/rodape/rodape1.png" alt="">
+                    </div>
+                </div>
+            </footer>
+            <!-- Fim Rodapé -->
+        </div>
+        <!-- Fim Div mostra conteúdo 2 -->
+    </div>
+    <!-- Fim da Row-main -->
+
+    <!-- Arquivos JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.js"
+        integrity="sha512-vfpVlxMY9ryJFidrwKK2Nus5vQ5vGilRCjImLBYj3uoAz75crnSKM7zC3jFcmtCI7u58d9Cp0mEZmWwidm9xsg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

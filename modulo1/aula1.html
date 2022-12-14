@@ -16,9 +16,10 @@
 
     <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css">
     <link href="http://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.css"
+        integrity="sha512-6Ri9OxVS85G/DRlnwVIggHm8n738xZ5DuosGQywWa838o8TCojyxGl16C+JmhiHcWl3YjPnN6d6GwY0a0/S5jA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="../assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/default.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/light.css" />
 </head>
 
 <body>
@@ -27,7 +28,8 @@
         <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
             <!-- Logos -->
             <a class="logo" href="../index.html">
-                <img src="../assets/images/logoAula.png" class="img-fluid" alt="Representação visual da logomarca da Fiocruz - Campus Virtual" />
+                <img src="../assets/images/logoAula.png" class="img-fluid"
+                    alt="Representação visual da logomarca da Fiocruz - Campus Virtual" />
             </a>
 
             <!-- Botão Collapse -->
@@ -51,10 +53,8 @@
     <!-- Início da Row-main-->
     <div class="row" id="row-main">
 
-        <div class="sidemenu col-lg-2" id="sidebar"></div>
-
         <!-- Início Coluna de Conteúdo -->
-        <div class="col-lg-10" id="content">
+        <div class="col-12 col-lg-8 offset-lg-2" id="content">
 
             <!-- Bloco 1 -->
             <div class="pt-5 px-2 px-sm-5 justify-content-center position-relative">
@@ -332,10 +332,9 @@
                     consistiu na incorporação do olhar histórico, político e social para análise dos processos de
                     adoecimento, rompendo com a perspectiva hegemônica do saber biomédico.</p>
 
-                <div class="container-parairmaislonge my-5 p-2 p-md-5">
+                <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4">
-                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0"
-                            width="50px">
+                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0" width="50px">
                         <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
                     </div>
 
@@ -520,10 +519,9 @@
                     </div>
                 </div>
 
-                <div class="container-parairmaislonge my-5 p-2 p-md-5">
+                <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4">
-                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0"
-                            width="50px">
+                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0" width="50px">
                         <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
                     </div>
 
@@ -867,279 +865,256 @@
                     temáticas agregando uma ampla pauta de reivindicações relativas à política de saúde acumulando
                     discussões e subsídios para o debate Constituinte.</p>
 
-                <div class="informativo">
+                    <!-- Accordion 1 -->
+                <section class="aria-accordion p-2 p-md-5 my-5" role="tablist" aria-live="polite"
+                    data-behavior="accordion">
 
-                    <h3 class="accordion-titulo text-uppercase">Conferências temáticas e questões centrais apresentadas
-                        para debate</h3>
+                    <h2 class="accordion-titulo text-uppercase">Conferências temáticas e questões centrais apresentadas
+                        para debate</h2>
 
-                    <div class="accordion" id="accordion01">
-                        <div class="card">
-                            <div class="card-header" id="headingOne1">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne1"
-                                    aria-expanded="true" aria-controls="collapseOne1">
-                                    <p>Conferência Nacional de Saúde e Direitos da Mulher (1986)<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab1" tabindex="0" class="accordion__title" aria-controls="panel1" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>Conferência Nacional de Saúde e Direitos da Mulher (1986)</h3>
+                        </span>
 
-                            <div id="collapseOne1" class="collapse" aria-labelledby="headingOne1"
-                                data-bs-parent="#accordion01">
-                                <div class="card-body">
-                                    <ul class="ps-0 mb-0">
-                                        <li class="icon circle">
-                                            <p class="mb-1">Vida digna e plena, sem discriminação de sexo, raça, idade
-                                                ou classe social</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Assistência integral à saúde da mulher</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Direitos da reprodução humana e proibição de políticas de
-                                                controle da natalidade</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Legalização e descriminalização do aborto</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Saúde mental e combate à violência física e sexual</p>
-                                        </li>
-                                    </ul>
+                        <div id="panel1" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab1" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <ul class="ps-0 mb-0">
+                                    <li class="icon circle">
+                                        <p class="mb-1">Vida digna e plena, sem discriminação de sexo, raça, idade
+                                            ou classe social</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Assistência integral à saúde da mulher</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Direitos da reprodução humana e proibição de políticas de
+                                            controle da natalidade</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Legalização e descriminalização do aborto</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Saúde mental e combate à violência física e sexual</p>
+                                    </li>
+                                </ul>
 
-                                    <div class="d-flex mt-5">
-                                        <div>
-                                            <img src="../assets/images/icones/icon_caminhar.svg"
-                                                alt="" class="me-3">
-                                        </div>
-                                        <div>
-                                            <p class="mb-1">Para ir mais longe:</p>
-                                            <p><a href="https://bvsms.saude.gov.br/bvs/publicacoes/CNSD_mulher_parte_I.pdf"
-                                                    target="_blank" class="links">Relatório final da Conferência</a> –
-                                                Ministério da Saúde</p>
-                                        </div>
+                                <div class="d-flex mt-5">
+                                    <div>
+                                        <img src="../assets/images/icones/icon_caminhar.svg" alt="" class="me-3">
+                                    </div>
+                                    <div>
+                                        <p class="mb-1">Para ir mais longe:</p>
+                                        <p><a href="https://bvsms.saude.gov.br/bvs/publicacoes/CNSD_mulher_parte_I.pdf"
+                                                target="_blank" class="links">Relatório final da Conferência</a> -
+                                            Ministério da Saúde</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingOne2">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
-                                    aria-expanded="true" aria-controls="collapseOne2">
-                                    <p>Conferência Nacional de Recursos Humanos para a saúde (1986)<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
+                    </article>
 
-                            <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2"
-                                data-bs-parent="#accordion01">
-                                <div class="card-body">
-                                    <ul class="ps-0 mb-0">
-                                        <li class="icon circle">
-                                            <p class="mb-1">Defesa de regime jurídico específico para o mercado de
-                                                trabalho em saúde – recrutamento e seleção, plano de cargos e salários,
-                                                regime e jornada de trabalho, avaliação de desempenho e outros.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Diretrizes para formação e qualificação profissional.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Estratégias de organização interinstitucional, organização
-                                                dos trabalhadores e relação com os usuários.</p>
-                                        </li>
-                                    </ul>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab2" tabindex="0" class="accordion__title" aria-controls="panel2" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>Conferência Nacional de Recursos Humanos para a saúde (1986)</h3>
+                        </span>
 
-                                    <div class="d-flex mt-5">
-                                        <div>
-                                            <img src="../assets/images/icones/icon_caminhar.svg"
-                                                alt="" class="me-3">
-                                        </div>
-                                        <div>
-                                            <p class="mb-1">Para ir mais longe:</p>
-                                            <p><a href="https://bvsms.saude.gov.br/bvs/publicacoes/0116conf_rh.pdf"
-                                                    target="_blank" class="links">Relatório final da Conferência</a> –
-                                                Ministério da Saúde</p>
-                                        </div>
+                        <div id="panel2" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab2" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <ul class="ps-0 mb-0">
+                                    <li class="icon circle">
+                                        <p class="mb-1">Defesa de regime jurídico específico para o mercado de
+                                            trabalho em saúde - recrutamento e seleção, plano de cargos e salários,
+                                            regime e jornada de trabalho, avaliação de desempenho e outros.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Diretrizes para formação e qualificação profissional.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Estratégias de organização interinstitucional, organização
+                                            dos trabalhadores e relação com os usuários.</p>
+                                    </li>
+                                </ul>
+
+                                <div class="d-flex mt-5">
+                                    <div>
+                                        <img src="../assets/images/icones/icon_caminhar.svg" alt="" class="me-3">
+                                    </div>
+                                    <div>
+                                        <p class="mb-1">Para ir mais longe:</p>
+                                        <p><a href="https://bvsms.saude.gov.br/bvs/publicacoes/0116conf_rh.pdf"
+                                                target="_blank" class="links">Relatório final da Conferência</a> -
+                                            Ministério da Saúde</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </article>
 
-                        <div class="card">
-                            <div class="card-header" id="headingOne3">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne3"
-                                    aria-expanded="true" aria-controls="collapseOne3">
-                                    <p>Conferência Nacional de Alimentação e Nutrição (1986)<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab3" tabindex="0" class="accordion__title" aria-controls="panel3" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>Conferência Nacional de Alimentação e Nutrição (1986)</h3>
+                        </span>
 
-                            <div id="collapseOne3" class="collapse" aria-labelledby="headingOne3"
-                                data-bs-parent="#accordion01">
-                                <div class="card-body">
-                                    <ul class="ps-0 mb-0">
-                                        <li class="icon circle">
-                                            <p class="mb-1">Denuncia a grave situação alimentar e nutricional do país.
-                                            </p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Defesa da alimentação como direito.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Recomenda criação de um Sistema Nacional e de um Conselho
-                                                Nacional de Alimentação e Nutrição.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Defesa de Políticas agrícolas e agrárias para garantia de
-                                                alimento suficiente, acessível e saudável.</p>
-                                        </li>
-                                    </ul>
-                                </div>
+                        <div id="panel3" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab3" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <ul class="ps-0 mb-0">
+                                    <li class="icon circle">
+                                        <p class="mb-1">Denuncia a grave situação alimentar e nutricional do país.
+                                        </p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Defesa da alimentação como direito.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Recomenda criação de um Sistema Nacional e de um Conselho
+                                            Nacional de Alimentação e Nutrição.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Defesa de Políticas agrícolas e agrárias para garantia de
+                                            alimento suficiente, acessível e saudável.</p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                    </article>
 
-                        <div class="card">
-                            <div class="card-header" id="headingOne4">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne4"
-                                    aria-expanded="true" aria-controls="collapseOne4">
-                                    <p>Conferência Nacional de Proteção à Saúde do Índio (1986)<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab4" tabindex="0" class="accordion__title" aria-controls="panel4" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>Conferência Nacional de Proteção à Saúde do Índio (1986)</h3>
+                        </span>
 
-                            <div id="collapseOne4" class="collapse" aria-labelledby="headingOne4"
-                                data-bs-parent="#accordion01">
-                                <div class="card-body">
-                                    <ul class="ps-0 mb-0">
-                                        <li class="icon circle">
-                                            <p class="mb-1">A posse territorial e o uso exclusivo dos recursos naturais
-                                                do solo e subsolo às nações indígenas.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Assegurar e garantir a integridade de seus ecossistemas
-                                                específicos.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Acesso às ações e serviços de saúde, bem como sua
-                                                participação na organização, gestão e controle, respeitadas as
-                                                especificidades etnoculturais.</p>
-                                        </li>
-                                    </ul>
+                        <div id="panel4" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab4" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <ul class="ps-0 mb-0">
+                                    <li class="icon circle">
+                                        <p class="mb-1">A posse territorial e o uso exclusivo dos recursos naturais
+                                            do solo e subsolo às nações indígenas.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Assegurar e garantir a integridade de seus ecossistemas
+                                            específicos.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Acesso às ações e serviços de saúde, bem como sua
+                                            participação na organização, gestão e controle, respeitadas as
+                                            especificidades etnoculturais.</p>
+                                    </li>
+                                </ul>
 
-                                    <div class="d-flex mt-5">
-                                        <div>
-                                            <img src="../assets/images/icones/icon_caminhar.svg"
-                                                alt="" class="me-3">
-                                        </div>
-                                        <div>
-                                            <p class="mb-1">Para ir mais longe:</p>
-                                            <p><a href="https://bvsms.saude.gov.br/bvs/publicacoes/1_conferencia_nacional_protecao_saude_indio_relatorio_final.pdf"
-                                                    target="_blank" class="links">Relatório final da Conferência</a> -
-                                                texto publicado em janeiro de 1988, na
-                                                edição especial da Revista do Centro Brasileiro de Estudos de Saúde –
-                                                Cebes – Saúde em Debate, sobre a Conferência.</p>
-                                        </div>
+                                <div class="d-flex mt-5">
+                                    <div>
+                                        <img src="../assets/images/icones/icon_caminhar.svg" alt="" class="me-3">
+                                    </div>
+                                    <div>
+                                        <p class="mb-1">Para ir mais longe:</p>
+                                        <p><a href="https://bvsms.saude.gov.br/bvs/publicacoes/1_conferencia_nacional_protecao_saude_indio_relatorio_final.pdf"
+                                                target="_blank" class="links">Relatório final da Conferência</a> -
+                                            texto publicado em janeiro de 1988, na
+                                            edição especial da Revista do Centro Brasileiro de Estudos de Saúde -
+                                            Cebes - Saúde em Debate, sobre a Conferência.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </article>
 
-                        <div class="card">
-                            <div class="card-header" id="headingOne5">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne5"
-                                    aria-expanded="true" aria-controls="collapseOne5">
-                                    <p>Conferência Nacional de Saúde dos Trabalhadores (1986)<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab5" tabindex="0" class="accordion__title" aria-controls="panel5" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>Conferência Nacional de Saúde dos Trabalhadores (1986)</h3>
+                        </span>
 
-                            <div id="collapseOne5" class="collapse" aria-labelledby="headingOne5"
-                                data-bs-parent="#accordion01">
-                                <div class="card-body">
-                                    <ul class="ps-0 mb-0">
-                                        <li class="icon circle">
-                                            <p class="mb-1">Crítica ao modo de produção e seus efeitos na saúde dos
-                                                trabalhadores.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Revisar legislação referente à segurança e saúde do
-                                                trabalhador.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Estabelecimento de uma Política Nacional de Saúde dos
-                                                Trabalhadores com a garantia de direitos e a participação dos
-                                                trabalhadores na elaboração da política.</p>
-                                        </li>
-                                    </ul>
+                        <div id="panel5" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab5" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <ul class="ps-0 mb-0">
+                                    <li class="icon circle">
+                                        <p class="mb-1">Crítica ao modo de produção e seus efeitos na saúde dos
+                                            trabalhadores.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Revisar legislação referente à segurança e saúde do
+                                            trabalhador.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Estabelecimento de uma Política Nacional de Saúde dos
+                                            Trabalhadores com a garantia de direitos e a participação dos
+                                            trabalhadores na elaboração da política.</p>
+                                    </li>
+                                </ul>
 
-                                    <div class="d-flex mt-5">
-                                        <div>
-                                            <img src="../assets/images/icones/icon_caminhar.svg"
-                                                alt="" class="me-3">
-                                        </div>
-                                        <div>
-                                            <p class="mb-1">Para ir mais longe:</p>
-                                            <p><a href="http://www.cntsscut.org.br/sistema/ck/files/conferencia/cnts1.pdf"
-                                                    target="_blank" class="links">Relatório final da Conferência</a> –
-                                                texto publicado no <a href="http://www.cntsscut.org.br/" target="_blank"
-                                                    class="links">site da Confederação Nacional dos Trabalhadores em
-                                                    Seguridade Social</a></p>
-                                        </div>
+                                <div class="d-flex mt-5">
+                                    <div>
+                                        <img src="../assets/images/icones/icon_caminhar.svg" alt="" class="me-3">
+                                    </div>
+                                    <div>
+                                        <p class="mb-1">Para ir mais longe:</p>
+                                        <p><a href="http://www.cntsscut.org.br/sistema/ck/files/conferencia/cnts1.pdf"
+                                                target="_blank" class="links">Relatório final da Conferência</a> -
+                                            texto publicado no <a href="http://www.cntsscut.org.br/" target="_blank"
+                                                class="links">site da Confederação Nacional dos Trabalhadores em
+                                                Seguridade Social</a></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </article>
 
-                        <div class="card">
-                            <div class="card-header" id="headingOne6">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne6"
-                                    aria-expanded="true" aria-controls="collapseOne6">
-                                    <p>Conferência Nacional de Saúde Mental (1987)<i
-                                            class="fas fa-caret-up caretDown"></i>
-                                    </p>
-                                </a>
-                            </div>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item">
+                        <span id="tab6" tabindex="0" class="accordion__title" aria-controls="panel6" role="tab"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>Conferência Nacional de Saúde Mental (1987)</h3>
+                        </span>
 
-                            <div id="collapseOne6" class="collapse" aria-labelledby="headingOne6"
-                                data-bs-parent="#accordion01">
-                                <div class="card-body">
-                                    <ul class="ps-0 mb-0">
-                                        <li class="icon circle">
-                                            <p class="mb-1">Combater a psiquiatrização do social, a miséria social e
-                                                institucional.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Reformular modelo assistencial em saúde mental e reorganizar
-                                                serviços.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">Reversão da tendência “hospitalocêntrica” e “
-                                                psiquiatrocêntrica”, priorizando o sistema extra-hospitalar e
-                                                multiprofissional.</p>
-                                        </li>
-                                        <li class="icon circle">
-                                            <p class="mb-1">II Congresso Nacional dos Trabalhadores de Saúde Mental (87)
-                                                - Luta Antimanicomial.</p>
-                                        </li>
-                                    </ul>
+                        <div id="panel6" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="tab6" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner">
+                                <ul class="ps-0 mb-0">
+                                    <li class="icon circle">
+                                        <p class="mb-1">Combater a psiquiatrização do social, a miséria social e
+                                            institucional.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Reformular modelo assistencial em saúde mental e reorganizar
+                                            serviços.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">Reversão da tendência “hospitalocêntrica” e “
+                                            psiquiatrocêntrica”, priorizando o sistema extra-hospitalar e
+                                            multiprofissional.</p>
+                                    </li>
+                                    <li class="icon circle">
+                                        <p class="mb-1">II Congresso Nacional dos Trabalhadores de Saúde Mental (87)
+                                            - Luta Antimanicomial.</p>
+                                    </li>
+                                </ul>
 
-                                    <div class="d-flex mt-5">
-                                        <div>
-                                            <img src="../assets/images/icones/icon_caminhar.svg"
-                                                alt="" class="me-3">
-                                        </div>
-                                        <div>
-                                            <p class="mb-1">Para ir mais longe:</p>
-                                            <p><a href="https://bvsms.saude.gov.br/bvs/publicacoes/0206cnsm_relat_final.pdf"
-                                                    target="_blank" class="links">Relatório final da I Conferência
-                                                    Nacional de Saúde Mental</a> – Centro de
-                                                Documentação do Ministério da Saúde.</p>
-                                        </div>
+                                <div class="d-flex mt-5">
+                                    <div>
+                                        <img src="../assets/images/icones/icon_caminhar.svg" alt="" class="me-3">
+                                    </div>
+                                    <div>
+                                        <p class="mb-1">Para ir mais longe:</p>
+                                        <p><a href="https://bvsms.saude.gov.br/bvs/publicacoes/0206cnsm_relat_final.pdf"
+                                                target="_blank" class="links">Relatório final da I Conferência
+                                                Nacional de Saúde Mental</a> – Centro de
+                                            Documentação do Ministério da Saúde.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </article>
+                </section>
 
                 <p>Importante destacar que tanto a Oitava Conferência como a Comissão Nacional da Reforma Sanitária
                     aprovaram a proposta de unificação pelo alto com a passagem imediata do INAMPS para o Ministério da
@@ -1164,17 +1139,12 @@
                             evento - definido como completo bem-estar físico, mental e social e não a simples ausência
                             de doença.</p>
 
-                        <div class="d-flex">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="-_HmqWCTEeQ"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <p><small class="text-muted">Fonte: <a class="links"
-                                            href="https://www.youtube.com/watch?v=-_HmqWCTEeQ" target="_blank">Canal do
-                                            Youtube VideoSaúde Distribuidora da
-                                            Fiocruz</a></small></p>
+                        <div class="container-player my-5">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="-_HmqWCTEeQ"></div>
+                            <div class="mt-2">
+                                <small>Fonte: <a href="https://www.youtube.com/watch?v=-_HmqWCTEeQ" target="_blank"
+                                        class="links">Youtube VideoSaúde Distribuidora da
+                                        Fiocruz</a></small>
                             </div>
                         </div>
                     </div>
@@ -1316,10 +1286,9 @@
                     gestor destes três setores, o Ministério da Seguridade Social.</p>
 
 
-                <div class="container-parairmaislonge my-5 p-2 p-md-5">
+                <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0"
-                            width="50px">
+                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
                         <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS:</h6>
                     </div>
 
@@ -1435,10 +1404,9 @@
                     nos dois países e trouxe em especial um debate protagonizado por Sonia Fleury e Gastão Campos sobre
                     as apostas realizadas para o desenvolvimento da Reforma.</p>
 
-                <div class="container-parairmaislonge my-5 p-2 p-md-5">
+                <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0"
-                            width="50px">
+                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0" width="50px">
                         <h6 class="titulo-parairmaislonge text-uppercase">PARA IR MAIS LONGE:</h6>
                     </div>
 
@@ -1465,10 +1433,9 @@
                     publicação. (Campos, GWS. Tréplica: o debate necessário à construção de uma teoria sobre a reforma
                     sanitária. Saúde Debate 23: 7-12, dez 1988).</p>
 
-                <div class="container-parairmaislonge my-5 p-2 p-md-5">
+                <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0"
-                            width="50px">
+                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0" width="50px">
                         <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
                     </div>
 
@@ -1527,10 +1494,9 @@
                     novas análises é um importante instrumento de reconhecimento de nossos dilemas atuais. Voltar ao
                     passado para compreender o presente e disputar o futuro.</p>
 
-                <div class="container-parairmaislonge my-5 p-2 p-md-5">
+                <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0"
-                            width="50px">
+                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0" width="50px">
                         <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
                     </div>
 
@@ -1621,152 +1587,158 @@
                     </div>
 
                     <div class="container-content-base">
-                        <div
-                            class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="7ouSg6oNMe8"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <small class="text-muted">Fonte: <a class="links"
-                                        href="https://www.youtube.com/watch?v=7ouSg6oNMe8" target="_blank">Canal do
-                                        Youtube - Fiocruz</a></small>
-                            </div>
-                            <div class="w-50 my-4 mt-md-0 px-md-5">
-                                A história da saúde pública no Brasil – 500 anos na busca de soluções
-                            </div>
-                        </div>
-
-                        <div
-                            class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="J_7FCwQls_Y"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <small class="text-muted">Fonte: <a class="links"
-                                        href="https://www.youtube.com/watch?v=J_7FCwQls_Y" target="_blank">Canal do
-                                        Youtube - Conselho Nacional de Saúde - CNS</a></small>
-                            </div>
-
-                            <div class="w-50 my-4 mt-md-0 px-md-5">
-                                I Conferência Nacional de Saúde e Direitos da Mulher (documentário – 31:13)
+                        <div class="mt-5">
+                            <div class="row d-flex flex-column-reverse flex-md-row align-items-md-center gy-0 gx-4">
+                                <div class="col-12 col-md-7">
+                                    <div class="js-player" data-plyr-provider="youtube"
+                                        data-plyr-embed-id="7ouSg6oNMe8">
+                                    </div>
+                                    <div class="mt-2">
+                                        <small>Fonte: <a href="https://www.youtube.com/watch?v=7ouSg6oNMe8"
+                                                target="_blank" class="links">Canal do Youtube - Fiocruz</a></small>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    A história da saúde pública no Brasil - 500 anos na busca de soluções
+                                </div>
                             </div>
                         </div>
 
-                        <div
-                            class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="zZAHdF0fNps"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <small class="text-muted">Fonte: <a class="links"
-                                        href="https://www.youtube.com/watch?v=zZAHdF0fNps" target="_blank">Canal do
-                                        YouTube – Ensp Fiocruz</a></small>
-                            </div>
-                            <div class="w-50 flex-grow-3 my-4 mt-md-0 px-md-5">
-                                Oitava: a conferência que auscultou o Brasil (documentário – 23-13)
-                            </div>
-                        </div>
-
-                        <div
-                            class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="JSXgY90OOIY"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <small class="text-muted">Fonte: <a class="links"
-                                        href="https://www.youtube.com/watch?v=JSXgY90OOIY" target="_blank">Canal do
-                                        Youtube - Senado
-                                        Federal</a></small>
-                                <p>
-                                    <small class="text-muted">Você pode ver a íntegra da carta <a
-                                            href="https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/a-constituinte-e-as-mulheres/arquivos/Constituinte%201987-1988-Carta%20das%20Mulheres%20aos%20Constituintes.pdf"
-                                            target="_blank" class="links">aqui</a>.</small>
-                                </p>
-                            </div>
-
-                            <div class="w-50 my-4 mt-md-0 px-md-5">
-                                Entrega da Carta das Mulheres à Assembleia Constituinte na sessão de 26 de março de 1987
+                        <div class="mt-5">
+                            <div class="row d-flex flex-column-reverse flex-md-row align-items-md-center gy-0 gx-4">
+                                <div class="col-12 col-md-7">
+                                    <div class="js-player" data-plyr-provider="youtube"
+                                        data-plyr-embed-id="J_7FCwQls_Y">
+                                    </div>
+                                    <div class="mt-2">
+                                        <small>Fonte: <a href="https://www.youtube.com/watch?v=J_7FCwQls_Y"
+                                                target="_blank" class="links">Canal do
+                                                Youtube - Conselho Nacional de Saúde - CNS</a></small>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    I Conferência Nacional de Saúde e Direitos da Mulher (documentário - 31:13)
+                                </div>
                             </div>
                         </div>
 
-                        <div
-                            class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="kWMHiwdbM_Q"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <small class="text-muted">Fonte: <a class="links"
-                                        href="https://www.youtube.com/watch?v=kWMHiwdbM_Q" target="_blank">Canal do
-                                        YouTube - Índio Cidadão? - O
-                                        Filme</a></small>
-                            </div>
-                            <div class="w-50 my-4 mt-md-0 px-md-5">
-                                Discurso de Ailton Krenak, na Assembleia Nacional Constituinte (1987)
-                            </div>
-                        </div>
-
-                        <div
-                            class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="Mi-V4Dw-j9U"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <small class="text-muted">Fonte: <a class="links"
-                                        href="https://www.youtube.com/watch?v=Mi-V4Dw-j9U" target="_blank">Canal do
-                                        YouTube - majo rie</a></small>
-                            </div>
-                            <div class="w-50 my-4 mt-md-0 px-md-5">
-                                O Dilema Preventivista – com Anamaria Tambellini e Elisabeth Moreira
+                        <div class="mt-5">
+                            <div class="row d-flex flex-column-reverse flex-md-row align-items-md-center gy-0 gx-4">
+                                <div class="col-12 col-md-7">
+                                    <div class="js-player" data-plyr-provider="youtube"
+                                        data-plyr-embed-id="zZAHdF0fNps">
+                                    </div>
+                                    <div class="mt-2">
+                                        <small>Fonte: <a href="https://www.youtube.com/watch?v=zZAHdF0fNps"
+                                                target="_blank" class="links">Canal do
+                                                YouTube - Ensp Fiocruz</a></small>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    Oitava: a conferência que auscultou o Brasil (documentário - 23-13)
+                                </div>
                             </div>
                         </div>
 
-                        <div
-                            class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="0w4vnghg1Fo"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <small class="text-muted">Fonte: <a class="links"
-                                        href="https://www.youtube.com/watch?v=0w4vnghg1Fo" target="_blank">Canal do
-                                        YouTube -
-                                        redetecnologicaunb - Parte 1</a></small>
-                                <p><small class="text-muted">Veja a Parte 2 <a
-                                            href="https://www.youtube.com/watch?v=NlmS-mCSmeo" target="_blank"
-                                            class="links">aqui</a>.</small></p>
-                            </div>
-                            <div class="w-50 my-4 mt-md-0 px-md-5">
-                                Oitava Conferência Parte 1
+                        <div class="mt-5">
+                            <div class="row d-flex flex-column-reverse flex-md-row align-items-md-center gy-0 gx-4">
+                                <div class="col-12 col-md-7">
+                                    <div class="js-player" data-plyr-provider="youtube"
+                                        data-plyr-embed-id="JSXgY90OOIY">
+                                    </div>
+                                    <div class="mt-2">
+                                        <small class="text-muted">Fonte: <a class="links"
+                                                href="https://www.youtube.com/watch?v=JSXgY90OOIY" target="_blank">Canal
+                                                do
+                                                Youtube - Senado
+                                                Federal</a></small>
+                                        <p class="mb-0"><small class="text-muted">Você pode ver a íntegra da carta <a
+                                                    href="https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/a-constituinte-e-as-mulheres/arquivos/Constituinte%201987-1988-Carta%20das%20Mulheres%20aos%20Constituintes.pdf"
+                                                    target="_blank" class="links">aqui</a>.</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    Entrega da Carta das Mulheres à Assembleia Constituinte na sessão de 26 de março de
+                                    1987
+                                </div>
                             </div>
                         </div>
 
-                        <div
-                            class="d-flex flex-column-reverse flex-md-row align-items-md-center my-1 my-md-5 pe-2 pe-md-0">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="8oeg59ZUfwU"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <small class="text-muted">Fonte: <a class="links"
-                                        href="https://www.youtube.com/watch?v=8oeg59ZUfwU" target="_blank">Canal do
-                                        Youtube - Cebes</a></small>
+                        <div class="mt-5">
+                            <div class="row d-flex flex-column-reverse flex-md-row align-items-md-center gy-0 gx-4">
+                                <div class="col-12 col-md-7">
+                                    <div class="js-player" data-plyr-provider="youtube"
+                                        data-plyr-embed-id="kWMHiwdbM_Q"></div>
+                                    <div class="mt-2">
+                                        <small class="text-muted">Fonte: <a class="links"
+                                                href="https://www.youtube.com/watch?v=kWMHiwdbM_Q" target="_blank">Canal
+                                                do
+                                                YouTube - Índio Cidadão? - O
+                                                Filme</a></small>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    Discurso de Ailton Krenak, na Assembleia Nacional Constituinte (1987)
+                                </div>
                             </div>
-                            <div class="w-50 my-4 mt-md-0 px-md-5">
-                                O Cordel do SUS
+                        </div>
+
+                        <div class="mt-5">
+                            <div class="row d-flex flex-column-reverse flex-md-row align-items-md-center gy-0 gx-4">
+                                <div class="col-12 col-md-7">
+                                    <div class="js-player" data-plyr-provider="youtube"
+                                        data-plyr-embed-id="Mi-V4Dw-j9U"></div>
+                                    <div class="mt-2">
+                                        <small class="text-muted">Fonte: <a class="links"
+                                                href="https://www.youtube.com/watch?v=Mi-V4Dw-j9U" target="_blank">Canal
+                                                do
+                                                YouTube - majo rie</a></small>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    O Dilema Preventivista - com Anamaria Tambellini e Elisabeth Moreira
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <div class="row d-flex flex-column-reverse flex-md-row align-items-md-center gy-0 gx-4">
+                                <div class="col-12 col-md-7">
+                                    <div class="js-player" data-plyr-provider="youtube"
+                                        data-plyr-embed-id="0w4vnghg1Fo">
+                                    </div>
+                                    <div class="mt-2">
+                                        <small class="text-muted">Fonte: <a class="links"
+                                                href="https://www.youtube.com/watch?v=0w4vnghg1Fo" target="_blank">Canal
+                                                do
+                                                YouTube -
+                                                redetecnologicaunb - Parte 1</a></small>
+                                        <p class="mb-0"><small class="text-muted">Veja a Parte 2 <a
+                                                    href="https://www.youtube.com/watch?v=NlmS-mCSmeo" target="_blank"
+                                                    class="links">aqui</a>.</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    Oitava Conferência Parte 1
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <div class="row d-flex flex-column-reverse flex-md-row align-items-md-center gy-0 gx-4">
+                                <div class="col-12 col-md-7">
+                                    <div class="js-player" data-plyr-provider="youtube"
+                                        data-plyr-embed-id="8oeg59ZUfwU"></div>
+                                    <div class="mt-2">
+                                        <small class="text-muted">Fonte: <a class="links"
+                                                href="https://www.youtube.com/watch?v=8oeg59ZUfwU" target="_blank">Canal
+                                                do
+                                                Youtube - Cebes</a></small>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    O Cordel do SUS
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1861,9 +1833,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.js"
+        integrity="sha512-vfpVlxMY9ryJFidrwKK2Nus5vQ5vGilRCjImLBYj3uoAz75crnSKM7zC3jFcmtCI7u58d9Cp0mEZmWwidm9xsg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../assets/js/main.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/dist/vime/vime.esm.js"></script>
-
 </body>
 
 </html>
