@@ -14,14 +14,12 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="../assets/css/normalize.css" />
     <link rel="stylesheet" href="../assets/libs/fontawesome/css/all.min.css" />
-
     <link rel="preconnect" href="https://fonts.cdnfonts.com" />
     <link href="https://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.css"
+        integrity="sha512-6Ri9OxVS85G/DRlnwVIggHm8n738xZ5DuosGQywWa838o8TCojyxGl16C+JmhiHcWl3YjPnN6d6GwY0a0/S5jA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="../assets/css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/default.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/light.css" />
-
 </head>
 
 <body>
@@ -30,7 +28,8 @@
         <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
             <!-- Logos -->
             <a class="logo" href="../index.html">
-                <img src="../assets/images/logoAula.png" class="img-fluid" alt="Representação visual da logomarca da Fiocruz - Campus Virtual" />
+                <img src="../assets/images/logoAula.png" class="img-fluid"
+                    alt="Representação visual da logomarca da Fiocruz - Campus Virtual" />
             </a>
 
             <!-- Botão Collapse -->
@@ -54,7 +53,7 @@
     <!-- Início da Row-main-->
     <main class="row" id="row-main" role="main">
 
-        
+
 
         <!-- Início Coluna de Conteúdo -->
         <div class="col-12 col-lg-8 offset-lg-2" id="content">
@@ -64,8 +63,8 @@
                 <div class="barraMenuHorizontal d-flex position-absolute" role="navigation">
                     <div class="d-flex position-fixed">
                         <div class="dropdown menuAulas">
-                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
-                                id="mod1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="mod1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Módulo 1
                             </a>
 
@@ -76,8 +75,8 @@
                         </div>
 
                         <div class="dropdown menuAulas">
-                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
-                                id="mod2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="mod2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Módulo 2
                             </a>
 
@@ -151,15 +150,11 @@
                     solidariedade e o direito à saúde, assista ao filme documentário O Espírito de 45, do diretor inglês
                     Ken Loach.</p>
 
-                <div class="container my-5 p-0">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-md-8 px-0">
-                            <vm-player controls>
-                                <vm-vimeo video-id="124353555"></vm-vimeo>
-                            </vm-player>
-                            <small>Fonte: <a href="https://vimeo.com/124353555" class="links"
-                                    target="_blank">Vimeo</a></small>
-                        </div>
+                <div class="container-player my-5">
+                    <div class="js-player" data-plyr-provider="vimeo" data-plyr-embed-id="124353555"></div>
+                    <div class="mt-2">
+                        <small>Fonte: <a href="https://vimeo.com/124353555" class="links"
+                            target="_blank">Vimeo</a></small>
                     </div>
                 </div>
 
@@ -171,10 +166,8 @@
 
                 <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0"
-                            width="50px">
-
-                        <h4 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h4>
+                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0" width="50px">
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h3>
                     </div>
 
                     <div class="d-flex flex-column flex-md-row align-items-center">
@@ -480,9 +473,8 @@
 
                 <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0"
-                            width="50px">
-                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
+                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0" width="50px">
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h3>
                     </div>
 
                     <div class="d-flex flex-column flex-md-row align-items-center">
@@ -667,10 +659,8 @@
 
                 <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0"
-                            width="50px">
-
-                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h6>
+                        <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0" width="50px">
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h3>
                     </div>
 
                     <div class="d-flex flex-column flex-md-row align-items-center">
@@ -763,7 +753,7 @@
                     a partir de alguns atributos. Conheça:</p>
 
                 <div class="container-aprendizado my-5">
-                    <h5>Primeiro contato</h5>
+                    <h4>Primeiro contato</h4>
                     <ul class="ps-0 my-4">
                         <li class="icon circle">
                             <p class="mb-1">Serviços procurados regularmente cada vez que o paciente necessita de
@@ -776,7 +766,7 @@
                         </li>
                     </ul>
 
-                    <h5>Longitudinalidade</h5>
+                    <h4>Longitudinalidade</h4>
                     <ul class="ps-0 my-4">
                         <li class="icon circle">
                             <p class="mb-1">Assunção de responsabilidade longitudinal pelo usuário com continuidade da
@@ -804,7 +794,7 @@
                         </li>
                     </ul>
 
-                    <h5>Orientação para a comunidade</h5>
+                    <h4>Orientação para a comunidade</h4>
                     <ul class="ps-0 my-4">
                         <li class="icon circle">
                             <p class="mb-1">Conhecimento das necessidades de saúde da população adscrita em razão do
@@ -1026,11 +1016,10 @@
 
                 <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0"
-                            width="50px">
-                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">
+                        <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">
                             Saiba mais sobre políticas de saúde
-                        </h6>
+                        </h3>
                     </div>
 
                     <div class="d-flex flex-column flex-md-row align-items-center">
@@ -1078,7 +1067,7 @@
                     financiamento e gestão, assim como a implementação parcial das RAS no contexto do SUS limitam o
                     alcance das reflexões apresentadas nesta atividade.</p>
 
-                <h2 class="mt-5 mb-3">Você chegou ao final da aula</h2>
+                <h3 class="mt-5 mb-3">Você chegou ao final da aula</h3>
 
                 <p class="px-2 px-md-0">Nesta aula você viu os seguintes tópicos:</p>
 
@@ -1099,8 +1088,8 @@
 
                 <div class="container-texto-base flex-column my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/icon_leitura.svg" alt="Texto base" class="mb-0" width="50px">
-                        <h5 class="text-uppercase mb-0">Leitura sugerida:</h5>
+                        <img src="../assets/images/icones/icon_leitura.svg" alt="" class="mb-0" width="50px">
+                        <h3 class="text-uppercase mb-0">Leitura sugerida:</h3>
                     </div>
 
                     <div class="container-content-base">
@@ -1166,9 +1155,9 @@
 
                 <div class="d-flex flex-column my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/icon_video.svg" alt="Vídeos complementares" class="mb-0"
+                        <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0"
                             width="50px">
-                        <h5 class="text-uppercase mb-0">Vídeos complementares:</h5>
+                        <h3 class="text-uppercase mb-0">Vídeos complementares:</h3>
                     </div>
 
                     <div class="container-content-base">
@@ -1176,22 +1165,20 @@
                             redes no SUS assista aos vídeos dos seminários da série “O Valor do SUS” organizados pelo
                             Projeto Região e Redes: caminhos da universalização da saúde no Brasil.</p>
 
-                        <div class="col col-12 col-md-8">
-                            <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                <vm-youtube video-id="v3-nCjpx3vU"></vm-youtube>
-                                <vm-default-ui></vm-default-ui>
-                            </vm-player>
-
-                            <smal>Fonte: Página do projeto Regiões e Redes</smal>
+                        <div class="container-player my-5">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="v3-nCjpx3vU"></div>
+                            <div class="mt-2">
+                                <small>Fonte: Página do projeto Regiões e Redes</small>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="d-flex flex-column my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/icon_referencia.svg" alt="REFERÊNCIAS" class="mb-0"
+                        <img src="../assets/images/icones/icon_referencia.svg" alt="" class="mb-0"
                             width="50px">
-                        <h5 class="text-uppercase mb-0">REFERÊNCIAS:</h5>
+                        <h3 class="text-uppercase mb-0">REFERÊNCIAS:</h3>
                     </div>
 
                     <div class="container-content-base">
@@ -1285,8 +1272,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.js"
+        integrity="sha512-vfpVlxMY9ryJFidrwKK2Nus5vQ5vGilRCjImLBYj3uoAz75crnSKM7zC3jFcmtCI7u58d9Cp0mEZmWwidm9xsg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../assets/js/main.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/dist/vime/vime.esm.js"></script>
 </body>
 
 </html>

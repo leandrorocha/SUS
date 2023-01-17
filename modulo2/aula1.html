@@ -17,10 +17,10 @@
 
     <link rel="preconnect" href="https://fonts.cdnfonts.com" />
     <link href="https://fonts.cdnfonts.com/css/circular-std-book" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.css"
+        integrity="sha512-6Ri9OxVS85G/DRlnwVIggHm8n738xZ5DuosGQywWa838o8TCojyxGl16C+JmhiHcWl3YjPnN6d6GwY0a0/S5jA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="../assets/css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/default.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/themes/light.css" />
 </head>
 
 <body>
@@ -54,7 +54,7 @@
     <!-- Início da Row-main-->
     <div class="row" id="row-main">
 
-        
+
 
         <!-- Início Coluna de Conteúdo -->
         <div class="col-12 col-lg-8 offset-lg-2" id="content">
@@ -262,49 +262,58 @@
                     dimensões:</p>
 
                 <section class="custom my-5">
-                    <div class="row d-flex justify-content-center gap-4">
-                        <div class="flipper col-md">
+                    <div class="row g-0 d-flex justify-content-around">
+                        <div class="flipper col-12 col-sm-8 col-md-6 col-lg-6">
                             <div class="card">
                                 <div class="front">
                                     <p>Perspectiva Social</p>
                                 </div>
-                                <div class="back">
+                                <div class="back px-4">
                                     <p>A saúde como expressão concreta das necessidades sociais que são objetivos do
-                                        processo de desenvolvimento (direitos sociais, cidadania). O SUS é o promotor do
+                                        processo de desenvolvimento (direitos sociais, cidadania). O SUS é o
+                                        promotor do
                                         acesso universal à assistência, à tecnologia, à vigilância sanitária e às
-                                        políticas sociais que garantem a saúde da maior parte da população brasileira.
+                                        políticas sociais que garantem a saúde da maior parte da população
+                                        brasileira.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="flipper col-md">
+                        <div class="flipper col-12 col-sm-8 col-md-6 col-lg-6">
                             <div class="card">
                                 <div class="front">
                                     <p>Perspectiva Econômica</p>
                                 </div>
-                                <div class="back">
-                                    <p>A saúde como conhecimento, inovação e soberania produtiva para geração de renda,
-                                        emprego e inovação. a capacitação tecnológica para produzir e fornecer os bens e
+                                <div class="back px-4">
+                                    <p>A saúde como conhecimento, inovação e soberania produtiva para geração de
+                                        renda,
+                                        emprego e inovação. a capacitação tecnológica para produzir e fornecer os
+                                        bens e
                                         serviços essenciais para que a atenção à saúde seja realizada. Exemplos:
                                         tecnologias para monitorar necessidades de saúde emergentes nos territórios,
-                                        equipamentos de diagnóstico e tratamento, instrumentos e materiais hospitalares,
+                                        equipamentos de diagnóstico e tratamento, instrumentos e materiais
+                                        hospitalares,
                                         medicamentos, dentre outros, é fundamental para garantir acesso universal,
                                         equânime e integral à saúde.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="flipper col-md">
+                        <div class="flipper col-12 col-sm-8 col-md-6 col-lg-6">
                             <div class="card">
                                 <div class="front">
                                     <p>Perspectiva Ambiental</p>
                                 </div>
-                                <div class="back">
-                                    <p>A saúde como desenvolvimento sustentável. Não existe desenvolvimento sustentável
-                                        sem bem-estar (qualidade de vida), assim como não existe saúde se o ambiente não
-                                        for sustentável. Um sistema produtivo e tecnológico soberano, que gere empregos
+                                <div class="back px-4">
+                                    <p>A saúde como desenvolvimento sustentável. Não existe desenvolvimento
+                                        sustentável
+                                        sem bem-estar (qualidade de vida), assim como não existe saúde se o ambiente
+                                        não
+                                        for sustentável. Um sistema produtivo e tecnológico soberano, que gere
+                                        empregos
                                         qualificados e utilize o potencial de nossos biomas e ecossistemas para a
-                                        geração de novas tecnologias que atendam às necessidades de nossa sociedade.</p>
+                                        geração de novas tecnologias que atendam às necessidades de nossa sociedade.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -314,9 +323,9 @@
                 <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0" width="50px">
-                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: <a
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: <a
                                 href="https://www.youtube.com/watch?v=fYk7Qyh77uc&feature=youtu.be" class="links"
-                                target="_blank">Desenvolvimento, saúde e inovação</a></h6>
+                                target="_blank">Desenvolvimento, saúde e inovação</a></h3>
                     </div>
 
                     <div class="container-content-base">
@@ -324,16 +333,12 @@
                             do professor Carlos Gadelha: <a href="https://www.youtube.com/watch?v=fYk7Qyh77uc"
                                 class="links" target="_blank">Saúde e ciência em tempos de pandemia</a></p>
 
-                        <div class="d-flex justify-content-center">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="fYk7Qyh77uc"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <p><small class="text-muted">Fonte: <a class="links"
-                                            href="https://www.youtube.com/watch?v=fYk7Qyh77uc" target="_blank">Canal do
-                                            YouTube Fórum de Ciência e Cultura da UFRJ</a></small></p>
+                        <div class="container-player my-5">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="fYk7Qyh77uc"></div>
+                            <div class="mt-2">
+                                <small>Fonte: <a class="links" href="https://www.youtube.com/watch?v=fYk7Qyh77uc"
+                                        target="_blank">Canal do
+                                        YouTube Fórum de Ciência e Cultura da UFRJ</a></small>
                             </div>
                         </div>
                     </div>
@@ -446,8 +451,8 @@
                 <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0" width="50px">
-                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: A crise da COVID-19 e a
-                            necessidade de um enfoque sistêmico para a inovação</h6>
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: A crise da COVID-19 e a
+                            necessidade de um enfoque sistêmico para a inovação</h3>
                     </div>
 
                     <div class="container-content-base">
@@ -456,16 +461,12 @@
                                 da COVID-19 e a necessidade de um enfoque sistêmico para a inovação</a>.
                         </p>
 
-                        <div class="d-flex justify-content-center">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="oMjbKfdAvNg"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <p><small class="text-muted">Fonte: <a class="links"
-                                            href="https://www.youtube.com/watch?v=oMjbKfdAvNg" target="_blank">Canal do
-                                            YouTube Fórum de Ciência e Cultura da UFRJ</a></small></p>
+                        <div class="container-player my-5">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="oMjbKfdAvNg"></div>
+                            <div class="mt-2">
+                                <small>Fonte: <a class="links" href="https://www.youtube.com/watch?v=oMjbKfdAvNg"
+                                        target="_blank">Canal do
+                                        YouTube Fórum de Ciência e Cultura da UFRJ</a></small>
                             </div>
                         </div>
                     </div>
@@ -527,7 +528,7 @@
                     também deve ser analisada de modo sistêmico para captar as interdependências e interações com o
                     sistema de saúde. Restringir o tema da base produtiva aos “insumos em saúde” significa,
                     inadvertidamente, assumir uma inaceitável relação em que o “produto” industrial é o “insumo” e a
-                    saúde – ou mesmo os serviços – o seu resultado natural.</p>
+                    saúde - ou mesmo os serviços - o seu resultado natural.</p>
                 <p>Dessa forma, também é necessário um enfoque sistêmico para tratar a base material de produção e
                     inovação em saúde, levando em conta o papel da política, das instituições, da sociedade e o papel do
                     Estado para organizar os sistemas de saúde. Restringir o tema da base produtiva apenas à geração de
@@ -598,8 +599,8 @@
                 <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
-                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS: Assimetrias tecnológicas
-                            globais</h6>
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS: Assimetrias tecnológicas
+                            globais</h3>
                     </div>
 
                     <div class="container-content-base">
@@ -819,8 +820,8 @@
                 <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0" width="50px">
-                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: Gestão da inovação em saúde no
-                            contexto do novo marco regulatório de CT&I</h6>
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: Gestão da inovação em saúde no
+                            contexto do novo marco regulatório de CT&I</h3>
                     </div>
 
                     <div class="container-content-base">
@@ -828,16 +829,12 @@
                             suporte às políticas públicas discutidas, assista à videoaula da professora Karla
                             Montenegro.</p>
 
-                        <div class="d-flex justify-content-center">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="KWAxu2hq3m4"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <p><small class="text-muted">Fonte: <a class="links"
-                                            href="https://www.youtube.com/watch?v=KWAxu2hq3m4" target="_blank">Canal do
-                                            YouTube Fórum de Ciência e Cultura da UFRJ</a></small></p>
+                        <div class="container-player my-5">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="KWAxu2hq3m4"></div>
+                            <div class="mt-2">
+                                <small>Fonte: <a class="links"
+                                    href="https://www.youtube.com/watch?v=KWAxu2hq3m4" target="_blank">Canal do
+                                    YouTube Fórum de Ciência e Cultura da UFRJ</a></small>
                             </div>
                         </div>
                     </div>
@@ -1054,8 +1051,8 @@
                 <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
-                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS: Veja um exemplo de
-                            tecnologia vestível</h6>
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS: Veja um exemplo de
+                            tecnologia vestível</h3>
                     </div>
 
                     <div class="container-content-base">
@@ -1108,8 +1105,8 @@
                 <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
                     <div class="d-flex align-items-start align-items-md-center gap-4 mb-4">
                         <img src="../assets/images/icones/icon_saibamais.svg" alt="" class="mb-0" width="50px">
-                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS: Sistemas de
-                            reconhecimento de imagens e a reprodução de assimetrias entre países</h6>
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">PARA SABER MAIS: Sistemas de
+                            reconhecimento de imagens e a reprodução de assimetrias entre países</h3>
                     </div>
 
                     <div class="container-content-base">
@@ -1191,8 +1188,8 @@
                 <div class="container-parairmaislonge my-5" aria-label="Informação complementar">
                     <div class="d-flex align-items-center gap-4 mb-4">
                         <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0" width="50px">
-                        <h6 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: Saúde como vetor para sair da
-                            crise</h6>
+                        <h3 class="titulo-parairmaislonge text-uppercase mb-0">VÍDEO: Saúde como vetor para sair da
+                            crise</h3>
                     </div>
 
                     <div class="container-content-base">
@@ -1200,16 +1197,12 @@
                             enfrentamento da crise social, econômica e ambiental, veja vídeoaula Saúde como vetor para
                             sair da crise.</p>
 
-                        <div class="d-flex justify-content-center">
-                            <div class="container-video">
-                                <vm-player theme="dark" style="--vm-player-theme: #2f2427;">
-                                    <vm-youtube video-id="XAlJ1QIBP74"></vm-youtube>
-                                    <vm-default-ui></vm-default-ui>
-                                </vm-player>
-
-                                <p><small class="text-muted">Fonte: <a class="links"
-                                            href="https://www.youtube.com/watch?v=XAlJ1QIBP74" target="_blank">Canal do
-                                            YouTube Fórum de Ciência e Cultura da UFRJ</a></small></p>
+                        <div class="container-player my-5">
+                            <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="XAlJ1QIBP74"></div>
+                            <div class="mt-2">
+                                <small>Fonte: <a class="links"
+                                    href="https://www.youtube.com/watch?v=XAlJ1QIBP74" target="_blank">Canal do
+                                    YouTube Fórum de Ciência e Cultura da UFRJ</a></small>
                             </div>
                         </div>
                     </div>
@@ -1237,7 +1230,7 @@
                     apenas “cabem no PIB”, mas, ao convertê-los em grandes desafios nacionais, são fontes estruturais de
                     demanda para o setor produtivo e polo de modernização tecnológica do País”.</p>
 
-                <h2 class="mt-5 mb-3">Você chegou ao final da aula</h2>
+                <h3 class="mt-5 mb-3">Você chegou ao final da aula</h3>
 
                 <p class="px-2 px-md-0">Nesta aula você viu os seguintes tópicos:</p>
 
@@ -1354,8 +1347,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.js"
+        integrity="sha512-vfpVlxMY9ryJFidrwKK2Nus5vQ5vGilRCjImLBYj3uoAz75crnSKM7zC3jFcmtCI7u58d9Cp0mEZmWwidm9xsg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../assets/js/main.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@5.3.1/dist/vime/vime.esm.js"></script>
 </body>
 
 </html>
