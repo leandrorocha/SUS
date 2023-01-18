@@ -154,7 +154,7 @@
                     <div class="js-player" data-plyr-provider="vimeo" data-plyr-embed-id="124353555"></div>
                     <div class="mt-2">
                         <small>Fonte: <a href="https://vimeo.com/124353555" class="links"
-                            target="_blank">Vimeo</a></small>
+                                target="_blank">Vimeo</a></small>
                     </div>
                 </div>
 
@@ -359,117 +359,111 @@
                     municípios próximos, alguns componentes devem ser levados em conta. Estes componentes são
                     sintetizados a seguir. Vejamos:</p>
 
-                <div class="informativo">
-                    <div class="accordion" id="accordion01">
-                        <div class="card">
-                            <div class="card-header" id="accordion-one-headingOne1">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne1"
-                                    aria-expanded="true" aria-controls="collapseOne1">
-                                    <p>População e Território<i class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
+                <!-- Accordion 1 -->
+                <section class="aria-accordion p-2 p-md-5 my-5" role="tablist1" aria-live="polite"
+                    data-behavior="accordion">
 
-                            <div id="collapseOne1" class="collapse" aria-labelledby="accordion-one-headingOne1">
-                                <div class="card-body">
-                                    <p>São a base para identificação e dimensionamento de necessidades gerais de saúde e
-                                        a referência socioespacial da rede, representando também um campo de
-                                        responsabilidade sanitária.</p>
-                                </div>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion-tab1" tabindex="0" class="accordion__title" aria-controls="accordion-panel1"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>População e Território</h3>
+                        </span>
+
+                        <div id="accordion-panel1" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion-tab1" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>São a base para identificação e dimensionamento de necessidades gerais de saúde e
+                                    a referência socioespacial da rede, representando também um campo de
+                                    responsabilidade sanitária.</p>
                             </div>
                         </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion-tab2" tabindex="0" class="accordion__title" aria-controls="accordion-panel2"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>Diferentes Modalidades de Serviços de Saúde</h3>
+                        </span>
 
-                        <div class="card">
-                            <div class="card-header" id="accordion-one-headingOne2">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
-                                    aria-expanded="true" aria-controls="collapseOne2">
-                                    <p>Diferentes Modalidades de Serviços de Saúde<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
-
-                            <div id="collapseOne2" class="collapse" aria-labelledby="accordion-one-headingOne2">
-                                <div class="card-body">
-                                    <p>São caracterizados por configurações tecnológicas e missões assistenciais
-                                        sanitárias diferentes e complementares, como por exemplo unidades básicas de
-                                        saúde e hospitais especializados. As unidades básicas devem estar amplamente
-                                        distribuídas no território e acessíveis a toda população e os hospitais
-                                        especializados podem estar mais concentrados e acessados por pessoas com
-                                        indicação clínica específica.</p>
-                                    <p>Cabe aqui lembrar a importância de se (re)conhecer as singularidades do cuidado e
-                                        da organização de diferentes tipos de serviços.</p>
-                                    <p>Serviços específicos de urgência-emergência, como prontos-socorros e unidades de
-                                        pronto-atendimento, por exemplo, têm no risco à vida e no tempo-resposta
-                                        oportuno importantes referências. Mas não são locais adequados para
-                                        acompanhamento longitudinal de usuários.</p>
-                                    <p>O acompanhamento das pessoas ao longo do tempo precisa ser realizado pela mesma
-                                        equipe de atenção primária à saúde para ser mais efetivo.</p>
-                                </div>
+                        <div id="accordion-panel2" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion-tab2" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>São caracterizados por configurações tecnológicas e missões assistenciais
+                                    sanitárias diferentes e complementares, como por exemplo unidades básicas de
+                                    saúde e hospitais especializados. As unidades básicas devem estar amplamente
+                                    distribuídas no território e acessíveis a toda população e os hospitais
+                                    especializados podem estar mais concentrados e acessados por pessoas com
+                                    indicação clínica específica.</p>
+                                <p>Cabe aqui lembrar a importância de se (re)conhecer as singularidades do cuidado e
+                                    da organização de diferentes tipos de serviços.</p>
+                                <p>Serviços específicos de urgência-emergência, como prontos-socorros e unidades de
+                                    pronto-atendimento, por exemplo, têm no risco à vida e no tempo-resposta
+                                    oportuno importantes referências. Mas não são locais adequados para
+                                    acompanhamento longitudinal de usuários.</p>
+                                <p>O acompanhamento das pessoas ao longo do tempo precisa ser realizado pela mesma
+                                    equipe de atenção primária à saúde para ser mais efetivo.</p>
                             </div>
                         </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion-tab3" tabindex="0" class="accordion__title" aria-controls="accordion-panel3"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>Sistemas de Apoio (logístico, diagnóstico, terapêutico)</h3>
+                        </span>
 
-                        <div class="card">
-                            <div class="card-header" id="accordion-one-headingOne3">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne3"
-                                    aria-expanded="true" aria-controls="collapseOne3">
-                                    <p>Sistemas de Apoio (logístico, diagnóstico, terapêutico)<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
-
-                            <div id="collapseOne3" class="collapse" aria-labelledby="accordion-one-headingOne3">
-                                <div class="card-body">
-                                    <p>São recursos auxiliares e necessários para o diagnóstico e intervenção sobre os
-                                        problemas de saúde, e para a sua organização e viabilização, como por exemplo
-                                        transporte sanitário, sistemas de informática, dentre outros.</p>
-                                </div>
+                        <div id="accordion-panel3" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion-tab3" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>São recursos auxiliares e necessários para o diagnóstico e intervenção sobre os
+                                    problemas de saúde, e para a sua organização e viabilização, como por exemplo
+                                    transporte sanitário, sistemas de informática, dentre outros.</p>
                             </div>
                         </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion-tab4" tabindex="0" class="accordion__title" aria-controls="accordion-panel4"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>Fluxos e Comunicações intra e interserviços</h3>
+                        </span>
 
-                        <div class="card">
-                            <div class="card-header" id="accordion-one-headingOne4">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne4"
-                                    aria-expanded="true" aria-controls="collapseOne4">
-                                    <p>Fluxos e Comunicações intra e interserviços<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
-
-                            <div id="collapseOne4" class="collapse" aria-labelledby="accordion-one-headingOne4">
-                                <div class="card-body">
-                                    <p>São fundamentais na medida em que a rede não é apenas a sua estrutura, requerendo
-                                        que se materialize em conexões estratégicas para o cuidado em saúde entre
-                                        profissionais, entre serviços, entre informações.</p>
-                                </div>
+                        <div id="accordion-panel4" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion-tab4" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>São fundamentais na medida em que a rede não é apenas a sua estrutura, requerendo
+                                    que se materialize em conexões estratégicas para o cuidado em saúde entre
+                                    profissionais, entre serviços, entre informações.</p>
                             </div>
                         </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion-tab5" tabindex="0" class="accordion__title" aria-controls="accordion-panel5"
+                            aria-selected="false" aria-expanded="false" data-binding="expand-accordion-trigger">
+                            <h3>Estrutura e Mecanismos de Gestão</h3>
+                        </span>
 
-                        <div class="card">
-                            <div class="card-header" id="accordion-one-headingOne5">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne5"
-                                    aria-expanded="true" aria-controls="collapseOne5">
-                                    <p>Estrutura e Mecanismos de Gestão<i class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
-
-                            <div id="collapseOne5" class="collapse" aria-labelledby="accordion-one-headingOne5">
-                                <div class="card-body">
-                                    <p>Referem-se aos atores, espaços e instâncias com responsabilidade pela organização
-                                        da rede, incluindo processos decisórios, de planejamento e de pactuação de
-                                        acordos, bem como de implementação e acompanhamento.</p>
-                                    <p>A Comissão Intergestores Regional (CIR) que congrega os secretários municipais de
-                                        saúde e representantes da secretaria estadual de saúde em cada região é a
-                                        estrutura de governança das RAS e deve proceder um planejamento regional
-                                        integrado a partir das necessidades da população.</p>
-                                    <p>Foram constituídas até 2019, 438 regiões de saúde, congregando todos os 5.570
-                                        municípios do país e pretendia-se sua reorganização em 118 macrorregiões para
-                                        alcançar melhor resolutividade e economia de escala na região. Contudo com a
-                                        pandemia de Covid-19, a crise sanitária, e a ausência de autoridade sanitária
-                                        nacional, o processo estagnou.</p>
-                                </div>
+                        <div id="accordion-panel5" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion-tab5" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Referem-se aos atores, espaços e instâncias com responsabilidade pela organização
+                                    da rede, incluindo processos decisórios, de planejamento e de pactuação de
+                                    acordos, bem como de implementação e acompanhamento.</p>
+                                <p>A Comissão Intergestores Regional (CIR) que congrega os secretários municipais de
+                                    saúde e representantes da secretaria estadual de saúde em cada região é a
+                                    estrutura de governança das RAS e deve proceder um planejamento regional
+                                    integrado a partir das necessidades da população.</p>
+                                <p>Foram constituídas até 2019, 438 regiões de saúde, congregando todos os 5.570
+                                    municípios do país e pretendia-se sua reorganização em 118 macrorregiões para
+                                    alcançar melhor resolutividade e economia de escala na região. Contudo com a
+                                    pandemia de Covid-19, a crise sanitária, e a ausência de autoridade sanitária
+                                    nacional, o processo estagnou.</p>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </article>
+                </section>
 
                 <div class="container-parairmaislonge my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
@@ -509,143 +503,137 @@
                     diferentes ações de gestão, organizativas e interprofissionais são necessárias. Conheça algumas
                     ações:</p>
 
-                <div class="informativo">
-                    <div class="accordion" id="accordion02">
-                        <div class="card">
-                            <div class="card-header" id="accordion-second-heading1">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#second-collapse-1"
-                                    aria-expanded="true" aria-controls="second-collapse-1">
-                                    <p>Pactuação de missões e fluxos assistenciais<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
+                <!-- Accordion 2 -->
+                <section class="aria-accordion p-2 p-md-5 my-5" role="tablist2" aria-live="polite"
+                    data-behavior="accordion">
 
-                            <div id="second-collapse-1" class="collapse" aria-labelledby="accordion-second-heading1">
-                                <div class="card-body">
-                                    <p>Papel de cada tipo de serviço, modos de acesso a serviços, canais de interação
-                                        entre profissionais e entre gerentes de serviços distintos. Isto permite também
-                                        o reconhecimento das especificidades dos serviços, bem como ajustes e pactos que
-                                        facilitem a gestão e o cuidado no cotidiano.</p>
-                                </div>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion2-tab1" tabindex="0" class="accordion__title"
+                            aria-controls="accordion2-panel1" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Pactuação de missões e fluxos assistenciais</h3>
+                        </span>
+
+                        <div id="accordion2-panel1" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion2-tab1" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Papel de cada tipo de serviço, modos de acesso a serviços, canais de interação entre
+                                    profissionais e entre gerentes de serviços distintos. Isto permite também o
+                                    reconhecimento das especificidades dos serviços, bem como ajustes e pactos que
+                                    facilitem a gestão e o cuidado no cotidiano.</p>
                             </div>
                         </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion2-tab2" tabindex="0" class="accordion__title"
+                            aria-controls="accordion2-panel2" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Linhas de cuidado</h3>
+                        </span>
 
-                        <div class="card">
-                            <div class="card-header" id="accordion-second-heading2">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#second-collapse-2"
-                                    aria-expanded="true" aria-controls="second-collapse-2">
-                                    <p>Linhas de cuidado<i class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
-
-                            <div id="second-collapse-2" class="collapse" aria-labelledby="accordion-second-headind2">
-                                <div class="card-body">
-                                    <p>Representam o caminho a ser percorrido por um usuário na rede para satisfazer
-                                        suas necessidades de saúde, organizado a partir de recorte por agravo de saúde
-                                        ou por público-alvo (ex.: linha de cuidado da pessoa com diabetes, linha de
-                                        cuidado da gestante). As linhas de cuidado podem ser, na prática, redes de
-                                        cuidado específicas para algumas condições de saúde.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="accordion-second-heading3">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#second-collapse-3"
-                                    aria-expanded="true" aria-controls="second-collapse-3">
-                                    <p>Protocolos clínicos e de encaminhamento<i class="fas fa-caret-up caretDown"></i>
-                                    </p>
-                                </a>
-                            </div>
-
-                            <div id="second-collapse-3" class="collapse" aria-labelledby="accordion-second-heading3">
-                                <div class="card-body">
-                                    <p>São guias técnicos para subsidiar/orientar a tomada de decisões clínicas dos
-                                        profissionais bem como os critérios e modos de encaminhamento de um usuário para
-                                        outro serviço. Podem ajudar a evitar conflitos entre serviços e peregrinação de
-                                        usuários, especialmente se forem construídos com participação de atores que
-                                        integram serviços de saúde distintos.</p>
-                                </div>
+                        <div id="accordion2-panel2" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion2-tab2" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Representam o caminho a ser percorrido por um usuário na rede para satisfazer suas
+                                    necessidades de saúde, organizado a partir de recorte por agravo de saúde ou por
+                                    público-alvo (ex.: linha de cuidado da pessoa com diabetes, linha de cuidado da
+                                    gestante). As linhas de cuidado podem ser, na prática, redes de cuidado específicas
+                                    para algumas condições de saúde.</p>
                             </div>
                         </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion2-tab3" tabindex="0" class="accordion__title"
+                            aria-controls="accordion2-panel3" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Protocolos clínicos e de encaminhamento</h3>
+                        </span>
 
-                        <div class="card">
-                            <div class="card-header" id="accordion-second-heading4">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#second-collapse-4"
-                                    aria-expanded="true" aria-controls="second-collapse-4">
-                                    <p>Compartilhamento de informações clínicas dos usuários<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
-
-                            <div id="second-collapse-4" class="collapse" aria-labelledby="accordion-second-heading4">
-                                <div class="card-body">
-                                    <p>
-                                        São mecanismos de integração e interoperabilidade entre sistemas de informação
-                                        em saúde, a exemplo dos registros e prontuários eletrônicos em rede,
-                                        possibilitando o acesso a dados clínicos de um mesmo usuário por profissionais
-                                        de diferentes serviços. Este tipo de estratégia pode, entre outras coisas,
-                                        facilitar a visualização do histórico clínico dos usuários, a continuidade de
-                                        ações, otimizar o tempo de cuidado e evitar repetição desnecessária de exames.
-                                    </p>
-                                    <p>
-                                        Espaços de cogestão entre serviços: estratégias para favorecer a interação,
-                                        escuta, análise, negociação e pactuação entre atores (profissionais, gerentes)
-                                        de diferentes serviços, bem como a elaboração compartilhada de normas e planos.
-                                        Tais espaços podem produzir aproximação, cooperação, além de servirem para
-                                        explicitar e processar problemas e tensões.
-                                    </p>
-                                </div>
+                        <div id="accordion2-panel3" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion2-tab3" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>São guias técnicos para subsidiar/orientar a tomada de decisões clínicas dos
+                                    profissionais bem como os critérios e modos de encaminhamento de um usuário para
+                                    outro serviço. Podem ajudar a evitar conflitos entre serviços e peregrinação de
+                                    usuários, especialmente se forem construídos com participação de atores que integram
+                                    serviços de saúde distintos.</p>
                             </div>
                         </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion2-tab4" tabindex="0" class="accordion__title"
+                            aria-controls="accordion2-panel4" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Compartilhamento de informações clínicas dos usuários</h3>
+                        </span>
 
-                        <div class="card">
-                            <div class="card-header" id="accordion-second-heading5">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#second-collapse-5"
-                                    aria-expanded="true" aria-controls="second-collapse-5">
-                                    <p>Regulação assistencial ou do acesso a serviços<i
-                                            class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
-
-                            <div id="second-collapse-5" class="collapse" aria-labelledby="accordion-second-heading5">
-                                <div class="card-body">
-                                    <p>Processo de gestão do acesso de usuários a outros serviços da rede, visando
-                                        produzir acesso com indicação adequada, em tempo oportuno, de modo equânime e
-                                        com transparência. Como exemplos destacamos a regulação de leitos, a regulação
-                                        de urgências e emergências, e a regulação de transplantes, realizadas a partir
-                                        de centrais ou complexos reguladores que visualizam demandas de um lado e
-                                        ofertas assistenciais de outro.</p>
-                                    <p>Quando bem realizada, a regulação assistencial pode ser uma forma importante para
-                                        que o tempo de acesso de alguém a uma ação especializada seja baseado na sua
-                                        necessidade e risco em comparação à situação de outras pessoas que também
-                                        precisam daquele cuidado, e não resultante de relações de favorecimento injustas
-                                        ou excessivamente informais.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="accordion-second-heading6">
-                                <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#second-collapse-6"
-                                    aria-expanded="true" aria-controls="second-collapse-6">
-                                    <p>Matriciamento<i class="fas fa-caret-up caretDown"></i></p>
-                                </a>
-                            </div>
-
-                            <div id="second-collapse-6" class="collapse" aria-labelledby="accordion-second-heading6">
-                                <div class="card-body">
-                                    <p>Suporte de especialistas a profissionais encarregados pelo cuidado dos usuários,
-                                        a partir de práticas técnico-pedagógicas, visando favorecer a responsabilidade e
-                                        diminuir a fragmentação no processo de cuidado (evitando encaminhamentos de
-                                        usuários que podem ser substituídos ou antecedidos por discussão de caso, por
-                                        exemplo). Na prática, é também uma forma de favorecer a interação e
-                                        compartilhamento de diferentes saberes e profissionais.</p>
-                                </div>
+                        <div id="accordion2-panel4" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion2-tab4" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>São mecanismos de integração e interoperabilidade entre sistemas de informação em
+                                    saúde, a exemplo dos registros e prontuários eletrônicos em rede, possibilitando o
+                                    acesso a dados clínicos de um mesmo usuário por profissionais de diferentes
+                                    serviços. Este tipo de estratégia pode, entre outras coisas, facilitar a
+                                    visualização do histórico clínico dos usuários, a continuidade de ações, otimizar o
+                                    tempo de cuidado e evitar repetição desnecessária de exames.</p>
+                                <p>Espaços de cogestão entre serviços: estratégias para favorecer a interação, escuta,
+                                    análise, negociação e pactuação entre atores (profissionais, gerentes) de diferentes
+                                    serviços, bem como a elaboração compartilhada de normas e planos. Tais espaços podem
+                                    produzir aproximação, cooperação, além de servirem para explicitar e processar
+                                    problemas e tensões.</p>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion2-tab5" tabindex="0" class="accordion__title"
+                            aria-controls="accordion2-panel5" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Regulação assistencial ou do acesso a serviços</h3>
+                        </span>
+
+                        <div id="accordion2-panel5" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion2-tab5" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Processo de gestão do acesso de usuários a outros serviços da rede, visando produzir
+                                    acesso com indicação adequada, em tempo oportuno, de modo equânime e com
+                                    transparência. Como exemplos destacamos a regulação de leitos, a regulação de
+                                    urgências e emergências, e a regulação de transplantes, realizadas a partir de
+                                    centrais ou complexos reguladores que visualizam demandas de um lado e ofertas
+                                    assistenciais de outro.</p>
+                                <p>Quando bem realizada, a regulação assistencial pode ser uma forma importante para que
+                                    o tempo de acesso de alguém a uma ação especializada seja baseado na sua necessidade
+                                    e risco em comparação à situação de outras pessoas que também precisam daquele
+                                    cuidado, e não resultante de relações de favorecimento injustas ou excessivamente
+                                    informais.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion2-tab6" tabindex="0" class="accordion__title"
+                            aria-controls="accordion2-panel6" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Matriciamento</h3>
+                        </span>
+
+                        <div id="accordion2-panel6" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion2-tab6" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Suporte de especialistas a profissionais encarregados pelo cuidado dos usuários, a
+                                    partir de práticas técnico-pedagógicas, visando favorecer a responsabilidade e
+                                    diminuir a fragmentação no processo de cuidado (evitando encaminhamentos de usuários
+                                    que podem ser substituídos ou antecedidos por discussão de caso, por exemplo). Na
+                                    prática, é também uma forma de favorecer a interação e compartilhamento de
+                                    diferentes saberes e profissionais.</p>
+                            </div>
+                        </div>
+                    </article>
+                </section>
 
                 <p>A integração dos serviços de atenção à saúde em rede assistencial amplia as condições de garantia do
                     acesso à atenção integral e depende do estabelecimento de sistema de referência e contrarreferência
@@ -1007,6 +995,131 @@
                     </div>
                 </div>
 
+
+                <!-- Accordion 3 -->
+                <section class="aria-accordion p-2 p-md-5 my-5" role="tablist1" aria-live="polite"
+                    data-behavior="accordion">
+
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion3-tab1" tabindex="0" class="accordion__title"
+                            aria-controls="accordion3-panel1" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Porta de entrada preferencial e base para (re)ordenamento das redes</h3>
+                        </span>
+
+                        <div id="accordion3-panel1" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion3-tab1" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Serviços acessíveis, de porta-aberta e a partir dos quais se busca (re)organizar os
+                                    demais componentes da rede e reestruturar o modelo assistencial.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion3-tab2" tabindex="0" class="accordion__title"
+                            aria-controls="accordion3-panel2" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Territorialização e adscrição de usuários</h3>
+                        </span>
+
+                        <div id="accordion3-panel2" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion3-tab2" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Serviços capilarizados e próximos à dinâmica de vida dos grupos populacionais e
+                                    pessoas, funcionando como espaço privilegiado de vinculação para o conjunto da
+                                    população de determinado território.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion3-tab3" tabindex="0" class="accordion__title"
+                            aria-controls="accordion3-panel3" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Trabalho em equipe multiprofissional</h3>
+                        </span>
+
+                        <div id="accordion3-panel3" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion3-tab3" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Integra diferentes formações, núcleos e campos de competência buscando ampliar a
+                                    capacidade de análise e de intervenção sobre problemas e necessidades de saúde, além
+                                    de democratizar relações de poder.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion3-tab4" tabindex="0" class="accordion__title"
+                            aria-controls="accordion3-panel4" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Inclusão de agentes comunitários de saúde nas equipes</h3>
+                        </span>
+
+                        <div id="accordion3-panel4" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion3-tab4" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Atuam como elo entre as famílias, comunidade e os serviços de saúde por meio de
+                                    visitas domiciliares rotineiras acompanhando grupos prioritários.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion3-tab5" tabindex="0" class="accordion__title"
+                            aria-controls="accordion3-panel5" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Abordagem ampliada (biológica, subjetiva e social) e resolutividade</h3>
+                        </span>
+
+                        <div id="accordion3-panel5" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion3-tab5" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Manejo não apenas de disfunções orgânicas, mas também de riscos coletivos e de
+                                    sofrimentos, tendo como referência a construção social do processo saúde-doença e a
+                                    intervenção a partir de ações individuais, familiares e coletivas.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion3-tab6" tabindex="0" class="accordion__title"
+                            aria-controls="accordion3-panel6" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Vínculo e responsabilização</h3>
+                        </span>
+
+                        <div id="accordion3-panel6" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion3-tab6" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Orquestração de cuidados de pessoas numa rede (evitando descontinuidades,
+                                    fragmentações e intervenções desnecessárias quando alguém é encaminhado para outro
+                                    serviço), por meio da manutenção de uma função de referência segura e de
+                                    responsabilidade pelo cuidado das pessoas ao longo do tempo.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="accordion__item js-show-item-default" data-binding="expand-accordion-item"
+                        role="tab">
+                        <span id="accordion3-tab7" tabindex="0" class="accordion__title"
+                            aria-controls="accordion3-panel7" aria-selected="false" aria-expanded="false"
+                            data-binding="expand-accordion-trigger">
+                            <h3>Ação comunitária e promoção da participação social</h3>
+                        </span>
+
+                        <div id="accordion3-panel7" class="accordion__content" role="tabpanel" aria-hidden="true"
+                            aria-labelledby="accordion3-tab7" data-binding="expand-accordion-container">
+                            <div class="accordion__content-inner" tabindex="-1">
+                                <p>Por meio do diagnóstico comunitário identifica problemas no território e em
+                                    cooperação com organizações comunitárias e movimentos sociais, propõe intervenções e
+                                    faz a mediação entre outros setores de políticas públicas.</p>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
                 <p>É importante destacar que o cenário da pandemia de Covid-19, a APS no SUS se reinventou desenvolvendo
                     estratégias de vigilância em saúde, descobrindo novas formas de cuidado à distância por telefone,
                     por WhatsApp, por visitas peridomiciliares dos ACS, para cuidado aos usuários com Covid-19 e para
@@ -1155,8 +1268,7 @@
 
                 <div class="d-flex flex-column my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0"
-                            width="50px">
+                        <img src="../assets/images/icones/icon_video.svg" alt="" class="mb-0" width="50px">
                         <h3 class="text-uppercase mb-0">Vídeos complementares:</h3>
                     </div>
 
@@ -1176,8 +1288,7 @@
 
                 <div class="d-flex flex-column my-5">
                     <div class="d-flex align-items-center gap-4 mb-4">
-                        <img src="../assets/images/icones/icon_referencia.svg" alt="" class="mb-0"
-                            width="50px">
+                        <img src="../assets/images/icones/icon_referencia.svg" alt="" class="mb-0" width="50px">
                         <h3 class="text-uppercase mb-0">REFERÊNCIAS:</h3>
                     </div>
 
