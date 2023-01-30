@@ -464,7 +464,7 @@ h5 {
     color: #ed7d2e !important;
 }
 .texto-cor-3 {
-    color: #3D3D3D !important;
+    color: #3d3d3d !important;
 }
 
 @media (max-width: 767px) {
@@ -1198,10 +1198,6 @@ footer img {
     margin-left: 84px;
 }
 
-.container-video {
-    width: 673px;
-}
-
 .container-autores {
     display: flex;
     flex-direction: column;
@@ -1334,7 +1330,8 @@ footer img {
 }
 .container-player {
     margin: 1rem auto;
-    max-width: 650px;
+    /*max-width: 650px;*/
+    max-width: 445px;
 }
 .container-player-audio {
     margin: 1rem auto;
@@ -1394,7 +1391,7 @@ section.custom .card {
     transition: 0.6s;
     transform-style: preserve-3d;
     position: relative;
-    background-color: #173E82;
+    background-color: #173e82;
 }
 section.custom .flipper {
     padding: 8px;
