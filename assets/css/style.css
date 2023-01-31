@@ -1330,8 +1330,8 @@ footer img {
 }
 .container-player {
     margin: 1rem auto;
-    /*max-width: 650px;*/
     max-width: 445px;
+    width: 100%;
 }
 .container-player-audio {
     margin: 1rem auto;
