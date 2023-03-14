@@ -9,6 +9,12 @@ footer {
 /** Menu Superior **/
 .navbar {
     background-color: #173e82;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1053;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .navbar-nav {
     margin-right: 5%;
@@ -190,8 +196,7 @@ footer {
 
 .barraMenuHorizontal {
     z-index: 1054;
-    top: 0;
-    padding-top: 0;
+    top: 2px;
 }
 
 /* Ajustar o height de acordo com o numero de itens */
@@ -284,6 +289,11 @@ footer {
 .row {
     margin: 0px !important;
 }
+
+#row-main {
+    padding-top: 116px;    
+}
+
 .cardImg {
     position: relative;
 }
