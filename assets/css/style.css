@@ -516,7 +516,7 @@ p.textoVerde {
 
 .texto-span-grande {
     font-family: "Circular Std Black", sans-serif;
-    font-size: 3.125rem;
+    font-size: 2rem;
 }
 
 .textoIntroItalic {
@@ -1266,6 +1266,7 @@ footer img {
     border-bottom: 1px solid #ffffff;
     text-transform: uppercase;
     font-family: "Circular Std Bold", sans-serif;
+    font-size: 1rem;
     color: #ffffff;
 }
 .container-box p {
@@ -1285,14 +1286,14 @@ footer img {
 }
 
 .container-multi-collapse .btn-primary.collapsed {
-    background-color: #102956;
-    border-color: #102956;
-    color: #ffffff;
-}
-.container-multi-collapse .btn-primary {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-color: #102956;
     color: #102956;
+}
+.container-multi-collapse .btn-primary {
+    background-color: #102956;
+    border-color: #102956;
+    color: #FFFFFF;
     padding: 8px 64px;
 }
 
@@ -1372,7 +1373,7 @@ footer img {
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
 .grid-flip-4-cards {
-    max-width: 900px;
+    max-width: 646px;
     margin: 0 auto;
     width: 100%;
     display: grid;
@@ -1388,7 +1389,7 @@ footer img {
     justify-content: center;
 }
 .grid-cards .flipper {
-    min-width: 220px;
+    min-width: 240px;
 }
 
 section.custom .up {
