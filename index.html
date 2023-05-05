@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="assets/libs/bootstrap-4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/libs/fontawesome/css/all.min.css">
     <link href="assets/css/home.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.css"
+        integrity="sha512-6Ri9OxVS85G/DRlnwVIggHm8n738xZ5DuosGQywWa838o8TCojyxGl16C+JmhiHcWl3YjPnN6d6GwY0a0/S5jA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -63,7 +67,14 @@
 
             <!-- Introdução -->
             <div class="row" id="fundoTexto" tabindex="0">
-                <video src="SUS/assets/audios/index_abertura_curso.mp4"></video>
+
+                <div class="container-player-video-capa">
+                    <video class="js-player" crossorigin playsinline>
+                        <source src="assets/audios/index_abertura_curso.mp4" type="video/mp4" />
+                        <!-- <source src="/path/to/video.webm" type="video/webm" /> -->
+                    </video>
+                </div>
+                
                 <div id="textoCapa">
                     <p class="mb-5">O SUS é um dos maiores sistemas de saúde públicos do mundo, de caráter universal e gratuito, baseado no reconhecimento da saúde como direito de todos e dever do Estado. Inscrito na Constituição de 1988, o SUS é uma conquista da sociedade brasileira, fruto de décadas de luta pelo direto à saúde no país, associada à defesa da democracia e de uma concepção abrangente de Seguridade Social.</p>
                     <p>O curso Introdução ao Sistema Único de Saúde vai apresentar o sistema de saúde do Brasil, seus princípios e diretrizes, seus avanços e desafios em 35 anos de implementação.</p>
