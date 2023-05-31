@@ -6,16 +6,16 @@ footer {
     font-size: 15px;
 }
 
-/** Menu Superior **/
-.navbar {
+header {
     background-color: #173e82;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1053;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
 }
+
+/** Menu Superior **/
 .navbar-nav {
     margin-right: 5%;
 }
@@ -195,8 +195,9 @@ footer {
 }
 
 .barraMenuHorizontal {
+    position: absolute;
     z-index: 1054;
-    top: 2px;
+    bottom: -36px;
 }
 
 /* Ajustar o height de acordo com o numero de itens */
@@ -935,9 +936,29 @@ footer img {
 
 .botaoPadrao:hover {
     color: #ffffff !important;
-
     opacity: 0.6;
 }
+
+.botaoOutline {
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #102956;
+    width: 300px;
+    height: 40px;
+    margin: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: background-color 0.2s ease-in;
+    border: 1px solid #102956;
+}
+
+.botaoOutline:hover {
+    color: #102956!important;
+    opacity: 0.6;
+}
+
 
 .botaoAvaliacao {
     background-color: #173e82;
