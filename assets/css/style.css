@@ -1395,6 +1395,13 @@ footer img {
     grid-auto-rows: 350px;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
+.grid-flip-3-cards {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
 .grid-flip-4-cards {
     max-width: 646px;
     margin: 0 auto;
@@ -1428,8 +1435,11 @@ section.custom .card {
     position: relative;
     background-color: #173e82;
 }
+section.custom .card-height-max {
+    height: 410px!important;
+}
 section.custom .flipper {
-    padding: 8px;
+    gap: 16px;
     perspective: 1000px;
 }
 section.custom .flipper.flip .card {
