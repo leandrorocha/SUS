@@ -646,6 +646,7 @@ ul li {
 .timeline {
     display: flex;
     position: relative;
+    margin-bottom: 24px;
 }
 .timeline:after {
     content: "";
@@ -1379,10 +1380,6 @@ footer img {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-}
-
-.grid-box {
-    cursor: pointer;
 }
 
 /* FLIP CARDS */
