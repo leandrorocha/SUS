@@ -677,7 +677,7 @@ ul li {
     align-items: center;
 }
 .passos {
-    margin: 60px 0;
+    margin: 30px 0;
     overflow-y: hidden;
 }
 .timeline {
@@ -1330,8 +1330,8 @@ footer img {
     border-bottom: 1px solid #ffffff;
     text-transform: uppercase;
     font-family: "Circular Std Bold", sans-serif;
-    font-size: 1rem;
-    color: #ffffff;
+    font-size: 1.2rem;
+    color: #FFFFFF;
 }
 .container-box p {
     color: #ffffff;
