@@ -17,6 +17,24 @@ header {
     z-index: 1053;
 }
 
+#iframe2 {
+    width: 900px;
+    max-width: 100%
+}
+#iframe3 {
+    width: 900px;
+    max-width: 100%
+}
+
+@media (max-width: 805px) {
+    #iframe2 {
+        height: 520px;
+    }
+    #iframe3 {
+        height: 570px;
+    }
+}
+
 /** Menu Superior **/
 .navbar-nav {
     margin-right: 5%;
