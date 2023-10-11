@@ -155,5 +155,12 @@ $.each(accordion, function () {
 
 });
 
-const players = Plyr.setup('.js-player');
+const players = Plyr.setup('.js-player', {
+  loop: { active: false }
+});
+//const players = Plyr.setup('.mediaplayer', { captions: {active: true},  tooltips: {controls: true, seek: true} });
+
+
+
+
 window.player = players;
