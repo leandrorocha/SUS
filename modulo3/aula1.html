@@ -27,19 +27,21 @@
     <header id="header" role="banner">
         <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
             <!-- Logos -->
-            <a class="logo" href="../index.html">
+            <a class="logo order-1" href="../index.html">
                 <img src="../assets/images/logoAula.png" class="img-fluid"
                     alt="Representação visual da logomarca da Fiocruz - Campus Virtual" />
             </a>
 
+            <div class="titulo-curso order-3 order-md-2">Introdução ao Sistema Único de Saúde</div>
+
             <!-- Botão Collapse -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse order-2" id="navbarNavDropdown">
+                <ul class="navbar-nav">
                     <li><a href="../index.html">HOME</a></li>
                     <li><a href="../creditos.html" target="_blank">Créditos</a></li>
                 </ul>
@@ -187,7 +189,7 @@
 
                     <div class="d-flex flex-column flex-md-row align-items-center">
                         <div>
-                            <img src="../assets/images/modulo3/aula1/imagem1.png"
+                            <img src="../assets/images/modulo3/aula1/imagem1.png" width="136px"
                                 alt="A saúde-doença como processo social." class="mb-0 me-0 me-md-5">
                             <p class="small">
                                 <span class="ms-2">Fonte: <a
@@ -471,28 +473,35 @@
                 </section>
 
                 <div class="container-parairmaislonge my-5">
-                    <div class="d-flex align-items-center gap-4 mb-3">
+                    <div class="d-flex align-items-center gap-4">
                         <img src="../assets/images/icones/texto_maislonge.svg" alt="" class="mb-0" width="40px">
                         <h3 class="titulo-parairmaislonge text-uppercase mb-0">PARA IR MAIS LONGE:</h3>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row align-items-center">
-                        <div>
-                            <img src="../assets/images/modulo3/aula1/imagem2.png"
-                                alt="A saúde-doença como processo social." class="mb-0 me-0 me-md-5">
-                            <p class="small"><span class="ms-2">Fonte: <a
-                                        href="https://iris.paho.org/bitstream/handle/10665.2/18457/9788579670657_por.pdf?sequence=1&isAllowed=y"
-                                        target="_blank" class="links">OPAS</a></span></p>
-                        </div>
+                    <div class="container-content-base">
+                        <p>A atenção à saúde coordenada pela APS: construindo as
+                            redes de atenção no SUS
+                            contribuições para o debate</p>
 
-                        <div>
-                            <h4 class="texto-paragrafo-bold-azul">A atenção à saúde coordenada pela APS: construindo as redes de atenção no SUS
-                                contribuições para o debate</h4>
-                            <p>
-                                Série Técnica Redes Integradas de Atenção à Saúde explica em detalhe os componentes das
-                                redes de atenção à saúde e os desafios para sua constituição. Ele foi publicado em 2010
-                                pela OPAS representação Brasil, coordenado por Renato Tasca
-                            </p>
+                        <div class="d-flex flex-column flex-md-row align-items-center">
+                            <div>
+                                <img src="../assets/images/modulo3/aula1/imagem2.png" width="136px"
+                                    alt="A saúde-doença como processo social." class="mb-0 me-0 me-md-5">
+                                <p class="small"><span class="ms-2">Fonte: <a
+                                            href="https://iris.paho.org/bitstream/handle/10665.2/18457/9788579670657_por.pdf?sequence=1&isAllowed=y"
+                                            target="_blank" class="links">OPAS</a></span>
+                                </p>
+                            </div>
+
+                            <div>
+                                <p>
+                                    Série Técnica Redes Integradas de Atenção à Saúde explica em detalhe os componentes
+                                    das
+                                    redes de atenção à saúde e os desafios para sua constituição. Ele foi publicado em
+                                    2010
+                                    pela OPAS representação Brasil, coordenado por Renato Tasca
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -672,7 +681,7 @@
 
                     <div class="d-flex flex-column flex-md-row align-items-center">
                         <div>
-                            <img src="../assets/images/modulo3/aula1/imagem3.png"
+                            <img src="../assets/images/modulo3/aula1/imagem3.png" width="136px"
                                 alt="A saúde-doença como processo social." class="mb-0 me-0 me-md-5">
                             <p class="small">
                                 <span class="ms-2">Fonte: <a
@@ -682,7 +691,8 @@
                         </div>
 
                         <div>
-                            <h4 class="texto-paragrafo-bold-azul">A regulação do acesso à atenção especializada e a Atenção Primária à Saúde nas políticas
+                            <h4 class="texto-paragrafo-bold-azul">A regulação do acesso à atenção especializada e a
+                                Atenção Primária à Saúde nas políticas
                                 nacionais do SUS. Physis.</h4>
                             <p>Para conhecer as iniciativas para regulação assistencial no SUS consulte o artigo de Melo
                                 e colaboradores.</p>
@@ -831,7 +841,8 @@
                     rurais, sem uma Unidade Básica de Saúde.</p>
 
                 <div class="p-2 p-md-5 text-center mx-auto">
-                    <p class="textoIntroItalic texto-cor-1">Estima-se que 65% da população brasileira esteja coberta pelas equipes de saúde da família no país em 2019.</p>
+                    <p class="textoIntroItalic texto-cor-1">Estima-se que 65% da população brasileira esteja coberta
+                        pelas equipes de saúde da família no país em 2019.</p>
                 </div>
 
                 <p>A principal forma de organização da atenção básica no Brasil é através das Equipes de Saúde da
@@ -1017,7 +1028,7 @@
 
                     <div class="d-flex flex-column flex-md-row align-items-center">
                         <div>
-                            <img src="../assets/images/modulo3/aula1/imagem4.png"
+                            <img src="../assets/images/modulo3/aula1/imagem4.png" width="136px"
                                 alt="A saúde-doença como processo social." class="mb-0 me-0 me-md-5">
                             <p class="small">
                                 <span class="ms-2">Fonte: <a
@@ -1036,7 +1047,7 @@
 
                     <div class="d-flex flex-column flex-md-row align-items-center">
                         <div>
-                            <img src="../assets/images/modulo3/aula1/imagem5.png"
+                            <img src="../assets/images/modulo3/aula1/imagem5.png" width="136px"
                                 alt="A saúde-doença como processo social." class="mb-0 me-0 me-md-5">
                             <p class="small">
                                 <span class="ms-2">Fonte: <a

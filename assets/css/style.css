@@ -17,6 +17,15 @@ header {
     z-index: 1053;
 }
 
+.titulo-curso {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+}
+
 #iframe2 {
     width: 900px;
     max-width: 100%
@@ -38,6 +47,9 @@ header {
 /** Menu Superior **/
 .navbar-nav {
     margin-right: 5%;
+}
+.navbar-collapse {
+    flex-grow: 0;
 }
 #navbarNavDropdown {
     background-color: #173e82;
